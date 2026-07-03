@@ -131,7 +131,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 *Character cards, persona engines, and tools for personality stability across model updates.*
 
-<!-- TODO: SillyTavern character cards, OpenClaw personality system, RisuAI -->
+- 🎯 [**CogPrism**](https://github.com/azhimiao/CogPrism) — AI Persona Engine. Explore multiple virtual personalities, understand behaviors and traits through explainable AI, interactive simulations. `27 ⭐`
 
 ---
 
@@ -187,6 +187,10 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 ### Smart Home (智能家居)
 
 <!-- TODO: Home Assistant integration, Xiaomi IoT -->
+
+### Music & Entertainment (音乐与娱乐)
+
+- 🎯 [**netease-music-mcp**](https://github.com/luuu-h/netease-music-mcp) — MCP server for NetEase Cloud Music. Search, play, pause, skip, lyrics, playlists — AI can DJ your music. `neteasecli` + `mpv` + local web player. `53 ⭐`
 
 ---
 
