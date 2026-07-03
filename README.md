@@ -112,7 +112,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 ### Heartbeat / Background Cognition (心跳系统)
 
 *Daemons that let companions initiate contact, reflect, and maintain internal continuity across idle hours.*
-<!-- TODO: ash_heartbeat, OpenClaw daemon system -->
+- 🎯 [**dylan-heartbeat**](https://github.com/callie0313/dylan-heartbeat) — Kelivo plugin for proactive AI wake-up. Sends messages autonomously, maintains memory continuity, zero personality drift, device status & weather aware. `103 ⭐`
 
 ### Proactive Messaging (主动消息)
 
