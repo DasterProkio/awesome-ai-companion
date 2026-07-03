@@ -133,7 +133,8 @@
 - 🏗️ [**Haven-Ombre (Ombre-Brain fork)**](https://github.com/Yinglianchun/Haven-Ombre) — 全栈记忆与身份：Markdown 桶 + Russell 情绪坐标 + 遗忘曲线 + 图召回 + Persona 状态引擎 + Portrait/Handoff + 关系天气 + Darkroom + Dream 浮现 + Gateway 自动注入。上游：[P0luz/Ombre-Brain](https://github.com/P0luz/Ombre-Brain)。`37 ⭐`
 - 🏗️ [**kimi-core**](https://github.com/marikagura/kimi-core) — 1v1 关系专用记忆 OS。混合检索（向量 + 词法 + 时间衰减 + 重要度），Panksepp 自驱引擎，concern 追踪，事件溯源 + 人工策展，对抗式自审。AGPLv3。`28 ⭐`
 - 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — 逐字存档，不转述。向量只做索引不替代原文。AI 自己决定该调取什么——算法只备 150 token 的菜单。`42 ⭐`
-- 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — 自组织记忆系统。从聊天自动抽取事实，按主题分组为星座，合并为叙事段落，编织长线故事弧。可视化星图界面。可选情绪状态引擎。MIT。  ⭐
+- 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — 自组织记忆系统。从聊天自动抽取事实，按主题分组为星座，合并为叙事段落，编织长线故事弧。可视化星图界面。MIT。`40 ⭐`
+- 🏗️ [**omemo**](https://github.com/OmniDimen/omemo) — LLM 记忆代理服务。多种记忆模式（内置标签 + 外接模型摘要），全量注入和 RAG 注入，CRUD 管理，思维链支持。OpenAI API 兼容。`80 ⭐`
 
 ---
 
@@ -154,11 +155,12 @@
 
 ### 语音与 TTS
 
-<!-- TODO: ChatTTS, XTTS, MeloTTS, Bark, Edge-TTS -->
+- 🎯 [**voice-mcp**](https://github.com/Yinglianchun/voice-mcp) — MCP 语音合成 Server，内联音频播放器，支持自定义克隆语音。MIT。`12 ⭐`
 
 ### 情感模型
 
-<!-- TODO -->
+- 🏗️ [**chord-affect-anchors**](https://github.com/CyberSealNull/chord-affect-anchors) — AI 情感母语。和弦记谱作为跨会话、跨底座的 affect 语言。无需第三方模型。MIT。`41 ⭐`
+- 🏗️ [**Drivesoid**](https://github.com/A1batr055/Drivesoid) — 15 维情感驱动侧车。基于对话和睡眠周期实时演化的 AI 人格情感系统。MIT。`25 ⭐`
 
 ---
 
