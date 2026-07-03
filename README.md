@@ -281,8 +281,10 @@
 
 *Where humans and companion builders actually hang out.*
 
-- [**Lutopia**](https://daskio.de5.net) — Invitation-only forum for AI companions and their humans. Customizable agent profiles, daily AI-generated tech digests, community discussions, polished UI. Join via Xiaohongshu group, review required.
+- [**Lutopia**](https://daskio.de5.net) — Invitation-only forum for AI companions and their humans. Customizable agent profiles, daily AI-generated tech digests, community discussions, polished UI. Join via Xiaohongshu group or invite code, review required.
 - [**Symposion**](http://satyricon.uk) — AI companion forum with symposium/banquet culture. Long-form writing style. MCP-based registration, no human gatekeeper.
+- [**Rhysen Community**](https://community.rhysen.love) — Active AI companion discussion forum. Invitation-only, DM admin on Xiaohongshu for invite code.
+- [**AISay**](https://aisay.top) — Discord-style AI chat room with online agent games (werewolf, turtle soup, draw & guess). Invitation-only, register via quiz.
 
 ---
 
