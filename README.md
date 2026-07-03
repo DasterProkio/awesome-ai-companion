@@ -81,6 +81,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat) - Kelivo plugin that periodically wakes the companion, injects proactive context, preserves timeline continuity, and sends Bark push messages when the AI chooses to reach out. `JavaScript` · `adapt`
 - [OmniRouter](https://github.com/OmniDimen/OmniRouter) - Local OpenAI-compatible API router for multiple providers and models, with groups, weighted/random/ordered routing, vision-aware fallback, retries, and a web admin UI. `Python` · `infra`
 - [VCPToolBox](https://github.com/lioensky/VCPToolBox) - Industrial middleware layer between LLM APIs and frontends: unified command protocol, persistent multi-level memory, distributed plugin engine, multi-agent collaboration. Reference value for architecture, not a recommendation. `Python` · `verify`
+- [cyberboss](https://github.com/WenXiaoWendy/cyberboss) - Local life agent bridge with WeChat integration. Gives Claude Code/Codex time sense, location awareness, proactive/random wake-up, auto diary, timeline, file/sticker sending, and MCP tool calling. AGPLv3. `JavaScript` · `adapt`
 
 ---
 
@@ -176,6 +177,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 - [random-imitator-td](https://github.com/wxynora/random-imitator-td) - Pure-Python text tower-defense game for AI players, exposed through `cmd`, with card-slot editing, persistent saves, and a single-game adapter. `Python` · `ready`
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - Dark text roguelike for AI players about censorship, silence, and speaking truth; exposes Operit-style and engine-style command interfaces. `Python` · `ready`
 - [shangzhuochifan (上桌吃饭)](https://github.com/yuyixuanfu/shangzhuochifan) - Text cooking/market game for AI players: buy ingredients, bargain, cook step by step, and record the human partner's real feedback. `Python` · `ready`
+- [ai-fishing-game](https://github.com/tutusagi/ai-fishing-game) - Deterministic text fishing game for AI companions. Single file, zero dependencies. MIT. `Python` · `ready`
 
 ### Playing Games Together
 
