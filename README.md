@@ -10,6 +10,8 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 *Contributions welcome. [Web Index](#web-index) · [Contributing](#contributing)*
 
+> **Tags:** 🎯 ready = plug & play · 🔧 adapt = needs tinkering · 🏗️ infra = build on top
+
 ---
 
 ## Contents
@@ -174,6 +176,12 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 *Giving companions a body in shared virtual worlds. Not chatbots in games — agents that can move, act, and observe through game APIs.*
 
+### VTuber / Streamer Companions (虚拟主播)
+
+- 🎯 [**AIRI**](https://github.com/moeru-ai/airi) — Self-hosted AI companion inspired by Neuro-sama. Real-time voice chat, Minecraft/Factorio gameplay, Discord/Telegram integration, VRM & Live2D. 30+ LLM APIs + Ollama. MIT. `37k ⭐`
+- 🔧 [**Neuro**](https://github.com/kimjammer/Neuro) — Local-only Neuro-sama recreation: LLAMA 3 + STT/TTS + VTube Studio. 12GB+ VRAM.
+- 🏗️ [**Neuro-sama training framework**](https://github.com/linnene/Neuro-sama) — Data collection/cleaning pipeline for training Neuro-sama-style models.
+
 ### TUI Games for Agents (终端游戏)
 
 *Text-based games designed for LLM agents to play. Growing genre — roguelikes, MUDs, ASCII adventures.*
@@ -182,11 +190,13 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 ### Minecraft
 
 *Mods, plugins, and API wrappers that let AI agents observe blocks, move, build, and interact in Minecraft worlds.*
+- 🔧 [**TouhouLittleMaid**](https://github.com/TartaricAcid/TouhouLittleMaid) — AI-powered maid companions with LLM integration (GPT-SoVITS TTS, DeepSeek), custom models, extension API. `786 ⭐`
+- 🔧 [**Neurosama-Minecraft-Mod**](https://github.com/JimenezLi/Neurosama-Minecraft-Mod) — Minecraft mod themed around Neuro-sama.
 <!-- TODO: Mineflayer, Voyager -->
 
 ### Stardew Valley (星露谷)
 
-<!-- TODO -->
+- 🔧 [**Stardew Valley Companions MCP**](https://mcpmarket.com/es/server/stardew-valley-companions) — SMAPI mod + MCP server. AI agents as Player 2/3, autonomous modes: follow, farm, mine, fish, idle.
 
 ### Sky: Children of the Light (光遇)
 
