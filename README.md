@@ -15,8 +15,7 @@
 ## Contents
 
 - [Frontend Clients &amp; Frameworks](#frontend-clients--frameworks)
-  - [Official-app Clones](#official-app-clones-仿官端)
-  - [Claude-style](#claude-style-仿claude)
+  - [C-style Frontends](#c-style-frontends-仿-c-端)
   - [GPT-style](#gpt-style-仿gpt)
   - [Custom Frameworks](#custom-frameworks-自建框架)
   - [Phone Simulators](#phone-simulators-手机模拟器)
@@ -60,14 +59,10 @@
 
 *Chat interfaces for daily companionship. Not one-off Q&amp;A, not API playgrounds.*
 
-### Official-app Clones (仿官端)
+### C-style Frontends (仿 C 端)
 
-*Interfaces cloned from or inspired by Replika, Character.AI, Nomi, Kindroid.*
+*Interfaces cloned from or inspired by the Claude.ai chat experience.*
 - 🔧 [**chatnest**](https://github.com/ugui3u/chatnest) — Placeholder-based frontend clone project. Personal use only. HTML. `46 ⭐`
-
-### Claude-style (仿Claude)
-
-<!-- TODO -->
 
 ### GPT-style (仿GPT)
 
