@@ -94,6 +94,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 *Lightweight frontends designed for small-screen Android devices (e.g. Jelly Star, Unihertz).*
 - 🎯 [**汪汪机 (WangWangPhone)**](https://github.com/Liunian06/FlutterCppWangWangPhone) — AI-Native small phone. Virtual OS with AI-powered WeChat-like social apps: single/group chat, voice/video calls, Moments feed. C++ backend + Flutter UI, local deployment. CC BY-NC-SA 4.0. `89 ⭐`
+- 🔧 [**xiao-shouji (小手机)**](https://github.com/jiuyi777/xiao-shouji) — Gemini AI Studio companion app in a small-phone format. Web-based, Node.js. `9 ⭐`
 
 ### Terminal UI / TUI (终端界面)
 
