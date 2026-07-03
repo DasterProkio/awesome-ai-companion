@@ -127,6 +127,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 *What makes a companion remember you across months, model swaps, and API migrations. Not just vector search — identity continuity.*
 
 - 🏗️ [**kimi-core**](https://github.com/marikagura/kimi-core) — Agent memory OS for 1v1 human-AI relationships. Hybrid retrieval (dense + lexical + time decay + importance), Panksepp-style self-drive engine, concern tracking, event sourcing with manual curation, adversarial self-review harness, autonomous wake daemon. AGPLv3. `28 ⭐`
+- 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — Gateway memory architecture. Verbatim conversation archiving, no summarization. Vectors index but never replace original text. AI decides what to recall — algorithm only prepares the 150-token "menu." `42 ⭐`
 
 ---
 
