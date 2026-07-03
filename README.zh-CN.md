@@ -86,6 +86,7 @@
 - [VCPToolBox](https://github.com/lioensky/VCPToolBox) - LLM API 与前端之间的工业级中间层：统一指令协议、持久化多层级记忆、分布式插件引擎、多 Agent 协作。架构参考价值，非推荐。`Python` · `verify`
 - [cyberboss](https://github.com/WenXiaoWendy/cyberboss) - 接入微信的本地生活 Agent Bridge。给 Claude Code/Codex 赋予时间感、行踪感、随机/自主唤醒、自动日记、生活时间轴、文件/表情包发送和 MCP 工具调用。AGPLv3。`JavaScript` · `adapt`
 - [ghost-bf](https://github.com/sebastianevan200-stack/ghost-bf) - 手机活动感知 + AI 自动唤醒 + 消息推送。把 AI 变成感知你在不在、主动联系的陪伴存在。`Python` · `adapt`
+- [jiwen (积温)](https://github.com/ClaraShafiq/jiwen) - AI 角色主动意识引擎。五轴漂移（想不想找、嘴硬不硬、心情好坏、焦不焦躁、忙不忙），到阈值自然触发——不靠骰子，不靠 prompt engineering。~500 行，零依赖。MIT。`JavaScript` · `infra`
 
 ---
 
