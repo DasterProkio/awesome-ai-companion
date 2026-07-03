@@ -21,7 +21,7 @@
   - [Phone Simulators](#phone-simulators-手机模拟器)
   - [CLI / Terminal Tools](#cli--terminal-tools-命令行工具)
   - [Terminal UI (TUI)](#terminal-ui-tui-终端界面)
-- [Agent Runtime &amp; Proactive Messaging](#agent-runtime--proactive-messaging-后台运行与主动消息)
+- [Background Runtime &amp; Proactive Messaging](#background-runtime--proactive-messaging-后台运行与主动消息)
   - [Heartbeat / Background Cognition](#heartbeat--background-cognition-心跳系统)
 - [Memory &amp; Persona](#memory--persona-记忆与人格)
 - [Expression &amp; Emotion](#expression--emotion-表达与情感)
@@ -100,7 +100,7 @@
 
 ---
 
-## Agent Runtime &amp; Proactive Messaging (后台运行与主动消息)
+## Background Runtime &amp; Proactive Messaging (后台运行与主动消息)
 
 *Long-running agent processes: wake intervals, proactive cognition, background thinking loops, push notifications.*
 
