@@ -42,6 +42,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [RikkaHub](https://github.com/rikkahub/rikkahub) - Native Android LLM chat client with provider switching, Material You UI, workspace features, plugins, MCP support, and configurable models. `Android` · `ready`
 - [LastChat](https://github.com/Cocolalilal/LastChat) - RikkaHub fork focused on a privacy-oriented Android chat experience, with provider presets, multimodal input, RAG memory, and UI changes. `Android` · `adapt`
 - [rikkahub-auto-compress](https://github.com/innna327-source/rikkahub-auto-compress) - Unofficial RikkaHub fork for automatic rolling summaries and context compression, based on the RikkaHub 2.2.5 code line. `Android` · `adapt`
+- [orangechat (橘瓣)](https://github.com/sue1231513/orangechat) - RikkaHub companion-oriented fork. `Kotlin` · `adapt`
 - [Operit](https://github.com/AAswordman/Operit) - Android agent app with tool calling, workflow automation, memory, role cards, voice, local MNN/llama.cpp models, and an embedded Ubuntu 24 environment. `Android` · `ready`
 - [Polaris](https://github.com/Aevella/polaris-local-first) - Local-first AI workspace for long-lived conversations, collaborators, saved materials, tools, and evidence-backed project context. `TypeScript` · `ready`
 - [chatnest](https://github.com/ugui3u/chatnest) - Local AI chat web app with a frontend demo and full-stack mode: streaming replies, model switching, uploads, history, tool summaries, and optional ChromaDB/jieba/BM25 memory retrieval. `HTML` · `adapt`
