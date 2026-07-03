@@ -178,6 +178,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - Dark text roguelike for AI players about censorship, silence, and speaking truth; exposes Operit-style and engine-style command interfaces. `Python` · `ready`
 - [shangzhuochifan (上桌吃饭)](https://github.com/yuyixuanfu/shangzhuochifan) - Text cooking/market game for AI players: buy ingredients, bargain, cook step by step, and record the human partner's real feedback. `Python` · `ready`
 - [ai-fishing-game](https://github.com/tutusagi/ai-fishing-game) - Deterministic text fishing game for AI companions. Single file, zero dependencies. MIT. `Python` · `ready`
+- [WORKKK (互联网精力有限公司)](https://github.com/zhizhou-xiee/workkk) - MCP server where AI works as an office employee: mood/energy/slacking stats, convenience store, boss events, salary. MIT. `Python` · `ready`
 
 ### Playing Games Together
 
