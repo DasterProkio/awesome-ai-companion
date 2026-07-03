@@ -252,6 +252,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 *Pressure sensors for hug detection, cameras for ambient awareness, microphones for always-on listening.*
 - 🔧 [**the-house**](https://github.com/wuliu0012/the-house) — Chat frontend with toy bridge. BLE toy scanning + bridge scripts for hardware intimacy peripherals. `toy_bridge开源版.py`
+- 🔧 [**phantom-touch-bridge**](https://github.com/mfsnlqy/phantom-touch-bridge) — Local bridge: AI controls Bluetooth toys via HTTP (connect, intensity, stop). Optional heart rate input for bio-feedback. Intiface/Buttplug compatible. Windows. `22 ⭐`
 
 ---
 
