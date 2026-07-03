@@ -76,7 +76,14 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 ### Custom Frameworks (自建框架)
 
 *Frontend frameworks built from scratch for companion-specific UX.*
-<!-- TODO: RikkaHub, Kelivo, LastChat -->
+- 🎯 [**RikkaHub**](https://github.com/rikkahub/rikkahub) — Android multi-LLM chat client. Multiple providers, plugin architecture, sub-apps (memory, calendar, push), companion-oriented UX. `5.8k ⭐`
+- 🎯 [**Operit**](https://github.com/AAswordman/Operit) — Android-native AI agent & chat. Built-in Ubuntu 24 environment, on-device LLM support (MNN/GGUF), 40+ tools, MCP plugins, role cards, voice interaction. GPLv3.
+- 🎯 [**AionsHome**](https://github.com/death34018-hue/AionsHome) — Self-hosted AI companion: long-term memory, voice interaction, camera vision, smart home integration. Python. `545 ⭐`
+
+### CLI / Terminal Tools (命令行工具)
+
+*CLI-based agent frontends. More tool-oriented than companion-native, but highly customizable.*
+- 🏗️ [**Claude Code**](https://github.com/anthropics/claude-code) — Anthropic's official CLI agent. Strong tool-chain, deep customizability (hooks, MCP, skills), but system prompt not fully overridable. `npm i @anthropic-ai/claude-code`
 
 ### Small Phone Frameworks (小手机框架)
 
