@@ -272,6 +272,7 @@
 - 🔧 [**mingyun-paizhen (命运牌阵)**](https://github.com/ceshihaox-dotcom/mingyun-paizhen) — Tarot/divination tool for AI companion interaction. `34 ⭐`
 - 🔧 [**ci-yu-wu (词语屋)**](https://github.com/yuyixuanfu/ci-yu-wu) — Word game for AI companions. `20 ⭐`
 - 🔧 [**shangzhuochifan (上桌吃饭)**](https://github.com/yuyixuanfu/shangzhuochifan) — Shared meal activity for AI companions. `24 ⭐`
+- 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — Also listed under Custom Frameworks. Companion cottage with diary, cinema room (local/B站), persona core, memory archive — a shared living space.
 
 ---
 

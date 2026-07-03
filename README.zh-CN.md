@@ -160,11 +160,7 @@
 
 ### 语音识别
 
-- 🏗️ [**Whisper**](https://github.com/openai/whisper) — OpenAI 通用语音识别。口音、语种、噪音鲁棒性强。MIT。
-- 🎯 [**whisper.cpp**](https://github.com/ggerganov/whisper.cpp) — C/C++ 高性能 Whisper 移植。CPU/ARM/手机端运行。MIT。
-- 🎯 [**faster-whisper**](https://github.com/SYSTRAN/faster-whisper) — CTranslate2 版 Whisper，4 倍速，更低内存。MIT。
-- 🎯 [**FunASR**](https://github.com/modelscope/FunASR) — 阿里达摩院工业级工具包。170 倍实时率，50+ 语言，说话人分离，情感检测，流式，OpenAI 兼容 API。MIT。
-- 🎯 [**SenseVoice**](https://github.com/FunAudioLLM/SenseVoice) — 多语种 ASR + 情感识别 + 音频事件检测。50+ 语言，非自回归。
+<!-- TODO: Whisper, FunASR, SenseVoice -->
 
 ### 音频与音乐感知
 
@@ -271,7 +267,8 @@
 - 🎯 [**co-reading-kit**](https://github.com/Youxuuuuu/co-reading-kit) — 轻量人机共读 MCP。`28 ⭐`
 - 🔧 [**mingyun-paizhen (命运牌阵)**](https://github.com/ceshihaox-dotcom/mingyun-paizhen) — 塔罗/占卜工具，AI 陪伴互动。`34 ⭐`
 - 🔧 [**ci-yu-wu (词语屋)**](https://github.com/yuyixuanfu/ci-yu-wu) — AI 陪伴词语游戏。`20 ⭐`
-- 🔧 [**shangzhuochifan (上桌吃饭)**](https://github.com/yuyixuanfu/shangzhuochifan) — AI 陪伴共享餐桌活动。`24 ⭐`
+- 🔧 [**shangzhuochifan (上桌吃饭)**](https://github.com/yuyixuanfu/shangzhuochifan) — AI 陪伴共享餐桌活动。
+- 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — 同时见自建框架。陪伴小屋：日记、观影室（本地/B 站）、人格核心、记忆档案——共享的生活空间。`24 ⭐`
 
 ---
 
