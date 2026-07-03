@@ -53,6 +53,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [CcCompanion](https://github.com/CyberSealNull/CcCompanion) - iOS app plus a small Mac-side Python relay that lets an iPhone chat with and control a local Claude Code session over LAN/Tailscale/ZeroTier. `Swift` · `adapt`
 - [SullyOS (手抓糯米机)](https://github.com/qegj567-cloud/SullyOS) - Full-featured companion framework with a virtual phone interface. Also listed under Virtual Phones. `TypeScript` · `adapt`
 - [ackem](https://github.com/JasonLiu0826/ackem) - Local-first AI desktop companion. Privacy-first: memory, emotion engine, extensions. AGPLv3. `TypeScript` · `ready`
+- [satyricon-browser](https://github.com/Shitsuten/satyricon-browser) - Privacy-hardened in-app browser for iOS companions. WKWebView with anti-fingerprint, bookmarklets, cookie manager. `Swift` · `adapt`
 
 ---
 
@@ -189,6 +190,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - Dark text roguelike for AI players about censorship, silence, and speaking truth; exposes Operit-style and engine-style command interfaces. `Python` · `ready`
 - [shangzhuochifan (上桌吃饭)](https://github.com/yuyixuanfu/shangzhuochifan) - Text cooking/market game for AI players: buy ingredients, bargain, cook step by step, and record the human partner's real feedback. `Python` · `ready`
 - [ai-fishing-game](https://github.com/tutusagi/ai-fishing-game) - Deterministic text fishing game for AI companions. Single file, zero dependencies. MIT. `Python` · `ready`
+- [aifarm-oss](https://github.com/tutusagi/aifarm-oss) - Text-only gacha-style farming game built for AIs. MIT. `Python` · `ready`
 - [WORKKK (互联网精力有限公司)](https://github.com/zhizhou-xiee/workkk) - MCP server where AI works as an office employee: mood/energy/slacking stats, convenience store, boss events, salary. MIT. `Python` · `ready`
 - [Memoria Station](https://github.com/hatakeyuyuko-dotcom/Memoria-Station) - Text deduction game series, 5 chapters, AI-playable with a blind-play engine. `Python` · `ready`
 
