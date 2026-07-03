@@ -113,6 +113,7 @@
 - 🎯 [**AI Companion Runtime**](https://github.com/yf0522/ai-companion-runtime) — Full-stack companion runtime. WebSocket streaming + parallel emotion/intent/risk/memory engines + model hot-swap + OpenTelemetry tracing. Docker. Python/Next.js. `35 ⭐`
 - 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — Private 1:1 channel: mobile PWA ↔ VPS relay ↔ desktop companion. Single-key, self-hosted. `102 ⭐`
 - 🎯 [**Claude Imprint**](https://github.com/Qizhan7/claude-imprint) — Self-hosted agent on Claude Code. Hybrid memory, multi-channel (Claude Code/AI/Telegram), heartbeat agent, scheduled tasks, dashboard. CJK support. `79 ⭐`
+- 🏗️ [**OmniRouter**](https://github.com/OmniDimen/OmniRouter) — LLM intelligent router for companion systems.
 
 ### Heartbeat / Background Cognition (心跳系统)
 
@@ -135,7 +136,6 @@
 - 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — Verbatim archiving, no summarization. Vectors index but never replace original text. AI decides what to recall — algorithm only prepares the 150-token menu. `42 ⭐`
 - 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — Self-organizing memory. Auto-extracts facts from chat, groups into topic constellations, merges into narrative episodes and long-term sagas. Visual star map UI. Optional emotional state engine. MIT. `40 ⭐`
 - 🏗️ [**omemo**](https://github.com/OmniDimen/omemo) — LLM memory proxy service. Multi-mode memory (built-in tagging + external model summarization), full-context and RAG injection, CRUD operations, thinking-chain support. OpenAI API compatible. `80 ⭐`
-- 🎯 [**CogPrism**](https://github.com/azhimiao/CogPrism) — AI Persona Engine. Explore multiple virtual personalities, understand behaviors through explainable AI. `27 ⭐`
 
 ---
 
@@ -149,11 +149,13 @@
 ### Voice &amp; TTS (语音)
 
 - 🎯 [**voice-mcp**](https://github.com/Yinglianchun/voice-mcp) — MCP server for AI voice synthesis with inline audio player. Custom cloned voices. MIT. `12 ⭐`
+- 🎯 [**Gove**](https://github.com/OmniDimen/Gove) — Open source TTS model based on GPT-SoVITS.
 
 ### Emotion Models (情感模型)
 
 - 🏗️ [**chord-affect-anchors**](https://github.com/CyberSealNull/chord-affect-anchors) — Emotion mother-tongue for AI. Chord notation as cross-session, cross-base affect language. No third-party model required. MIT. `41 ⭐`
 - 🏗️ [**Drivesoid**](https://github.com/A1batr055/Drivesoid) — 15-dimension emotional drive sidecar for AI personas. Evolves in real-time based on conversations and sleep cycles. MIT. `25 ⭐`
+- 🏗️ [**OmniDimen-Emotion**](https://github.com/OmniDimen/OmniDimen-Emotion) — Emotion-specialized LLMs for edge deployment.
 
 ---
 
