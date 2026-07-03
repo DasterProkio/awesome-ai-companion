@@ -92,6 +92,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [Memory Constellations (记忆星图)](https://github.com/ClaraShafiq/MemoryConstellations) - Self-organizing companion memory system that extracts facts from chat, groups them into topic constellations, merges them into narrative episodes, and retrieves across layers. `JavaScript` · `infra`
 - [omemo](https://github.com/OmniDimen/omemo) - OpenAI-compatible memory proxy that sits between an app and upstream LLM APIs, stores memories through built-in or external summarization modes, and injects them by full prompt or RAG. `Python` · `infra`
 - [Aelios](https://github.com/wusaki0723/Aelios) - Layered long-term memory kernel on Cloudflare Workers + D1 + Vectorize. Three-tier write cycle (instant / 4h extraction / nightly consolidation), six memory layers, visual curation dashboard. MIT. `TypeScript` · `infra`
+- [kiwi-mem](https://github.com/LucieEveille/kiwi-mem) - AI companion memory system: vector search, memory heat ranking, dream/sleep consolidation, calendar hierarchical summaries. Built for companion scenarios. `Python` · `infra`
 
 ### Affect & Drives
 
