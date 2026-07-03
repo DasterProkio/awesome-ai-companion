@@ -90,6 +90,7 @@
 
 *基于命令行的 Agent 前端。工具属性强于陪伴属性，可定制性高。*
 - 🏗️ [**Claude Code**](https://github.com/anthropics/claude-code) — Anthropic 官方 CLI Agent。强大工具链，深度可定制（hooks、MCP、skills），系统提示词不完全可控。
+- 🎯 [**CcCompanion**](https://github.com/CyberSealNull/CcCompanion) — Claude Code 非官方 iOS 伴侣。自托管中继，本地优先聊天、搜索、会话控制。MIT。
 
 ### 终端界面 (TUI)
 

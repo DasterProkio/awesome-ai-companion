@@ -92,6 +92,7 @@
 
 *CLI-based agent frontends. More tool-oriented than companion-native, but highly customizable.*
 - 🏗️ [**Claude Code**](https://github.com/anthropics/claude-code) — Anthropic's official CLI agent. Strong tool-chain, deep customizability (hooks, MCP, skills), system prompt not fully overridable.
+- 🎯 [**CcCompanion**](https://github.com/CyberSealNull/CcCompanion) — Unofficial iOS companion for Claude Code. Self-hosted relay, local-first chat, search, session control from iPhone. MIT. `166 ⭐`
 
 ### Terminal UI (TUI) (终端界面)
 
