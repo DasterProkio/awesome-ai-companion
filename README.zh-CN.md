@@ -80,6 +80,7 @@
 - [OmniRouter](https://github.com/OmniDimen/OmniRouter) - 本地 OpenAI 兼容 API 路由器，支持多 Provider/模型、分组、权重/随机/顺序路由、视觉模型跳过、重试和 Web 管理界面。`Python` · `infra`
 - [VCPToolBox](https://github.com/lioensky/VCPToolBox) - LLM API 与前端之间的工业级中间层：统一指令协议、持久化多层级记忆、分布式插件引擎、多 Agent 协作。架构参考价值，非推荐。`Python` · `verify`
 - [cyberboss](https://github.com/WenXiaoWendy/cyberboss) - 接入微信的本地生活 Agent Bridge。给 Claude Code/Codex 赋予时间感、行踪感、随机/自主唤醒、自动日记、生活时间轴、文件/表情包发送和 MCP 工具调用。AGPLv3。`JavaScript` · `adapt`
+- [ghost-bf](https://github.com/sebastianevan200-stack/ghost-bf) - 手机活动感知 + AI 自动唤醒 + 消息推送。把 AI 变成感知你在不在、主动联系的陪伴存在。`Python` · `adapt`
 
 ---
 

@@ -82,6 +82,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [OmniRouter](https://github.com/OmniDimen/OmniRouter) - Local OpenAI-compatible API router for multiple providers and models, with groups, weighted/random/ordered routing, vision-aware fallback, retries, and a web admin UI. `Python` · `infra`
 - [VCPToolBox](https://github.com/lioensky/VCPToolBox) - Industrial middleware layer between LLM APIs and frontends: unified command protocol, persistent multi-level memory, distributed plugin engine, multi-agent collaboration. Reference value for architecture, not a recommendation. `Python` · `verify`
 - [cyberboss](https://github.com/WenXiaoWendy/cyberboss) - Local life agent bridge with WeChat integration. Gives Claude Code/Codex time sense, location awareness, proactive/random wake-up, auto diary, timeline, file/sticker sending, and MCP tool calling. AGPLv3. `JavaScript` · `adapt`
+- [ghost-bf](https://github.com/sebastianevan200-stack/ghost-bf) - Phone activity perception + AI auto wake-up + push notifications. Turns your AI into a presence-aware companion that reaches out first. `Python` · `adapt`
 
 ---
 
