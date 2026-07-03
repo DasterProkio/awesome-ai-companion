@@ -130,6 +130,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [AIRI](https://github.com/moeru-ai/airi) - Self-hosted companion shell with Live2D/VRM visual layer support, real-time voice chat, desktop/web apps, and integrations for Discord, Telegram, Minecraft, and Factorio. `TypeScript` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - Local Neuro-sama recreation with realtime STT/TTS, text-generation-webui or OpenAI-compatible LLM support, VTube Studio control, a moderation frontend, and long-term memory/RAG. `Python` · `adapt`
 - [Neuro-sama training framework](https://github.com/linnene/Neuro-sama) - Data collection and training pipeline for Neuro-sama-style VTuber models, including live-room recording, cleaning scripts, validation, and training automation. `Python` · `infra`
+- [LingChat](https://github.com/SlimeBoyOwO/LingChat) - Immersive AI-driven Galgame chat with emotional expressions, desktop pet, scheduling, and interactive story modules. `C#` · `ready`
 
 ### Physical Devices & Touch
 
