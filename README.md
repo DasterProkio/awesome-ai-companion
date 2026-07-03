@@ -110,6 +110,7 @@
 - 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — Private 1:1 channel: mobile PWA ↔ VPS relay ↔ desktop companion. Single-key, self-hosted. `102 ⭐`
 - 🎯 [**Claude Imprint**](https://github.com/Qizhan7/claude-imprint) — Self-hosted agent on Claude Code. Hybrid memory, multi-channel (Claude Code/AI/Telegram), heartbeat agent, scheduled tasks, dashboard. CJK support. `79 ⭐`
 - 🏗️ [**OmniRouter**](https://github.com/OmniDimen/OmniRouter) — LLM intelligent router for companion systems.
+- 🎯 [**Not Fade Away**](https://github.com/heyxiaoc/not-fade-away) — Self-hosted AI companion on your Mac: persistent, self-healing, subscription-based, works behind GFW. Human-readable guide + machine-readable specs. `62 ⭐`
 
 ### Heartbeat / Background Cognition (心跳系统)
 
