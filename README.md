@@ -208,7 +208,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 ### Sky: Children of the Light (光遇)
 
-<!-- TODO -->
+- 🎯 [**Sky PC MCP Companion**](https://github.com/Aevella/sky-pc-mcp-companion) — Local MCP/JSON-RPC tools for PC Sky. Screenshot + OCR the game window, send keyboard input and chat messages. AI clients can companion-play over LAN. Python. `77 ⭐`
 
 ### Other Game APIs
 
