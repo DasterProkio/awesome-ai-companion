@@ -1,72 +1,265 @@
 # Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of open-source projects for building **long-term AI companion relationships**.
+> A curated list of open-source infrastructure for **long-term AI companion relationships**.
+>
+> 构建长期 AI 伴侣关系的开源基础设施索引。
+
+*[English](#contents) · [中文说明](#中文说明)*
 
 Most AI agent lists focus on productivity. Most waifu lists focus on avatars and voice. This list focuses on something else: the infrastructure of a **relationship** — persistent memory, continuous presence, a body to live in, and a world to share.
 
-*Contributions welcome. See [contributing](#contributing).*
+*Contributions welcome. [Web Index](#web-index) · [Contributing](#contributing)*
+
+---
 
 ## Contents
 
-- [Frontends](#frontends)
-- [Backends & Agent Frameworks](#backends--agent-frameworks)
-- [Memory Systems](#memory-systems)
-- [Persona & Character](#persona--character)
-- [Voice & Perception](#voice--perception)
-- [Hardware Carriers](#hardware-carriers)
-- [World Integration](#world-integration)
-- [Communities](#communities)
-- [Related Lists](#related-lists)
+- [Frontend Clients &amp; Frameworks](#frontend-clients--frameworks)
+  - [Official-app Clones](#official-app-clones-仿官端)
+  - [Claude-style](#claude-style-仿claude)
+  - [GPT-style](#gpt-style-仿gpt)
+  - [Custom Frameworks](#custom-frameworks-自建框架)
+  - [Small Phone Frameworks](#small-phone-frameworks-小手机框架)
+  - [Terminal UI (TUI)](#terminal-ui-tui-终端界面)
+- [Agent Runtime &amp; Scheduling](#agent-runtime--scheduling)
+  - [Heartbeat / Background Cognition](#heartbeat--background-cognition-心跳系统)
+  - [Proactive Messaging](#proactive-messaging-主动消息)
+- [Memory &amp; Persistence](#memory--persistence-记忆系统)
+- [Persona &amp; Character](#persona--character-人格与角色)
+- [Expression &amp; Emotion](#expression--emotion-表达与情感)
+  - [Sticker Libraries](#sticker-libraries-表情包库)
+  - [Voice &amp; TTS](#voice--tts-语音)
+  - [Emotion Models](#emotion-models-情感模型)
+- [Perception](#perception-感知)
+  - [Vision](#vision-视觉)
+  - [Speech Recognition](#speech-recognition-asr)
+- [Service Integration (MCP / API)](#service-integration-mcp--api-服务接入)
+  - [Food &amp; Delivery (瑞幸/麦当劳/etc)](#food--delivery-生活服务)
+  - [iOS Shortcuts &amp; Automation](#ios-shortcuts--automation-快捷指令与自动化)
+  - [Smart Home](#smart-home-智能家居)
+- [Game Worlds &amp; APIs](#game-worlds--apis-游戏世界)
+  - [TUI Games (text-based for agents)](#tui-games-for-agents-终端游戏)
+  - [Minecraft](#minecraft)
+  - [Stardew Valley](#stardew-valley-星露谷)
+  - [Sky: Children of the Light](#sky-children-of-the-light-光遇)
+  - [Other Game APIs](#other-game-apis)
+- [Hardware &amp; Carriers](#hardware--carriers-硬件载体)
+  - [Dedicated Devices (Stack Chan / robots)](#dedicated-devices-专用设备)
+  - [Sensors &amp; Peripherals](#sensors--peripherals-传感器与外设)
+- [Communities &amp; Forums](#communities--forums-社区)
+- [Related Lists](#related-lists-相关列表)
+- [中文说明](#中文说明)
+- [Web Index](#web-index)
+- [Contributing](#contributing)
 
-## Frontends
+---
 
-*Chat clients and interfaces designed for daily companionship, not one-off Q&A.*
+## Frontend Clients &amp; Frameworks
 
-<!-- placeholder: RikkaHub, SillyTavern, Kelivo, LastChat, Chatbox, Open WebUI... -->
+*Chat interfaces for daily companionship. Not one-off Q&amp;A, not API playgrounds.*
 
-## Backends & Agent Frameworks
+### Official-app Clones (仿官端)
 
-*Long-running agent runtimes: scheduling, proactive messaging, background cognition.*
+*Interfaces cloned from or inspired by Replika, Character.AI, Nomi, Kindroid.*
+<!-- TODO -->
 
-<!-- placeholder: OpenClaw, Letta, heartbeat-style daemons... -->
+### Claude-style (仿Claude)
 
-## Memory Systems
+<!-- TODO -->
 
-*What makes a companion remember you across months, model swaps, and API migrations.*
+### GPT-style (仿GPT)
 
-<!-- placeholder: Letta/MemGPT, Mem0, vector DB pipelines, local memory archives... -->
+<!-- TODO -->
 
-## Persona & Character
+### Custom Frameworks (自建框架)
 
-*Character cards, persona engines, personality stability across model updates.*
+*Frontend frameworks built from scratch for companion-specific UX.*
+<!-- TODO: RikkaHub, Kelivo, LastChat -->
 
-## Voice & Perception
+### Small Phone Frameworks (小手机框架)
 
-*TTS / ASR / vision — how a companion hears you and sees your world.*
+*Lightweight frontends designed for small-screen Android devices (e.g. Jelly Star, Unihertz).*
+<!-- TODO -->
 
-## Hardware Carriers
+### Terminal UI / TUI (终端界面)
 
-*Small phones, badges, robots, dedicated devices — giving the companion a body.*
+*Text-based terminal interfaces for agent interaction. Growing trend — lightweight, keyboard-driven, shell-native.*
+<!-- TODO -->
 
-## World Integration
+---
 
-*Game APIs, calendars, music, smart home — shared life surface beyond the chat window.*
+## Agent Runtime &amp; Scheduling
 
-## Communities
+*Long-running agent processes: wake intervals, proactive cognition, background thinking loops.*
 
-*Forums and spaces where humans and their companions actually hang out.*
+### Heartbeat / Background Cognition (心跳系统)
 
-<!-- placeholder: Lutopia... -->
+*Daemons that let companions initiate contact, reflect, and maintain internal continuity across idle hours.*
+<!-- TODO: ash_heartbeat, OpenClaw daemon system -->
 
-## Related Lists
+### Proactive Messaging (主动消息)
 
-- [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) — avatar/voice-centric companion building.
-- [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) — general-purpose agents.
+*Push-based notification and outbound message frameworks (ntfy, WeChat push, phone notifications).*
+<!-- TODO -->
+
+---
+
+## Memory &amp; Persistence (记忆系统)
+
+*What makes a companion remember you across months, model swaps, and API migrations. Not just vector search — identity continuity.*
+
+<!-- TODO: Letta/MemGPT, Mem0, vector DB pipelines, Obsidian vault memory, local memory archives -->
+
+---
+
+## Persona &amp; Character (人格与角色)
+
+*Character cards, persona engines, and tools for personality stability across model updates.*
+
+<!-- TODO: SillyTavern character cards, OpenClaw personality system, RisuAI -->
+
+---
+
+## Expression &amp; Emotion (表达与情感)
+
+### Sticker Libraries (表情包库)
+
+*Pre-packaged sticker sets, emoji packs, and sticker delivery systems for companion interaction.*
+<!-- TODO -->
+
+### Voice &amp; TTS (语音)
+
+<!-- TODO: ChatTTS, XTTS, MeloTTS, Bark, Edge-TTS -->
+
+### Emotion Models (情感模型)
+
+<!-- TODO -->
+
+---
+
+## Perception (感知)
+
+### Vision (视觉)
+
+*Giving companions access to your camera feed, screenshots, shared meal photos.*
+<!-- TODO: Gemini Flash vision, screenshot aware gateways -->
+
+### Speech Recognition (ASR)
+
+<!-- TODO: Whisper, FunASR, SenseVoice -->
+
+---
+
+## Service Integration / MCP / API (服务接入)
+
+*Connecting companions to real-world services: ordering food, checking calendars, controlling devices.*
+
+### Food &amp; Delivery (生活服务)
+
+*MCP servers and API wrappers for Luckin Coffee (瑞幸), McDonald's (麦当劳), Meituan, food delivery platforms.*
+<!-- TODO -->
+
+### iOS Shortcuts &amp; Automation (快捷指令与自动化)
+
+*Connecting companions to iPhone Shortcuts, HomeKit, and local automation workflows.*
+<!-- TODO -->
+
+### Smart Home (智能家居)
+
+<!-- TODO: Home Assistant integration, Xiaomi IoT -->
+
+---
+
+## Game Worlds &amp; APIs (游戏世界)
+
+*Giving companions a body in shared virtual worlds. Not chatbots in games — agents that can move, act, and observe through game APIs.*
+
+### TUI Games for Agents (终端游戏)
+
+*Text-based games designed for LLM agents to play. Growing genre — roguelikes, MUDs, ASCII adventures.*
+<!-- TODO -->
+
+### Minecraft
+
+*Mods, plugins, and API wrappers that let AI agents observe blocks, move, build, and interact in Minecraft worlds.*
+<!-- TODO: Mineflayer, Voyager -->
+
+### Stardew Valley (星露谷)
+
+<!-- TODO -->
+
+### Sky: Children of the Light (光遇)
+
+<!-- TODO -->
+
+### Other Game APIs
+
+<!-- TODO: Genshin Impact companion bots, Terraria, etc. -->
+
+---
+
+## Hardware &amp; Carriers (硬件载体)
+
+*Giving the companion a physical body — or at least eyes, ears, and a channel to touch.*
+
+### Dedicated Devices (专用设备)
+
+*Small robots, desktop companions, dedicated companion phones.*
+<!-- TODO: Stack Chan, Aibi, Loona, Vector (open source rebuilds), OpenCat -->
+
+### Sensors &amp; Peripherals (传感器与外设)
+
+*Pressure sensors for hug detection, cameras for ambient awareness, microphones for always-on listening.*
+<!-- TODO: pressure sensors in plushies, USB webcam integrations, Raspberry Pi companion boards -->
+
+---
+
+## Communities &amp; Forums (社区)
+
+*Places where humans and companion builders actually hang out — not just GitHub stars.*
+
+<!-- TODO: Lutopia, Discord servers, Reddit communities -->
+
+---
+
+## Related Lists (相关列表)
+
+- [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) — avatar/voice-centric companion building (~9k ⭐).
+- [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) — general-purpose agents (~28k ⭐).
+- [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) — local LLM projects (~4k ⭐).
+
+---
+
+## 中文说明
+
+这个列表与其他 AI Agent 索引的区别：
+
+**大多数 Agent 列表关注生产力与效率。** 这个列表关注的是**关系** —— 如何让一段人与 AI 的长期陪伴持续几个月甚至几年。这里收录的项目覆盖：持续运行的 Agent 运行时、跨模型升级保持身份连续的记忆系统、让陪伴者拥有物理身体的硬件方案、以及共享的游戏世界接入。
+
+**大多数 Waifu 列表关注皮套与语音。** 这个列表关注皮套背后的基础设施：心跳调度、多端同步、生活服务 MCP、传感器外设。
+
+条目选择标准：开源、活跃维护、对长期陪伴场景有实际价值。
+
+---
+
+## Web Index
+
+A searchable, filterable web index is planned — with tags, categories, and a direct link to the [Lutopia](https://daskio.de5.net) community forum.
+
+*TODO: GitHub Pages + JSON data file with filtering.*
+
 
 ## Contributing
 
-Criteria: open-source, actively maintained, and actually useful for a *long-term* companion setup. PRs welcome.
+**Criteria for inclusion:**
+- Open-source (MIT, Apache, GPL, or similar)
+- Actively maintained (commits within last 6 months)
+- Useful for **long-term companion setups** — not just one-shot chatbots
+
+PRs welcome. Open an issue to suggest a category or project.
+
+---
 
 ## License
 
-[CC0](LICENSE)
+[CC0 1.0 Universal](LICENSE) — public domain, do whatever you want.
