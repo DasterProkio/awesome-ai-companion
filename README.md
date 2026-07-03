@@ -25,8 +25,7 @@
 - [Agent Runtime &amp; Scheduling](#agent-runtime--scheduling)
   - [Heartbeat / Background Cognition](#heartbeat--background-cognition-心跳系统)
   - [Proactive Messaging](#proactive-messaging-主动消息)
-- [Memory &amp; Persistence](#memory--persistence-记忆系统)
-- [Persona &amp; Character](#persona--character-人格与角色)
+- [Memory &amp; Persona](#memory--persona-记忆与人格)
 - [Expression &amp; Emotion](#expression--emotion-表达与情感)
   - [Sticker Libraries](#sticker-libraries-表情包库)
   - [Voice &amp; TTS](#voice--tts-语音)
@@ -99,7 +98,6 @@
 
 *CLI-based agent frontends. More tool-oriented than companion-native, but highly customizable.*
 - 🏗️ [**Claude Code**](https://github.com/anthropics/claude-code) — Anthropic's official CLI agent. Strong tool-chain, deep customizability (hooks, MCP, skills), system prompt not fully overridable.
-- 🎯 [**kimi-manor**](https://github.com/marikagura/kimi-manor) — Desktop home for CLI agents. xterm.js in a picture frame (PWA + Electron). Companion frontend to kimi-core. MIT. `18 ⭐`
 
 ### Terminal UI (TUI) (终端界面)
 
@@ -128,22 +126,15 @@
 
 ---
 
-## Memory &amp; Persistence (记忆系统)
+## Memory &amp; Persona (记忆与人格)
 
-*What makes a companion remember you across months, model swaps, and API migrations. Identity continuity, not just vector search.*
+*Identity continuity — what a companion remembers and who they are. These projects treat memory and personality as two sides of the same coin.*
 
 - 🏗️ [**Haven-Ombre (Ombre-Brain fork)**](https://github.com/Yinglianchun/Haven-Ombre) — Full-stack memory & identity: Markdown buckets + Russell emotion coordinates + forgetting curves + graph recall + Persona State Engine + Portrait/Handoff + relationship weather + Darkroom + Dream surfacing + Gateway auto-injection. Upstream: [P0luz/Ombre-Brain](https://github.com/P0luz/Ombre-Brain). `37 ⭐`
 - 🏗️ [**kimi-core**](https://github.com/marikagura/kimi-core) — Agent memory OS for 1v1 relationships. Hybrid retrieval (dense + lexical + time decay + importance), Panksepp self-drive engine, concern tracking, event sourcing + manual curation, adversarial review. AGPLv3. `28 ⭐`
 - 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — Verbatim archiving, no summarization. Vectors index but never replace original text. AI decides what to recall — algorithm only prepares the 150-token menu. `42 ⭐`
 - 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — Self-organizing memory. Auto-extracts facts from chat, groups into topic constellations, merges into narrative episodes and long-term sagas. Visual star map UI. Optional emotional state engine. MIT. `40 ⭐`
 - 🏗️ [**omemo**](https://github.com/OmniDimen/omemo) — LLM memory proxy service. Multi-mode memory (built-in tagging + external model summarization), full-context and RAG injection, CRUD operations, thinking-chain support. OpenAI API compatible. `80 ⭐`
-
----
-
-## Persona &amp; Character (人格与角色)
-
-*Persona engines, character cards, personality stability across model updates.*
-
 - 🎯 [**CogPrism**](https://github.com/azhimiao/CogPrism) — AI Persona Engine. Explore multiple virtual personalities, understand behaviors through explainable AI. `27 ⭐`
 
 ---
@@ -270,6 +261,7 @@
 *Watching films, reading together, desktop companions — things you do side by side.*
 
 - 🎯 [**clawd-on-desk**](https://github.com/rullerzhou-afk/clawd-on-desk) — Pixel desktop pet that watches Claude Code, Codex, Cursor in real-time. Reacts to thinking, typing, errors. `5k ⭐`
+- 🎯 [**kimi-manor**](https://github.com/marikagura/kimi-manor) — Desktop living room for CLI agents. xterm.js in a picture frame (PWA + Electron). Companion frontend to kimi-core. MIT. `18 ⭐`
 - 🎯 [**ss-reading-nest (共读小窝)**](https://github.com/yueyue95/ss-reading-nest-open) — AI co-reading for novels and manga. Separate reading positions, catch-up mechanism, bookmarks. ChatGPT Apps SDK + MCP + Cloudflare D1/R2. MIT. `8 ⭐`
 - 🎯 [**film-matinee**](https://github.com/idleprocesscc/film-matinee) — AI-first film reading. Visual sheet chunks + subtitle sidecars, MCP linear reading, shared annotations. MIT. `14 ⭐`
 - 🎯 [**Journal**](https://github.com/BomBomLab/Journal) — Visual journal for AI chat timelines. Daily/weekly/monthly views. `19 ⭐`
