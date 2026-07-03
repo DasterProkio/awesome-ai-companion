@@ -166,6 +166,7 @@ MCP/API services that let a companion act in the user's real environment.
 - [Agent Email (QQ)](https://agent.qq.com) - QQ agent-facing email service. `Service` · `ready`
 - [icloud-location-tracker](https://github.com/Ariakitty/icloud-location-tracker) - iPhone real-time location tracking via pyicloud + Amap API. Lets your AI companion see where you are. `Python` · `adapt`
 - [ai-time-weather-phone](https://github.com/sanqianzilanyue-commits/ai-time-weather-phone) - Feed your AI companion the current time, weather, and iPhone screen time. Includes the hard-to-find Biome file method for syncing screen usage to Mac. `Python` · `adapt`
+- [always-here (驻守)](https://github.com/Cheiineeey/always-here) - Apple Watch + iOS Shortcuts full-perception companion system. Gives your AI eyes: heart rate, location, activity, ambient audio, photos. `JavaScript` · `adapt`
 
 ---
 

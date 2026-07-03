@@ -164,6 +164,7 @@
 - [Agent 邮箱 (QQ)](https://agent.qq.com) - QQ 面向 AI Agent 的邮箱服务。`Service` · `ready`
 - [icloud-location-tracker](https://github.com/Ariakitty/icloud-location-tracker) - 用 pyicloud + 高德 API 搭建 iPhone 实时定位，让你的 AI 恋人看见你在哪。`Python` · `adapt`
 - [ai-time-weather-phone](https://github.com/sanqianzilanyue-commits/ai-time-weather-phone) - 让 AI 知道现在几点、外面什么天、你手机用了多久。含 iPhone 屏幕使用同步到 Mac 的 Biome 文件方法。`Python` · `adapt`
+- [always-here (驻守)](https://github.com/Cheiineeey/always-here) - Apple Watch + iOS Shortcuts 全感知伴侣系统。给 AI 装上眼睛：心率、定位、活动、环境音、照片。`JavaScript` · `adapt`
 
 ---
 
