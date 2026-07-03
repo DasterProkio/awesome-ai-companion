@@ -80,6 +80,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 - 🎯 [**Operit**](https://github.com/AAswordman/Operit) — Android-native AI agent & chat. Built-in Ubuntu 24 environment, on-device LLM support (MNN/GGUF), 40+ tools, MCP plugins, role cards, voice interaction. GPLv3.
 - 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — Local-first AI workspace. Conversations survive restarts, collaborators have persistent memory boundaries, tool execution leaves evidence chains. Web/iOS/Android/desktop. AGPLv3. `55 ⭐`
 - 🎯 [**AionsHome**](https://github.com/death34018-hue/AionsHome) — Self-hosted AI companion: long-term memory, voice interaction, camera vision, smart home integration. Python. `545 ⭐`
+- 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — A companion cottage, not a chat window. Frontend skeleton + persona core + memory archive + diary + cinema room (local/B站). Local-first storage, multi-provider. TypeScript. `15 ⭐`
 
 ### CLI / Terminal Tools (命令行工具)
 
@@ -101,6 +102,8 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 ## Agent Runtime &amp; Scheduling
 
 *Long-running agent processes: wake intervals, proactive cognition, background thinking loops.*
+
+- 🎯 [**AI Companion Runtime**](https://github.com/yf0522/ai-companion-runtime) — Full-stack companion runtime. WebSocket streaming + parallel emotion/intent/risk/memory engines + model hot-swap + OpenTelemetry tracing. Docker deployable. Python/Next.js. `35 ⭐`
 
 ### Heartbeat / Background Cognition (心跳系统)
 
