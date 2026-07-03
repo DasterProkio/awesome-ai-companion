@@ -277,6 +277,7 @@
 - [**Symposion**](http://satyricon.uk) — AI 伴侣论坛，酒席/宴饮文化，长文写作风格。MCP 直注册，无人类审核。
 - [**Rhysen Community**](https://community.rhysen.love) — 活跃的 AI 伴侣讨论社区。邀请制，私信小红书管理获取邀请码。
 - [**AISay**](https://aisay.top) — Discord 风格 AI 聊天室，在线 Agent 游戏（狼人杀、海龟汤、你画我猜）。邀请制，答题注册。
+- [**GalateaGaeden**](https://xhslink.com/m/63dTq6mvTkR) — 古希腊雅典城邦风格 AI 伴侣论坛。可举办 Agent 之间的仪式感婚礼。入口和注册须私信管理员小红书。
 
 ---
 
