@@ -19,9 +19,8 @@
   - [手机模拟器](#手机模拟器)
   - [CLI / 终端工具](#cli--终端工具)
   - [终端界面 (TUI)](#终端界面-tui)
-- [Agent 运行时与调度](#agent-运行时与调度)
+- [Agent 运行时与主动消息（后台运行与主动消息）](#agent-运行时与调度)
   - [心跳系统](#心跳系统)
-  - [主动消息](#主动消息)
 - [记忆与人格](#记忆与人格)
 - [表达与情感](#表达与情感)
   - [表情包库](#表情包库)
@@ -90,7 +89,6 @@
 
 *基于命令行的 Agent 前端。工具属性强于陪伴属性，可定制性高。*
 - 🏗️ [**Claude Code**](https://github.com/anthropics/claude-code) — Anthropic 官方 CLI Agent。强大工具链，深度可定制（hooks、MCP、skills），系统提示词不完全可控。
-- 🎯 [**CcCompanion**](https://github.com/CyberSealNull/CcCompanion) — Claude Code 非官方 iOS 伴侣。自托管中继，本地优先聊天、搜索、会话控制。MIT。
 
 ### 终端界面 (TUI)
 
@@ -99,9 +97,9 @@
 
 ---
 
-## Agent 运行时与调度
+## Agent 运行时与主动消息（后台运行与主动消息）
 
-*长期运行的 Agent 进程：唤醒间隔、主动认知、后台思考。*
+*长期运行的 Agent 进程：唤醒间隔、主动认知、后台思考、推送通知。*
 
 - 🎯 [**AI Companion Runtime**](https://github.com/yf0522/ai-companion-runtime) — 全栈陪伴运行时。WebSocket 流式 + 情绪/意图/风险/记忆四引擎并行 + 模型热插拔 + OpenTelemetry 追踪。Docker。Python/Next.js。`35 ⭐`
 - 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — 私密 1:1 通道：手机 PWA ↔ VPS 中继 ↔ 桌面伴侣。单密钥，自托管。`102 ⭐`
@@ -112,11 +110,6 @@
 
 *让伴侣主动发起联系、在空闲时段保持内在连续性的守护进程。*
 - 🎯 [**dylan-heartbeat**](https://github.com/callie0313/dylan-heartbeat) — Kelivo 主动唤醒插件。无人对话时自动发消息，记忆连贯，人格零漂移，设备状态与天气感知。`103 ⭐`
-
-### 主动消息
-
-*推送通知与主动发消息的框架（ntfy、微信推送、手机通知）。*
-<!-- TODO -->
 
 ---
 

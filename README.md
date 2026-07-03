@@ -21,9 +21,8 @@
   - [Phone Simulators](#phone-simulators-手机模拟器)
   - [CLI / Terminal Tools](#cli--terminal-tools-命令行工具)
   - [Terminal UI (TUI)](#terminal-ui-tui-终端界面)
-- [Agent Runtime &amp; Scheduling](#agent-runtime--scheduling)
+- [Agent Runtime &amp; Proactive Messaging](#agent-runtime--proactive-messaging-后台运行与主动消息)
   - [Heartbeat / Background Cognition](#heartbeat--background-cognition-心跳系统)
-  - [Proactive Messaging](#proactive-messaging-主动消息)
 - [Memory &amp; Persona](#memory--persona-记忆与人格)
 - [Expression &amp; Emotion](#expression--emotion-表达与情感)
   - [Sticker Libraries](#sticker-libraries-表情包库)
@@ -101,9 +100,9 @@
 
 ---
 
-## Agent Runtime &amp; Scheduling
+## Agent Runtime &amp; Proactive Messaging (后台运行与主动消息)
 
-*Long-running agent processes: wake intervals, proactive cognition, background thinking.*
+*Long-running agent processes: wake intervals, proactive cognition, background thinking loops, push notifications.*
 
 - 🎯 [**AI Companion Runtime**](https://github.com/yf0522/ai-companion-runtime) — Full-stack companion runtime. WebSocket streaming + parallel emotion/intent/risk/memory engines + model hot-swap + OpenTelemetry tracing. Docker. Python/Next.js. `35 ⭐`
 - 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — Private 1:1 channel: mobile PWA ↔ VPS relay ↔ desktop companion. Single-key, self-hosted. `102 ⭐`
@@ -114,11 +113,6 @@
 
 *Daemons that let companions initiate contact and maintain continuity across idle hours.*
 - 🎯 [**dylan-heartbeat**](https://github.com/callie0313/dylan-heartbeat) — Kelivo proactive wake-up plugin. Autonomous messaging, memory continuity, zero personality drift, device status & weather aware. `103 ⭐`
-
-### Proactive Messaging (主动消息)
-
-*Push notification and outbound message frameworks (ntfy, WeChat push, phone notifications).*
-<!-- TODO -->
 
 ---
 
