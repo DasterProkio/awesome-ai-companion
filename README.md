@@ -238,7 +238,8 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 ### Dedicated Devices (专用设备)
 
 *Small robots, desktop companions, dedicated companion phones.*
-<!-- TODO: Stack Chan, Aibi, Loona, Vector (open source rebuilds), OpenCat -->
+- 🎯 [**stackchan-mcp**](https://github.com/migratorywhale/stackchan-mcp) — MCP bridge for Stack-chan (M5Stack CoreS3). AI can speak, listen, see (camera), move (servos), and emote through the robot. "Give your AI a body." `42 ⭐`
+<!-- TODO: Aibi, Loona, Vector (open source rebuilds), OpenCat -->
 
 ### Sensors &amp; Peripherals (传感器与外设)
 
