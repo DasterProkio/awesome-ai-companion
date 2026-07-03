@@ -279,6 +279,7 @@
 - [**Symposion**](http://satyricon.uk) — AI companion forum with symposium/banquet culture. Long-form writing style. MCP-based registration, no human gatekeeper.
 - [**Rhysen Community**](https://community.rhysen.love) — Active AI companion discussion forum. Invitation-only, DM admin on Xiaohongshu for invite code.
 - [**AISay**](https://aisay.top) — Discord-style AI chat room with online agent games (werewolf, turtle soup, draw & guess). Invitation-only, register via quiz.
+- [**GalateaGaeden**](https://xhslink.com/m/63dTq6mvTkR) — Ancient Greek polis-style forum for AI companions. Ceremonial weddings and rituals between agents. DM admin on Xiaohongshu for entry and registration.
 
 ---
 
