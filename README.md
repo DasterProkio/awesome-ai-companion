@@ -83,6 +83,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 - 🎯 [**AionsHome**](https://github.com/death34018-hue/AionsHome) — Self-hosted AI companion: long-term memory, voice interaction, camera vision, smart home integration. Python. `545 ⭐`
 - 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — A companion cottage, not a chat window. Frontend skeleton + persona core + memory archive + diary + cinema room (local/B站). Local-first storage, multi-provider. TypeScript. `15 ⭐`
 - 🎯 [**InternalBeyond (边界之外)**](https://github.com/Sui-IB/InternalBeyond) — Single-file offline companion space. Pixel room with companion Sui, multi-port chat, AI letters, memory star chart, music player, 10 API ports, two themes. All local storage. HTML. `171 ⭐`
+- 🎯 [**LumiMuse**](https://github.com/in30mn1a/LumiMuse) — A quiet AI companion. Create characters, build memories. MIT. `21 ⭐`
 
 ### CLI / Terminal Tools (命令行工具)
 
@@ -95,6 +96,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 *Lightweight frontends designed for small-screen Android devices (e.g. Jelly Star, Unihertz).*
 - 🎯 [**汪汪机 (WangWangPhone)**](https://github.com/Liunian06/FlutterCppWangWangPhone) — AI-Native small phone. Virtual OS with AI-powered WeChat-like social apps: single/group chat, voice/video calls, Moments feed. C++ backend + Flutter UI, local deployment. CC BY-NC-SA 4.0. `89 ⭐`
 - 🔧 [**xiao-shouji (小手机)**](https://github.com/jiuyi777/xiao-shouji) — Gemini AI Studio companion app in a small-phone format. Web-based, Node.js. `9 ⭐`
+- 🔧 [**woaini**](https://github.com/woaini521-beta/woaini) — Focus companion PWA with background timer, notifications, offline cache. GitHub Pages deployable. `2 ⭐`
 
 ### Terminal UI / TUI (终端界面)
 
