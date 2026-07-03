@@ -108,7 +108,6 @@
 - 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — 私密 1:1 通道：手机 PWA ↔ VPS 中继 ↔ 桌面伴侣。单密钥，自托管。`102 ⭐`
 - 🎯 [**Claude Imprint**](https://github.com/Qizhan7/claude-imprint) — 基于 Claude Code 的自托管 Agent。混合记忆，多通道（Claude Code/AI/Telegram），心跳 Agent，定时任务，仪表盘。支持中文分词。`79 ⭐`
 - 🏗️ [**OmniRouter**](https://github.com/OmniDimen/OmniRouter) — 大模型智能路由器，面向陪伴系统的请求调度。
-- 🎯 [**Not Fade Away**](https://github.com/heyxiaoc/not-fade-away) — 在自己 Mac 上搭常驻、自愈、走订阅、墙内可用的自托管 AI 伴侣。人看版讲思路，机看版给完整规格。
 
 ### 心跳系统
 
