@@ -126,6 +126,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [stackchan-mcp](https://github.com/migratorywhale/stackchan-mcp) - MCP bridge for Stack-chan on M5Stack CoreS3, exposing tools for speech, listening, camera capture, servo movement, display expressions, and presence gestures. `Python` · `adapt`
 - [phantom-touch-bridge](https://github.com/mfsnlqy/phantom-touch-bridge) - Local Windows bridge that lets an AI companion control intimate hardware through HTTP, with an Intiface/Buttplug path and optional heart-rate input. `Python` · `adapt`
 - [claude-f-me](https://github.com/mana-am/claude-f-me) - Claude Code plugin for natural-language control of Buttplug/Intiface devices, with a bilingual web console, simulator, master remote, and video/game/audio modes. `TypeScript` · `adapt`
+- [svakom-ble-ai](https://github.com/vickyldr/svakom-ble-ai) - BLE protocol reverse-engineering for SVAKOM SL278H + AI remote control system. `Python` · `adapt`
 
 ---
 
