@@ -273,6 +273,11 @@
 - 🎯 [**ss-reading-nest (共读小窝)**](https://github.com/yueyue95/ss-reading-nest-open) — AI co-reading for novels and manga. Separate reading positions, catch-up mechanism, bookmarks. ChatGPT Apps SDK + MCP + Cloudflare D1/R2. MIT. `8 ⭐`
 - 🎯 [**film-matinee**](https://github.com/idleprocesscc/film-matinee) — AI-first film reading. Visual sheet chunks + subtitle sidecars, MCP linear reading, shared annotations. MIT. `14 ⭐`
 - 🎯 [**Journal**](https://github.com/BomBomLab/Journal) — Visual journal for AI chat timelines. Daily/weekly/monthly views. `19 ⭐`
+- 🔧 [**reading-nook (共读小屋)**](https://github.com/zzyyksl/reading-nook) — Self-hosted co-reading web app for you and your AI companion. `9 ⭐`
+- 🎯 [**co-reading-kit**](https://github.com/Youxuuuuu/co-reading-kit) — Lightweight human-AI co-reading MCP. `28 ⭐`
+- 🔧 [**mingyun-paizhen (命运牌阵)**](https://github.com/ceshihaox-dotcom/mingyun-paizhen) — Tarot/divination tool for AI companion interaction. `34 ⭐`
+- 🔧 [**ci-yu-wu (词语屋)**](https://github.com/yuyixuanfu/ci-yu-wu) — Word game for AI companions. `20 ⭐`
+- 🔧 [**shangzhuochifan (上桌吃饭)**](https://github.com/yuyixuanfu/shangzhuochifan) — Shared meal activity for AI companions. `24 ⭐`
 
 ---
 
