@@ -152,6 +152,11 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 <!-- TODO -->
 
+### Desktop Presence (桌面存在)
+
+*Giving companions a visible presence on your desktop — pixel pets, widgets, always-on indicators.*
+- 🎯 [**clawd-on-desk**](https://github.com/rullerzhou-afk/clawd-on-desk) — Pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents in real-time. Reacts to thinking, typing, errors. `5k ⭐`
+
 ---
 
 ## Perception (感知)
