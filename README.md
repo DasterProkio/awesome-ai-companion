@@ -64,7 +64,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 ### Official-app Clones (仿官端)
 
 *Interfaces cloned from or inspired by Replika, Character.AI, Nomi, Kindroid.*
-<!-- TODO -->
+- 🔧 [**chatnest**](https://github.com/ugui3u/chatnest) — Placeholder-based frontend clone project. Personal use only. HTML. `46 ⭐`
 
 ### Claude-style (仿Claude)
 
@@ -88,6 +88,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 *CLI-based agent frontends. More tool-oriented than companion-native, but highly customizable.*
 - 🏗️ [**Claude Code**](https://github.com/anthropics/claude-code) — Anthropic's official CLI agent. Strong tool-chain, deep customizability (hooks, MCP, skills), but system prompt not fully overridable. `npm i @anthropic-ai/claude-code`
+- 🎯 [**kimi-manor**](https://github.com/marikagura/kimi-manor) — Desktop home for CLI agents. xterm.js wrapped in a picture frame (PWA + Electron). Companion frontend to kimi-core memory OS. MIT. `18 ⭐`
 
 ### Small Phone Frameworks (小手机框架)
 
