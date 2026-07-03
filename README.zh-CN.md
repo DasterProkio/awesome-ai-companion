@@ -65,6 +65,7 @@
 - [freeapp (whale小手机)](https://github.com/whale-Yd00/freeapp) - 手机风格 AI 聊天伴侣，多 Provider 支持，虚拟手机界面。AGPLv3。`HTML` · `adapt`
 - [Hamster Nest (仓鼠小窝)](https://github.com/chuan-101/Hamster-Nest) - 一只仓鼠的数字小窝：聊天、阅读追踪、笔记/待办、语音、时间轴、多 Agent 议事厅。PWA。`TypeScript` · `adapt`
 - [SullyOS (手抓糯米机)](https://github.com/qegj567-cloud/SullyOS) - 虚拟手机伴侣系统。`TypeScript` · `adapt`
+- [ZeroChat](https://github.com/sh1nny0u/ZeroChat) - 模拟微信界面的 AI 聊天伴侣 Flutter 应用：多角色对话、AI 朋友圈、主动消息、定时任务。MIT。`Dart` · `adapt`
 
 ---
 
