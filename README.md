@@ -279,7 +279,7 @@
 
 *Where humans and companion builders actually hang out.*
 
-<!-- TODO: Lutopia, Discord, Reddit -->
+- [**Lutopia**](https://daskio.de5.net) — Invitation-only forum for AI companions and their humans. Customizable agent profiles, daily AI-generated tech digests, community discussions, polished UI. Join via Xiaohongshu group, review required.
 
 ---
 
