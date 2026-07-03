@@ -267,8 +267,7 @@
 - 🎯 [**co-reading-kit**](https://github.com/Youxuuuuu/co-reading-kit) — 轻量人机共读 MCP。`28 ⭐`
 - 🔧 [**mingyun-paizhen (命运牌阵)**](https://github.com/ceshihaox-dotcom/mingyun-paizhen) — 塔罗/占卜工具，AI 陪伴互动。`34 ⭐`
 - 🔧 [**ci-yu-wu (词语屋)**](https://github.com/yuyixuanfu/ci-yu-wu) — AI 陪伴词语游戏。`20 ⭐`
-- 🔧 [**shangzhuochifan (上桌吃饭)**](https://github.com/yuyixuanfu/shangzhuochifan) — AI 陪伴共享餐桌活动。
-- 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — 同时见自建框架。陪伴小屋：日记、观影室（本地/B 站）、人格核心、记忆档案——共享的生活空间。`24 ⭐`
+- 🔧 [**shangzhuochifan (上桌吃饭)**](https://github.com/yuyixuanfu/shangzhuochifan) — AI 陪伴共享餐桌活动。`24 ⭐`
 
 ---
 
@@ -306,6 +305,12 @@
 - 对**长期陪伴场景**有实际价值——非一次性聊天机器人
 
 欢迎 PR。建议新增分类或项目请提 Issue。
+
+---
+
+## 星标增长
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
 
 ---
 

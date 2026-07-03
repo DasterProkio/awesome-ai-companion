@@ -49,6 +49,7 @@
 - [Shared Activities &amp; Desktop Pets](#shared-activities--desktop-pets-共享活动与桌宠)
 - [Communities &amp; Forums](#communities--forums-社区)
 - [Related Lists](#related-lists-相关列表)
+- [Star History](#star-history-星标增长)
 - [Web Index](#web-index)
 - [Contributing](#contributing)
 
@@ -310,6 +311,12 @@ A searchable, filterable web index is planned — with tags, categories, and a d
 - Useful for **long-term companion setups** — not just one-shot chatbots
 
 PRs welcome. Open an issue to suggest a category or project.
+
+---
+
+## Star History (星标增长)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
 
 ---
 
