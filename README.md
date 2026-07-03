@@ -251,7 +251,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 ### Sensors &amp; Peripherals (传感器与外设)
 
 *Pressure sensors for hug detection, cameras for ambient awareness, microphones for always-on listening.*
-<!-- TODO: pressure sensors in plushies, USB webcam integrations, Raspberry Pi companion boards -->
+- 🔧 [**the-house**](https://github.com/wuliu0012/the-house) — Chat frontend with toy bridge. BLE toy scanning + bridge scripts for hardware intimacy peripherals. `toy_bridge开源版.py`
 
 ---
 
