@@ -27,6 +27,7 @@
 - [Expression &amp; Emotion](#expression--emotion-表达与情感)
   - [Sticker Libraries](#sticker-libraries-表情包库)
   - [Voice &amp; TTS](#voice--tts-语音)
+  - [Avatar &amp; Voice](#avatar--voice-虚拟形象与语音)
   - [Emotion Models](#emotion-models-情感模型)
 - [Perception](#perception-感知)
   - [Speech Recognition](#speech-recognition-asr)
@@ -37,7 +38,6 @@
   - [Smart Home](#smart-home-智能家居)
   - [Music &amp; Entertainment](#music--entertainment-音乐与娱乐)
 - [Game Worlds &amp; APIs](#game-worlds--apis-游戏世界)
-  - [Avatar &amp; Voice](#avatar--voice-虚拟形象与语音)
   - [TUI Games for Agents](#tui-games-for-agents-终端游戏)
   - [Minecraft](#minecraft)
   - [Stardew Valley](#stardew-valley-星露谷)
@@ -141,6 +141,13 @@
 - 🎯 [**voice-mcp**](https://github.com/Yinglianchun/voice-mcp) — MCP server for AI voice synthesis with inline audio player. Custom cloned voices. MIT. `12 ⭐`
 - 🎯 [**Gove**](https://github.com/OmniDimen/Gove) — Open source TTS model based on GPT-SoVITS.
 
+### Avatar &amp; Voice (虚拟形象与语音)
+
+*Visual avatar + voice synthesis + dialogue — a face and voice for your companion. Live2D, VRM, real-time animation.*
+- 🎯 [**AIRI**](https://github.com/moeru-ai/airi) — Self-hosted companion with Live2D/VRM avatar, real-time voice, Minecraft/Factorio gameplay, Discord/Telegram. 30+ LLM APIs + Ollama. MIT. `37k ⭐`
+- 🔧 [**Neuro**](https://github.com/kimjammer/Neuro) — Local-only Neuro-sama recreation: LLAMA 3 + STT/TTS + VTube Studio avatar. 12GB+ VRAM.
+- 🏗️ [**Neuro-sama training framework**](https://github.com/linnene/Neuro-sama) — Data pipeline for training avatar companion models.
+
 ### Emotion Models (情感模型)
 
 - 🏗️ [**chord-affect-anchors**](https://github.com/CyberSealNull/chord-affect-anchors) — Emotion mother-tongue for AI. Chord notation as cross-session, cross-base affect language. No third-party model required. MIT. `41 ⭐`
@@ -196,13 +203,6 @@
 ## Game Worlds &amp; APIs (游戏世界)
 
 *Giving companions a body in shared virtual worlds — agents that move, act, and observe through game APIs.*
-
-### Avatar &amp; Voice (虚拟形象与语音)
-
-*Visual avatar + voice synthesis + dialogue — a face and voice for your companion. Live2D, VRM, real-time animation.*
-- 🎯 [**AIRI**](https://github.com/moeru-ai/airi) — Self-hosted companion with Live2D/VRM avatar, real-time voice, Minecraft/Factorio gameplay, Discord/Telegram. 30+ LLM APIs + Ollama. MIT. `37k ⭐`
-- 🔧 [**Neuro**](https://github.com/kimjammer/Neuro) — Local-only Neuro-sama recreation: LLAMA 3 + STT/TTS + VTube Studio avatar. 12GB+ VRAM.
-- 🏗️ [**Neuro-sama training framework**](https://github.com/linnene/Neuro-sama) — Data pipeline for training avatar companion models.
 
 ### TUI Games for Agents (终端游戏)
 
