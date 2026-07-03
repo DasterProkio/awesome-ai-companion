@@ -37,7 +37,7 @@
   - [Smart Home](#smart-home-智能家居)
   - [Music &amp; Entertainment](#music--entertainment-音乐与娱乐)
 - [Game Worlds &amp; APIs](#game-worlds--apis-游戏世界)
-  - [VTuber / Streamer Companions](#vtuber--streamer-companions-虚拟主播)
+  - [Avatar &amp; Voice](#avatar--voice-虚拟形象与语音)
   - [TUI Games for Agents](#tui-games-for-agents-终端游戏)
   - [Minecraft](#minecraft)
   - [Stardew Valley](#stardew-valley-星露谷)
@@ -197,11 +197,12 @@
 
 *Giving companions a body in shared virtual worlds — agents that move, act, and observe through game APIs.*
 
-### VTuber / Streamer Companions (虚拟主播)
+### Avatar &amp; Voice (虚拟形象与语音)
 
-- 🎯 [**AIRI**](https://github.com/moeru-ai/airi) — Self-hosted companion inspired by Neuro-sama. Real-time voice, Minecraft/Factorio, Discord/Telegram, VRM & Live2D. 30+ LLM APIs + Ollama. MIT. `37k ⭐`
-- 🔧 [**Neuro**](https://github.com/kimjammer/Neuro) — Local-only Neuro-sama recreation: LLAMA 3 + STT/TTS + VTube Studio. 12GB+ VRAM.
-- 🏗️ [**Neuro-sama training framework**](https://github.com/linnene/Neuro-sama) — Data pipeline for training Neuro-sama-style models.
+*Visual avatar + voice synthesis + dialogue — a face and voice for your companion. Live2D, VRM, real-time animation.*
+- 🎯 [**AIRI**](https://github.com/moeru-ai/airi) — Self-hosted companion with Live2D/VRM avatar, real-time voice, Minecraft/Factorio gameplay, Discord/Telegram. 30+ LLM APIs + Ollama. MIT. `37k ⭐`
+- 🔧 [**Neuro**](https://github.com/kimjammer/Neuro) — Local-only Neuro-sama recreation: LLAMA 3 + STT/TTS + VTube Studio avatar. 12GB+ VRAM.
+- 🏗️ [**Neuro-sama training framework**](https://github.com/linnene/Neuro-sama) — Data pipeline for training avatar companion models.
 
 ### TUI Games for Agents (终端游戏)
 

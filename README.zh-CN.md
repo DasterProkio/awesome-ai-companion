@@ -36,7 +36,7 @@
   - [智能家居](#智能家居)
   - [音乐与娱乐](#音乐与娱乐)
 - [游戏世界与 API](#游戏世界与-api)
-  - [虚拟主播伴侣](#虚拟主播伴侣)
+  - [虚拟形象与语音](#虚拟形象与语音)
   - [终端游戏](#终端游戏)
   - [Minecraft](#minecraft)
   - [星露谷](#星露谷)
@@ -197,9 +197,9 @@
 
 ## 游戏世界与 API
 
-*让伴侣在共享虚拟世界中拥有身体——能通过游戏 API 移动、行动、观察的 Agent。*
+*虚拟形象 + 语音合成 + 对话——给伴侣一张脸和声音。Live2D、VRM、实时动画。*
 
-### 虚拟主播伴侣
+### 虚拟形象与语音
 
 - 🎯 [**AIRI**](https://github.com/moeru-ai/airi) — 受 Neuro-sama 启发的自托管伴侣。实时语音，Minecraft/Factorio，Discord/Telegram，VRM & Live2D。30+ LLM API + Ollama。MIT。`37k ⭐`
 - 🔧 [**Neuro**](https://github.com/kimjammer/Neuro) — 本地 Neuro-sama 复刻：LLAMA 3 + STT/TTS + VTube Studio。需 12GB+ 显存。
