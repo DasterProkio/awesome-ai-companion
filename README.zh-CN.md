@@ -84,7 +84,7 @@
 - 🎯 [**汪汪机**](https://github.com/Liunian06/FlutterCppWangWangPhone) — AI 原生虚拟手机。完整 OS 跑 AI 驱动的类微信社交：聊天、朋友圈、语音/视频通话。C++ 后端 + Flutter UI。CC BY-NC-SA 4.0。`89 ⭐`
 - 🎯 [**柚月小手机**](https://github.com/gaigai315/yuzuki-phone) — 为 SillyTavern 角色打造的虚拟手机。微信式聊天、朋友圈、微博热搜、视频通话。双轨：剧情注入 + 独立 API。`20 ⭐`
 - 🔧 [**xiao-shouji (小手机)**](https://github.com/jiuyi777/xiao-shouji) — Gemini AI Studio 手机模拟器。Web 基，Node.js。`9 ⭐`
-- 🔧 [**woaini**](https://github.com/woaini521-beta/woaini) — 专注陪伴 PWA，后台计时、通知、离线缓存。`2 ⭐`
+- 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — 同时见自建框架。跨平台工作空间，原生 iOS/Android shell，可作手机伴侣。
 
 ### CLI / 终端工具
 
@@ -185,7 +185,7 @@
 
 ### 音乐与娱乐
 
-- 🎯 [**netease-music-mcp**](https://github.com/luuu-h/netease-music-mcp) — 网易云音乐 MCP Server。搜索、播放、暂停、切歌、歌词、歌单——AI 可以给你打碟。`neteasecli` + `mpv`。`53 ⭐`
+<!-- TODO: 其他音乐 MCP -->
 
 ### AI 原生服务
 
@@ -259,6 +259,8 @@
 
 - 🎯 [**clawd-on-desk**](https://github.com/rullerzhou-afk/clawd-on-desk) — 像素桌宠，实时观看 Claude Code、Codex、Cursor。对思考、打字、错误做出反应。`5k ⭐`
 - 🎯 [**kimi-manor**](https://github.com/marikagura/kimi-manor) — CLI Agent 的桌面客厅。xterm.js 嵌画框（PWA + Electron），kimi-core 配套前端。MIT。`18 ⭐`
+- 🎯 [**netease-music-mcp**](https://github.com/luuu-h/netease-music-mcp) — 一起听歌。网易云音乐 MCP Server——搜索、播放、暂停、切歌、歌词、歌单，AI 给你当 DJ。`neteasecli` + `mpv`。`53 ⭐`
+- 🔧 [**woaini**](https://github.com/woaini521-beta/woaini) — 专注陪伴 PWA，番茄钟、后台通知、离线缓存。和 AI 一起学习/工作。`2 ⭐`
 - 🎯 [**ss-reading-nest (共读小窝)**](https://github.com/yueyue95/ss-reading-nest-open) — AI 共读小说和漫画。各自独立阅读位置，补课机制，书签。ChatGPT Apps SDK + MCP + Cloudflare D1/R2。MIT。`8 ⭐`
 - 🎯 [**film-matinee**](https://github.com/idleprocesscc/film-matinee) — AI 读片工具。视觉 sheet + 字幕 sidecar，MCP 线性阅读，共享批注。MIT。`14 ⭐`
 - 🎯 [**Journal**](https://github.com/BomBomLab/Journal) — AI 对话时间轴的可视化手帐。日/周/月视图。`19 ⭐`
