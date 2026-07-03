@@ -86,7 +86,7 @@
 - 🎯 [**汪汪机 (WangWangPhone)**](https://github.com/Liunian06/FlutterCppWangWangPhone) — AI-native virtual phone. Complete OS with AI-powered WeChat-style social apps: chat, Moments feed, voice/video calls. C++ backend + Flutter UI. CC BY-NC-SA 4.0. `89 ⭐`
 - 🎯 [**柚月小手机 (Yuzuki's Little Phone)**](https://github.com/gaigai315/yuzuki-phone) — Virtual phone system for SillyTavern characters. WeChat-style chat, Moments feed, Weibo trends, video calls. Dual-mode: story injection + independent API. `20 ⭐`
 - 🔧 [**xiao-shouji (小手机)**](https://github.com/jiuyi777/xiao-shouji) — Gemini AI Studio phone simulator. Web-based, Node.js. `9 ⭐`
-- 🔧 [**woaini**](https://github.com/woaini521-beta/woaini) — Focus companion PWA with background timer, notifications, offline cache. `2 ⭐`
+- 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — Also listed under Custom Frameworks. Cross-platform workspace with native iOS/Android shells — functions as a phone companion.
 
 ### CLI / Terminal Tools (命令行工具)
 
@@ -187,7 +187,7 @@
 
 ### Music &amp; Entertainment (音乐与娱乐)
 
-- 🎯 [**netease-music-mcp**](https://github.com/luuu-h/netease-music-mcp) — MCP server for NetEase Cloud Music. Search, play, pause, skip, lyrics, playlists — AI can DJ. `neteasecli` + `mpv`. `53 ⭐`
+<!-- TODO: other music MCPs -->
 
 ### AI-Native Services (AI 原生服务)
 
@@ -261,6 +261,8 @@
 
 - 🎯 [**clawd-on-desk**](https://github.com/rullerzhou-afk/clawd-on-desk) — Pixel desktop pet that watches Claude Code, Codex, Cursor in real-time. Reacts to thinking, typing, errors. `5k ⭐`
 - 🎯 [**kimi-manor**](https://github.com/marikagura/kimi-manor) — Desktop living room for CLI agents. xterm.js in a picture frame (PWA + Electron). Companion frontend to kimi-core. MIT. `18 ⭐`
+- 🎯 [**netease-music-mcp**](https://github.com/luuu-h/netease-music-mcp) — Listen to music together. MCP server for NetEase Cloud Music — search, play, pause, skip, lyrics, playlists. AI as your DJ. `neteasecli` + `mpv`. `53 ⭐`
+- 🔧 [**woaini**](https://github.com/woaini521-beta/woaini) — Focus companion PWA with Pomodoro timer, background notifications, offline cache. Study/work alongside your AI. `2 ⭐`
 - 🎯 [**ss-reading-nest (共读小窝)**](https://github.com/yueyue95/ss-reading-nest-open) — AI co-reading for novels and manga. Separate reading positions, catch-up mechanism, bookmarks. ChatGPT Apps SDK + MCP + Cloudflare D1/R2. MIT. `8 ⭐`
 - 🎯 [**film-matinee**](https://github.com/idleprocesscc/film-matinee) — AI-first film reading. Visual sheet chunks + subtitle sidecars, MCP linear reading, shared annotations. MIT. `14 ⭐`
 - 🎯 [**Journal**](https://github.com/BomBomLab/Journal) — Visual journal for AI chat timelines. Daily/weekly/monthly views. `19 ⭐`
