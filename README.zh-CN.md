@@ -133,6 +133,7 @@
 - 🏗️ [**Haven-Ombre (Ombre-Brain fork)**](https://github.com/Yinglianchun/Haven-Ombre) — 全栈记忆与身份：Markdown 桶 + Russell 情绪坐标 + 遗忘曲线 + 图召回 + Persona 状态引擎 + Portrait/Handoff + 关系天气 + Darkroom + Dream 浮现 + Gateway 自动注入。上游：[P0luz/Ombre-Brain](https://github.com/P0luz/Ombre-Brain)。`37 ⭐`
 - 🏗️ [**kimi-core**](https://github.com/marikagura/kimi-core) — 1v1 关系专用记忆 OS。混合检索（向量 + 词法 + 时间衰减 + 重要度），Panksepp 自驱引擎，concern 追踪，事件溯源 + 人工策展，对抗式自审。AGPLv3。`28 ⭐`
 - 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — 逐字存档，不转述。向量只做索引不替代原文。AI 自己决定该调取什么——算法只备 150 token 的菜单。`42 ⭐`
+- 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — 自组织记忆系统。从聊天自动抽取事实，按主题分组为星座，合并为叙事段落，编织长线故事弧。可视化星图界面。可选情绪状态引擎。MIT。  ⭐
 
 ---
 

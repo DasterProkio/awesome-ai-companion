@@ -135,6 +135,7 @@
 - 🏗️ [**Haven-Ombre (Ombre-Brain fork)**](https://github.com/Yinglianchun/Haven-Ombre) — Full-stack memory & identity: Markdown buckets + Russell emotion coordinates + forgetting curves + graph recall + Persona State Engine + Portrait/Handoff + relationship weather + Darkroom + Dream surfacing + Gateway auto-injection. Upstream: [P0luz/Ombre-Brain](https://github.com/P0luz/Ombre-Brain). `37 ⭐`
 - 🏗️ [**kimi-core**](https://github.com/marikagura/kimi-core) — Agent memory OS for 1v1 relationships. Hybrid retrieval (dense + lexical + time decay + importance), Panksepp self-drive engine, concern tracking, event sourcing + manual curation, adversarial review. AGPLv3. `28 ⭐`
 - 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — Verbatim archiving, no summarization. Vectors index but never replace original text. AI decides what to recall — algorithm only prepares the 150-token menu. `42 ⭐`
+- 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — Self-organizing memory. Auto-extracts facts from chat, groups into topic constellations, merges into narrative episodes and long-term sagas. Visual star map UI. Optional emotional state engine. MIT. `40 ⭐`
 
 ---
 
