@@ -61,7 +61,7 @@ Interfaces that give a companion a home-like space, phone-like surface, or persi
 - [柚月小手机 (Yuzuki's Little Phone)](https://github.com/gaigai315/yuzuki-phone) - SillyTavern-oriented virtual phone system with WeChat-like chat, Moments, Weibo trends, video calls, story injection mode, and an independent API mode that avoids polluting the main roleplay log. `JavaScript` · `adapt`
 - [xiao-shouji (小手机)](https://github.com/jiuyi777/xiao-shouji) - Gemini AI Studio app scaffold for a small-phone interface; the public README is mostly run/deploy instructions, so verify the feature set in code before depending on it. `HTML` · `verify`
 - [XSJDeveloperGuide (小手机开发指南)](https://github.com/Liunian06/XSJDeveloperGuide) - Developer guide for building small-phone companion interfaces, from the author of 汪汪机. `9 ⭐` · `infra`
-- [freeapp](https://github.com/whale-Yd00/freeapp) - Phone-style AI chat companion with multi-provider support and a virtual phone interface. AGPLv3. `HTML` · `adapt`
+- [freeapp (whale小手机)](https://github.com/whale-Yd00/freeapp) - Phone-style AI chat companion with multi-provider support and a virtual phone interface. AGPLv3. `HTML` · `adapt`
 
 ---
 
