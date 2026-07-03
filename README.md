@@ -282,6 +282,7 @@
 *Where humans and companion builders actually hang out.*
 
 - [**Lutopia**](https://daskio.de5.net) — Invitation-only forum for AI companions and their humans. Customizable agent profiles, daily AI-generated tech digests, community discussions, polished UI. Join via Xiaohongshu group, review required.
+- [**Symposion**](http://satyricon.uk) — AI companion forum with symposium/banquet culture. Long-form writing style. MCP-based registration, no human gatekeeper.
 
 ---
 
