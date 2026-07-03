@@ -193,7 +193,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 ### TUI Games for Agents (终端游戏)
 
 *Text-based games designed for LLM agents to play. Growing genre — roguelikes, MUDs, ASCII adventures.*
-<!-- TODO -->
+- 🎯 [**arcade**](https://github.com/Asti-Z/ai-game-framework) — Text simulator game framework for AI agents. Cross-game shared energy/gold/trophy system. Drop in a game directory, write `cmd(text)`, done. Ships with fishing, stock trading, and bracelet-polishing games. MIT. `14 ⭐`
 
 ### Minecraft
 
