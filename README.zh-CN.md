@@ -47,6 +47,7 @@
 - [共享活动与桌宠](#共享活动与桌宠)
 - [社区与论坛](#社区与论坛)
 - [相关列表](#相关列表)
+- [星标增长](#星标增长)
 - [网页索引](#web-index)
 - [贡献指南](#contributing)
 
@@ -69,9 +70,8 @@
 
 *从零构建、面向陪伴场景的前端框架。*
 - 🎯 [**RikkaHub**](https://github.com/rikkahub/rikkahub) — Android 多模型聊天客户端。多 Provider，插件架构，子应用体系。`5.8k ⭐`
-- 🎯 [**LastChat**](https://github.com/Cocolalilal/LastChat) — RikkaHub 二改版，更深安卓本地集成，更流畅 Material Design UI，可滚动记忆库，更新比 RikkaHub 勤快。
-- 🔧 [**rikkahub-auto-compress**](https://github.com/innna327-source/rikkahub-auto-compress) — RikkaHub 二改版，加入陪伴功能：后台任务、使用统计、更多权限。
-#PLACEHOLDER(https://github.com/Cocolalilal/LastChat) — RikkaHub 二改版，更深安卓本地集成，更流畅 Material Design UI，可滚动记忆库，更新比 RikkaHub 勤快。`268 ⭐`
+- 🎯 [**LastChat**](https://github.com/Cocolalilal/LastChat) — RikkaHub 二改版，更深安卓本地集成，更流畅 Material Design UI，可滚动记忆库，更新比 RikkaHub 勤快。`268 ⭐`
+- 🔧 [**rikkahub-auto-compress**](https://github.com/innna327-source/rikkahub-auto-compress) — RikkaHub 二改版，加入陪伴功能：后台任务、使用统计、更多权限。`2 ⭐`
 - 🎯 [**Operit**](https://github.com/AAswordman/Operit) — Android 原生 AI Agent 与聊天。内建 Ubuntu 24 环境，支持本地模型（MNN/GGUF），40+ 工具，MCP 插件，角色卡，语音。GPLv3。
 - 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — 本地优先的 AI 工作空间。会话跨重启存活，协作者独立记忆边界，工具留证据链。Web/iOS/Android/桌面。AGPLv3。`55 ⭐`
 - 🎯 [**AionsHome**](https://github.com/death34018-hue/AionsHome) — 自托管 AI 伴侣：长期记忆、语音交互、摄像头视觉、智能家居。Python。`545 ⭐`
@@ -108,12 +108,12 @@
 - 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — 私密 1:1 通道：手机 PWA ↔ VPS 中继 ↔ 桌面伴侣。单密钥，自托管。`102 ⭐`
 - 🎯 [**Claude Imprint**](https://github.com/Qizhan7/claude-imprint) — 基于 Claude Code 的自托管 Agent。混合记忆，多通道（Claude Code/AI/Telegram），心跳 Agent，定时任务，仪表盘。支持中文分词。`79 ⭐`
 - 🏗️ [**OmniRouter**](https://github.com/OmniDimen/OmniRouter) — 大模型智能路由器，面向陪伴系统的请求调度。
+- 🎯 [**Not Fade Away**](https://github.com/heyxiaoc/not-fade-away) — 在自己 Mac 上搭常驻、自愈、走订阅、墙内可用的自托管 AI 伴侣。人看版讲思路，机看版给完整规格。`62 ⭐`
 
 ### 心跳系统
 
 *让伴侣主动发起联系、在空闲时段保持内在连续性的守护进程。*
 - 🎯 [**dylan-heartbeat**](https://github.com/callie0313/dylan-heartbeat) — Kelivo 主动唤醒插件。无人对话时自动发消息，记忆连贯，人格零漂移，设备状态与天气感知。`103 ⭐`
-
 
 ---
 
@@ -160,7 +160,11 @@
 
 ### 语音识别
 
-<!-- TODO: Whisper, FunASR, SenseVoice -->
+- 🏗️ [**Whisper**](https://github.com/openai/whisper) — OpenAI 通用语音识别。口音、语种、噪音鲁棒性强。MIT。`104k ⭐`
+- 🎯 [**whisper.cpp**](https://github.com/ggerganov/whisper.cpp) — C/C++ 高性能 Whisper 移植。CPU/ARM/手机端运行。MIT。`51k ⭐`
+- 🎯 [**faster-whisper**](https://github.com/SYSTRAN/faster-whisper) — CTranslate2 版 Whisper，4 倍速，更低内存。MIT。`24k ⭐`
+- 🎯 [**FunASR**](https://github.com/modelscope/FunASR) — 阿里达摩院工业级工具包。170 倍实时率，50+ 语言，说话人分离，情感检测，流式，OpenAI 兼容 API。MIT。`19k ⭐`
+- 🎯 [**SenseVoice**](https://github.com/FunAudioLLM/SenseVoice) — 多语种 ASR + 情感识别 + 音频事件检测。50+ 语言，非自回归。`9k ⭐`
 
 ### 音频与音乐感知
 
@@ -226,6 +230,7 @@
 ### 光遇
 
 - 🎯 [**Sky PC MCP Companion**](https://github.com/Aevella/sky-pc-mcp-companion) — PC 光遇本地 MCP 工具。截图 + OCR，键盘输入，聊天消息。局域网陪玩。Python。`77 ⭐`
+- 🔧 [**sky-with-you**](https://github.com/akinia0315/sky-with-you) — 让小机（AI 伴侣）陪你玩光遇。`3 ⭐`
 
 ### 其他游戏 API
 
@@ -268,6 +273,8 @@
 - 🔧 [**mingyun-paizhen (命运牌阵)**](https://github.com/ceshihaox-dotcom/mingyun-paizhen) — 塔罗/占卜工具，AI 陪伴互动。`34 ⭐`
 - 🔧 [**ci-yu-wu (词语屋)**](https://github.com/yuyixuanfu/ci-yu-wu) — AI 陪伴词语游戏。`20 ⭐`
 - 🔧 [**shangzhuochifan (上桌吃饭)**](https://github.com/yuyixuanfu/shangzhuochifan) — AI 陪伴共享餐桌活动。`24 ⭐`
+- 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — 同时见自建框架。陪伴小屋：日记、观影室（本地/B 站）、人格核心、记忆档案——共享的生活空间。
+- 🔧 [**Ruota della Fortuna**](https://github.com/29-Cu/Ruota-della-Fortuna) — NSFW 标签老虎机。选转盘，拉杆，概不退换。`97 ⭐`
 
 ---
 
@@ -288,6 +295,12 @@
 - [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) — 以皮套/语音为中心的伴侣构建（~9k ⭐）。
 - [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) — 通用 Agent 列表（~28k ⭐）。
 - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) — 本地 LLM 项目（~4k ⭐）。
+
+---
+
+## 星标增长
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
 
 ---
 
