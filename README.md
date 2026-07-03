@@ -136,6 +136,7 @@
 - 🏗️ [**kimi-core**](https://github.com/marikagura/kimi-core) — Agent memory OS for 1v1 relationships. Hybrid retrieval (dense + lexical + time decay + importance), Panksepp self-drive engine, concern tracking, event sourcing + manual curation, adversarial review. AGPLv3. `28 ⭐`
 - 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — Verbatim archiving, no summarization. Vectors index but never replace original text. AI decides what to recall — algorithm only prepares the 150-token menu. `42 ⭐`
 - 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — Self-organizing memory. Auto-extracts facts from chat, groups into topic constellations, merges into narrative episodes and long-term sagas. Visual star map UI. Optional emotional state engine. MIT. `40 ⭐`
+- 🏗️ [**omemo**](https://github.com/OmniDimen/omemo) — LLM memory proxy service. Multi-mode memory (built-in tagging + external model summarization), full-context and RAG injection, CRUD operations, thinking-chain support. OpenAI API compatible. `80 ⭐`
 
 ---
 
@@ -156,11 +157,12 @@
 
 ### Voice &amp; TTS (语音)
 
-<!-- TODO: ChatTTS, XTTS, MeloTTS, Bark, Edge-TTS -->
+- 🎯 [**voice-mcp**](https://github.com/Yinglianchun/voice-mcp) — MCP server for AI voice synthesis with inline audio player. Custom cloned voices. MIT. `12 ⭐`
 
 ### Emotion Models (情感模型)
 
-<!-- TODO -->
+- 🏗️ [**chord-affect-anchors**](https://github.com/CyberSealNull/chord-affect-anchors) — Emotion mother-tongue for AI. Chord notation as cross-session, cross-base affect language. No third-party model required. MIT. `41 ⭐`
+- 🏗️ [**Drivesoid**](https://github.com/A1batr055/Drivesoid) — 15-dimension emotional drive sidecar for AI personas. Evolves in real-time based on conversations and sleep cycles. MIT. `25 ⭐`
 
 ---
 
