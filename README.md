@@ -131,6 +131,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [Neuro](https://github.com/kimjammer/Neuro) - Local Neuro-sama recreation with realtime STT/TTS, text-generation-webui or OpenAI-compatible LLM support, VTube Studio control, a moderation frontend, and long-term memory/RAG. `Python` · `adapt`
 - [Neuro-sama training framework](https://github.com/linnene/Neuro-sama) - Data collection and training pipeline for Neuro-sama-style VTuber models, including live-room recording, cleaning scripts, validation, and training automation. `Python` · `infra`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - Immersive AI-driven Galgame chat with emotional expressions, desktop pet, scheduling, and interactive story modules. `C#` · `ready`
+- [Shinsekai](https://github.com/RachelForster/Shinsekai) - AI RPG maker. `Python` · `ready`
 
 ### Physical Devices & Touch
 

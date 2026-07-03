@@ -129,6 +129,7 @@
 - [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻，含实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆/RAG。`Python` · `adapt`
 - [Neuro-sama training framework](https://github.com/linnene/Neuro-sama) - Neuro-sama 式 VTuber 模型的数据采集与训练流水线，含直播间记录、清洗脚本、验证和训练自动化。`Python` · `infra`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - 沉浸式 AI Galgame 聊天软件：情绪表情、桌宠、日程、交互式剧情模块。`C#` · `ready`
+- [Shinsekai](https://github.com/RachelForster/Shinsekai) - AI RPG maker。`Python` · `ready`
 
 ### 物理设备与触觉
 
