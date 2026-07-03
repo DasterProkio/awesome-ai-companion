@@ -96,6 +96,7 @@
 - [omemo](https://github.com/OmniDimen/omemo) - OpenAI 兼容记忆代理，夹在应用和上游 LLM API 之间，支持内置/外部总结模式存储记忆，并以全量或 RAG 方式注入。`Python` · `infra`
 - [Aelios](https://github.com/wusaki0723/Aelios) - 分层长期记忆内核，基于 Cloudflare Workers + D1 + Vectorize。三档写入（即时/4小时抽取/凌晨整理），六层记忆，可视化 curation 面板。MIT。`TypeScript` · `infra`
 - [kiwi-mem](https://github.com/LucieEveille/kiwi-mem) - AI 伴侣记忆系统：向量搜索、记忆热度排序、Dream 睡眠整合、日历层级摘要。为陪伴场景而生。`Python` · `infra`
+- [ai-memory-gateway](https://github.com/garan0613/ai-memory-gateway) - 给任意 LLM 加上长期记忆的轻量网关。MIT。`Python` · `infra`
 
 ### 情绪与驱动
 

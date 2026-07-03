@@ -98,6 +98,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [omemo](https://github.com/OmniDimen/omemo) - OpenAI-compatible memory proxy that sits between an app and upstream LLM APIs, stores memories through built-in or external summarization modes, and injects them by full prompt or RAG. `Python` · `infra`
 - [Aelios](https://github.com/wusaki0723/Aelios) - Layered long-term memory kernel on Cloudflare Workers + D1 + Vectorize. Three-tier write cycle (instant / 4h extraction / nightly consolidation), six memory layers, visual curation dashboard. MIT. `TypeScript` · `infra`
 - [kiwi-mem](https://github.com/LucieEveille/kiwi-mem) - AI companion memory system: vector search, memory heat ranking, dream/sleep consolidation, calendar hierarchical summaries. Built for companion scenarios. `Python` · `infra`
+- [ai-memory-gateway](https://github.com/garan0613/ai-memory-gateway) - Lightweight gateway that adds long-term memory to any LLM. MIT. `Python` · `infra`
 
 ### Affect & Drives
 
