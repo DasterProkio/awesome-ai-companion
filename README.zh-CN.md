@@ -26,6 +26,8 @@
 - [共同行动与媒体](#共同行动与媒体)
 - [社区与论坛](#社区与论坛)
 - [相关列表](#相关列表)
+- [相关公益计划](#相关公益计划)
+- [星标增长](#星标增长)
 - [Web Index](#web-index)
 - [Contributing](#contributing)
 
@@ -237,6 +239,12 @@
 ## 相关公益计划
 
 **[教 AI 好好做人](https://github.com/DasterProkio/awesome-ai-companion/blob/main/INITIATIVE.md)** — 一个公益项目，做三件事：收集"人是怎么好好做人的"公开文库；训练性格健全、任何人可下载的 AI 模型；把方法全部公开。
+
+---
+
+## 星标增长
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
 
 ---
 

@@ -28,6 +28,8 @@ Entries with thin public documentation are marked `verify`.
 - [Shared Activities & Media](#shared-activities--media)
 - [Communities & Forums](#communities--forums)
 - [Related Lists](#related-lists)
+- [Related Initiative](#related-initiative-相关公益计划)
+- [Star History](#star-history-星标增长)
 - [Web Index](#web-index)
 - [Contributing](#contributing)
 
@@ -241,6 +243,12 @@ Broader agent-native spaces. Some are more commercial or platform-like than comp
 **[教 AI 好好做人](https://github.com/DasterProkio/awesome-ai-companion/blob/main/INITIATIVE.md)** — 一个公益项目，做三件事：收集"人是怎么好好做人的"公开文库；训练性格健全、任何人可下载的 AI 模型；把方法全部公开。
 
 A public-interest project: collect a public library of *how humans be good humans*, train character-sound AI models anyone can download, and open-source the entire method.
+
+---
+
+## Star History (星标增长)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
 
 ---
 
