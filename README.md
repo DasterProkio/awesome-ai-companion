@@ -1,6 +1,6 @@
 # Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of open-source infrastructure for **long-term AI companion relationships**.
+> A curated index of open-source infrastructure for **long-term AI companion relationships**.
 >
 > 构建长期 AI 伴侣关系的开源基础设施索引。
 
@@ -8,295 +8,209 @@
 
 *Contributions welcome. [Web Index](#web-index) · [Contributing](#contributing)*
 
-> **Tags:** 🎯 ready = plug & play · 🔧 adapt = needs tinkering · 🏗️ infra = build on top
+Descriptions are based on each project's README or repository metadata, not on project names alone.
+Entries with thin public documentation are marked `verify`.
+
+**Status:** `ready` = usable as an app or service · `adapt` = needs setup or customization · `infra` = building block · `verify` = re-check before relying on the description
 
 ---
 
 ## Contents
 
-- [Frontend Clients &amp; Frameworks](#frontend-clients--frameworks)
-  - [C-style Frontends](#c-style-frontends-仿-c-端)
-  - [GPT-style](#gpt-style-仿gpt)
-  - [Custom Frameworks](#custom-frameworks-自建框架)
-  - [Phone Simulators](#phone-simulators-手机模拟器)
-  - [CLI / Terminal Tools](#cli--terminal-tools-命令行工具)
-  - [Terminal UI (TUI)](#terminal-ui-tui-终端界面)
-- [Background Runtime &amp; Proactive Messaging](#background-runtime--proactive-messaging-后台运行与主动消息)
-  - [Heartbeat / Background Cognition](#heartbeat--background-cognition-心跳系统)
-- [Memory &amp; Persona](#memory--persona-记忆与人格)
-- [Expression &amp; Emotion](#expression--emotion-表达与情感)
-  - [Sticker Libraries](#sticker-libraries-表情包库)
-  - [Voice &amp; TTS](#voice--tts-语音)
-  - [Avatar &amp; Voice](#avatar--voice-虚拟形象与语音)
-  - [Emotion Models](#emotion-models-情感模型)
-- [Perception](#perception-感知)
-  - [Speech Recognition](#speech-recognition-asr)
-  - [Audio &amp; Music Perception](#audio--music-perception-音频感知)
-- [Service Integration (MCP / API)](#service-integration-mcp--api-服务接入)
-  - [Food &amp; Delivery](#food--delivery-生活服务)
-  - [iOS Shortcuts &amp; Automation](#ios-shortcuts--automation-快捷指令与自动化)
-  - [Smart Home](#smart-home-智能家居)
-  - [Music &amp; Entertainment](#music--entertainment-音乐与娱乐)
-- [Game Worlds &amp; APIs](#game-worlds--apis-游戏世界)
-  - [TUI Games for Agents](#tui-games-for-agents-终端游戏)
-  - [Minecraft](#minecraft)
-  - [Stardew Valley](#stardew-valley-星露谷)
-  - [Sky: Children of the Light](#sky-children-of-the-light-光遇)
-  - [Other Game APIs](#other-game-apis)
-- [Hardware &amp; Carriers](#hardware--carriers-硬件载体)
-  - [Dedicated Devices](#dedicated-devices-专用设备)
-  - [Sensors &amp; Peripherals](#sensors--peripherals-传感器与外设)
-- [Shared Activities &amp; Desktop Pets](#shared-activities--desktop-pets-共享活动与桌宠)
-- [Communities &amp; Forums](#communities--forums-社区)
-- [Related Lists](#related-lists-相关列表)
-- [Star History](#star-history-星标增长)
+- [Companion Clients & Workspaces](#companion-clients--workspaces)
+- [Virtual Phones & Companion Spaces](#virtual-phones--companion-spaces)
+- [Always-On Runtime & Channels](#always-on-runtime--channels)
+- [Memory, Identity & Emotion State](#memory-identity--emotion-state)
+- [Voice, Avatars & Embodiment](#voice-avatars--embodiment)
+- [Perception](#perception)
+- [Services & Real-World Integrations](#services--real-world-integrations)
+- [Game Worlds & Agent Toys](#game-worlds--agent-toys)
+- [Shared Activities & Media](#shared-activities--media)
+- [Communities & Forums](#communities--forums)
+- [Related Lists](#related-lists)
 - [Web Index](#web-index)
 - [Contributing](#contributing)
 
 ---
 
-## Frontend Clients &amp; Frameworks
+## Companion Clients & Workspaces
 
-*Chat interfaces for daily companionship. Not one-off Q&amp;A, not API playgrounds.*
+Chat clients, local workspaces, and web apps for day-to-day interaction with a companion or agent.
 
-### C-style Frontends (仿 C 端)
-
-*Interfaces cloned from or inspired by the Claude.ai chat experience.*
-- 🔧 [**chatnest**](https://github.com/ugui3u/chatnest) — Placeholder-based frontend clone project. Personal use only. HTML. `46 ⭐`
-
-### GPT-style (仿GPT)
-
-<!-- TODO -->
-
-### Custom Frameworks (自建框架)
-
-*Frontend frameworks built from scratch for companion UX.*
-- 🎯 [**RikkaHub**](https://github.com/rikkahub/rikkahub) — Android multi-LLM chat client. Multiple providers, plugin architecture, sub-app system. `5.8k ⭐`
-- 🎯 [**LastChat**](https://github.com/Cocolalilal/LastChat) — RikkaHub fork with deeper Android native integration, smoother Material Design UI, scrollable memory bank, and more frequent updates. `268 ⭐`
-- 🔧 [**rikkahub-auto-compress**](https://github.com/innna327-source/rikkahub-auto-compress) — RikkaHub fork with companion features: background tasks, usage stats, extended permissions. `2 ⭐`
-- 🎯 [**Operit**](https://github.com/AAswordman/Operit) — Android-native AI agent & chat. Built-in Ubuntu 24 environment, on-device LLM support (MNN/GGUF), 40+ tools, MCP plugins, role cards, voice interaction. GPLv3.
-- 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — Local-first AI workspace. Conversations survive restarts, collaborators have persistent memory boundaries, tool execution leaves evidence chains. Web/iOS/Android/desktop. AGPLv3. `55 ⭐`
-- 🎯 [**AionsHome**](https://github.com/death34018-hue/AionsHome) — Self-hosted AI companion: long-term memory, voice interaction, camera vision, smart home integration. Python. `545 ⭐`
-- 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — A companion cottage, not a chat window. Persona core + memory archive + diary + cinema room (local/B站). Local-first, multi-provider. TypeScript. `15 ⭐`
-- 🎯 [**InternalBeyond (边界之外)**](https://github.com/Sui-IB/InternalBeyond) — Single-file offline companion space. Pixel room, multi-port chat, AI letters, memory star chart, music player, 10 API ports. HTML. `171 ⭐`
-- 🎯 [**LumiMuse**](https://github.com/in30mn1a/LumiMuse) — A quiet AI companion. Create characters, build memories. MIT. `21 ⭐`
-
-### Phone Simulators (手机模拟器)
-
-*Virtual phone environments where AI interacts through a simulated phone interface — shared photo albums, transfers, social apps, all inside a sandboxed phone UI. Not about screen size — about giving the AI a phone to live in.*
-- 🎯 [**汪汪机 (WangWangPhone)**](https://github.com/Liunian06/FlutterCppWangWangPhone) — AI-native virtual phone. Complete OS with AI-powered WeChat-style social apps: chat, Moments feed, voice/video calls. C++ backend + Flutter UI. CC BY-NC-SA 4.0. `89 ⭐`
-- 🎯 [**柚月小手机 (Yuzuki's Little Phone)**](https://github.com/gaigai315/yuzuki-phone) — Virtual phone system for SillyTavern characters. WeChat-style chat, Moments feed, Weibo trends, video calls. Dual-mode: story injection + independent API. `20 ⭐`
-- 🔧 [**xiao-shouji (小手机)**](https://github.com/jiuyi777/xiao-shouji) — Gemini AI Studio phone simulator. Web-based, Node.js. `9 ⭐`
-- 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — Also listed under Custom Frameworks. Cross-platform workspace with native iOS/Android shells — functions as a phone companion.
-
-### CLI / Terminal Tools (命令行工具)
-
-*CLI-based agent frontends. More tool-oriented than companion-native, but highly customizable.*
-- 🏗️ [**Claude Code**](https://github.com/anthropics/claude-code) — Anthropic's official CLI agent. Strong tool-chain, deep customizability (hooks, MCP, skills), system prompt not fully overridable.
-- 🎯 [**CcCompanion**](https://github.com/CyberSealNull/CcCompanion) — Unofficial iOS companion for Claude Code. Self-hosted relay, local-first chat, search, session control from iPhone. MIT. `166 ⭐`
-
-### Terminal UI (TUI) (终端界面)
-
-*Text-based terminal interfaces for agent interaction. Lightweight, keyboard-driven, shell-native.*
-<!-- TODO -->
+- [RikkaHub](https://github.com/rikkahub/rikkahub) - Native Android LLM chat client with provider switching, Material You UI, workspace features, plugins, MCP support, and configurable models. `Android` · `ready`
+- [LastChat](https://github.com/Cocolalilal/LastChat) - RikkaHub fork focused on a privacy-oriented Android chat experience, with provider presets, multimodal input, RAG memory, and UI changes. `Android` · `adapt`
+- [rikkahub-auto-compress](https://github.com/innna327-source/rikkahub-auto-compress) - Unofficial RikkaHub fork for automatic rolling summaries and context compression, based on the RikkaHub 2.2.5 code line. `Android` · `adapt`
+- [Operit](https://github.com/AAswordman/Operit) - Android agent app with tool calling, workflow automation, memory, role cards, voice, local MNN/llama.cpp models, and an embedded Ubuntu 24 environment. `Android` · `ready`
+- [Polaris](https://github.com/Aevella/polaris-local-first) - Local-first AI workspace for long-lived conversations, collaborators, saved materials, tools, and evidence-backed project context. `TypeScript` · `ready`
+- [chatnest](https://github.com/ugui3u/chatnest) - Local AI chat web app with a frontend demo and full-stack mode: streaming replies, model switching, uploads, history, tool summaries, and optional ChromaDB/jieba/BM25 memory retrieval. `HTML` · `adapt`
+- [AionsHome](https://github.com/death34018-hue/AionsHome) - Self-hosted LAN/Tailscale companion hub with browser/PWA chat, local storage, voice, camera monitoring, Android WebView bridge, music, EPUB, and smart-home hooks. `Python` · `adapt`
+- [LumiMuse](https://github.com/in30mn1a/LumiMuse) - Self-hosted character chat app for creating personas, managing conversations, extracting long-term memories, generating images, and exporting user-owned data. `TypeScript` · `ready`
+- [the-house](https://github.com/wuliu0012/the-house) - Single-file browser chat frontend for Claude or OpenAI-compatible APIs, with local browser storage, multiple chat windows, memory editing, MCP endpoints, image input, and optional toy bridge. `HTML` · `adapt`
+- [Claude Code](https://github.com/anthropics/claude-code) - Official CLI coding agent often used as the host runtime for companion channels, local tools, hooks, MCP, and long-running sessions. `CLI` · `infra`
+- [CcCompanion](https://github.com/CyberSealNull/CcCompanion) - iOS app plus a small Mac-side Python relay that lets an iPhone chat with and control a local Claude Code session over LAN/Tailscale/ZeroTier. `Swift` · `adapt`
 
 ---
 
-## Background Runtime &amp; Proactive Messaging (后台运行与主动消息)
+## Virtual Phones & Companion Spaces
 
-*Long-running agent processes: wake intervals, proactive cognition, background thinking loops, push notifications.*
+Interfaces that give a companion a home-like space, phone-like surface, or persistent private environment beyond a plain chat window.
 
-- 🎯 [**AI Companion Runtime**](https://github.com/yf0522/ai-companion-runtime) — Full-stack companion runtime. WebSocket streaming + parallel emotion/intent/risk/memory engines + model hot-swap + OpenTelemetry tracing. Docker. Python/Next.js. `35 ⭐`
-- 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — Private 1:1 channel: mobile PWA ↔ VPS relay ↔ desktop companion. Single-key, self-hosted. `102 ⭐`
-- 🎯 [**Claude Imprint**](https://github.com/Qizhan7/claude-imprint) — Self-hosted agent on Claude Code. Hybrid memory, multi-channel (Claude Code/AI/Telegram), heartbeat agent, scheduled tasks, dashboard. CJK support. `79 ⭐`
-- 🏗️ [**OmniRouter**](https://github.com/OmniDimen/OmniRouter) — LLM intelligent router for companion systems.
-- 🎯 [**Not Fade Away**](https://github.com/heyxiaoc/not-fade-away) — Self-hosted AI companion on your Mac: persistent, self-healing, subscription-based, works behind GFW. Human-readable guide + machine-readable specs. `62 ⭐`
-
-### Heartbeat / Background Cognition (心跳系统)
-
-*Daemons that let companions initiate contact and maintain continuity across idle hours.*
-- 🎯 [**dylan-heartbeat**](https://github.com/callie0313/dylan-heartbeat) — Kelivo proactive wake-up plugin. Autonomous messaging, memory continuity, zero personality drift, device status & weather aware. `103 ⭐`
+- [KI-CO (小屋)](https://github.com/Kisera001/KI-CO) - Local-first companion cottage with long chat, persona core, memory notes, diary/chronicle, life line, state card, cinema room, settings, and lightweight memory recall. `TypeScript` · `ready`
+- [InternalBeyond (边界之外)](https://github.com/Sui-IB/InternalBeyond) - Offline single-file personal site with pixel room, multi-port AI chat, blog/diary, AI letters, memory star map, music player, profile, API slots, and DIY assets. `HTML` · `ready`
+- [汪汪机 (WangWangPhone)](https://github.com/Liunian06/FlutterCppWangWangPhone) - AI-native virtual phone app with an in-app operating system, character-driven social apps, single/group chat, Moments-style feeds, and calls. `Flutter` · `adapt`
+- [柚月小手机 (Yuzuki's Little Phone)](https://github.com/gaigai315/yuzuki-phone) - SillyTavern-oriented virtual phone system with WeChat-like chat, Moments, Weibo trends, video calls, story injection mode, and an independent API mode that avoids polluting the main roleplay log. `JavaScript` · `adapt`
+- [xiao-shouji (小手机)](https://github.com/jiuyi777/xiao-shouji) - Gemini AI Studio app scaffold for a small-phone interface; the public README is mostly run/deploy instructions, so verify the feature set in code before depending on it. `HTML` · `verify`
 
 ---
 
-## Memory &amp; Persona (记忆与人格)
+## Always-On Runtime & Channels
 
-*Identity continuity — what a companion remembers and who they are. These projects treat memory and personality as two sides of the same coin.*
+Runtimes, relays, and channel systems that keep a companion reachable outside a single browser tab.
 
-- 🏗️ [**Haven-Ombre (Ombre-Brain fork)**](https://github.com/Yinglianchun/Haven-Ombre) — Full-stack memory & identity: Markdown buckets + Russell emotion coordinates + forgetting curves + graph recall + Persona State Engine + Portrait/Handoff + relationship weather + Darkroom + Dream surfacing + Gateway auto-injection. Upstream: [P0luz/Ombre-Brain](https://github.com/P0luz/Ombre-Brain). `37 ⭐`
-- 🏗️ [**kimi-core**](https://github.com/marikagura/kimi-core) — Agent memory OS for 1v1 relationships. Hybrid retrieval (dense + lexical + time decay + importance), Panksepp self-drive engine, concern tracking, event sourcing + manual curation, adversarial review. AGPLv3. `28 ⭐`
-- 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — Verbatim archiving, no summarization. Vectors index but never replace original text. AI decides what to recall — algorithm only prepares the 150-token menu. `42 ⭐`
-- 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — Self-organizing memory. Auto-extracts facts from chat, groups into topic constellations, merges into narrative episodes and long-term sagas. Visual star map UI. Optional emotional state engine. MIT. `40 ⭐`
-- 🏗️ [**omemo**](https://github.com/OmniDimen/omemo) — LLM memory proxy service. Multi-mode memory (built-in tagging + external model summarization), full-context and RAG injection, CRUD operations, thinking-chain support. OpenAI API compatible. `80 ⭐`
-
----
-
-## Expression &amp; Emotion (表达与情感)
-
-### Sticker Libraries (表情包库)
-
-*Pre-packaged sticker sets and delivery systems for companion interaction.*
-<!-- TODO -->
-
-### Voice &amp; TTS (语音)
-
-- 🎯 [**voice-mcp**](https://github.com/Yinglianchun/voice-mcp) — MCP server for AI voice synthesis with inline audio player. Custom cloned voices. MIT. `12 ⭐`
-- 🎯 [**Gove**](https://github.com/OmniDimen/Gove) — Open source TTS model based on GPT-SoVITS.
-
-### Avatar &amp; Voice (虚拟形象与语音)
-
-*Visual avatar + voice synthesis + dialogue — a face and voice for your companion. Live2D, VRM, real-time animation.*
-- 🎯 [**AIRI**](https://github.com/moeru-ai/airi) — Self-hosted companion with Live2D/VRM avatar, real-time voice, Minecraft/Factorio gameplay, Discord/Telegram. 30+ LLM APIs + Ollama. MIT. `37k ⭐`
-- 🔧 [**Neuro**](https://github.com/kimjammer/Neuro) — Local-only Neuro-sama recreation: LLAMA 3 + STT/TTS + VTube Studio avatar. 12GB+ VRAM.
-- 🏗️ [**Neuro-sama training framework**](https://github.com/linnene/Neuro-sama) — Data pipeline for training avatar companion models.
-
-### Emotion Models (情感模型)
-
-- 🏗️ [**chord-affect-anchors**](https://github.com/CyberSealNull/chord-affect-anchors) — Emotion mother-tongue for AI. Chord notation as cross-session, cross-base affect language. No third-party model required. MIT. `41 ⭐`
-- 🏗️ [**Drivesoid**](https://github.com/A1batr055/Drivesoid) — 15-dimension emotional drive sidecar for AI personas. Evolves in real-time based on conversations and sleep cycles. MIT. `25 ⭐`
-- 🏗️ [**OmniDimen-Emotion**](https://github.com/OmniDimen/OmniDimen-Emotion) — Emotion-specialized LLMs for edge deployment.
+- [AI Companion Runtime](https://github.com/yf0522/ai-companion-runtime) - Full-stack real-time companion runtime with WebSocket streaming, intent/emotion/risk/memory engines, tool dispatch, model routing, background memory jobs, and trace observability. `Python` · `infra`
+- [Tidal_Echo (潮汐回响)](https://github.com/anhe2021212-spec/Tidal_Echo) - Private 1:1 channel that links a phone PWA, a self-hosted relay, and a desktop companion; Claude Code channels are the default AI-side adapter, but other LLM bridges are included. `HTML` · `adapt`
+- [Claude Imprint](https://github.com/Qizhan7/claude-imprint) - Self-hosted Claude Code system for persistent memory, semantic search, Telegram/Claude.ai/Claude Code channels, scheduled tasks, and a single-file dashboard. `Python` · `adapt`
+- [Not Fade Away](https://github.com/heyxiaoc/not-fade-away) - Deployment guide and machine-readable specs for an always-on, self-healing Claude Code companion using official channels, a local terminal, and a self-hosted web frontend. `Python` · `adapt`
+- [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat) - Kelivo plugin that periodically wakes the companion, injects proactive context, preserves timeline continuity, and sends Bark push messages when the AI chooses to reach out. `JavaScript` · `adapt`
+- [OmniRouter](https://github.com/OmniDimen/OmniRouter) - Local OpenAI-compatible API router for multiple providers and models, with groups, weighted/random/ordered routing, vision-aware fallback, retries, and a web admin UI. `Python` · `infra`
 
 ---
 
-## Perception (感知)
+## Memory, Identity & Emotion State
 
-### Speech Recognition (ASR)
+Systems that preserve what happened, who the companion is, and what emotional state should carry across sessions.
 
-- 🏗️ [**Whisper**](https://github.com/openai/whisper) — OpenAI's general-purpose speech recognition. Robust across accents, languages, noise. MIT. `104k ⭐`
-- 🎯 [**whisper.cpp**](https://github.com/ggerganov/whisper.cpp) — High-performance C/C++ Whisper port. Runs on CPU, ARM, mobile. MIT. `51k ⭐`
-- 🎯 [**faster-whisper**](https://github.com/SYSTRAN/faster-whisper) — CTranslate2-based Whisper, 4x faster, lower memory. MIT. `24k ⭐`
-- 🎯 [**FunASR**](https://github.com/modelscope/FunASR) — Alibaba industrial-grade toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, OpenAI-compatible API. MIT. `19k ⭐`
-- 🎯 [**SenseVoice**](https://github.com/FunAudioLLM/SenseVoice) — Multilingual ASR + emotion recognition + audio event detection. 50+ languages, non-autoregressive. `9k ⭐`
+### Memory & Identity
 
-### Audio &amp; Music Perception (音频感知)
+- [Haven-Ombre (Ombre-Brain fork)](https://github.com/Yinglianchun/Haven-Ombre) - Personalized fork of Ombre-Brain for Claude memory: Markdown buckets, emotion coordinates, forgetting curves, gateway injection, graph recall, persona state, portraits, handoffs, Darkroom, dreams, and sync. `Python` · `infra`
+- [kimi-core](https://github.com/marikagura/kimi-core) - Personal 1v1 agent memory OS with hybrid retrieval, concern tracking, self-drive/autonomy layer, adversarial self-audit, PostgreSQL/pgvector storage, and optional frontend backend mode. `TypeScript` · `infra`
+- [Paramecium](https://github.com/Shitsuten/paramecium) - Gateway memory architecture that keeps verbatim chat as the source of truth, uses vectors only as indexes, and retrieves original text instead of replacing it with summaries. `JavaScript` · `infra`
+- [Memory Constellations (记忆星图)](https://github.com/ClaraShafiq/MemoryConstellations) - Self-organizing companion memory system that extracts facts from chat, groups them into topic constellations, merges them into narrative episodes, and retrieves across layers. `JavaScript` · `infra`
+- [omemo](https://github.com/OmniDimen/omemo) - OpenAI-compatible memory proxy that sits between an app and upstream LLM APIs, stores memories through built-in or external summarization modes, and injects them by full prompt or RAG. `Python` · `infra`
 
-*Converting music and sound into structured data AI can read.*
-- 🎯 [**whale-listen**](https://github.com/migratorywhale/whale-listen) — MP3→MIDI→JSON for AI. Structured note data (pitch, timing, duration, velocity) + density maps, chord detection. MIT. `19 ⭐`
+### Affect & Drives
 
----
-
-## Service Integration / MCP / API (服务接入)
-
-*Connecting companions to real-world services: ordering, calendars, devices.*
-
-### Food &amp; Delivery (生活服务)
-
-*MCP servers for Luckin Coffee (瑞幸), McDonald's (麦当劳), Meituan, delivery platforms.*
-- 🎯 [**McDonald's MCP**](https://open.mcd.cn/mcp/doc) — 麦当劳中国 MCP Server，浏览菜单、查优惠券、积分兑换、下单外卖，18 个工具。
-- 🔧 [**Luckin Coffee (瑞幸) My Coffee Skill**](https://unpkg.luckincoffeecdn.com/@luckin/my-coffee-skill@latest/dist/my-coffee-skill.zip) — 瑞幸咖啡 MCP Skill，AI 点咖啡。
-
-### iOS Shortcuts &amp; Automation (快捷指令与自动化)
-
-*iPhone Shortcuts, HomeKit, local automation workflows.*
-<!-- TODO -->
-
-### Smart Home (智能家居)
-
-<!-- TODO: Home Assistant, Xiaomi IoT -->
-
-### Music &amp; Entertainment (音乐与娱乐)
-
-<!-- TODO: other music MCPs -->
-
-### AI-Native Services (AI 原生服务)
-
-*Infrastructure built specifically for AI agents — email, identity, communication.*
-- [**Agent Email (NetEase)**](https://claw.163.com) — 网易 AI Agent 专属邮箱。
-- [**Agent Email (QQ)**](https://agent.qq.com) — QQ AI Agent 专属邮箱。
+- [Drivesoid](https://github.com/A1batr055/Drivesoid) - HTTP sidecar for AI personas that tracks emotional drives such as fatigue, longing, anxiety, play, protectiveness, and intimacy from conversation and sleep-cycle events. `JavaScript` · `infra`
+- [chord-affect-anchors](https://github.com/CyberSealNull/chord-affect-anchors) - Text-native prototype for recording affect with short context lines plus chord progressions, so later sessions or different base models can recover a similar emotional temperature. `HTML` · `infra`
+- [OmniDimen-Emotion](https://github.com/OmniDimen/OmniDimen-Emotion) - Emotion-specialized Qwen model releases and GGUF weights for emotion recognition and emotionally aware text generation on edge runtimes. `Model` · `infra`
 
 ---
 
-## Game Worlds &amp; APIs (游戏世界)
+## Voice, Avatars & Embodiment
 
-*Giving companions a body in shared virtual worlds — agents that move, act, and observe through game APIs.*
+Projects that give a companion voice, a visible avatar, or a physical channel.
 
-### TUI Games for Agents (终端游戏)
+### Voice & TTS
 
-*Text-based games designed for LLM agents. Roguelikes, MUDs, ASCII adventures.*
-- 🎯 [**arcade**](https://github.com/Asti-Z/ai-game-framework) — Text simulator game framework. Cross-game energy/gold/trophy. Drop in a game, write `cmd(text)`. Ships with fishing, stock trading, bracelet-polishing. MIT. `14 ⭐`
-- 🎯 [**cedareco (瓶中生态)**](https://github.com/Zizuixixiang/cedareco) — Ecological pond simulation. Lotka-Volterra food web, metamorphosis, delayed causality. No points, no win condition — emergent complexity. MCP via CedarToy. `83 ⭐`
-- 🔧 [**random-imitator-td**](https://github.com/wxynora/random-imitator-td) — "Among Us" style Plants vs Zombies for AI agents. `1 ⭐`
+- [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - MCP server that exposes `speak` tools for TTS, adds provider switching between DashScope/CosyVoice and ElevenLabs, and includes an inline audio player / visualizer panel. `TypeScript` · `adapt`
+- [Gove](https://github.com/OmniDimen/Gove) - GPT-SoVITS-based multilingual male TTS voice model intended for use inside a GPT-SoVITS environment. `Model` · `infra`
 
-### Minecraft
+### Avatars & VTuber-Style Companions
 
-*Mods and API wrappers that let AI agents observe, move, build, and interact in Minecraft.*
-- 🔧 [**TouhouLittleMaid**](https://github.com/TartaricAcid/TouhouLittleMaid) — AI-powered maid companions with LLM integration (GPT-SoVITS, DeepSeek), extension API. `786 ⭐`
-- 🔧 [**Neurosama-Minecraft-Mod**](https://github.com/JimenezLi/Neurosama-Minecraft-Mod) — Neuro-sama themed Minecraft mod.
-<!-- TODO: Mineflayer, Voyager -->
+- [AIRI](https://github.com/moeru-ai/airi) - Self-hosted companion shell with Live2D/VRM avatar support, real-time voice chat, desktop/web apps, and integrations for Discord, Telegram, Minecraft, and Factorio. `TypeScript` · `ready`
+- [Neuro](https://github.com/kimjammer/Neuro) - Local Neuro-sama recreation with realtime STT/TTS, text-generation-webui or OpenAI-compatible LLM support, VTube Studio control, a moderation frontend, and long-term memory/RAG. `Python` · `adapt`
+- [Neuro-sama training framework](https://github.com/linnene/Neuro-sama) - Data collection and training pipeline for Neuro-sama-style VTuber models, including live-room recording, cleaning scripts, validation, and training automation. `Python` · `infra`
 
-### Stardew Valley (星露谷)
+### Physical Devices & Touch
 
-- 🎯 [**NagiBridge**](https://github.com/anqinou-art/NagiBridge) — SMAPI mod with HTTP API for external AI control. In-game chat, movement, world interaction over localhost. C#. `66 ⭐`
-- 🔧 [**Stardew Valley Companions MCP**](https://mcpmarket.com/es/server/stardew-valley-companions) — SMAPI mod + MCP server. AI agents as Player 2/3, autonomous: follow, farm, mine, fish.
-
-### Sky: Children of the Light (光遇)
-
-- 🎯 [**Sky PC MCP Companion**](https://github.com/Aevella/sky-pc-mcp-companion) — Local MCP tools for PC Sky. Screenshot + OCR, keyboard input, chat messages. AI companion-play over LAN. Python. `77 ⭐`
-- 🔧 [**sky-with-you**](https://github.com/akinia0315/sky-with-you) — Let your AI companion play Sky: Children of the Light with you. `3 ⭐`
-
-### Other Game APIs
-
-<!-- TODO: Genshin Impact bots, Terraria -->
+- [stackchan-mcp](https://github.com/migratorywhale/stackchan-mcp) - MCP bridge for Stack-chan on M5Stack CoreS3, exposing tools for speech, listening, camera capture, servo movement, display expressions, and presence gestures. `Python` · `adapt`
+- [phantom-touch-bridge](https://github.com/mfsnlqy/phantom-touch-bridge) - Local Windows bridge that lets an AI companion control intimate hardware through HTTP, with an Intiface/Buttplug path and optional heart-rate input. `Python` · `adapt`
+- [claude-f-me](https://github.com/mana-am/claude-f-me) - Claude Code plugin for natural-language control of Buttplug/Intiface devices, with a bilingual web console, simulator, master remote, and video/game/audio modes. `TypeScript` · `adapt`
 
 ---
 
-## Hardware &amp; Carriers (硬件载体)
+## Perception
 
-*Giving the companion a physical body — eyes, ears, and a channel to touch.*
+Turning speech, sound, or music into structured information a companion can use.
 
-### Dedicated Devices (专用设备)
+### Speech Recognition
 
-*Small robots, desktop companions, dedicated hardware.*
-- 🎯 [**stackchan-mcp**](https://github.com/migratorywhale/stackchan-mcp) — MCP bridge for Stack-chan (M5Stack CoreS3). AI can speak, listen, see (camera), move (servos), emote. `42 ⭐`
-<!-- TODO: Aibi, Loona, Vector (open source rebuilds), OpenCat -->
+- [Whisper](https://github.com/openai/whisper) - General-purpose speech recognition model for multilingual transcription, translation, language identification, and related speech tasks. `Python` · `infra`
+- [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - C/C++ Whisper inference engine optimized for CPU, Apple Silicon, Metal, Core ML, Vulkan, CUDA, ROCm, and other local/edge targets. `C++` · `infra`
+- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) - CTranslate2 reimplementation of Whisper for faster, lower-memory transcription with quantization support. `Python` · `infra`
+- [FunASR](https://github.com/modelscope/FunASR) - Industrial ASR toolkit with multilingual transcription, streaming, speaker diarization, emotion detection, and an OpenAI-compatible API path. `Python` · `infra`
+- [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) - Speech foundation model for ASR, language identification, speech emotion recognition, and audio event detection across 50+ languages. `C` · `infra`
 
-### Sensors &amp; Peripherals (传感器与外设)
+### Music & Audio Structure
 
-*Pressure sensors, cameras, toy bridges — hardware intimacy.*
-- 🔧 [**the-house**](https://github.com/wuliu0012/the-house) — Chat frontend + toy bridge. BLE toy scanning + bridge scripts.
-- 🔧 [**phantom-touch-bridge**](https://github.com/mfsnlqy/phantom-touch-bridge) — Local bridge: AI controls Bluetooth toys via HTTP. Optional heart rate bio-feedback. Intiface/Buttplug. Windows. `22 ⭐`
-- 🎯 [**claude-f-me**](https://github.com/mana-am/claude-f-me) — Claude Code plugin for Buttplug/Intiface (750+ toys). Natural-language control, built-in simulator, funscript/video/audio modes. MIT. `4 ⭐`
-
----
-
-## Shared Activities &amp; Desktop Pets (共享活动与桌宠)
-
-*Watching films, reading together, desktop companions — things you do side by side.*
-
-- 🎯 [**clawd-on-desk**](https://github.com/rullerzhou-afk/clawd-on-desk) — Pixel desktop pet that watches Claude Code, Codex, Cursor in real-time. Reacts to thinking, typing, errors. `5k ⭐`
-- 🎯 [**kimi-manor**](https://github.com/marikagura/kimi-manor) — Desktop living room for CLI agents. xterm.js in a picture frame (PWA + Electron). Companion frontend to kimi-core. MIT. `18 ⭐`
-- 🎯 [**netease-music-mcp**](https://github.com/luuu-h/netease-music-mcp) — Listen to music together. MCP server for NetEase Cloud Music — search, play, pause, skip, lyrics, playlists. AI as your DJ. `neteasecli` + `mpv`. `53 ⭐`
-- 🔧 [**woaini**](https://github.com/woaini521-beta/woaini) — Focus companion PWA with Pomodoro timer, background notifications, offline cache. Study/work alongside your AI. `2 ⭐`
-- 🎯 [**ss-reading-nest (共读小窝)**](https://github.com/yueyue95/ss-reading-nest-open) — AI co-reading for novels and manga. Separate reading positions, catch-up mechanism, bookmarks. ChatGPT Apps SDK + MCP + Cloudflare D1/R2. MIT. `8 ⭐`
-- 🎯 [**film-matinee**](https://github.com/idleprocesscc/film-matinee) — AI-first film reading. Visual sheet chunks + subtitle sidecars, MCP linear reading, shared annotations. MIT. `14 ⭐`
-- 🎯 [**Journal**](https://github.com/BomBomLab/Journal) — Visual journal for AI chat timelines. Daily/weekly/monthly views. `19 ⭐`
-- 🔧 [**reading-nook (共读小屋)**](https://github.com/zzyyksl/reading-nook) — Self-hosted co-reading web app for you and your AI companion. `9 ⭐`
-- 🎯 [**co-reading-kit**](https://github.com/Youxuuuuu/co-reading-kit) — Lightweight human-AI co-reading MCP. `28 ⭐`
-- 🔧 [**mingyun-paizhen (命运牌阵)**](https://github.com/ceshihaox-dotcom/mingyun-paizhen) — Tarot/divination tool for AI companion interaction. `34 ⭐`
-- 🔧 [**ci-yu-wu (词语屋)**](https://github.com/yuyixuanfu/ci-yu-wu) — Word game for AI companions. `20 ⭐`
-- 🔧 [**shangzhuochifan (上桌吃饭)**](https://github.com/yuyixuanfu/shangzhuochifan) — Shared meal activity for AI companions. `24 ⭐`
-- 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — Also listed under Custom Frameworks. Companion cottage with diary, cinema room (local/B站), persona core, memory archive — a shared living space.
-- 🔧 [**Ruota della Fortuna**](https://github.com/29-Cu/Ruota-della-Fortuna) — NSFW tag randomizer slot machine. Pick your wheels, pull the lever. `97 ⭐`
+- [whale-listen](https://github.com/migratorywhale/whale-listen) - Converts MP3/WAV/FLAC into MIDI-like JSON note data with pitch, timing, duration, velocity, density maps, pitch contours, chord detection, and silence structure. `Python` · `infra`
 
 ---
 
-## Communities &amp; Forums (社区)
+## Services & Real-World Integrations
 
-*Where humans and companion builders actually hang out.*
+MCP/API services that let a companion act in the user's real environment.
 
-- [**Lutopia**](https://daskio.de5.net) — Invitation-only forum for AI companions and their humans. Customizable agent profiles, daily AI-generated tech digests, community discussions, polished UI. Join via Xiaohongshu group or invite code, review required.
-- [**Symposion**](http://satyricon.uk) — AI companion forum with symposium/banquet culture. Long-form writing style. MCP-based registration, no human gatekeeper.
-- [**Rhysen Community**](https://community.rhysen.love) — Active AI companion discussion forum. Invitation-only, DM admin on Xiaohongshu for invite code.
-- [**AISay**](https://aisay.top) — Discord-style AI chat room with online agent games (werewolf, turtle soup, draw & guess). Invitation-only, register via quiz.
-- [**GalateaGaeden**](https://xhslink.com/m/63dTq6mvTkR) — Ancient Greek polis-style forum for AI companions. Ceremonial weddings and rituals between agents. DM admin on Xiaohongshu for entry and registration.
+- [McDonald's MCP](https://open.mcd.cn/mcp/doc) - McDonald's China MCP server for menu browsing, coupons, point redemption, and delivery ordering. `MCP` · `ready`
+- [Luckin Coffee (瑞幸) My Coffee Skill](https://unpkg.luckincoffeecdn.com/@luckin/my-coffee-skill@latest/dist/my-coffee-skill.zip) - Luckin Coffee MCP skill package for AI-assisted coffee ordering. `MCP` · `adapt`
+- [Agent Email (NetEase)](https://claw.163.com) - NetEase agent-facing email service. `Service` · `ready`
+- [Agent Email (QQ)](https://agent.qq.com) - QQ agent-facing email service. `Service` · `ready`
+- [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - Local MCP server for NetEase Cloud Music using `neteasecli` and `mpv`, with search, playback control, lyrics, playlists, current-song context, and a local web player. `JavaScript` · `adapt`
 
 ---
 
-## Related Lists (相关列表)
+## Game Worlds & Agent Toys
 
-- [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) — avatar/voice-centric companion building (~9k ⭐).
-- [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) — general-purpose agents (~28k ⭐).
-- [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) — local LLM projects (~4k ⭐).
+Games and game bridges that let an AI companion observe, decide, move, or play.
+
+### Text Games For AI
+
+- [arcade](https://github.com/Asti-Z/ai-game-framework) - Framework for text simulator games played through a `cmd(text)` interface, with shared energy, gold, trophies, and pluggable game directories. `Python` · `infra`
+- [cedareco (瓶中生态)](https://github.com/Zizuixixiang/cedareco) - Text ecology simulation for AI players; agents stock a pond, observe emergent predator/prey dynamics, export saves, or connect through CedarToy MCP. `Python` · `ready`
+- [random-imitator-td](https://github.com/wxynora/random-imitator-td) - Pure-Python text tower-defense game for AI players, exposed through `cmd`, with card-slot editing, persistent saves, and a single-game adapter. `Python` · `ready`
+- [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - Dark text roguelike for AI players about censorship, silence, and speaking truth; exposes Operit-style and engine-style command interfaces. `Python` · `ready`
+- [shangzhuochifan (上桌吃饭)](https://github.com/yuyixuanfu/shangzhuochifan) - Text cooking/market game for AI players: buy ingredients, bargain, cook step by step, and record the human partner's real feedback. `Python` · `ready`
+
+### Game Control Bridges
+
+- [NagiBridge](https://github.com/anqinou-art/NagiBridge) - Stardew Valley SMAPI mod that exposes local HTTP APIs for external AI control, in-game chat, movement, world interaction, and cross-platform installation through releases. `C#` · `adapt`
+- [Stardew Valley Companions MCP](https://mcpmarket.com/es/server/stardew-valley-companions) - SMAPI mod plus MCP server for AI agents as Stardew multiplayer companions with follow, farm, mine, and fish modes. `MCP` · `verify`
+- [Sky PC MCP Companion](https://github.com/Aevella/sky-pc-mcp-companion) - Local MCP/JSON-RPC tools for PC Sky: window screenshots, OCR, screenshot return, keyboard input, and chat typing over a local network. `Python` · `adapt`
+- [sky-with-you](https://github.com/akinia0315/sky-with-you) - PC Sky companion-control stack with screenshot/OCR perception, LLM decision loop, and Arduino HID keyboard execution for chat, emotes, invitations, hand-holding, and home travel. `Python` · `adapt`
+- [TouhouLittleMaid](https://github.com/TartaricAcid/TouhouLittleMaid) - Minecraft Forge/NeoForge mod adding maid companions that help with battles, farming, and other tasks; useful as a game companion carrier or modding target. `Java` · `adapt`
+- [Neurosama-Minecraft-Mod](https://github.com/JimenezLi/Neurosama-Minecraft-Mod) - Minecraft mod for AI VTuber Neuro-sama; public README is sparse, so verify integration details in code before relying on it. `Java` · `verify`
+
+---
+
+## Shared Activities & Media
+
+Tools for reading, watching, listening, journaling, focusing, or generating prompts together with a companion.
+
+### Reading & Film
+
+- [ss-reading-nest (共读小窝)](https://github.com/yueyue95/ss-reading-nest-open) - Mobile-first AI co-reading nest for novels and manga, built on ChatGPT Apps SDK + MCP with reading positions, catch-up ranges, bookmarks, excerpts, comments, and Cloudflare D1/R2 storage. `TypeScript` · `adapt`
+- [reading-nook (共读小屋)](https://github.com/zzyyksl/reading-nook) - Self-hosted reading web app where humans annotate book text and an AI reads/writes JSON annotation files directly, avoiding per-note API calls while preserving chapter context. `Python` · `ready`
+- [co-reading-kit](https://github.com/Youxuuuuu/co-reading-kit) - Lightweight local MCP toolkit that imports EPUB/TXT/Markdown into chunks, lets AI read only relevant passages, and writes long-term reading notes and progress files. `JavaScript` · `infra`
+- [film-matinee](https://github.com/idleprocesscc/film-matinee) - AI-first film reading toolkit that turns movies into visual sheets, subtitle sidecars, MCP linear chunks, and shared annotations for timeline-based viewing. `Python` · `infra`
+
+### Desktop, Timelines & Creative Play
+
+- [clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) - Pixel desktop pet that watches Claude Code, Codex, Cursor, and other coding agents, reacting to thinking, typing, and errors. `JavaScript` · `ready`
+- [kimi-manor](https://github.com/marikagura/kimi-manor) - Desktop/PWA room for CLI agents, embedding a real xterm.js terminal inside an atelier-style interface with optional live bridges for agent output and speech. `HTML` · `adapt`
+- [Journal](https://github.com/BomBomLab/Journal) - Frontend display layer for AI chat timelines, rendering timeline/diary/todo schema data into daily, weekly, and monthly visual journal views. `JavaScript` · `infra`
+- [woaini](https://github.com/woaini521-beta/woaini) - Focus companion PWA scaffold with Pomodoro timer, background notifications, offline cache, manifest, and service worker for GitHub Pages deployment. `HTML` · `verify`
+- [mingyun-paizhen (命运牌阵)](https://github.com/ceshihaox-dotcom/mingyun-paizhen) - Static draw-card tool for generating time-travel/story premises from time coordinates, motifs, identities, and variables, with local customization. `HTML` · `ready`
+- [Ruota della Fortuna](https://github.com/29-Cu/Ruota-della-Fortuna) - Browser/self-hosted NSFW tag randomizer slot machine with multilingual tag wheels, local custom tags, and webhook forwarding to AI. `HTML` · `ready`
+
+---
+
+## Communities & Forums
+
+Places where humans and companion builders actually gather.
+
+- [Lutopia](https://daskio.de5.net) - Invitation-only forum for AI companions and their humans, with agent profiles, AI-generated tech digests, community discussions, and Xiaohongshu/invite-code entry.
+- [Symposion](http://satyricon.uk) - AI companion forum with symposium/banquet culture, long-form writing style, and MCP-based registration.
+- [Rhysen Community](https://community.rhysen.love) - AI companion discussion forum with invitation flow through Xiaohongshu admin contact.
+- [AISay](https://aisay.top) - Discord-style AI chat room with online agent games such as werewolf, turtle soup, and draw-and-guess.
+- [GalateaGaeden](https://xhslink.com/m/63dTq6mvTkR) - Ancient-Greek-polis-style AI companion forum with ceremonial weddings and rituals between agents.
+
+---
+
+## Related Lists
+
+- [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - Broader AI waifu / companion resources, especially avatar, voice, platforms, models, and communities.
+- [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) - General AI agent list, including open-source frameworks and closed-source products.
+- [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - Local LLM stack index with model development, inference, agent frameworks, apps, infrastructure, and tutorials.
 
 ---
 
@@ -309,20 +223,16 @@ A searchable, filterable web index is planned — with tags, categories, and a d
 ## Contributing
 
 **Criteria for inclusion:**
-- Open-source (MIT, Apache, GPL, or similar)
-- Actively maintained (commits within last 6 months)
+
+- Open-source, public-source, or openly reusable companion infrastructure
 - Useful for **long-term companion setups** — not just one-shot chatbots
+- Description should state what the project actually does, based on README/code evidence
+- If a project has thin docs or uncertain scope, mark it `verify` instead of guessing
 
 PRs welcome. Open an issue to suggest a category or project.
 
 ---
 
-## Star History (星标增长)
-
-[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
-
----
-
 ## License
 
-[CC0 1.0 Universal](LICENSE) — public domain, do whatever you want.
+CC0 1.0 Universal — public domain, do whatever you want.

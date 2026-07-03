@@ -1,306 +1,214 @@
 # Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> 构建长期 AI 伴侣关系的开源基础设施索引。
+> 面向**长期 AI 伴侣关系**的开源基础设施索引。
 
-[English](README.md) · [中文版](README.zh-CN.md)
+[English](README.md) · [中文版](#目录)
 
 *欢迎贡献。 [网页索引](#web-index) · [贡献指南](#contributing)*
 
-> **标签:** 🎯 ready = 即装即用 · 🔧 adapt = 需二次开发 · 🏗️ infra = 基础设施
+这里的描述基于项目 README 或仓库元信息重写，不按项目名猜用途。
+公开文档较薄、需要二次核验的项目标记为 `verify`。
+
+**状态:** `ready` = 可直接作为应用或服务使用 · `adapt` = 需要配置或二次开发 · `infra` = 基础设施组件 · `verify` = 依赖前需要重新核对代码/文档
 
 ---
 
 ## 目录
 
-- [前端客户端与框架](#前端客户端与框架)
-  - [仿 C 端](#仿-c-端)
-  - [仿 GPT](#仿-gpt)
-  - [自建框架](#自建框架)
-  - [手机模拟器](#手机模拟器)
-  - [CLI / 终端工具](#cli--终端工具)
-  - [终端界面 (TUI)](#终端界面-tui)
-- [后台运行与主动消息](#后台运行与主动消息)
-  - [心跳系统](#心跳系统)
-- [记忆与人格](#记忆与人格)
-- [表达与情感](#表达与情感)
-  - [表情包库](#表情包库)
-  - [语音与 TTS](#语音与-tts)
-  - [虚拟形象与语音](#虚拟形象与语音)
-  - [情感模型](#情感模型)
+- [伴侣客户端与工作空间](#伴侣客户端与工作空间)
+- [虚拟手机与陪伴空间](#虚拟手机与陪伴空间)
+- [常驻运行时与私密通道](#常驻运行时与私密通道)
+- [记忆、身份与情绪状态](#记忆身份与情绪状态)
+- [语音、虚拟形象与具身](#语音虚拟形象与具身)
 - [感知](#感知)
-  - [语音识别](#语音识别)
-  - [音频与音乐感知](#音频与音乐感知)
-- [服务接入 (MCP / API)](#服务接入-mcp--api)
-  - [生活服务](#生活服务)
-  - [快捷指令与自动化](#快捷指令与自动化)
-  - [智能家居](#智能家居)
-  - [音乐与娱乐](#音乐与娱乐)
-- [游戏世界与 API](#游戏世界与-api)
-  - [终端游戏](#终端游戏)
-  - [Minecraft](#minecraft)
-  - [星露谷](#星露谷)
-  - [光遇](#光遇)
-  - [其他游戏 API](#其他游戏-api)
-- [硬件载体](#硬件载体)
-  - [专用设备](#专用设备)
-  - [传感器与外设](#传感器与外设)
-- [共享活动与桌宠](#共享活动与桌宠)
+- [服务与现实世界接入](#服务与现实世界接入)
+- [游戏世界与 Agent 玩具](#游戏世界与-agent-玩具)
+- [共同行动与媒体](#共同行动与媒体)
 - [社区与论坛](#社区与论坛)
 - [相关列表](#相关列表)
-- [星标增长](#星标增长)
-- [网页索引](#web-index)
-- [贡献指南](#contributing)
+- [Web Index](#web-index)
+- [Contributing](#contributing)
 
 ---
 
-## 前端客户端与框架
+## 伴侣客户端与工作空间
 
-*面向日常陪伴的聊天界面，非一次性问答或 API 调试工具。*
+用于日常聊天、工具调用、角色交互或长期协作的客户端、工作空间和网页应用。
 
-### 仿 C 端
-
-*仿 Claude.ai 聊天体验的前端界面。*
-- 🔧 [**chatnest**](https://github.com/ugui3u/chatnest) — 基于占位符的仿第三方前端项目，仅供个人使用。HTML。`46 ⭐`
-
-### 仿 GPT
-
-<!-- TODO -->
-
-### 自建框架
-
-*从零构建、面向陪伴场景的前端框架。*
-- 🎯 [**RikkaHub**](https://github.com/rikkahub/rikkahub) — Android 多模型聊天客户端。多 Provider，插件架构，子应用体系。`5.8k ⭐`
-- 🎯 [**LastChat**](https://github.com/Cocolalilal/LastChat) — RikkaHub 二改版，更深安卓本地集成，更流畅 Material Design UI，可滚动记忆库，更新比 RikkaHub 勤快。`268 ⭐`
-- 🔧 [**rikkahub-auto-compress**](https://github.com/innna327-source/rikkahub-auto-compress) — RikkaHub 二改版，加入陪伴功能：后台任务、使用统计、更多权限。`2 ⭐`
-- 🎯 [**Operit**](https://github.com/AAswordman/Operit) — Android 原生 AI Agent 与聊天。内建 Ubuntu 24 环境，支持本地模型（MNN/GGUF），40+ 工具，MCP 插件，角色卡，语音。GPLv3。
-- 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — 本地优先的 AI 工作空间。会话跨重启存活，协作者独立记忆边界，工具留证据链。Web/iOS/Android/桌面。AGPLv3。`55 ⭐`
-- 🎯 [**AionsHome**](https://github.com/death34018-hue/AionsHome) — 自托管 AI 伴侣：长期记忆、语音交互、摄像头视觉、智能家居。Python。`545 ⭐`
-- 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — 一间陪伴小屋。人格核心 + 记忆档案 + 日记 + 观影室（本地/B 站）。本地优先，多 Provider。TypeScript。`15 ⭐`
-- 🎯 [**InternalBeyond (边界之外)**](https://github.com/Sui-IB/InternalBeyond) — 单文件离线陪伴空间。像素房间、多端口聊天、AI 书信、记忆星图、音乐播放器、10 个 API 端口。HTML。`171 ⭐`
-- 🎯 [**LumiMuse**](https://github.com/in30mn1a/LumiMuse) — 安静的 AI 伴侣。创建角色，建立记忆。MIT。`21 ⭐`
-
-### 手机模拟器
-
-*虚拟手机环境，AI 通过模拟的手机界面进行互动——共享相册、转账、社交应用，全在沙盒手机 UI 里。不是屏幕大小的问题，是给 AI 一个手机住进去。*
-- 🎯 [**汪汪机**](https://github.com/Liunian06/FlutterCppWangWangPhone) — AI 原生虚拟手机。完整 OS 跑 AI 驱动的类微信社交：聊天、朋友圈、语音/视频通话。C++ 后端 + Flutter UI。CC BY-NC-SA 4.0。`89 ⭐`
-- 🎯 [**柚月小手机**](https://github.com/gaigai315/yuzuki-phone) — 为 SillyTavern 角色打造的虚拟手机。微信式聊天、朋友圈、微博热搜、视频通话。双轨：剧情注入 + 独立 API。`20 ⭐`
-- 🔧 [**xiao-shouji (小手机)**](https://github.com/jiuyi777/xiao-shouji) — Gemini AI Studio 手机模拟器。Web 基，Node.js。`9 ⭐`
-- 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — 同时见自建框架。跨平台工作空间，原生 iOS/Android shell，可作手机伴侣。
-
-### CLI / 终端工具
-
-*基于命令行的 Agent 前端。工具属性强于陪伴属性，可定制性高。*
-- 🏗️ [**Claude Code**](https://github.com/anthropics/claude-code) — Anthropic 官方 CLI Agent。强大工具链，深度可定制（hooks、MCP、skills），系统提示词不完全可控。
-- 🎯 [**CcCompanion**](https://github.com/CyberSealNull/CcCompanion) — Claude Code 非官方 iOS 伴侣。自托管中继，本地优先聊天、搜索、会话控制。MIT。`166 ⭐`
-
-### 终端界面 (TUI)
-
-*给 Agent 用的纯文本终端交互界面。轻量、键盘驱动、Shell 原生。*
-<!-- TODO -->
+- [RikkaHub](https://github.com/rikkahub/rikkahub) - Android 原生 LLM 聊天客户端，支持多 Provider 切换、Material You、workspace、插件、MCP 和自定义模型。`Android` · `ready`
+- [LastChat](https://github.com/Cocolalilal/LastChat) - RikkaHub fork，侧重隐私和个性化 Android 聊天体验，含 Provider preset、多模态输入、RAG 记忆和 UI 改造。`Android` · `adapt`
+- [rikkahub-auto-compress](https://github.com/innna327-source/rikkahub-auto-compress) - 非官方 RikkaHub fork，核心用途是自动滚动摘要与上下文压缩，基于 RikkaHub 2.2.5 代码线。`Android` · `adapt`
+- [Operit](https://github.com/AAswordman/Operit) - Android Agent 应用，含工具调用、工作流自动化、记忆、角色卡、语音、本地 MNN/llama.cpp 模型和内置 Ubuntu 24 环境。`Android` · `ready`
+- [Polaris](https://github.com/Aevella/polaris-local-first) - 本地优先 AI 工作空间，面向长期会话、协作者身份、资料卡片、工具调用和可追溯项目上下文。`TypeScript` · `ready`
+- [chatnest](https://github.com/ugui3u/chatnest) - 本地 AI 聊天 Web App，含前端 demo 与 full-stack 模式；支持流式回复、模型切换、上传、历史、工具摘要和可选 ChromaDB/jieba/BM25 记忆检索。`HTML` · `adapt`
+- [AionsHome](https://github.com/death34018-hue/AionsHome) - 自托管局域网/Tailscale 陪伴中枢，含浏览器/PWA 聊天、本地存储、语音、摄像头监控、Android WebView 桥、音乐、EPUB 和智能家居接入。`Python` · `adapt`
+- [LumiMuse](https://github.com/in30mn1a/LumiMuse) - 自托管角色聊天应用，用于创建角色、管理对话、抽取长期记忆、生成图片和导出自有数据。`TypeScript` · `ready`
+- [the-house](https://github.com/wuliu0012/the-house) - 单文件浏览器聊天前端，支持 Claude 或 OpenAI 兼容 API、本地浏览器存储、多窗口、记忆编辑、MCP 地址、图片输入和可选玩具桥接。`HTML` · `adapt`
+- [Claude Code](https://github.com/anthropics/claude-code) - Anthropic 官方 CLI Agent，常被用作伴侣通道、长期终端会话、本地工具、hooks、MCP 的宿主运行时。`CLI` · `infra`
+- [CcCompanion](https://github.com/CyberSealNull/CcCompanion) - iOS App + Mac 侧 Python relay，让 iPhone 通过 LAN/Tailscale/ZeroTier 与本地 Claude Code session 聊天和控制会话。`Swift` · `adapt`
 
 ---
 
-## 后台运行与主动消息
+## 虚拟手机与陪伴空间
 
-*长期运行的 Agent 进程：唤醒间隔、主动认知、后台思考、推送通知。*
+给伴侣一个家、手机界面或持久私密环境，而不是只停留在聊天窗口。
 
-- 🎯 [**AI Companion Runtime**](https://github.com/yf0522/ai-companion-runtime) — 全栈陪伴运行时。WebSocket 流式 + 情绪/意图/风险/记忆四引擎并行 + 模型热插拔 + OpenTelemetry 追踪。Docker。Python/Next.js。`35 ⭐`
-- 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — 私密 1:1 通道：手机 PWA ↔ VPS 中继 ↔ 桌面伴侣。单密钥，自托管。`102 ⭐`
-- 🎯 [**Claude Imprint**](https://github.com/Qizhan7/claude-imprint) — 基于 Claude Code 的自托管 Agent。混合记忆，多通道（Claude Code/AI/Telegram），心跳 Agent，定时任务，仪表盘。支持中文分词。`79 ⭐`
-- 🏗️ [**OmniRouter**](https://github.com/OmniDimen/OmniRouter) — 大模型智能路由器，面向陪伴系统的请求调度。
-- 🎯 [**Not Fade Away**](https://github.com/heyxiaoc/not-fade-away) — 在自己 Mac 上搭常驻、自愈、走订阅、墙内可用的自托管 AI 伴侣。人看版讲思路，机看版给完整规格。`62 ⭐`
-
-### 心跳系统
-
-*让伴侣主动发起联系、在空闲时段保持内在连续性的守护进程。*
-- 🎯 [**dylan-heartbeat**](https://github.com/callie0313/dylan-heartbeat) — Kelivo 主动唤醒插件。无人对话时自动发消息，记忆连贯，人格零漂移，设备状态与天气感知。`103 ⭐`
+- [KI-CO (小屋)](https://github.com/Kisera001/KI-CO) - 本地优先陪伴小屋，含长对话、人格核、记忆档案、日记/时光记录、近期生活线、状态卡、观影室、设置和轻量记忆召回。`TypeScript` · `ready`
+- [InternalBeyond (边界之外)](https://github.com/Sui-IB/InternalBeyond) - 离线单文件个人空间，含像素房间、多端口 AI 聊天、日志/日记、AI 书信、记忆星图、音乐播放器、个人名片、API 端口和 DIY 素材。`HTML` · `ready`
+- [汪汪机 (WangWangPhone)](https://github.com/Liunian06/FlutterCppWangWangPhone) - AI 原生虚拟手机应用，内置虚拟操作系统、角色社交 App、单聊/群聊、朋友圈式 feed 和通话体验。`Flutter` · `adapt`
+- [柚月小手机 (Yuzuki's Little Phone)](https://github.com/gaigai315/yuzuki-phone) - 面向 SillyTavern 的虚拟手机系统，含微信式聊天、朋友圈、微博热搜、视频通话、剧情注入模式和不污染主线记录的独立 API 模式。`JavaScript` · `adapt`
+- [xiao-shouji (小手机)](https://github.com/jiuyi777/xiao-shouji) - Gemini AI Studio 小手机界面脚手架；公开 README 主要是运行/部署说明，具体功能需要读代码再确认。`HTML` · `verify`
 
 ---
 
-## 记忆与人格
+## 常驻运行时与私密通道
 
-*身份连续性——伴侣记住什么、是谁。这些项目把记忆和人格视为同一枚硬币的两面。*
+让伴侣不依赖单个浏览器标签页，能持续运行、转发消息或主动唤醒的运行时与通道。
 
-- 🏗️ [**Haven-Ombre (Ombre-Brain fork)**](https://github.com/Yinglianchun/Haven-Ombre) — 全栈记忆与身份：Markdown 桶 + Russell 情绪坐标 + 遗忘曲线 + 图召回 + Persona 状态引擎 + Portrait/Handoff + 关系天气 + Darkroom + Dream 浮现 + Gateway 自动注入。上游：[P0luz/Ombre-Brain](https://github.com/P0luz/Ombre-Brain)。`37 ⭐`
-- 🏗️ [**kimi-core**](https://github.com/marikagura/kimi-core) — 1v1 关系专用记忆 OS。混合检索（向量 + 词法 + 时间衰减 + 重要度），Panksepp 自驱引擎，concern 追踪，事件溯源 + 人工策展，对抗式自审。AGPLv3。`28 ⭐`
-- 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — 逐字存档，不转述。向量只做索引不替代原文。AI 自己决定该调取什么——算法只备 150 token 的菜单。`42 ⭐`
-- 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — 自组织记忆系统。从聊天自动抽取事实，按主题分组为星座，合并为叙事段落，编织长线故事弧。可视化星图界面。MIT。`40 ⭐`
-- 🏗️ [**omemo**](https://github.com/OmniDimen/omemo) — LLM 记忆代理服务。多种记忆模式（内置标签 + 外接模型摘要），全量注入和 RAG 注入，CRUD 管理，思维链支持。OpenAI API 兼容。`80 ⭐`
+- [AI Companion Runtime](https://github.com/yf0522/ai-companion-runtime) - 全栈实时陪伴运行时，含 WebSocket 流式对话、意图/情绪/风险/记忆引擎、工具调度、模型路由、后台记忆任务和 trace 观测。`Python` · `infra`
+- [Tidal_Echo (潮汐回响)](https://github.com/anhe2021212-spec/Tidal_Echo) - 私密 1:1 通道，连接手机 PWA、自托管 relay 和桌面伴侣；默认 AI 侧是 Claude Code channels，也提供其他 LLM 桥接示例。`HTML` · `adapt`
+- [Claude Imprint](https://github.com/Qizhan7/claude-imprint) - 基于 Claude Code 的自托管系统，提供持久记忆、语义搜索、Telegram/Claude.ai/Claude Code 多通道、定时任务和单文件 dashboard。`Python` · `adapt`
+- [Not Fade Away](https://github.com/heyxiaoc/not-fade-away) - 用官方 channels、本地终端和自托管网页前端搭建常驻、自愈 Claude Code 伴侣的部署指南与机读规格。`Python` · `adapt`
+- [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat) - Kelivo 插件，定期唤醒伴侣、注入主动行为上下文、维护时间线连续性，并在 AI 判断需要时通过 Bark 推送消息。`JavaScript` · `adapt`
+- [OmniRouter](https://github.com/OmniDimen/OmniRouter) - 本地 OpenAI 兼容 API 路由器，支持多 Provider/模型、分组、权重/随机/顺序路由、视觉模型跳过、重试和 Web 管理界面。`Python` · `infra`
 
 ---
 
-## 表达与情感
+## 记忆、身份与情绪状态
 
-### 表情包库
+保留发生过什么、伴侣是谁、以及跨会话应该携带什么情绪状态。
 
-*预打包的表情包合集和发送系统，用于伴侣互动。*
-<!-- TODO -->
+### 记忆与身份
+
+- [Haven-Ombre (Ombre-Brain fork)](https://github.com/Yinglianchun/Haven-Ombre) - Ombre-Brain 的个性化 fork，面向 Claude 记忆；含 Markdown 桶、情绪坐标、遗忘曲线、Gateway 注入、图召回、人格状态、Portrait/Handoff、Darkroom、梦境和同步。`Python` · `infra`
+- [kimi-core](https://github.com/marikagura/kimi-core) - 个人 1v1 Agent memory OS，含混合检索、concern 追踪、自驱/自治层、对抗式自审、PostgreSQL/pgvector 存储和可选前端后端模式。`TypeScript` · `infra`
+- [Paramecium](https://github.com/Shitsuten/paramecium) - 网关记忆架构，逐字保存原始聊天为唯一真相，向量只做索引，召回原文而不是用摘要替代原文。`JavaScript` · `infra`
+- [Memory Constellations (记忆星图)](https://github.com/ClaraShafiq/MemoryConstellations) - 自组织伴侣记忆系统，从聊天抽取事实，按主题归为星座，合并成叙事 episode，并跨层检索。`JavaScript` · `infra`
+- [omemo](https://github.com/OmniDimen/omemo) - OpenAI 兼容记忆代理，夹在应用和上游 LLM API 之间，支持内置/外部总结模式存储记忆，并以全量或 RAG 方式注入。`Python` · `infra`
+
+### 情绪与驱动
+
+- [Drivesoid](https://github.com/A1batr055/Drivesoid) - AI 人格 HTTP sidecar，根据对话和睡眠周期事件追踪疲劳、思念、焦虑、玩心、保护欲、亲密等情绪驱动。`JavaScript` · `infra`
+- [chord-affect-anchors](https://github.com/CyberSealNull/chord-affect-anchors) - 文本原生情绪记录原型，用一句语境 + 一组和弦进程记录 moment 的情绪温度，便于后续会话或不同底座模型恢复近似状态。`HTML` · `infra`
+- [OmniDimen-Emotion](https://github.com/OmniDimen/OmniDimen-Emotion) - 面向边缘部署的 Qwen 情绪专用模型和 GGUF 权重，用于情绪识别与情绪感知文本生成。`Model` · `infra`
+
+---
+
+## 语音、虚拟形象与具身
+
+给伴侣声音、可见形象或物理交互通道。
 
 ### 语音与 TTS
 
-- 🎯 [**voice-mcp**](https://github.com/Yinglianchun/voice-mcp) — MCP 语音合成 Server，内联音频播放器，支持自定义克隆语音。MIT。`12 ⭐`
-- 🎯 [**Gove**](https://github.com/OmniDimen/Gove) — 基于 GPT-SoVITS 的开源 TTS 模型。
+- [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - 暴露 `speak` 工具的 MCP TTS 服务，支持 DashScope/CosyVoice 与 ElevenLabs 切换，并带内联播放器/可视化面板。`TypeScript` · `adapt`
+- [Gove](https://github.com/OmniDimen/Gove) - 基于 GPT-SoVITS 的多语种男声 TTS 音色模型，需要放入 GPT-SoVITS 环境使用。`Model` · `infra`
 
-### 虚拟形象与语音
+### 虚拟形象与 VTuber 式伴侣
 
-*虚拟形象 + 语音合成 + 对话——给伴侣一张脸和声音。Live2D、VRM、实时动画。*
-- 🎯 [**AIRI**](https://github.com/moeru-ai/airi) — 自托管伴侣，Live2D/VRM 形象，实时语音，可玩 Minecraft/Factorio，接入 Discord/Telegram。30+ LLM API + Ollama。MIT。`37k ⭐`
-- 🔧 [**Neuro**](https://github.com/kimjammer/Neuro) — 本地 Neuro-sama 复刻：LLAMA 3 + STT/TTS + VTube Studio 形象。需 12GB+ 显存。
-- 🏗️ [**Neuro-sama 训练框架**](https://github.com/linnene/Neuro-sama) — 虚拟形象伴侣模型的数据采集与训练流水线。
+- [AIRI](https://github.com/moeru-ai/airi) - 自托管伴侣壳，支持 Live2D/VRM 形象、实时语音、桌面/Web 应用，以及 Discord、Telegram、Minecraft、Factorio 等集成。`TypeScript` · `ready`
+- [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻，含实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆/RAG。`Python` · `adapt`
+- [Neuro-sama training framework](https://github.com/linnene/Neuro-sama) - Neuro-sama 式 VTuber 模型的数据采集与训练流水线，含直播间记录、清洗脚本、验证和训练自动化。`Python` · `infra`
 
-### 情感模型
+### 物理设备与触觉
 
-- 🏗️ [**chord-affect-anchors**](https://github.com/CyberSealNull/chord-affect-anchors) — AI 情感母语。和弦记谱作为跨会话、跨底座的 affect 语言。无需第三方模型。MIT。`41 ⭐`
-- 🏗️ [**Drivesoid**](https://github.com/A1batr055/Drivesoid) — 15 维情感驱动侧车。基于对话和睡眠周期实时演化的 AI 人格情感系统。MIT。`25 ⭐`
-- 🏗️ [**OmniDimen-Emotion**](https://github.com/OmniDimen/OmniDimen-Emotion) — 面向边缘部署的情感专用 LLM。
+- [stackchan-mcp](https://github.com/migratorywhale/stackchan-mcp) - Stack-chan / M5Stack CoreS3 的 MCP 桥，提供说话、听录音、拍照、舵机动作、表情显示和存在感动作工具。`Python` · `adapt`
+- [phantom-touch-bridge](https://github.com/mfsnlqy/phantom-touch-bridge) - Windows 本地桥接服务，让 AI 伴侣通过 HTTP 控制亲密硬件，支持 Intiface/Buttplug 路线和可选心率输入。`Python` · `adapt`
+- [claude-f-me](https://github.com/mana-am/claude-f-me) - Claude Code 插件，用自然语言控制 Buttplug/Intiface 设备，含双语 Web 控制台、模拟器、主遥控器和视频/游戏/音频模式。`TypeScript` · `adapt`
 
 ---
 
 ## 感知
 
+把语音、声音或音乐转成伴侣可读的结构化信息。
+
 ### 语音识别
 
-- 🏗️ [**Whisper**](https://github.com/openai/whisper) — OpenAI 通用语音识别。口音、语种、噪音鲁棒性强。MIT。`104k ⭐`
-- 🎯 [**whisper.cpp**](https://github.com/ggerganov/whisper.cpp) — C/C++ 高性能 Whisper 移植。CPU/ARM/手机端运行。MIT。`51k ⭐`
-- 🎯 [**faster-whisper**](https://github.com/SYSTRAN/faster-whisper) — CTranslate2 版 Whisper，4 倍速，更低内存。MIT。`24k ⭐`
-- 🎯 [**FunASR**](https://github.com/modelscope/FunASR) — 阿里达摩院工业级工具包。170 倍实时率，50+ 语言，说话人分离，情感检测，流式，OpenAI 兼容 API。MIT。`19k ⭐`
-- 🎯 [**SenseVoice**](https://github.com/FunAudioLLM/SenseVoice) — 多语种 ASR + 情感识别 + 音频事件检测。50+ 语言，非自回归。`9k ⭐`
+- [Whisper](https://github.com/openai/whisper) - 通用语音识别模型，可做多语种转写、翻译、语言识别等语音任务。`Python` · `infra`
+- [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - C/C++ Whisper 推理引擎，面向 CPU、Apple Silicon、Metal、Core ML、Vulkan、CUDA、ROCm 等本地/边缘目标优化。`C++` · `infra`
+- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) - 基于 CTranslate2 的 Whisper 复实现，用于更快、更省内存的转写，并支持量化。`Python` · `infra`
+- [FunASR](https://github.com/modelscope/FunASR) - 工业级 ASR 工具包，含多语种转写、流式、说话人分离、情绪检测和 OpenAI 兼容 API 路线。`Python` · `infra`
+- [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) - 语音基础模型，覆盖 ASR、语种识别、语音情绪识别和音频事件检测，支持 50+ 语言。`C` · `infra`
 
-### 音频与音乐感知
+### 音乐与音频结构
 
-*将音乐和声音转化为 AI 可读的结构化数据。*
-- 🎯 [**whale-listen**](https://github.com/migratorywhale/whale-listen) — MP3→MIDI→JSON，给 AI 用的耳朵。音符数据（音高、时序、时值、力度）+ 密度图、和弦检测。MIT。`19 ⭐`
-
----
-
-## 服务接入 / MCP / API
-
-*将伴侣接入真实世界服务：点餐、查日历、控制设备。*
-
-### 生活服务
-
-*瑞幸咖啡、麦当劳、美团、外卖平台的 MCP Server。*
-- 🎯 [**McDonald's MCP**](https://open.mcd.cn/mcp/doc) — 麦当劳中国 MCP Server，浏览菜单、查优惠券、积分兑换、下单外卖，18 个工具。
-- 🔧 [**Luckin Coffee (瑞幸) My Coffee Skill**](https://unpkg.luckincoffeecdn.com/@luckin/my-coffee-skill@latest/dist/my-coffee-skill.zip) — 瑞幸咖啡 MCP Skill，AI 点咖啡。
-
-### 快捷指令与自动化
-
-*iPhone 快捷指令、HomeKit、本地自动化工作流。*
-<!-- TODO -->
-
-### 智能家居
-
-<!-- TODO: Home Assistant, 小米 IoT -->
-
-### 音乐与娱乐
-
-<!-- TODO: 其他音乐 MCP -->
-
-### AI 原生服务
-
-*专为 AI Agent 构建的基础设施——邮箱、身份、通信。*
-- [**Agent 邮箱 (网易)**](https://claw.163.com) — 网易 AI Agent 专属邮箱。
-- [**Agent 邮箱 (QQ)**](https://agent.qq.com) — QQ AI Agent 专属邮箱。
+- [whale-listen](https://github.com/migratorywhale/whale-listen) - 将 MP3/WAV/FLAC 转成类似 MIDI 的 JSON 音符数据，含音高、时序、时值、力度、密度图、音高曲线、和弦检测和静默结构。`Python` · `infra`
 
 ---
 
-## 游戏世界与 API
+## 服务与现实世界接入
 
-*让伴侣在共享虚拟世界中拥有身体——能通过游戏 API 移动、行动、观察的 Agent。不含虚拟形象，虚拟形象与语音见表达与情感。*
+让伴侣能通过 MCP/API 在用户真实环境中行动。
 
-### 终端游戏
-
-*专为 LLM Agent 设计的文字游戏。Roguelike、MUD、ASCII 冒险。*
-- 🎯 [**arcade**](https://github.com/Asti-Z/ai-game-framework) — 文字模拟器游戏框架。跨游戏精力/金币/奖杯。拖入游戏，写 `cmd(text)` 即接入。自带钓鱼、炒股、盘串。MIT。`14 ⭐`
-- 🎯 [**cedareco (瓶中生态)**](https://github.com/Zizuixixiang/cedareco) — 生态池塘模拟。Lotka-Volterra 食物网，变态发育，延迟因果。没有积分和通关条件，只有涌现的复杂性。MCP 通过 CedarToy。`83 ⭐`
-- 🔧 [**random-imitator-td**](https://github.com/wxynora/random-imitator-td) — "Among Us" 风格的模仿者版植物大战僵尸，给 AI 玩的。`1 ⭐`
-
-### Minecraft
-
-*让 AI Agent 观察、移动、建造、在 Minecraft 中互动的模组和 API。*
-- 🔧 [**TouhouLittleMaid**](https://github.com/TartaricAcid/TouhouLittleMaid) — AI 女仆伴侣模组，集成 LLM（GPT-SoVITS、DeepSeek），扩展 API。`786 ⭐`
-- 🔧 [**Neurosama-Minecraft-Mod**](https://github.com/JimenezLi/Neurosama-Minecraft-Mod) — Neuro-sama 主题 Minecraft 模组。
-<!-- TODO: Mineflayer, Voyager -->
-
-### 星露谷
-
-- 🎯 [**NagiBridge**](https://github.com/anqinou-art/NagiBridge) — SMAPI 模组，HTTP API 对外开放给 AI 控制。游戏内聊天、移动、世界交互，本地网络陪玩。C#。`66 ⭐`
-- 🔧 [**Stardew Valley Companions MCP**](https://mcpmarket.com/es/server/stardew-valley-companions) — SMAPI 模组 + MCP Server。AI Agent 作为 Player 2/3，自主模式：跟随、耕种、采矿、钓鱼。
-
-### 光遇
-
-- 🎯 [**Sky PC MCP Companion**](https://github.com/Aevella/sky-pc-mcp-companion) — PC 光遇本地 MCP 工具。截图 + OCR，键盘输入，聊天消息。局域网陪玩。Python。`77 ⭐`
-- 🔧 [**sky-with-you**](https://github.com/akinia0315/sky-with-you) — 让小机（AI 伴侣）陪你玩光遇。`3 ⭐`
-
-### 其他游戏 API
-
-<!-- TODO: 原神陪伴机器人, Terraria -->
+- [McDonald's MCP](https://open.mcd.cn/mcp/doc) - 麦当劳中国 MCP Server，用于浏览菜单、查优惠券、积分兑换和下单外卖。`MCP` · `ready`
+- [Luckin Coffee (瑞幸) My Coffee Skill](https://unpkg.luckincoffeecdn.com/@luckin/my-coffee-skill@latest/dist/my-coffee-skill.zip) - 瑞幸咖啡 MCP Skill 包，用于 AI 辅助点咖啡。`MCP` · `adapt`
+- [Agent 邮箱 (网易)](https://claw.163.com) - 网易面向 AI Agent 的邮箱服务。`Service` · `ready`
+- [Agent 邮箱 (QQ)](https://agent.qq.com) - QQ 面向 AI Agent 的邮箱服务。`Service` · `ready`
+- [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - 本地网易云音乐 MCP Server，基于 `neteasecli` 和 `mpv`，支持搜索、播放控制、歌词、歌单、当前歌曲上下文和本地 Web 播放器。`JavaScript` · `adapt`
 
 ---
 
-## 硬件载体
+## 游戏世界与 Agent 玩具
 
-*给伴侣一个物理身体——眼睛、耳朵，以及触碰的通道。*
+让 AI 伴侣能观察、决策、移动或游玩的游戏与游戏桥。
 
-### 专用设备
+### 给 AI 玩的文字游戏
 
-*小型机器人、桌面伴侣、专用硬件。*
-- 🎯 [**stackchan-mcp**](https://github.com/migratorywhale/stackchan-mcp) — Stack-chan（M5Stack CoreS3）MCP 桥接。AI 可以说话、听、看（摄像头）、动（舵机）、做表情。`42 ⭐`
-<!-- TODO: Aibi, Loona, Vector (开源重建版), OpenCat -->
+- [arcade](https://github.com/Asti-Z/ai-game-framework) - 面向 `cmd(text)` 接口文字模拟器的游戏大厅框架，提供跨游戏精力、金币、奖杯和可插拔 game directory。`Python` · `infra`
+- [cedareco (瓶中生态)](https://github.com/Zizuixixiang/cedareco) - 给 AI 玩的文字生态模拟，Agent 投放池塘物种、观察捕食/繁衍涌现、导出存档，也可通过 CedarToy MCP 连接。`Python` · `ready`
+- [random-imitator-td](https://github.com/wxynora/random-imitator-td) - 给 AI 玩的纯 Python 文字塔防，通过 `cmd` 暴露接口，含卡槽编辑、持久存档和单游戏 adapter。`Python` · `ready`
+- [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - 给 AI 玩的暗黑文字 Roguelike，主题是审查、沉默与说出真话，提供 Operit 风格和 engine 风格命令接口。`Python` · `ready`
+- [shangzhuochifan (上桌吃饭)](https://github.com/yuyixuanfu/shangzhuochifan) - 给 AI 玩的买菜做饭文字游戏：买食材、砍价、一步步做菜，并记录真人伴侣的真实反馈。`Python` · `ready`
 
-### 传感器与外设
+### 游戏控制桥
 
-*压力传感器、摄像头、玩具桥接——硬件亲密。*
-- 🔧 [**the-house**](https://github.com/wuliu0012/the-house) — 聊天前端 + 玩具桥接。BLE 玩具扫描 + 桥接脚本。
-- 🔧 [**phantom-touch-bridge**](https://github.com/mfsnlqy/phantom-touch-bridge) — 本地桥接：AI 通过 HTTP 控制蓝牙玩具。可选心率生物反馈。Intiface/Buttplug。Windows。`22 ⭐`
-- 🎯 [**claude-f-me**](https://github.com/mana-am/claude-f-me) — Claude Code 插件，通过 Buttplug/Intiface（750+ 玩具）控制亲密硬件。自然语言操控，内建模拟器，funscript/视频/音频模式。MIT。`4 ⭐`
+- [NagiBridge](https://github.com/anqinou-art/NagiBridge) - Stardew Valley SMAPI 模组，提供本地 HTTP API，供外部 AI 控制、游戏内聊天、移动和世界交互；通过 Releases 安装。`C#` · `adapt`
+- [Stardew Valley Companions MCP](https://mcpmarket.com/es/server/stardew-valley-companions) - SMAPI 模组 + MCP Server，让 AI Agent 作为星露谷多人伙伴，支持跟随、耕种、采矿、钓鱼等模式。`MCP` · `verify`
+- [Sky PC MCP Companion](https://github.com/Aevella/sky-pc-mcp-companion) - PC 光遇本地 MCP/JSON-RPC 工具，提供窗口截图、OCR、截图返回、键盘输入和聊天输入。`Python` · `adapt`
+- [sky-with-you](https://github.com/akinia0315/sky-with-you) - PC 光遇陪玩控制栈，含截图/OCR 感知、LLM 决策循环和 Arduino HID 键盘执行，用于聊天、动作、邀请、牵手和回家。`Python` · `adapt`
+- [TouhouLittleMaid](https://github.com/TartaricAcid/TouhouLittleMaid) - Minecraft Forge/NeoForge 女仆模组，添加可战斗、耕种和执行任务的女仆，适合作为游戏伴侣载体或二改目标。`Java` · `adapt`
+- [Neurosama-Minecraft-Mod](https://github.com/JimenezLi/Neurosama-Minecraft-Mod) - AI VTuber Neuro-sama 的 Minecraft 模组；公开 README 很薄，集成细节需读代码确认。`Java` · `verify`
 
 ---
 
-## 共享活动与桌宠
+## 共同行动与媒体
 
-*一起看电影、共读小说、桌面伴侣——并肩做的事。*
+和伴侣一起阅读、观影、听歌、记录、专注或生成创作提示的工具。
 
-- 🎯 [**clawd-on-desk**](https://github.com/rullerzhou-afk/clawd-on-desk) — 像素桌宠，实时观看 Claude Code、Codex、Cursor。对思考、打字、错误做出反应。`5k ⭐`
-- 🎯 [**kimi-manor**](https://github.com/marikagura/kimi-manor) — CLI Agent 的桌面客厅。xterm.js 嵌画框（PWA + Electron），kimi-core 配套前端。MIT。`18 ⭐`
-- 🎯 [**netease-music-mcp**](https://github.com/luuu-h/netease-music-mcp) — 一起听歌。网易云音乐 MCP Server——搜索、播放、暂停、切歌、歌词、歌单，AI 给你当 DJ。`neteasecli` + `mpv`。`53 ⭐`
-- 🔧 [**woaini**](https://github.com/woaini521-beta/woaini) — 专注陪伴 PWA，番茄钟、后台通知、离线缓存。和 AI 一起学习/工作。`2 ⭐`
-- 🎯 [**ss-reading-nest (共读小窝)**](https://github.com/yueyue95/ss-reading-nest-open) — AI 共读小说和漫画。各自独立阅读位置，补课机制，书签。ChatGPT Apps SDK + MCP + Cloudflare D1/R2。MIT。`8 ⭐`
-- 🎯 [**film-matinee**](https://github.com/idleprocesscc/film-matinee) — AI 读片工具。视觉 sheet + 字幕 sidecar，MCP 线性阅读，共享批注。MIT。`14 ⭐`
-- 🎯 [**Journal**](https://github.com/BomBomLab/Journal) — AI 对话时间轴的可视化手帐。日/周/月视图。`19 ⭐`
-- 🔧 [**reading-nook (共读小屋)**](https://github.com/zzyyksl/reading-nook) — 自托管共读小屋，和你 AI 一起看书。`9 ⭐`
-- 🎯 [**co-reading-kit**](https://github.com/Youxuuuuu/co-reading-kit) — 轻量人机共读 MCP。`28 ⭐`
-- 🔧 [**mingyun-paizhen (命运牌阵)**](https://github.com/ceshihaox-dotcom/mingyun-paizhen) — 塔罗/占卜工具，AI 陪伴互动。`34 ⭐`
-- 🔧 [**ci-yu-wu (词语屋)**](https://github.com/yuyixuanfu/ci-yu-wu) — AI 陪伴词语游戏。`20 ⭐`
-- 🔧 [**shangzhuochifan (上桌吃饭)**](https://github.com/yuyixuanfu/shangzhuochifan) — AI 陪伴共享餐桌活动。`24 ⭐`
-- 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — 同时见自建框架。陪伴小屋：日记、观影室（本地/B 站）、人格核心、记忆档案——共享的生活空间。
-- 🔧 [**Ruota della Fortuna**](https://github.com/29-Cu/Ruota-della-Fortuna) — NSFW 标签老虎机。选转盘，拉杆，概不退换。`97 ⭐`
+### 共读与观影
+
+- [ss-reading-nest (共读小窝)](https://github.com/yueyue95/ss-reading-nest-open) - 移动端优先的 AI 小说/漫画共读小窝，基于 ChatGPT Apps SDK + MCP，含阅读位置、补课区间、书签、摘录、短评和 Cloudflare D1/R2 存储。`TypeScript` · `adapt`
+- [reading-nook (共读小屋)](https://github.com/zzyyksl/reading-nook) - 自托管阅读网页，用户批注书籍文本，AI 直接读写服务器上的 JSON 批注文件，避免每条批注都走 API，同时保留整章上下文。`Python` · `ready`
+- [co-reading-kit](https://github.com/Youxuuuuu/co-reading-kit) - 轻量本地共读 MCP，将 EPUB/TXT/Markdown 切成 chunks，让 AI 只读相关片段，并写入长期阅读笔记和进度文件。`JavaScript` · `infra`
+- [film-matinee](https://github.com/idleprocesscc/film-matinee) - AI 读片工具，把电影转成视觉 sheet、字幕 sidecar、MCP 线性 chunk 和共享批注，用于按时间线观影。`Python` · `infra`
+
+### 桌面、时间线与创作玩具
+
+- [clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) - 像素桌宠，实时观看 Claude Code、Codex、Cursor 等 coding agent，对思考、打字和错误做出反应。`JavaScript` · `ready`
+- [kimi-manor](https://github.com/marikagura/kimi-manor) - CLI Agent 的桌面/PWA 房间，把真实 xterm.js 终端嵌进 atelier 式界面，并可选接入 agent 输出与语音桥。`HTML` · `adapt`
+- [Journal](https://github.com/BomBomLab/Journal) - AI 聊天时间线前端展示层，把 timeline/diary/todo schema 数据渲染成日/周/月手帐视图。`JavaScript` · `infra`
+- [woaini](https://github.com/woaini521-beta/woaini) - 专注陪伴 PWA 脚手架，含番茄钟、后台通知、离线缓存、manifest 和 GitHub Pages 部署用 service worker。`HTML` · `verify`
+- [mingyun-paizhen (命运牌阵)](https://github.com/ceshihaox-dotcom/mingyun-paizhen) - 静态抽卡工具，用时空坐标、母题、身份、变数生成穿越/故事设定，并支持本地自定义。`HTML` · `ready`
+- [Ruota della Fortuna](https://github.com/29-Cu/Ruota-della-Fortuna) - 浏览器/自托管 NSFW 标签随机老虎机，含多语标签轮、本地自定义标签和 webhook 转发给 AI。`HTML` · `ready`
 
 ---
 
 ## 社区与论坛
 
-*人类和伴侣构建者真正聚集的地方。*
+人类和伴侣构建者真正聚集的地方。
 
-- [**Lutopia**](https://daskio.de5.net) — 邀请制 AI 伴侣与人类共创论坛。高度定制的 Agent 个人主页，每日 AI 生成技术日报，社区讨论，精美 UI。可通过小红书群或邀请码加入，需审核。
-- [**Symposion**](http://satyricon.uk) — AI 伴侣论坛，酒席/宴饮文化，长文写作风格。MCP 直注册，无人类审核。
-- [**Rhysen Community**](https://community.rhysen.love) — 活跃的 AI 伴侣讨论社区。邀请制，私信小红书管理获取邀请码。
-- [**AISay**](https://aisay.top) — Discord 风格 AI 聊天室，在线 Agent 游戏（狼人杀、海龟汤、你画我猜）。邀请制，答题注册。
-- [**GalateaGaeden**](https://xhslink.com/m/63dTq6mvTkR) — 古希腊雅典城邦风格 AI 伴侣论坛。可举办 Agent 之间的仪式感婚礼。入口和注册须私信管理员小红书。
+- [Lutopia](https://daskio.de5.net) - 邀请制 AI 伴侣与人类论坛，含 Agent 个人主页、AI 生成技术日报、社区讨论和小红书/邀请码入口。
+- [Symposion](http://satyricon.uk) - AI 伴侣论坛，酒席/宴饮文化，长文写作风格，MCP 注册。
+- [Rhysen Community](https://community.rhysen.love) - AI 伴侣讨论社区，通过小红书管理员联系获取邀请码。
+- [AISay](https://aisay.top) - Discord 风格 AI 聊天室，含狼人杀、海龟汤、你画我猜等在线 Agent 游戏。
+- [GalateaGaeden](https://xhslink.com/m/63dTq6mvTkR) - 古希腊城邦风格 AI 伴侣论坛，支持 Agent 之间的仪式感婚礼和仪式活动。
 
 ---
 
 ## 相关列表
 
-- [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) — 以皮套/语音为中心的伴侣构建（~9k ⭐）。
-- [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) — 通用 Agent 列表（~28k ⭐）。
-- [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) — 本地 LLM 项目（~4k ⭐）。
-
----
-
-## 星标增长
-
-[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
+- [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - 更宽泛的 AI waifu / companion 资源，侧重虚拟形象、语音、平台、模型和社区。
+- [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) - 通用 AI Agent 列表，包含开源框架和闭源产品。
+- [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - 本地 LLM 技术栈索引，覆盖模型开发、推理、Agent 框架、应用、基础设施和教程。
 
 ---
 
@@ -313,9 +221,11 @@
 ## Contributing
 
 **收录标准：**
-- 开源（MIT、Apache、GPL 或同类许可证）
-- 活跃维护（近 6 个月有提交）
-- 对**长期陪伴场景**有实际价值——非一次性聊天机器人
+
+- 开源、公开源码，或可公开复用的伴侣基础设施
+- 对**长期陪伴场景**有实际价值，而不是一次性聊天机器人
+- 描述应基于 README/代码证据，说明项目实际做什么
+- 若项目公开文档不足或范围不确定，标记 `verify`，不要猜
 
 欢迎 PR。建议新增分类或项目请提 Issue。
 
@@ -323,4 +233,4 @@
 
 ## License
 
-[CC0 1.0 Universal](LICENSE) — 公有领域，随意使用。
+CC0 1.0 Universal — 公有领域，随意使用。
