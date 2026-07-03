@@ -108,6 +108,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 - 🎯 [**AI Companion Runtime**](https://github.com/yf0522/ai-companion-runtime) — Full-stack companion runtime. WebSocket streaming + parallel emotion/intent/risk/memory engines + model hot-swap + OpenTelemetry tracing. Docker deployable. Python/Next.js. `35 ⭐`
 - 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — Private 1:1 channel: mobile PWA ↔ VPS relay ↔ desktop AI companion. Claude Code channel plugin reads messages, replies appear as chat bubbles on phone. Single-key, no accounts, self-hosted. `102 ⭐`
+- 🎯 [**Claude Imprint**](https://github.com/Qizhan7/claude-imprint) — Self-hosted agent system on Claude Code. Hybrid memory (FTS5 + bge-m3 + keyword, RRF ranking), multi-channel (Claude Code/AI/Telegram), heartbeat agent, scheduled tasks, single-file dashboard. CJK support. `79 ⭐`
 
 ### Heartbeat / Background Cognition (心跳系统)
 
