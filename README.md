@@ -62,6 +62,7 @@ Interfaces that give a companion a home-like space, phone-like surface, or persi
 - [xiao-shouji (小手机)](https://github.com/jiuyi777/xiao-shouji) - Gemini AI Studio app scaffold for a small-phone interface; the public README is mostly run/deploy instructions, so verify the feature set in code before depending on it. `HTML` · `verify`
 - [XSJDeveloperGuide (小手机开发指南)](https://github.com/Liunian06/XSJDeveloperGuide) - Developer guide for building small-phone companion interfaces, from the author of 汪汪机. `9 ⭐` · `infra`
 - [freeapp (whale小手机)](https://github.com/whale-Yd00/freeapp) - Phone-style AI chat companion with multi-provider support and a virtual phone interface. AGPLv3. `HTML` · `adapt`
+- [Hamster Nest (仓鼠小窝)](https://github.com/chuan-101/Hamster-Nest) - A hamster's digital nest: chat, reading tracker, notes/todos, voice (ElevenLabs), timeline, agent council with multi-AI collaboration. PWA. `TypeScript` · `adapt`
 
 ---
 

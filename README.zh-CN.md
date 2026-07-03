@@ -60,6 +60,7 @@
 - [xiao-shouji (小手机)](https://github.com/jiuyi777/xiao-shouji) - Gemini AI Studio 小手机界面脚手架；公开 README 主要是运行/部署说明，具体功能需要读代码再确认。`HTML` · `verify`
 - [XSJDeveloperGuide (小手机开发指南)](https://github.com/Liunian06/XSJDeveloperGuide) - 汪汪机作者撰写的小手机开发指南，面向伴侣界面搭建。`9 ⭐` · `infra`
 - [freeapp (whale小手机)](https://github.com/whale-Yd00/freeapp) - 手机风格 AI 聊天伴侣，多 Provider 支持，虚拟手机界面。AGPLv3。`HTML` · `adapt`
+- [Hamster Nest (仓鼠小窝)](https://github.com/chuan-101/Hamster-Nest) - 一只仓鼠的数字小窝：聊天、阅读追踪、笔记/待办、语音、时间轴、多 Agent 议事厅。PWA。`TypeScript` · `adapt`
 
 ---
 
