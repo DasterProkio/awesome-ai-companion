@@ -123,7 +123,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 *What makes a companion remember you across months, model swaps, and API migrations. Not just vector search — identity continuity.*
 
-- 🏗️ [**Haven-Ombre (Ombre-Brain fork)**](https://github.com/Yinglianchun/Haven-Ombre) — Full-stack memory & identity system. Markdown buckets + Russell emotion coordinates + forgetting curves + graph recall + Persona State Engine + Portrait/Handoff + relationship weather + Darkroom private reflections + Dream surfacing + cross-window short-term context + Gateway auto-injection into every conversation. Upstream: [P0luz/Ombre-Brain](https://github.com/P0luz/Ombre-Brain). `37 ⭐`
+- 🏗️ [**kimi-core**](https://github.com/marikagura/kimi-core) — Agent memory OS for 1v1 human-AI relationships. Hybrid retrieval (dense + lexical + time decay + importance), Panksepp-style self-drive engine, concern tracking, event sourcing with manual curation, adversarial self-review harness, autonomous wake daemon. AGPLv3. `28 ⭐`
 
 ---
 
