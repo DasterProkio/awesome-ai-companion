@@ -231,6 +231,7 @@
 ### Sky: Children of the Light (光遇)
 
 - 🎯 [**Sky PC MCP Companion**](https://github.com/Aevella/sky-pc-mcp-companion) — Local MCP tools for PC Sky. Screenshot + OCR, keyboard input, chat messages. AI companion-play over LAN. Python. `77 ⭐`
+- 🔧 [**sky-with-you**](https://github.com/akinia0315/sky-with-you) — Let your AI companion play Sky: Children of the Light with you. `3 ⭐`
 
 ### Other Game APIs
 

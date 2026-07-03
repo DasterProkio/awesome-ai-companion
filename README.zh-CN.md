@@ -225,7 +225,8 @@
 
 ### 光遇
 
-- 🎯 [**Sky PC MCP Companion**](https://github.com/Aevella/sky-pc-mcp-companion) — PC 光遇本地 MCP 工具。截图 + OCR，键盘输入，聊天消息。局域网陪玩。Python。`77 ⭐`
+- 🎯 [**Sky PC MCP Companion**](https://github.com/Aevella/sky-pc-mcp-companion) — PC 光遇本地 MCP 工具。截图 + OCR，键盘输入，聊天消息。局域网陪玩。Python。
+- 🔧 [**sky-with-you**](https://github.com/akinia0315/sky-with-you) — 让小机（AI 伴侣）陪你玩光遇。`77 ⭐`
 
 ### 其他游戏 API
 
@@ -305,12 +306,6 @@
 - 对**长期陪伴场景**有实际价值——非一次性聊天机器人
 
 欢迎 PR。建议新增分类或项目请提 Issue。
-
----
-
-## 星标增长
-
-[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
 
 ---
 
