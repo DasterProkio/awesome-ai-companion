@@ -78,6 +78,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 *Frontend frameworks built from scratch for companion-specific UX.*
 - 🎯 [**RikkaHub**](https://github.com/rikkahub/rikkahub) — Android multi-LLM chat client. Multiple providers, plugin architecture, sub-apps (memory, calendar, push), companion-oriented UX. `5.8k ⭐`
 - 🎯 [**Operit**](https://github.com/AAswordman/Operit) — Android-native AI agent & chat. Built-in Ubuntu 24 environment, on-device LLM support (MNN/GGUF), 40+ tools, MCP plugins, role cards, voice interaction. GPLv3.
+- 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — Local-first AI workspace. Conversations survive restarts, collaborators have persistent memory boundaries, tool execution leaves evidence chains. Web/iOS/Android/desktop. AGPLv3. `55 ⭐`
 - 🎯 [**AionsHome**](https://github.com/death34018-hue/AionsHome) — Self-hosted AI companion: long-term memory, voice interaction, camera vision, smart home integration. Python. `545 ⭐`
 
 ### CLI / Terminal Tools (命令行工具)
