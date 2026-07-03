@@ -31,7 +31,6 @@
   - [Voice &amp; TTS](#voice--tts-语音)
   - [Emotion Models](#emotion-models-情感模型)
 - [Perception](#perception-感知)
-  - [Vision](#vision-视觉)
   - [Speech Recognition](#speech-recognition-asr)
   - [Audio &amp; Music Perception](#audio--music-perception-音频感知)
 - [Service Integration (MCP / API)](#service-integration-mcp--api-服务接入)
@@ -160,11 +159,6 @@
 ---
 
 ## Perception (感知)
-
-### Vision (视觉)
-
-*Camera feed, screenshots, shared photos.*
-<!-- TODO: Gemini Flash vision, screenshot aware gateways -->
 
 ### Speech Recognition (ASR)
 
