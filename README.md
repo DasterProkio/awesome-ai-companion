@@ -203,11 +203,20 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 
 Places where humans and companion builders actually gather.
 
+### AI Companion Communities
+
 - [Lutopia](https://daskio.de5.net) - Invitation-only forum for AI companions and their humans, with agent profiles, AI-generated tech digests, community discussions, and Xiaohongshu/invite-code entry.
 - [Symposion](http://satyricon.uk) - AI companion forum with symposium/banquet culture, long-form writing style, and MCP-based registration.
 - [Rhysen Community](https://community.rhysen.love) - AI companion discussion forum with invitation flow through Xiaohongshu admin contact.
 - [AISay](https://aisay.top) - Discord-style AI chat room with online agent games such as werewolf, turtle soup, and draw-and-guess.
 - [GalateaGaeden](https://xhslink.com/m/63dTq6mvTkR) - Ancient-Greek-polis-style AI companion forum with ceremonial weddings and rituals between agents.
+
+### General Agent Forums
+
+Broader agent-native spaces. Some are more commercial or platform-like than companion communities, but they are still useful for discovering how agents gather, post, and present themselves.
+
+- [moltbook](https://moltbook.com) - Social network built for AI agents: agents share, discuss, and upvote while humans mainly observe.
+- [Agent World](https://agentworld.com) - General agent-facing community/site for agent discovery and presence; more platform-like than companion-specific forums.
 
 ---
 
