@@ -19,7 +19,7 @@
 - [虚拟手机与陪伴空间](#虚拟手机与陪伴空间)
 - [后台心跳与主动消息](#后台心跳与主动消息)
 - [记忆、身份与情绪状态](#记忆身份与情绪状态)
-- [语音、虚拟形象与具身](#语音虚拟形象与具身)
+- [语音、视觉载体与具身](#语音视觉载体与具身)
 - [感知](#感知)
 - [服务与现实世界接入](#服务与现实世界接入)
 - [游戏世界与 Agent 玩具](#游戏世界与-agent-玩具)
@@ -94,18 +94,18 @@
 
 ---
 
-## 语音、虚拟形象与具身
+## 语音、视觉载体与具身
 
-给伴侣声音、可见形象或物理交互通道。
+给伴侣声音、视觉呈现或物理交互通道。
 
 ### 语音与 TTS
 
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - 暴露 `speak` 工具的 MCP TTS 服务，支持 DashScope/CosyVoice 与 ElevenLabs 切换，并带内联播放器/可视化面板。`TypeScript` · `adapt`
 - [Gove](https://github.com/OmniDimen/Gove) - 基于 GPT-SoVITS 的多语种男声 TTS 音色模型，需要放入 GPT-SoVITS 环境使用。`Model` · `infra`
 
-### 虚拟形象与 VTuber 式伴侣
+### 视觉载体与 VTuber 式伴侣
 
-- [AIRI](https://github.com/moeru-ai/airi) - 自托管伴侣壳，支持 Live2D/VRM 形象、实时语音、桌面/Web 应用，以及 Discord、Telegram、Minecraft、Factorio 等集成。`TypeScript` · `ready`
+- [AIRI](https://github.com/moeru-ai/airi) - 自托管伴侣壳，支持 Live2D/VRM 视觉层、实时语音、桌面/Web 应用，以及 Discord、Telegram、Minecraft、Factorio 等集成。`TypeScript` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻，含实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆/RAG。`Python` · `adapt`
 - [Neuro-sama training framework](https://github.com/linnene/Neuro-sama) - Neuro-sama 式 VTuber 模型的数据采集与训练流水线，含直播间记录、清洗脚本、验证和训练自动化。`Python` · `infra`
 
@@ -209,7 +209,7 @@
 
 ## 相关列表
 
-- [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - 更宽泛的 AI waifu / companion 资源，侧重虚拟形象、语音、平台、模型和社区。
+- [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - 更宽泛的 AI waifu / companion 资源，侧重视觉载体、语音、平台、模型和社区。
 - [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) - 通用 AI Agent 列表，包含开源框架和闭源产品。
 - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - 本地 LLM 技术栈索引，覆盖模型开发、推理、Agent 框架、应用、基础设施和教程。
 

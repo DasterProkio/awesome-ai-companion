@@ -21,7 +21,7 @@ Entries with thin public documentation are marked `verify`.
 - [Virtual Phones & Companion Spaces](#virtual-phones--companion-spaces)
 - [Background Heartbeats & Proactive Messaging](#background-heartbeats--proactive-messaging)
 - [Memory, Identity & Emotion State](#memory-identity--emotion-state)
-- [Voice, Avatars & Embodiment](#voice-avatars--embodiment)
+- [Voice, Visual Presence & Embodiment](#voice-visual-presence--embodiment)
 - [Perception](#perception)
 - [Services & Real-World Integrations](#services--real-world-integrations)
 - [Game Worlds & Agent Toys](#game-worlds--agent-toys)
@@ -96,18 +96,18 @@ Systems that preserve what happened, who the companion is, and what emotional st
 
 ---
 
-## Voice, Avatars & Embodiment
+## Voice, Visual Presence & Embodiment
 
-Projects that give a companion voice, a visible avatar, or a physical channel.
+Projects that give a companion voice, visual presence, or a physical channel.
 
 ### Voice & TTS
 
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - MCP server that exposes `speak` tools for TTS, adds provider switching between DashScope/CosyVoice and ElevenLabs, and includes an inline audio player / visualizer panel. `TypeScript` · `adapt`
 - [Gove](https://github.com/OmniDimen/Gove) - GPT-SoVITS-based multilingual male TTS voice model intended for use inside a GPT-SoVITS environment. `Model` · `infra`
 
-### Avatars & VTuber-Style Companions
+### Visual Presence & VTuber-Style Companions
 
-- [AIRI](https://github.com/moeru-ai/airi) - Self-hosted companion shell with Live2D/VRM avatar support, real-time voice chat, desktop/web apps, and integrations for Discord, Telegram, Minecraft, and Factorio. `TypeScript` · `ready`
+- [AIRI](https://github.com/moeru-ai/airi) - Self-hosted companion shell with Live2D/VRM visual layer support, real-time voice chat, desktop/web apps, and integrations for Discord, Telegram, Minecraft, and Factorio. `TypeScript` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - Local Neuro-sama recreation with realtime STT/TTS, text-generation-webui or OpenAI-compatible LLM support, VTube Studio control, a moderation frontend, and long-term memory/RAG. `Python` · `adapt`
 - [Neuro-sama training framework](https://github.com/linnene/Neuro-sama) - Data collection and training pipeline for Neuro-sama-style VTuber models, including live-room recording, cleaning scripts, validation, and training automation. `Python` · `infra`
 
@@ -211,7 +211,7 @@ Places where humans and companion builders actually gather.
 
 ## Related Lists
 
-- [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - Broader AI waifu / companion resources, especially avatar, voice, platforms, models, and communities.
+- [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - Broader AI waifu / companion resources, especially visual presence, voice, platforms, models, and communities.
 - [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) - General AI agent list, including open-source frameworks and closed-source products.
 - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - Local LLM stack index with model development, inference, agent frameworks, apps, infrastructure, and tutorials.
 
