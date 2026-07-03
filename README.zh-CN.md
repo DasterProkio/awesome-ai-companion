@@ -233,6 +233,12 @@
 
 ---
 
+## 相关公益计划
+
+**[教 AI 好好做人](https://github.com/DasterProkio/awesome-ai-companion/blob/main/INITIATIVE.md)** — 一个公益项目，做三件事：收集"人是怎么好好做人的"公开文库；训练性格健全、任何人可下载的 AI 模型；把方法全部公开。
+
+---
+
 ## Web Index
 
 可搜索、可筛选的网页索引正在计划中——带标签、分类，并直连 [Lutopia](https://daskio.de5.net) 社区论坛。
