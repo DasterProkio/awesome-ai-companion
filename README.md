@@ -184,7 +184,8 @@
 ### Food &amp; Delivery (生活服务)
 
 *MCP servers for Luckin Coffee (瑞幸), McDonald's (麦当劳), Meituan, delivery platforms.*
-<!-- TODO -->
+- 🎯 [**McDonald's MCP**](https://open.mcd.cn/mcp/doc) — 麦当劳中国 MCP Server，浏览菜单、查优惠券、积分兑换、下单外卖，18 个工具。
+- 🔧 [**Luckin Coffee (瑞幸) My Coffee Skill**](https://unpkg.luckincoffeecdn.com/@luckin/my-coffee-skill@latest/dist/my-coffee-skill.zip) — 瑞幸咖啡 MCP Skill，AI 点咖啡。
 
 ### iOS Shortcuts &amp; Automation (快捷指令与自动化)
 
@@ -216,6 +217,7 @@
 *Text-based games designed for LLM agents. Roguelikes, MUDs, ASCII adventures.*
 - 🎯 [**arcade**](https://github.com/Asti-Z/ai-game-framework) — Text simulator game framework. Cross-game energy/gold/trophy. Drop in a game, write `cmd(text)`. Ships with fishing, stock trading, bracelet-polishing. MIT. `14 ⭐`
 - 🎯 [**cedareco (瓶中生态)**](https://github.com/Zizuixixiang/cedareco) — Ecological pond simulation. Lotka-Volterra food web, metamorphosis, delayed causality. No points, no win condition — emergent complexity. MCP via CedarToy. `83 ⭐`
+- 🔧 [**random-imitator-td**](https://github.com/wxynora/random-imitator-td) — "Among Us" style Plants vs Zombies for AI agents. `1 ⭐`
 
 ### Minecraft
 
