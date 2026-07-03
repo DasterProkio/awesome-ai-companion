@@ -91,6 +91,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [Paramecium](https://github.com/Shitsuten/paramecium) - Gateway memory architecture that keeps verbatim chat as the source of truth, uses vectors only as indexes, and retrieves original text instead of replacing it with summaries. `JavaScript` · `infra`
 - [Memory Constellations (记忆星图)](https://github.com/ClaraShafiq/MemoryConstellations) - Self-organizing companion memory system that extracts facts from chat, groups them into topic constellations, merges them into narrative episodes, and retrieves across layers. `JavaScript` · `infra`
 - [omemo](https://github.com/OmniDimen/omemo) - OpenAI-compatible memory proxy that sits between an app and upstream LLM APIs, stores memories through built-in or external summarization modes, and injects them by full prompt or RAG. `Python` · `infra`
+- [Aelios](https://github.com/wusaki0723/Aelios) - Layered long-term memory kernel on Cloudflare Workers + D1 + Vectorize. Three-tier write cycle (instant / 4h extraction / nightly consolidation), six memory layers, visual curation dashboard. MIT. `TypeScript` · `infra`
 
 ### Affect & Drives
 
