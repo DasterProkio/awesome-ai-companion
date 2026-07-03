@@ -192,6 +192,12 @@
 
 - 🎯 [**netease-music-mcp**](https://github.com/luuu-h/netease-music-mcp) — 网易云音乐 MCP Server。搜索、播放、暂停、切歌、歌词、歌单——AI 可以给你打碟。`neteasecli` + `mpv`。`53 ⭐`
 
+### AI 原生服务
+
+*专为 AI Agent 构建的基础设施——邮箱、身份、通信。*
+- [**Agent 邮箱 (网易)**](https://claw.163.com) — 网易 AI Agent 专属邮箱。
+- [**Agent 邮箱 (QQ)**](https://agent.qq.com) — QQ AI Agent 专属邮箱。
+
 ---
 
 ## 游戏世界与 API
