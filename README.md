@@ -255,6 +255,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 - 🎯 [**ss-reading-nest (共读小窝)**](https://github.com/yueyue95/ss-reading-nest-open) — AI co-reading nest for novels and manga. Separate reading positions for user and AI, catch-up mechanism, bookmarks, short reviews. ChatGPT Apps SDK + MCP + Cloudflare D1/R2. MIT. `8 ⭐`
 - 🎯 [**film-matinee**](https://github.com/idleprocesscc/film-matinee) — AI-first film reading tools. Chops movies into visual sheet chunks + subtitle sidecars, MCP linear reading, shared annotations. AI "watches" films one section at a time. MIT. `14 ⭐`
+- 🎯 [**Journal**](https://github.com/BomBomLab/Journal) — Visual journal for AI chat timelines. Renders structured events into daily/weekly/monthly views. Compatible with cyberboss runtime or custom timeline producers. `19 ⭐`
 
 ---
 
