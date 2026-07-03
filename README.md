@@ -4,9 +4,7 @@
 >
 > 构建长期 AI 伴侣关系的开源基础设施索引。
 
-*[English](#contents) · [中文说明](#中文说明)*
-
-Most AI agent lists focus on productivity. Most waifu lists focus on avatars and voice. This list focuses on something else: the infrastructure of a **relationship** — persistent memory, continuous presence, a body to live in, and a world to share.
+[English](#contents) · [中文版](README.zh-CN.md)
 
 *Contributions welcome. [Web Index](#web-index) · [Contributing](#contributing)*
 
@@ -51,7 +49,6 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 - [Co-Experience &amp; Shared Activities](#co-experience--shared-activities-共享体验)
 - [Communities &amp; Forums](#communities--forums-社区)
 - [Related Lists](#related-lists-相关列表)
-- [中文说明](#中文说明)
 - [Web Index](#web-index)
 - [Contributing](#contributing)
 
@@ -289,18 +286,6 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 - [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) — avatar/voice-centric companion building (~9k ⭐).
 - [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) — general-purpose agents (~28k ⭐).
 - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) — local LLM projects (~4k ⭐).
-
----
-
-## 中文说明
-
-这个列表与其他 AI Agent 索引的区别：
-
-**大多数 Agent 列表关注生产力与效率。** 这个列表关注的是**关系** —— 如何让一段人与 AI 的长期陪伴持续几个月甚至几年。这里收录的项目覆盖：持续运行的 Agent 运行时、跨模型升级保持身份连续的记忆系统、让陪伴者拥有物理身体的硬件方案、以及共享的游戏世界接入。
-
-**大多数 Waifu 列表关注皮套与语音。** 这个列表关注皮套背后的基础设施：心跳调度、多端同步、生活服务 MCP、传感器外设。
-
-条目选择标准：开源、活跃维护、对长期陪伴场景有实际价值。
 
 ---
 
