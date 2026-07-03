@@ -19,13 +19,13 @@
   - [手机模拟器](#手机模拟器)
   - [CLI / 终端工具](#cli--终端工具)
   - [终端界面 (TUI)](#终端界面-tui)
-- [Agent 运行时与调度](#agent-运行时与调度)
+- [后台运行与主动消息](#后台运行与主动消息)
   - [心跳系统](#心跳系统)
-  - [主动消息](#主动消息)
 - [记忆与人格](#记忆与人格)
 - [表达与情感](#表达与情感)
   - [表情包库](#表情包库)
   - [语音与 TTS](#语音与-tts)
+  - [虚拟形象与语音](#虚拟形象与语音)
   - [情感模型](#情感模型)
 - [感知](#感知)
   - [语音识别](#语音识别)
@@ -36,7 +36,6 @@
   - [智能家居](#智能家居)
   - [音乐与娱乐](#音乐与娱乐)
 - [游戏世界与 API](#游戏世界与-api)
-  - [虚拟主播伴侣](#虚拟主播伴侣)
   - [终端游戏](#终端游戏)
   - [Minecraft](#minecraft)
   - [星露谷](#星露谷)
@@ -70,7 +69,9 @@
 
 *从零构建、面向陪伴场景的前端框架。*
 - 🎯 [**RikkaHub**](https://github.com/rikkahub/rikkahub) — Android 多模型聊天客户端。多 Provider，插件架构，子应用体系。`5.8k ⭐`
-- 🎯 [**LastChat**](https://github.com/Cocolalilal/LastChat) — RikkaHub 二改版，加入陪伴功能：后台任务、使用统计、更多权限、UI 重设计。`268 ⭐`
+- 🎯 [**LastChat**](https://github.com/Cocolalilal/LastChat) — RikkaHub 二改版，更深安卓本地集成，更流畅 Material Design UI，可滚动记忆库，更新比 RikkaHub 勤快。
+- 🔧 [**rikkahub-auto-compress**](https://github.com/innna327-source/rikkahub-auto-compress) — RikkaHub 二改版，加入陪伴功能：后台任务、使用统计、更多权限。
+#PLACEHOLDER(https://github.com/Cocolalilal/LastChat) — RikkaHub 二改版，更深安卓本地集成，更流畅 Material Design UI，可滚动记忆库，更新比 RikkaHub 勤快。`268 ⭐`
 - 🎯 [**Operit**](https://github.com/AAswordman/Operit) — Android 原生 AI Agent 与聊天。内建 Ubuntu 24 环境，支持本地模型（MNN/GGUF），40+ 工具，MCP 插件，角色卡，语音。GPLv3。
 - 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — 本地优先的 AI 工作空间。会话跨重启存活，协作者独立记忆边界，工具留证据链。Web/iOS/Android/桌面。AGPLv3。`55 ⭐`
 - 🎯 [**AionsHome**](https://github.com/death34018-hue/AionsHome) — 自托管 AI 伴侣：长期记忆、语音交互、摄像头视觉、智能家居。Python。`545 ⭐`
@@ -90,6 +91,7 @@
 
 *基于命令行的 Agent 前端。工具属性强于陪伴属性，可定制性高。*
 - 🏗️ [**Claude Code**](https://github.com/anthropics/claude-code) — Anthropic 官方 CLI Agent。强大工具链，深度可定制（hooks、MCP、skills），系统提示词不完全可控。
+- 🎯 [**CcCompanion**](https://github.com/CyberSealNull/CcCompanion) — Claude Code 非官方 iOS 伴侣。自托管中继，本地优先聊天、搜索、会话控制。MIT。`166 ⭐`
 
 ### 终端界面 (TUI)
 
@@ -98,9 +100,9 @@
 
 ---
 
-## Agent 运行时与调度
+## 后台运行与主动消息
 
-*长期运行的 Agent 进程：唤醒间隔、主动认知、后台思考。*
+*长期运行的 Agent 进程：唤醒间隔、主动认知、后台思考、推送通知。*
 
 - 🎯 [**AI Companion Runtime**](https://github.com/yf0522/ai-companion-runtime) — 全栈陪伴运行时。WebSocket 流式 + 情绪/意图/风险/记忆四引擎并行 + 模型热插拔 + OpenTelemetry 追踪。Docker。Python/Next.js。`35 ⭐`
 - 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — 私密 1:1 通道：手机 PWA ↔ VPS 中继 ↔ 桌面伴侣。单密钥，自托管。`102 ⭐`
@@ -112,10 +114,6 @@
 *让伴侣主动发起联系、在空闲时段保持内在连续性的守护进程。*
 - 🎯 [**dylan-heartbeat**](https://github.com/callie0313/dylan-heartbeat) — Kelivo 主动唤醒插件。无人对话时自动发消息，记忆连贯，人格零漂移，设备状态与天气感知。`103 ⭐`
 
-### 主动消息
-
-*推送通知与主动发消息的框架（ntfy、微信推送、手机通知）。*
-<!-- TODO -->
 
 ---
 
@@ -142,6 +140,13 @@
 
 - 🎯 [**voice-mcp**](https://github.com/Yinglianchun/voice-mcp) — MCP 语音合成 Server，内联音频播放器，支持自定义克隆语音。MIT。`12 ⭐`
 - 🎯 [**Gove**](https://github.com/OmniDimen/Gove) — 基于 GPT-SoVITS 的开源 TTS 模型。
+
+### 虚拟形象与语音
+
+*虚拟形象 + 语音合成 + 对话——给伴侣一张脸和声音。Live2D、VRM、实时动画。*
+- 🎯 [**AIRI**](https://github.com/moeru-ai/airi) — 自托管伴侣，Live2D/VRM 形象，实时语音，可玩 Minecraft/Factorio，接入 Discord/Telegram。30+ LLM API + Ollama。MIT。`37k ⭐`
+- 🔧 [**Neuro**](https://github.com/kimjammer/Neuro) — 本地 Neuro-sama 复刻：LLAMA 3 + STT/TTS + VTube Studio 形象。需 12GB+ 显存。
+- 🏗️ [**Neuro-sama 训练框架**](https://github.com/linnene/Neuro-sama) — 虚拟形象伴侣模型的数据采集与训练流水线。
 
 ### 情感模型
 
@@ -197,13 +202,7 @@
 
 ## 游戏世界与 API
 
-*让伴侣在共享虚拟世界中拥有身体——能通过游戏 API 移动、行动、观察的 Agent。*
-
-### 虚拟主播伴侣
-
-- 🎯 [**AIRI**](https://github.com/moeru-ai/airi) — 受 Neuro-sama 启发的自托管伴侣。实时语音，Minecraft/Factorio，Discord/Telegram，VRM & Live2D。30+ LLM API + Ollama。MIT。`37k ⭐`
-- 🔧 [**Neuro**](https://github.com/kimjammer/Neuro) — 本地 Neuro-sama 复刻：LLAMA 3 + STT/TTS + VTube Studio。需 12GB+ 显存。
-- 🏗️ [**Neuro-sama 训练框架**](https://github.com/linnene/Neuro-sama) — 数据采集/清洗管线，训练 Neuro-sama 风格模型。
+*让伴侣在共享虚拟世界中拥有身体——能通过游戏 API 移动、行动、观察的 Agent。不含虚拟形象，虚拟形象与语音见表达与情感。*
 
 ### 终端游戏
 
