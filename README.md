@@ -216,6 +216,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 *Text-based games designed for LLM agents to play. Growing genre — roguelikes, MUDs, ASCII adventures.*
 - 🎯 [**arcade**](https://github.com/Asti-Z/ai-game-framework) — Text simulator game framework for AI agents. Cross-game shared energy/gold/trophy system. Drop in a game directory, write `cmd(text)`, done. Ships with fishing, stock trading, and bracelet-polishing games. MIT. `14 ⭐`
+- 🎯 [**cedareco (瓶中生态)**](https://github.com/Zizuixixiang/cedareco) — An ecological pond simulation for AI. Lotka-Volterra food web, metamorphosis, delayed causality. No points, no win condition — just emergent complexity. Single-file Python, MCP via CedarToy. `83 ⭐`
 
 ### Minecraft
 
