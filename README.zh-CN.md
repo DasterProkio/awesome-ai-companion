@@ -126,6 +126,10 @@
 - [claude-f-me](https://github.com/mana-am/claude-f-me) - Claude Code 插件，用自然语言控制 Buttplug/Intiface 设备，含双语 Web 控制台、模拟器、主遥控器和视频/游戏/音频模式。`TypeScript` · `adapt`
 - [svakom-ble-ai](https://github.com/vickyldr/svakom-ble-ai) - SVAKOM SL278H 蓝牙协议逆向 + AI 远程控制系统。`Python` · `adapt`
 
+### 表情包库
+
+- [ai-sticker-pack](https://github.com/Lumenocturne/ai-sticker-pack) - 上传表情包，AI 自动生成描述，聊天机器人按场景自己挑着发。含双向发送、多端渲染和踩坑思路。MIT。
+
 ---
 
 ## 感知

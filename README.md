@@ -128,6 +128,10 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [claude-f-me](https://github.com/mana-am/claude-f-me) - Claude Code plugin for natural-language control of Buttplug/Intiface devices, with a bilingual web console, simulator, master remote, and video/game/audio modes. `TypeScript` · `adapt`
 - [svakom-ble-ai](https://github.com/vickyldr/svakom-ble-ai) - BLE protocol reverse-engineering for SVAKOM SL278H + AI remote control system. `Python` · `adapt`
 
+### Sticker Libraries (表情包库)
+
+- [ai-sticker-pack](https://github.com/Lumenocturne/ai-sticker-pack) - Upload stickers, AI auto-generates descriptions, then the companion picks and sends contextually in chat. Bidirectional send, multi-platform rendering, practical lessons included. MIT.
+
 ---
 
 ## Perception
