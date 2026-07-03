@@ -75,6 +75,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [Not Fade Away](https://github.com/heyxiaoc/not-fade-away) - Deployment guide and machine-readable specs for an always-on, self-healing Claude Code companion using official channels, a local terminal, and a self-hosted web frontend. `Python` · `adapt`
 - [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat) - Kelivo plugin that periodically wakes the companion, injects proactive context, preserves timeline continuity, and sends Bark push messages when the AI chooses to reach out. `JavaScript` · `adapt`
 - [OmniRouter](https://github.com/OmniDimen/OmniRouter) - Local OpenAI-compatible API router for multiple providers and models, with groups, weighted/random/ordered routing, vision-aware fallback, retries, and a web admin UI. `Python` · `infra`
+- [VCPToolBox](https://github.com/lioensky/VCPToolBox) - Industrial middleware layer between LLM APIs and frontends: unified command protocol, persistent multi-level memory, distributed plugin engine, multi-agent collaboration. Reference value for architecture, not a recommendation. `Python` · `verify`
 
 ---
 
