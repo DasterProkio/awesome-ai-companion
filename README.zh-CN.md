@@ -17,7 +17,7 @@
 
 - [伴侣客户端与工作空间](#伴侣客户端与工作空间)
 - [虚拟手机与陪伴空间](#虚拟手机与陪伴空间)
-- [常驻运行时与私密通道](#常驻运行时与私密通道)
+- [后台心跳与主动消息](#后台心跳与主动消息)
 - [记忆、身份与情绪状态](#记忆身份与情绪状态)
 - [语音、虚拟形象与具身](#语音虚拟形象与具身)
 - [感知](#感知)
@@ -61,9 +61,9 @@
 
 ---
 
-## 常驻运行时与私密通道
+## 后台心跳与主动消息
 
-让伴侣不依赖单个浏览器标签页，能持续运行、转发消息或主动唤醒的运行时与通道。
+让伴侣能在后台醒来、接收消息、记住时间流逝，并主动联系你。
 
 - [AI Companion Runtime](https://github.com/yf0522/ai-companion-runtime) - 全栈实时陪伴运行时，含 WebSocket 流式对话、意图/情绪/风险/记忆引擎、工具调度、模型路由、后台记忆任务和 trace 观测。`Python` · `infra`
 - [Tidal_Echo (潮汐回响)](https://github.com/anhe2021212-spec/Tidal_Echo) - 私密 1:1 通道，连接手机 PWA、自托管 relay 和桌面伴侣；默认 AI 侧是 Claude Code channels，也提供其他 LLM 桥接示例。`HTML` · `adapt`
@@ -143,7 +143,6 @@
 - [Luckin Coffee (瑞幸) My Coffee Skill](https://unpkg.luckincoffeecdn.com/@luckin/my-coffee-skill@latest/dist/my-coffee-skill.zip) - 瑞幸咖啡 MCP Skill 包，用于 AI 辅助点咖啡。`MCP` · `adapt`
 - [Agent 邮箱 (网易)](https://claw.163.com) - 网易面向 AI Agent 的邮箱服务。`Service` · `ready`
 - [Agent 邮箱 (QQ)](https://agent.qq.com) - QQ 面向 AI Agent 的邮箱服务。`Service` · `ready`
-- [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - 本地网易云音乐 MCP Server，基于 `neteasecli` 和 `mpv`，支持搜索、播放控制、歌词、歌单、当前歌曲上下文和本地 Web 播放器。`JavaScript` · `adapt`
 
 ---
 
@@ -180,6 +179,10 @@
 - [reading-nook (共读小屋)](https://github.com/zzyyksl/reading-nook) - 自托管阅读网页，用户批注书籍文本，AI 直接读写服务器上的 JSON 批注文件，避免每条批注都走 API，同时保留整章上下文。`Python` · `ready`
 - [co-reading-kit](https://github.com/Youxuuuuu/co-reading-kit) - 轻量本地共读 MCP，将 EPUB/TXT/Markdown 切成 chunks，让 AI 只读相关片段，并写入长期阅读笔记和进度文件。`JavaScript` · `infra`
 - [film-matinee](https://github.com/idleprocesscc/film-matinee) - AI 读片工具，把电影转成视觉 sheet、字幕 sidecar、MCP 线性 chunk 和共享批注，用于按时间线观影。`Python` · `infra`
+
+### 音乐与共听
+
+- [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - 本地网易云音乐 MCP Server，基于 `neteasecli` 和 `mpv`，支持搜索、播放控制、歌词、歌单、当前歌曲上下文和本地 Web 播放器。`JavaScript` · `adapt`
 
 ### 桌面、时间线与创作玩具
 

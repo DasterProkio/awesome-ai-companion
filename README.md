@@ -19,7 +19,7 @@ Entries with thin public documentation are marked `verify`.
 
 - [Companion Clients & Workspaces](#companion-clients--workspaces)
 - [Virtual Phones & Companion Spaces](#virtual-phones--companion-spaces)
-- [Always-On Runtime & Channels](#always-on-runtime--channels)
+- [Background Heartbeats & Proactive Messaging](#background-heartbeats--proactive-messaging)
 - [Memory, Identity & Emotion State](#memory-identity--emotion-state)
 - [Voice, Avatars & Embodiment](#voice-avatars--embodiment)
 - [Perception](#perception)
@@ -63,9 +63,9 @@ Interfaces that give a companion a home-like space, phone-like surface, or persi
 
 ---
 
-## Always-On Runtime & Channels
+## Background Heartbeats & Proactive Messaging
 
-Runtimes, relays, and channel systems that keep a companion reachable outside a single browser tab.
+Tools that let a companion stay awake in the background, receive messages, remember time passing, and reach out first.
 
 - [AI Companion Runtime](https://github.com/yf0522/ai-companion-runtime) - Full-stack real-time companion runtime with WebSocket streaming, intent/emotion/risk/memory engines, tool dispatch, model routing, background memory jobs, and trace observability. `Python` · `infra`
 - [Tidal_Echo (潮汐回响)](https://github.com/anhe2021212-spec/Tidal_Echo) - Private 1:1 channel that links a phone PWA, a self-hosted relay, and a desktop companion; Claude Code channels are the default AI-side adapter, but other LLM bridges are included. `HTML` · `adapt`
@@ -145,7 +145,6 @@ MCP/API services that let a companion act in the user's real environment.
 - [Luckin Coffee (瑞幸) My Coffee Skill](https://unpkg.luckincoffeecdn.com/@luckin/my-coffee-skill@latest/dist/my-coffee-skill.zip) - Luckin Coffee MCP skill package for AI-assisted coffee ordering. `MCP` · `adapt`
 - [Agent Email (NetEase)](https://claw.163.com) - NetEase agent-facing email service. `Service` · `ready`
 - [Agent Email (QQ)](https://agent.qq.com) - QQ agent-facing email service. `Service` · `ready`
-- [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - Local MCP server for NetEase Cloud Music using `neteasecli` and `mpv`, with search, playback control, lyrics, playlists, current-song context, and a local web player. `JavaScript` · `adapt`
 
 ---
 
@@ -182,6 +181,10 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [reading-nook (共读小屋)](https://github.com/zzyyksl/reading-nook) - Self-hosted reading web app where humans annotate book text and an AI reads/writes JSON annotation files directly, avoiding per-note API calls while preserving chapter context. `Python` · `ready`
 - [co-reading-kit](https://github.com/Youxuuuuu/co-reading-kit) - Lightweight local MCP toolkit that imports EPUB/TXT/Markdown into chunks, lets AI read only relevant passages, and writes long-term reading notes and progress files. `JavaScript` · `infra`
 - [film-matinee](https://github.com/idleprocesscc/film-matinee) - AI-first film reading toolkit that turns movies into visual sheets, subtitle sidecars, MCP linear chunks, and shared annotations for timeline-based viewing. `Python` · `infra`
+
+### Music & Listening Together
+
+- [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - Local MCP server for NetEase Cloud Music using `neteasecli` and `mpv`, with search, playback control, lyrics, playlists, current-song context, and a local web player. `JavaScript` · `adapt`
 
 ### Desktop, Timelines & Creative Play
 
