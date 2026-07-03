@@ -194,6 +194,12 @@
 
 - 🎯 [**netease-music-mcp**](https://github.com/luuu-h/netease-music-mcp) — MCP server for NetEase Cloud Music. Search, play, pause, skip, lyrics, playlists — AI can DJ. `neteasecli` + `mpv`. `53 ⭐`
 
+### AI-Native Services (AI 原生服务)
+
+*Infrastructure built specifically for AI agents — email, identity, communication.*
+- [**Agent Email (NetEase)**](https://claw.163.com) — 网易 AI Agent 专属邮箱。
+- [**Agent Email (QQ)**](https://agent.qq.com) — QQ AI Agent 专属邮箱。
+
 ---
 
 ## Game Worlds &amp; APIs (游戏世界)
