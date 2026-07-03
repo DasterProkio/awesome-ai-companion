@@ -248,7 +248,7 @@ A public-interest project: collect a public library of *how humans be good human
 
 ## Star History (星标增长)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date&_=3)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
 
 ---
 
