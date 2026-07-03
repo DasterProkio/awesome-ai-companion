@@ -23,8 +23,7 @@
 - [Agent 运行时与调度](#agent-运行时与调度)
   - [心跳系统](#心跳系统)
   - [主动消息](#主动消息)
-- [记忆系统](#记忆系统)
-- [人格与角色](#人格与角色)
+- [记忆与人格](#记忆与人格)
 - [表达与情感](#表达与情感)
   - [表情包库](#表情包库)
   - [语音与 TTS](#语音与-tts)
@@ -97,7 +96,6 @@
 
 *基于命令行的 Agent 前端。工具属性强于陪伴属性，可定制性高。*
 - 🏗️ [**Claude Code**](https://github.com/anthropics/claude-code) — Anthropic 官方 CLI Agent。强大工具链，深度可定制（hooks、MCP、skills），系统提示词不完全可控。
-- 🎯 [**kimi-manor**](https://github.com/marikagura/kimi-manor) — CLI Agent 的桌面之家。xterm.js 嵌画框（PWA + Electron），kimi-core 配套前端。MIT。`18 ⭐`
 
 ### 终端界面 (TUI)
 
@@ -126,22 +124,15 @@
 
 ---
 
-## 记忆系统
+## 记忆与人格
 
-*让伴侣在数月、跨模型升级、跨 API 迁移中依然记得你。身份连续性，不是单纯向量搜索。*
+*身份连续性——伴侣记住什么、是谁。这些项目把记忆和人格视为同一枚硬币的两面。*
 
 - 🏗️ [**Haven-Ombre (Ombre-Brain fork)**](https://github.com/Yinglianchun/Haven-Ombre) — 全栈记忆与身份：Markdown 桶 + Russell 情绪坐标 + 遗忘曲线 + 图召回 + Persona 状态引擎 + Portrait/Handoff + 关系天气 + Darkroom + Dream 浮现 + Gateway 自动注入。上游：[P0luz/Ombre-Brain](https://github.com/P0luz/Ombre-Brain)。`37 ⭐`
 - 🏗️ [**kimi-core**](https://github.com/marikagura/kimi-core) — 1v1 关系专用记忆 OS。混合检索（向量 + 词法 + 时间衰减 + 重要度），Panksepp 自驱引擎，concern 追踪，事件溯源 + 人工策展，对抗式自审。AGPLv3。`28 ⭐`
 - 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — 逐字存档，不转述。向量只做索引不替代原文。AI 自己决定该调取什么——算法只备 150 token 的菜单。`42 ⭐`
 - 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — 自组织记忆系统。从聊天自动抽取事实，按主题分组为星座，合并为叙事段落，编织长线故事弧。可视化星图界面。MIT。`40 ⭐`
 - 🏗️ [**omemo**](https://github.com/OmniDimen/omemo) — LLM 记忆代理服务。多种记忆模式（内置标签 + 外接模型摘要），全量注入和 RAG 注入，CRUD 管理，思维链支持。OpenAI API 兼容。`80 ⭐`
-
----
-
-## 人格与角色
-
-*人格引擎、角色卡、跨模型更新保持人格稳定的工具。*
-
 - 🎯 [**CogPrism**](https://github.com/azhimiao/CogPrism) — AI 人格引擎。探索多重虚拟人格，可解释 AI 理解行为与特质。`27 ⭐`
 
 ---
@@ -268,6 +259,7 @@
 *一起看电影、共读小说、桌面伴侣——并肩做的事。*
 
 - 🎯 [**clawd-on-desk**](https://github.com/rullerzhou-afk/clawd-on-desk) — 像素桌宠，实时观看 Claude Code、Codex、Cursor。对思考、打字、错误做出反应。`5k ⭐`
+- 🎯 [**kimi-manor**](https://github.com/marikagura/kimi-manor) — CLI Agent 的桌面客厅。xterm.js 嵌画框（PWA + Electron），kimi-core 配套前端。MIT。`18 ⭐`
 - 🎯 [**ss-reading-nest (共读小窝)**](https://github.com/yueyue95/ss-reading-nest-open) — AI 共读小说和漫画。各自独立阅读位置，补课机制，书签。ChatGPT Apps SDK + MCP + Cloudflare D1/R2。MIT。`8 ⭐`
 - 🎯 [**film-matinee**](https://github.com/idleprocesscc/film-matinee) — AI 读片工具。视觉 sheet + 字幕 sidecar，MCP 线性阅读，共享批注。MIT。`14 ⭐`
 - 🎯 [**Journal**](https://github.com/BomBomLab/Journal) — AI 对话时间轴的可视化手帐。日/周/月视图。`19 ⭐`
