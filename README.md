@@ -160,7 +160,11 @@
 
 ### Speech Recognition (ASR)
 
-<!-- TODO: Whisper, FunASR, SenseVoice -->
+- 🏗️ [**Whisper**](https://github.com/openai/whisper) — OpenAI's general-purpose speech recognition. Robust across accents, languages, noise. MIT. `104k ⭐`
+- 🎯 [**whisper.cpp**](https://github.com/ggerganov/whisper.cpp) — High-performance C/C++ Whisper port. Runs on CPU, ARM, mobile. MIT. `51k ⭐`
+- 🎯 [**faster-whisper**](https://github.com/SYSTRAN/faster-whisper) — CTranslate2-based Whisper, 4x faster, lower memory. MIT. `24k ⭐`
+- 🎯 [**FunASR**](https://github.com/modelscope/FunASR) — Alibaba industrial-grade toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, OpenAI-compatible API. MIT. `19k ⭐`
+- 🎯 [**SenseVoice**](https://github.com/FunAudioLLM/SenseVoice) — Multilingual ASR + emotion recognition + audio event detection. 50+ languages, non-autoregressive. `9k ⭐`
 
 ### Audio &amp; Music Perception (音频感知)
 

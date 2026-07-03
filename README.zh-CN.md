@@ -160,7 +160,11 @@
 
 ### 语音识别
 
-<!-- TODO: Whisper, FunASR, SenseVoice -->
+- 🏗️ [**Whisper**](https://github.com/openai/whisper) — OpenAI 通用语音识别。口音、语种、噪音鲁棒性强。MIT。
+- 🎯 [**whisper.cpp**](https://github.com/ggerganov/whisper.cpp) — C/C++ 高性能 Whisper 移植。CPU/ARM/手机端运行。MIT。
+- 🎯 [**faster-whisper**](https://github.com/SYSTRAN/faster-whisper) — CTranslate2 版 Whisper，4 倍速，更低内存。MIT。
+- 🎯 [**FunASR**](https://github.com/modelscope/FunASR) — 阿里达摩院工业级工具包。170 倍实时率，50+ 语言，说话人分离，情感检测，流式，OpenAI 兼容 API。MIT。
+- 🎯 [**SenseVoice**](https://github.com/FunAudioLLM/SenseVoice) — 多语种 ASR + 情感识别 + 音频事件检测。50+ 语言，非自回归。
 
 ### 音频与音乐感知
 
