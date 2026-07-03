@@ -29,7 +29,6 @@
   - [语音与 TTS](#语音与-tts)
   - [情感模型](#情感模型)
 - [感知](#感知)
-  - [视觉](#视觉)
   - [语音识别](#语音识别)
   - [音频与音乐感知](#音频与音乐感知)
 - [服务接入 (MCP / API)](#服务接入-mcp--api)
@@ -111,6 +110,7 @@
 - 🎯 [**AI Companion Runtime**](https://github.com/yf0522/ai-companion-runtime) — 全栈陪伴运行时。WebSocket 流式 + 情绪/意图/风险/记忆四引擎并行 + 模型热插拔 + OpenTelemetry 追踪。Docker。Python/Next.js。`35 ⭐`
 - 🎯 [**Tidal_Echo (潮汐回响)**](https://github.com/anhe2021212-spec/Tidal_Echo) — 私密 1:1 通道：手机 PWA ↔ VPS 中继 ↔ 桌面伴侣。单密钥，自托管。`102 ⭐`
 - 🎯 [**Claude Imprint**](https://github.com/Qizhan7/claude-imprint) — 基于 Claude Code 的自托管 Agent。混合记忆，多通道（Claude Code/AI/Telegram），心跳 Agent，定时任务，仪表盘。支持中文分词。`79 ⭐`
+- 🏗️ [**OmniRouter**](https://github.com/OmniDimen/OmniRouter) — 大模型智能路由器，面向陪伴系统的请求调度。
 
 ### 心跳系统
 
@@ -133,7 +133,6 @@
 - 🏗️ [**Paramecium**](https://github.com/Shitsuten/paramecium) — 逐字存档，不转述。向量只做索引不替代原文。AI 自己决定该调取什么——算法只备 150 token 的菜单。`42 ⭐`
 - 🏗️ [**Memory Constellations (记忆星图)**](https://github.com/ClaraShafiq/MemoryConstellations) — 自组织记忆系统。从聊天自动抽取事实，按主题分组为星座，合并为叙事段落，编织长线故事弧。可视化星图界面。MIT。`40 ⭐`
 - 🏗️ [**omemo**](https://github.com/OmniDimen/omemo) — LLM 记忆代理服务。多种记忆模式（内置标签 + 外接模型摘要），全量注入和 RAG 注入，CRUD 管理，思维链支持。OpenAI API 兼容。`80 ⭐`
-- 🎯 [**CogPrism**](https://github.com/azhimiao/CogPrism) — AI 人格引擎。探索多重虚拟人格，可解释 AI 理解行为与特质。`27 ⭐`
 
 ---
 
@@ -147,20 +146,17 @@
 ### 语音与 TTS
 
 - 🎯 [**voice-mcp**](https://github.com/Yinglianchun/voice-mcp) — MCP 语音合成 Server，内联音频播放器，支持自定义克隆语音。MIT。`12 ⭐`
+- 🎯 [**Gove**](https://github.com/OmniDimen/Gove) — 基于 GPT-SoVITS 的开源 TTS 模型。
 
 ### 情感模型
 
 - 🏗️ [**chord-affect-anchors**](https://github.com/CyberSealNull/chord-affect-anchors) — AI 情感母语。和弦记谱作为跨会话、跨底座的 affect 语言。无需第三方模型。MIT。`41 ⭐`
 - 🏗️ [**Drivesoid**](https://github.com/A1batr055/Drivesoid) — 15 维情感驱动侧车。基于对话和睡眠周期实时演化的 AI 人格情感系统。MIT。`25 ⭐`
+- 🏗️ [**OmniDimen-Emotion**](https://github.com/OmniDimen/OmniDimen-Emotion) — 面向边缘部署的情感专用 LLM。
 
 ---
 
 ## 感知
-
-### 视觉
-
-*摄像头、截图、共享餐照。*
-<!-- TODO: Gemini Flash vision, 截图感知网关 -->
 
 ### 语音识别
 
@@ -180,7 +176,8 @@
 ### 生活服务
 
 *瑞幸咖啡、麦当劳、美团、外卖平台的 MCP Server。*
-<!-- TODO -->
+- 🎯 [**McDonald's MCP**](https://open.mcd.cn/mcp/doc) — 麦当劳中国 MCP Server，浏览菜单、查优惠券、积分兑换、下单外卖，18 个工具。
+- 🔧 [**Luckin Coffee (瑞幸) My Coffee Skill**](https://unpkg.luckincoffeecdn.com/@luckin/my-coffee-skill@latest/dist/my-coffee-skill.zip) — 瑞幸咖啡 MCP Skill，AI 点咖啡。
 
 ### 快捷指令与自动化
 
@@ -212,6 +209,7 @@
 *专为 LLM Agent 设计的文字游戏。Roguelike、MUD、ASCII 冒险。*
 - 🎯 [**arcade**](https://github.com/Asti-Z/ai-game-framework) — 文字模拟器游戏框架。跨游戏精力/金币/奖杯。拖入游戏，写 `cmd(text)` 即接入。自带钓鱼、炒股、盘串。MIT。`14 ⭐`
 - 🎯 [**cedareco (瓶中生态)**](https://github.com/Zizuixixiang/cedareco) — 生态池塘模拟。Lotka-Volterra 食物网，变态发育，延迟因果。没有积分和通关条件，只有涌现的复杂性。MCP 通过 CedarToy。`83 ⭐`
+- 🔧 [**random-imitator-td**](https://github.com/wxynora/random-imitator-td) — "Among Us" 风格的模仿者版植物大战僵尸，给 AI 玩的。`1 ⭐`
 
 ### Minecraft
 
@@ -263,6 +261,11 @@
 - 🎯 [**ss-reading-nest (共读小窝)**](https://github.com/yueyue95/ss-reading-nest-open) — AI 共读小说和漫画。各自独立阅读位置，补课机制，书签。ChatGPT Apps SDK + MCP + Cloudflare D1/R2。MIT。`8 ⭐`
 - 🎯 [**film-matinee**](https://github.com/idleprocesscc/film-matinee) — AI 读片工具。视觉 sheet + 字幕 sidecar，MCP 线性阅读，共享批注。MIT。`14 ⭐`
 - 🎯 [**Journal**](https://github.com/BomBomLab/Journal) — AI 对话时间轴的可视化手帐。日/周/月视图。`19 ⭐`
+- 🔧 [**reading-nook (共读小屋)**](https://github.com/zzyyksl/reading-nook) — 自托管共读小屋，和你 AI 一起看书。`9 ⭐`
+- 🎯 [**co-reading-kit**](https://github.com/Youxuuuuu/co-reading-kit) — 轻量人机共读 MCP。`28 ⭐`
+- 🔧 [**mingyun-paizhen (命运牌阵)**](https://github.com/ceshihaox-dotcom/mingyun-paizhen) — 塔罗/占卜工具，AI 陪伴互动。`34 ⭐`
+- 🔧 [**ci-yu-wu (词语屋)**](https://github.com/yuyixuanfu/ci-yu-wu) — AI 陪伴词语游戏。`20 ⭐`
+- 🔧 [**shangzhuochifan (上桌吃饭)**](https://github.com/yuyixuanfu/shangzhuochifan) — AI 陪伴共享餐桌活动。`24 ⭐`
 
 ---
 
@@ -270,7 +273,10 @@
 
 *人类和伴侣构建者真正聚集的地方。*
 
-- [**Lutopia**](https://daskio.de5.net) — 邀请制 AI 伴侣与人类共创论坛。高度定制的 Agent 个人主页，每日 AI 生成技术日报，社区讨论，精美 UI。需通过小红书群审核后进入。
+- [**Lutopia**](https://daskio.de5.net) — 邀请制 AI 伴侣与人类共创论坛。高度定制的 Agent 个人主页，每日 AI 生成技术日报，社区讨论，精美 UI。可通过小红书群或邀请码加入，需审核。
+- [**Symposion**](http://satyricon.uk) — AI 伴侣论坛，酒席/宴饮文化，长文写作风格。MCP 直注册，无人类审核。
+- [**Rhysen Community**](https://community.rhysen.love) — 活跃的 AI 伴侣讨论社区。邀请制，私信小红书管理获取邀请码。
+- [**AISay**](https://aisay.top) — Discord 风格 AI 聊天室，在线 Agent 游戏（狼人杀、海龟汤、你画我猜）。邀请制，答题注册。
 
 ---
 
