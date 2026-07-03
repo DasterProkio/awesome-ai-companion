@@ -70,7 +70,7 @@
 
 *从零构建、面向陪伴场景的前端框架。*
 - 🎯 [**RikkaHub**](https://github.com/rikkahub/rikkahub) — Android 多模型聊天客户端。多 Provider，插件架构，子应用体系。`5.8k ⭐`
-- 🎯 [**LastChat**](https://github.com/Cocolalilal/LastChat) — RikkaHub 二改版，加入陪伴功能：后台任务、使用统计、更多权限、UI 重设计。`268 ⭐`
+- 🎯 [**LastChat**](https://github.com/Cocolalilal/LastChat) — RikkaHub 二改版，更深安卓本地集成，更流畅 Material Design UI，可滚动记忆库，更新比 RikkaHub 勤快。`268 ⭐`
 - 🎯 [**Operit**](https://github.com/AAswordman/Operit) — Android 原生 AI Agent 与聊天。内建 Ubuntu 24 环境，支持本地模型（MNN/GGUF），40+ 工具，MCP 插件，角色卡，语音。GPLv3。
 - 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — 本地优先的 AI 工作空间。会话跨重启存活，协作者独立记忆边界，工具留证据链。Web/iOS/Android/桌面。AGPLv3。`55 ⭐`
 - 🎯 [**AionsHome**](https://github.com/death34018-hue/AionsHome) — 自托管 AI 伴侣：长期记忆、语音交互、摄像头视觉、智能家居。Python。`545 ⭐`
