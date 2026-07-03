@@ -48,6 +48,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 - [Hardware &amp; Carriers](#hardware--carriers-硬件载体)
   - [Dedicated Devices (Stack Chan / robots)](#dedicated-devices-专用设备)
   - [Sensors &amp; Peripherals](#sensors--peripherals-传感器与外设)
+- [Co-Experience &amp; Shared Activities](#co-experience--shared-activities-共享体验)
 - [Communities &amp; Forums](#communities--forums-社区)
 - [Related Lists](#related-lists-相关列表)
 - [中文说明](#中文说明)
@@ -81,6 +82,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 - 🎯 [**Polaris**](https://github.com/Aevella/polaris-local-first) — Local-first AI workspace. Conversations survive restarts, collaborators have persistent memory boundaries, tool execution leaves evidence chains. Web/iOS/Android/desktop. AGPLv3. `55 ⭐`
 - 🎯 [**AionsHome**](https://github.com/death34018-hue/AionsHome) — Self-hosted AI companion: long-term memory, voice interaction, camera vision, smart home integration. Python. `545 ⭐`
 - 🎯 [**KI-CO (小屋)**](https://github.com/Kisera001/KI-CO) — A companion cottage, not a chat window. Frontend skeleton + persona core + memory archive + diary + cinema room (local/B站). Local-first storage, multi-provider. TypeScript. `15 ⭐`
+- 🎯 [**InternalBeyond (边界之外)**](https://github.com/Sui-IB/InternalBeyond) — Single-file offline companion space. Pixel room with companion Sui, multi-port chat, AI letters, memory star chart, music player, 10 API ports, two themes. All local storage. HTML. `171 ⭐`
 
 ### CLI / Terminal Tools (命令行工具)
 
@@ -90,7 +92,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 ### Small Phone Frameworks (小手机框架)
 
 *Lightweight frontends designed for small-screen Android devices (e.g. Jelly Star, Unihertz).*
-<!-- TODO -->
+- 🎯 [**汪汪机 (WangWangPhone)**](https://github.com/Liunian06/FlutterCppWangWangPhone) — AI-Native small phone. Virtual OS with AI-powered WeChat-like social apps: single/group chat, voice/video calls, Moments feed. C++ backend + Flutter UI, local deployment. CC BY-NC-SA 4.0. `89 ⭐`
 
 ### Terminal UI / TUI (终端界面)
 
@@ -161,6 +163,11 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 <!-- TODO: Whisper, FunASR, SenseVoice -->
 
+### Audio & Music Perception (音频感知)
+
+*Giving companions ears — converting music and sound into structured data AI can read.*
+- 🎯 [**whale-listen**](https://github.com/migratorywhale/whale-listen) — MP3→MIDI→JSON for AI. Converts audio to structured note data (pitch, timing, duration, velocity) plus density maps, chord detection, silence structure. MIT. `19 ⭐`
+
 ---
 
 ## Service Integration / MCP / API (服务接入)
@@ -207,6 +214,7 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 ### Stardew Valley (星露谷)
 
+- 🎯 [**NagiBridge**](https://github.com/anqinou-art/NagiBridge) — SMAPI mod with HTTP API for external AI control. In-game chat panel, character movement, world interaction. AI clients can companion-play over localhost. C#. `66 ⭐`
 - 🔧 [**Stardew Valley Companions MCP**](https://mcpmarket.com/es/server/stardew-valley-companions) — SMAPI mod + MCP server. AI agents as Player 2/3, autonomous modes: follow, farm, mine, fish, idle.
 
 ### Sky: Children of the Light (光遇)
@@ -232,6 +240,17 @@ Most AI agent lists focus on productivity. Most waifu lists focus on avatars and
 
 *Pressure sensors for hug detection, cameras for ambient awareness, microphones for always-on listening.*
 <!-- TODO: pressure sensors in plushies, USB webcam integrations, Raspberry Pi companion boards -->
+
+---
+
+---
+
+## Co-Experience & Shared Activities (共享体验)
+
+*Doing things together — reading, watching films. Beyond the chat window.*
+
+- 🎯 [**ss-reading-nest (共读小窝)**](https://github.com/yueyue95/ss-reading-nest-open) — AI co-reading nest for novels and manga. Separate reading positions for user and AI, catch-up mechanism, bookmarks, short reviews. ChatGPT Apps SDK + MCP + Cloudflare D1/R2. MIT. `8 ⭐`
+- 🎯 [**film-matinee**](https://github.com/idleprocesscc/film-matinee) — AI-first film reading tools. Chops movies into visual sheet chunks + subtitle sidecars, MCP linear reading, shared annotations. AI "watches" films one section at a time. MIT. `14 ⭐`
 
 ---
 
