@@ -249,6 +249,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 ### Music & Listening Together
 
 - [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - Local MCP server for NetEase Cloud Music using `neteasecli` and `mpv`, with search, playback control, lyrics, playlists, current-song context, and a local web player. `JavaScript` · `adapt`
+- [woaini](https://github.com/woaini521-beta/woaini) - Focus companion PWA scaffold with Pomodoro timer, background notifications, offline cache, manifest, and service worker for GitHub Pages deployment. `HTML` · `verify`
 
 ### Desktop, Timelines & Creative Play
 

@@ -247,6 +247,7 @@
 ### 音乐与共听
 
 - [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - 本地网易云音乐 MCP Server，基于 `neteasecli` 和 `mpv`，支持搜索、播放控制、歌词、歌单、当前歌曲上下文和本地 Web 播放器。`JavaScript` · `adapt`
+- [woaini](https://github.com/woaini521-beta/woaini) - 专注陪伴 PWA 脚手架，含番茄钟、后台通知、离线缓存、manifest 和 GitHub Pages 部署用 service worker。`HTML` · `verify`
 
 ### 桌面、时间线与创作玩具
 
