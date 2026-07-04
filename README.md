@@ -327,7 +327,7 @@ The full founding document names the specific failure modes — measured sycopha
 
 ## Web Index
 
-A searchable, filterable web index is planned — with tags, categories, and a direct link to the [Lutopia](https://daskio.de5.net) community forum.
+A searchable, filterable web index is now live at **[daskio.de5.net/companion](https://daskio.de5.net/companion/)** — with tags, categories, and a direct link to the [Lutopia](https://daskio.de5.net) community forum.
 
 *TODO: GitHub Pages + JSON data file with filtering.*
 

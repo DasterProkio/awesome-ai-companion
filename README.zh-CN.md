@@ -325,7 +325,7 @@
 
 ## Web Index
 
-可搜索、可筛选的网页索引正在计划中——带标签、分类，并直连 [Lutopia](https://daskio.de5.net) 社区论坛。
+网页版索引现已上线：**[daskio.de5.net/companion](https://daskio.de5.net/companion/)** — 支持标签筛选与分类浏览，并附有 [Lutopia](https://daskio.de5.net) 社区论坛直达链接。
 
 *TODO: GitHub Pages + JSON 数据文件 + 筛选功能。*
 
