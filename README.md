@@ -158,6 +158,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - Immersive AI-driven Galgame chat with emotional expressions, desktop pet, scheduling, and interactive story modules. `C#` · `ready`
 - [astrbot_plugin_chuanhuatong (传画筒)](https://github.com/bvzrays/astrbot_plugin_chuanhuatong) - Renders AstrBot text replies as Galgame-style chat frames with character sprites, emotion variants, layered text, and a drag-and-drop WebUI layout editor. `Python` · `ready`
 - [Shinsekai](https://github.com/RachelForster/Shinsekai) - AI RPG maker. `Python` · `ready`
+- [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - Emotional skin for AI chat: LLM persona drives the UI with inline text effects and full-screen mood skins. CC BY 4.0. `CSS` · `adapt`
 
 ### Physical Devices & Touch
 
