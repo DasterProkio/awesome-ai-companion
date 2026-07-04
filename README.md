@@ -79,9 +79,7 @@ Interfaces that give a companion a home-like space, phone-like surface, or persi
 
 - [KI-CO (小屋)](https://github.com/Kisera001/KI-CO) - Local-first companion cottage with long chat, persona core, memory notes, diary/chronicle, life line, state card, cinema room, settings, and lightweight memory recall. `TypeScript` · `ready`
 - [InternalBeyond (边界之外)](https://github.com/Sui-IB/InternalBeyond) - Offline single-file personal site with pixel room, multi-port AI chat, blog/diary, AI letters, memory star map, music player, profile, API slots, and DIY assets. `HTML` · `ready`
-- [汪汪机 (WangWangPhone)](https://github.com/Liunian06/FlutterCppWangWangPhone) - AI-native virtual phone app with an in-app operating system, character-driven social apps, single/group chat, Moments-style feeds, and calls. `Flutter` · `adapt`
 - [柚月小手机 (Yuzuki's Little Phone)](https://github.com/gaigai315/yuzuki-phone) - SillyTavern-oriented virtual phone system with WeChat-like chat, Moments, Weibo trends, video calls, story injection mode, and an independent API mode that avoids polluting the main roleplay log. `JavaScript` · `adapt`
-- [xiao-shouji (小手机)](https://github.com/jiuyi777/xiao-shouji) - Gemini AI Studio app scaffold for a small-phone interface; the public README is mostly run/deploy instructions, so verify the feature set in code before depending on it. `HTML` · `verify`
 - [XSJDeveloperGuide (小手机开发指南)](https://github.com/Liunian06/XSJDeveloperGuide) - Developer guide for building small-phone companion interfaces, from the author of 汪汪机. `9 ⭐` · `infra`
 - [freeapp (whale小手机)](https://github.com/whale-Yd00/freeapp) - Phone-style AI chat companion with multi-provider support and a virtual phone interface. AGPLv3. `HTML` · `adapt`
 - [Hamster Nest (仓鼠小窝)](https://github.com/chuan-101/Hamster-Nest) - A hamster's digital nest: chat, reading tracker, notes/todos, voice (ElevenLabs), timeline, agent council with multi-AI collaboration. PWA. `TypeScript` · `adapt`
@@ -227,11 +225,9 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 ### Playing Games Together
 
 - [NagiBridge](https://github.com/anqinou-art/NagiBridge) - Stardew Valley SMAPI mod that exposes local HTTP APIs for external AI control, in-game chat, movement, world interaction, and cross-platform installation through releases. `C#` · `adapt`
-- [Stardew Valley Companions MCP](https://mcpmarket.com/es/server/stardew-valley-companions) - SMAPI mod plus MCP server for AI agents as Stardew multiplayer companions with follow, farm, mine, and fish modes. `MCP` · `verify`
 - [Sky PC MCP Companion](https://github.com/Aevella/sky-pc-mcp-companion) - Local MCP/JSON-RPC tools for PC Sky: window screenshots, OCR, screenshot return, keyboard input, and chat typing over a local network. `Python` · `adapt`
 - [sky-with-you](https://github.com/akinia0315/sky-with-you) - PC Sky companion-control stack with screenshot/OCR perception, LLM decision loop, and Arduino HID keyboard execution for chat, emotes, invitations, hand-holding, and home travel. `Python` · `adapt`
 - [TouhouLittleMaid](https://github.com/TartaricAcid/TouhouLittleMaid) - Minecraft Forge/NeoForge mod adding maid companions that help with battles, farming, and other tasks; useful as a game companion carrier or modding target. `Java` · `adapt`
-- [Neurosama-Minecraft-Mod](https://github.com/JimenezLi/Neurosama-Minecraft-Mod) - Minecraft mod for AI VTuber Neuro-sama; public README is sparse, so verify integration details in code before relying on it. `Java` · `verify`
 - [coc-kp-host](https://github.com/SumanasJ/coc-kp-host) - Call of Cthulhu Keeper skill for Claude Code/Codex/ChatGPT. Scene music, player handouts, party-split control. MIT. `Python` · `adapt`
 
 ---
@@ -259,7 +255,6 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) - Pixel desktop pet that watches Claude Code, Codex, Cursor, and other coding agents, reacting to thinking, typing, and errors. `JavaScript` · `ready`
 - [kimi-manor](https://github.com/marikagura/kimi-manor) - Desktop/PWA room for CLI agents, embedding a real xterm.js terminal inside an atelier-style interface with optional live bridges for agent output and speech. `HTML` · `adapt`
 - [Journal](https://github.com/BomBomLab/Journal) - Frontend display layer for AI chat timelines, rendering timeline/diary/todo schema data into daily, weekly, and monthly visual journal views. `JavaScript` · `infra`
-- [woaini](https://github.com/woaini521-beta/woaini) - Focus companion PWA scaffold with Pomodoro timer, background notifications, offline cache, manifest, and service worker for GitHub Pages deployment. `HTML` · `verify`
 - [mingyun-paizhen (命运牌阵)](https://github.com/ceshihaox-dotcom/mingyun-paizhen) - Static draw-card tool for generating time-travel/story premises from time coordinates, motifs, identities, and variables, with local customization. `HTML` · `ready`
 - [Ruota della Fortuna](https://github.com/29-Cu/Ruota-della-Fortuna) - Browser/self-hosted NSFW tag randomizer slot machine with multilingual tag wheels, local custom tags, and webhook forwarding to AI. `HTML` · `ready`
 
