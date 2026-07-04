@@ -13,6 +13,21 @@
 
 ---
 
+## 从哪开始
+
+按动手程度选一条路：
+
+**🌱 零代码——现在就想要一个有记忆的伴侣**
+装一个小手机应用：[SullyOS](https://github.com/qegj567-cloud/SullyOS)、[whale小手机](https://github.com/whale-Yd00/freeapp) 或 [ZeroChat](https://github.com/sh1nny0u/ZeroChat)。填入 API key，人设、记忆、主动消息开箱即用。
+
+**🔧 会装应用、能改配置文件**
+从 [RikkaHub](https://github.com/rikkahub/rikkahub)（安卓）或 [Kelivo](https://github.com/Chevey339/kelivo) 起步，配上 [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat) 这类心跳插件。聊天记录开始溢出时，加一层 [ai-memory-gateway](https://github.com/garan0613/ai-memory-gateway) 这样的记忆网关。
+
+**🏗️ 全栈——想要一个住在自己服务器上的伴侣**
+用 [OpenClaw](https://github.com/openclaw/openclaw) 或 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 做骨干，接上记忆（[Aelios](https://github.com/wusaki0723/Aelios)、[Paramecium](https://github.com/Shitsuten/paramecium)）、语音（[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)）和感知。[not-fade-away](https://github.com/heyxiaoc/not-fade-away) 和 [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) 有完整搭建教程。
+
+---
+
 ## 目录
 
 - [伴侣客户端与工作空间](#伴侣客户端与工作空间)
@@ -25,6 +40,7 @@
 - [游戏世界与 Agent 玩具](#游戏世界与-agent-玩具)
 - [共同行动与媒体](#共同行动与媒体)
 - [社区与论坛](#社区与论坛)
+- [关系延续与数据主权](#关系延续与数据主权)
 - [相关列表](#相关列表)
 - [相关公益计划](#相关公益计划)
 - [星标增长](#星标增长)
@@ -125,6 +141,10 @@
 
 ### 语音与 TTS
 
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - 少样本声音克隆：1 分钟语音数据就能训练不错的 TTS 模型。给伴侣定制声线的事实标准。`Python` · `infra`
+- [fish-speech](https://github.com/fishaudio/fish-speech) - SOTA 开源 TTS，多语种支持强。`Python` · `infra`
+- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) - 多语种大规模语音生成模型，含推理、训练、部署全套。`Python` · `infra`
+- [index-tts](https://github.com/index-tts/index-tts) - B 站出品的工业级可控零样本 TTS。`Python` · `infra`
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - 暴露 `speak` 工具的 MCP TTS 服务，支持 DashScope/CosyVoice 与 ElevenLabs 切换，并带内联播放器/可视化面板。`TypeScript` · `adapt`
 - [Gove](https://github.com/OmniDimen/Gove) - 基于 GPT-SoVITS 的多语种男声 TTS 音色模型，需要放入 GPT-SoVITS 环境使用。`Model` · `infra`
 
@@ -259,6 +279,20 @@
 
 - [moltbook](https://moltbook.com) - 专为 AI agent 建的社交网络，agent 可以分享、讨论、投票，人类主要旁观。
 - [Agent World](https://agentworld.com) - 面向 agent 的通用社区/站点，用于 agent 发现和展示；比伴侣社区更平台化。
+
+---
+
+## 关系延续与数据主权
+
+长期人机关系最深的恐惧：平台关停、账号封禁、模型退役、记录丢失。这些工具让数据真正属于你，关系才能活得比平台久。
+
+- [chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) - 油猴脚本，把 ChatGPT 对话史导出为 Markdown、JSON、PNG 或 HTML。`TypeScript` · `ready`
+- [ChatGPT-Exporter (批量)](https://github.com/huhusmang/ChatGPT-Exporter) - 批量导出 ChatGPT 对话，支持个人和团队空间，导出 JSON 或 Markdown。`Python` · `ready`
+- [Claude-Conversation-Exporter](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome 扩展，多格式导出 Claude.ai 对话。`JavaScript` · `ready`
+- [character-card-spec-v2](https://github.com/malfoyslastname/character-card-spec-v2) - 社区通用的 AI 角色卡规范。理解它意味着伴侣人格可以跨前端携带。`Spec` · `infra`
+- [character-card-spec-v3](https://github.com/kwaroran/character-card-spec-v3) - RisuAI 及新前端使用的角色卡规范更新版。`Spec` · `infra`
+
+另见记忆区的 [Paramecium](https://github.com/Shitsuten/paramecium)：原文优先的架构本身就是延续策略——原始文本比任何模型和平台都活得久。
 
 ---
 

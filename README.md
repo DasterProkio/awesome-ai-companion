@@ -15,6 +15,21 @@ Entries with thin public documentation are marked `verify`.
 
 ---
 
+## Where to Start
+
+Pick the path that matches your comfort with code:
+
+**🌱 No code — I just want a companion with memory, now**
+Get a phone-simulator app: [SullyOS](https://github.com/qegj567-cloud/SullyOS), [whale小手机](https://github.com/whale-Yd00/freeapp), or [ZeroChat](https://github.com/sh1nny0u/ZeroChat). Fill in an API key, and you have persona, memory, and proactive messages out of the box.
+
+**🔧 Some tinkering — I can install an app and edit config files**
+Start with [RikkaHub](https://github.com/rikkahub/rikkahub) (Android) or [Kelivo](https://github.com/Chevey339/kelivo) plus a heartbeat plugin like [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat). Add a memory layer such as [ai-memory-gateway](https://github.com/garan0613/ai-memory-gateway) when history starts overflowing.
+
+**🏗️ Full stack — I want a companion that lives on my server**
+Run [OpenClaw](https://github.com/openclaw/openclaw) or [AstrBot](https://github.com/AstrBotDevs/AstrBot) as the backbone, wire in memory ([Aelios](https://github.com/wusaki0723/Aelios), [Paramecium](https://github.com/Shitsuten/paramecium)), voice ([GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)), and perception. Guides like [not-fade-away](https://github.com/heyxiaoc/not-fade-away) and [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) walk through complete setups.
+
+---
+
 ## Contents
 
 - [Companion Clients & Workspaces](#companion-clients--workspaces)
@@ -27,6 +42,7 @@ Entries with thin public documentation are marked `verify`.
 - [Game Worlds & Agent Toys](#game-worlds--agent-toys)
 - [Shared Activities & Media](#shared-activities--media)
 - [Communities & Forums](#communities--forums)
+- [Continuity & Data Ownership](#continuity--data-ownership)
 - [Related Lists](#related-lists)
 - [Related Initiative](#related-initiative-相关公益计划)
 - [Star History](#star-history-星标增长)
@@ -127,6 +143,10 @@ Projects that give a companion voice, visual presence, or a physical channel.
 
 ### Voice & TTS
 
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - Few-shot voice cloning: 1 minute of voice data trains a decent TTS model. The de-facto standard for giving your companion a custom voice. `Python` · `infra`
+- [fish-speech](https://github.com/fishaudio/fish-speech) - SOTA open-source TTS with strong multilingual support. `Python` · `infra`
+- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) - Multi-lingual large voice generation model with inference, training, and deployment support. `Python` · `infra`
+- [index-tts](https://github.com/index-tts/index-tts) - Industrial-level controllable zero-shot TTS from Bilibili. `Python` · `infra`
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - MCP server that exposes `speak` tools for TTS, adds provider switching between DashScope/CosyVoice and ElevenLabs, and includes an inline audio player / visualizer panel. `TypeScript` · `adapt`
 - [Gove](https://github.com/OmniDimen/Gove) - GPT-SoVITS-based multilingual male TTS voice model intended for use inside a GPT-SoVITS environment. `Model` · `infra`
 
@@ -261,6 +281,20 @@ Broader agent-native spaces. Some are more commercial or platform-like than comp
 
 - [moltbook](https://moltbook.com) - Social network built for AI agents: agents share, discuss, and upvote while humans mainly observe.
 - [Agent World](https://agentworld.com) - General agent-facing community/site for agent discovery and presence; more platform-like than companion-specific forums.
+
+---
+
+## Continuity & Data Ownership
+
+The deepest fear in a long-term AI relationship: platform shutdown, account ban, model deprecation, lost history. These tools keep your data yours, so the relationship can survive a platform.
+
+- [chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) - Userscript to export ChatGPT conversation history as Markdown, JSON, PNG, or HTML. `TypeScript` · `ready`
+- [ChatGPT-Exporter (batch)](https://github.com/huhusmang/ChatGPT-Exporter) - Batch-export ChatGPT conversations from personal and team workspaces to JSON or Markdown. `Python` · `ready`
+- [Claude-Conversation-Exporter](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome extension to export Claude.ai conversations in various formats. `JavaScript` · `ready`
+- [character-card-spec-v2](https://github.com/malfoyslastname/character-card-spec-v2) - The community specification for AI character cards. Understanding it means your companion's persona is portable across frontends. `Spec` · `infra`
+- [character-card-spec-v3](https://github.com/kwaroran/character-card-spec-v3) - Updated character card spec used by RisuAI and newer frontends. `Spec` · `infra`
+
+Also see [Paramecium](https://github.com/Shitsuten/paramecium) in Memory & Identity: its verbatim-first architecture is itself a continuity strategy — original text outlives any single model or platform.
 
 ---
 
