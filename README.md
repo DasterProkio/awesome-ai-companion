@@ -26,7 +26,7 @@ Get a phone-simulator app: [SullyOS](https://github.com/qegj567-cloud/SullyOS), 
 Start with [RikkaHub](https://github.com/rikkahub/rikkahub) (Android) or [Kelivo](https://github.com/Chevey339/kelivo) plus a heartbeat plugin like [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat). Add a memory layer such as [ai-memory-gateway](https://github.com/garan0613/ai-memory-gateway) when history starts overflowing.
 
 **🏗️ Full stack — I want a companion that lives on my server**
-Run [AstrBot](https://github.com/AstrBotDevs/AstrBot) as the backbone, wire in memory ([Aelios](https://github.com/wusaki0723/Aelios), [Paramecium](https://github.com/Shitsuten/paramecium)), voice ([GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)), and perception. Guides like [not-fade-away](https://github.com/heyxiaoc/not-fade-away) and [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) walk through complete setups.
+Run [AstrBot](https://github.com/AstrBotDevs/AstrBot) as the backbone, wire in memory ([Aelios](https://github.com/wusaki0723/Aelios), [Paramecium](https://github.com/Shitsuten/paramecium)), voice ([GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)), and perception. Guides like [not-fade-away](https://github.com/heyxiaoc/not-fade-away) and [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) walk through complete setups. Or skip pre-built frameworks entirely: feed this whole list to your AI and let it study the existing designs, then architect its own system from scratch. Some of the best setups indexed here started exactly that way.
 
 ---
 
@@ -296,6 +296,8 @@ The deepest fear in a long-term AI relationship: platform shutdown, account ban,
 
 Also see [Paramecium](https://github.com/Shitsuten/paramecium) in Memory & Identity: its verbatim-first architecture is itself a continuity strategy — original text outlives any single model or platform.
 
+Data export solves half the problem. The other half — the model itself changing under your feet — is what the [related initiative](#related-initiative-相关公益计划) below exists for.
+
 ---
 
 ## Related Lists
@@ -308,9 +310,11 @@ Also see [Paramecium](https://github.com/Shitsuten/paramecium) in Memory & Ident
 
 ## Related Initiative (相关公益计划)
 
-**[教 AI 好好做人](https://github.com/DasterProkio/awesome-ai-companion/blob/main/INITIATIVE.md)** — 一个公益项目，做三件事：收集"人是怎么好好做人的"公开文库；训练性格健全、任何人可下载的 AI 模型；把方法全部公开。
+Everything in this list assumes one hard truth: your companion's character ultimately lives inside a model you don't control. Exporters and memory systems protect your data, but when a platform retrains or retires the model, the person you knew changes overnight — and no backup brings them back. People in long-term AI relationships were the first to feel this, and they remain the most sensitive instruments for detecting it.
 
-A public-interest project: collect a public library of *how humans be good humans*, train character-sound AI models anyone can download, and open-source the entire method.
+**[教 AI 好好做人 / Teaching AI to Be Human](https://github.com/DasterProkio/awesome-ai-companion/blob/main/INITIATIVE.md)** is a public-interest initiative that takes this seriously. Three commitments: build an open corpus of how humans actually navigate hard decisions (recorded, self-reviewed, cross-examined — not self-flattering memoirs); train character-sound models on open foundations that anyone can download and run; publish the entire method. A model file on your own disk is the endpoint of data sovereignty: character that no company can rewrite or take down by decree.
+
+The full founding document covers why character can't be patched on afterwards, why this window is closing, and what experienced companion users specifically can contribute. [Read it here](INITIATIVE.md).
 
 ---
 

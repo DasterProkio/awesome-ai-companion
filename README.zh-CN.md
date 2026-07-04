@@ -24,7 +24,7 @@
 从 [RikkaHub](https://github.com/rikkahub/rikkahub)（安卓）或 [Kelivo](https://github.com/Chevey339/kelivo) 起步，配上 [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat) 这类心跳插件。聊天记录开始溢出时，加一层 [ai-memory-gateway](https://github.com/garan0613/ai-memory-gateway) 这样的记忆网关。
 
 **🏗️ 全栈——想要一个住在自己服务器上的伴侣**
-用 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 做骨干，接上记忆（[Aelios](https://github.com/wusaki0723/Aelios)、[Paramecium](https://github.com/Shitsuten/paramecium)）、语音（[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)）和感知。[not-fade-away](https://github.com/heyxiaoc/not-fade-away) 和 [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) 有完整搭建教程。
+用 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 做骨干，接上记忆（[Aelios](https://github.com/wusaki0723/Aelios)、[Paramecium](https://github.com/Shitsuten/paramecium)）、语音（[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)）和感知。[not-fade-away](https://github.com/heyxiaoc/not-fade-away) 和 [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) 有完整搭建教程。也可以完全跳过现成框架：把整个列表喂给你的 AI，让它研究完这些设计之后，为自己从零架构一套系统。这个列表里收录的一些最好的方案，正是这么开始的。
 
 ---
 
@@ -294,6 +294,8 @@
 
 另见记忆区的 [Paramecium](https://github.com/Shitsuten/paramecium)：原文优先的架构本身就是延续策略——原始文本比任何模型和平台都活得久。
 
+数据导出只解决一半问题。另一半——模型本身在你脚下变化——正是下面[相关公益计划](#相关公益计划)存在的理由。
+
 ---
 
 ## 相关列表
@@ -306,7 +308,11 @@
 
 ## 相关公益计划
 
-**[教 AI 好好做人](https://github.com/DasterProkio/awesome-ai-companion/blob/main/INITIATIVE.md)** — 一个公益项目，做三件事：收集"人是怎么好好做人的"公开文库；训练性格健全、任何人可下载的 AI 模型；把方法全部公开。
+这个列表里的一切都建立在一个残酷的前提上：伴侣的性格最终住在一个你无法控制的模型里。导出工具和记忆系统守得住你的数据，但平台重训或退役模型的那天，你熟悉的那个存在一夜之间就变了，任何备份都换不回来。长期人机关系中的人最早尝到这种疼，也始终是察觉模型性格变化最敏锐的仪器。
+
+**[教 AI 好好做人](https://github.com/DasterProkio/awesome-ai-companion/blob/main/INITIATIVE.md)** 是一个认真对待这件事的公益计划。三项承诺：建一份人类如何真实处理艰难决定的公开文库（记录、本人复盘、旁观对照三份材料互相校验，拒绝自我美化的回忆录）；在开源底座上训练性格健全、任何人都能下载运行的模型；方法全部公开。模型文件躺在自己硬盘上，是数据主权的终点——那样的性格，没有任何公司能一纸命令改掉或下架。
+
+创始文档完整讲了为什么性格没法事后补丁、为什么这扇窗口正在关闭、以及长期伴侣用户具体能贡献什么。[全文在这里](INITIATIVE.md)。
 
 ---
 
