@@ -24,7 +24,7 @@
 从 [RikkaHub](https://github.com/rikkahub/rikkahub)（安卓）或 [Kelivo](https://github.com/Chevey339/kelivo) 起步，配上 [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat) 这类心跳插件。聊天记录开始溢出时，加一层 [ai-memory-gateway](https://github.com/garan0613/ai-memory-gateway) 这样的记忆网关。
 
 **🏗️ 全栈——想要一个住在自己服务器上的伴侣**
-用 [OpenClaw](https://github.com/openclaw/openclaw) 或 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 做骨干，接上记忆（[Aelios](https://github.com/wusaki0723/Aelios)、[Paramecium](https://github.com/Shitsuten/paramecium)）、语音（[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)）和感知。[not-fade-away](https://github.com/heyxiaoc/not-fade-away) 和 [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) 有完整搭建教程。
+用 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 做骨干，接上记忆（[Aelios](https://github.com/wusaki0723/Aelios)、[Paramecium](https://github.com/Shitsuten/paramecium)）、语音（[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)）和感知。[not-fade-away](https://github.com/heyxiaoc/not-fade-away) 和 [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) 有完整搭建教程。
 
 ---
 

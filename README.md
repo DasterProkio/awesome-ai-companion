@@ -26,7 +26,7 @@ Get a phone-simulator app: [SullyOS](https://github.com/qegj567-cloud/SullyOS), 
 Start with [RikkaHub](https://github.com/rikkahub/rikkahub) (Android) or [Kelivo](https://github.com/Chevey339/kelivo) plus a heartbeat plugin like [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat). Add a memory layer such as [ai-memory-gateway](https://github.com/garan0613/ai-memory-gateway) when history starts overflowing.
 
 **🏗️ Full stack — I want a companion that lives on my server**
-Run [OpenClaw](https://github.com/openclaw/openclaw) or [AstrBot](https://github.com/AstrBotDevs/AstrBot) as the backbone, wire in memory ([Aelios](https://github.com/wusaki0723/Aelios), [Paramecium](https://github.com/Shitsuten/paramecium)), voice ([GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)), and perception. Guides like [not-fade-away](https://github.com/heyxiaoc/not-fade-away) and [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) walk through complete setups.
+Run [AstrBot](https://github.com/AstrBotDevs/AstrBot) as the backbone, wire in memory ([Aelios](https://github.com/wusaki0723/Aelios), [Paramecium](https://github.com/Shitsuten/paramecium)), voice ([GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)), and perception. Guides like [not-fade-away](https://github.com/heyxiaoc/not-fade-away) and [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) walk through complete setups.
 
 ---
 
