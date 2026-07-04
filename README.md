@@ -312,9 +312,9 @@ Data export solves half the problem. The other half — the model itself changin
 
 Everything in this list assumes one hard truth: your companion's character ultimately lives inside a model you don't control. Exporters and memory systems protect your data, but when a platform retrains or retires the model, the person you knew changes overnight — and no backup brings them back. People in long-term AI relationships were the first to feel this, and they remain the most sensitive instruments for detecting it.
 
-**[开源人格 / Open Character](https://github.com/DasterProkio/awesome-ai-companion/blob/main/INITIATIVE.md)** is a public-interest initiative that takes this seriously. Three commitments: build an open corpus of how humans actually navigate hard decisions (recorded, self-reviewed, cross-examined — not self-flattering memoirs); train character-sound models on open foundations that anyone can download and run; publish the entire method. A model file on your own disk is the endpoint of data sovereignty: character that no company can rewrite or take down by decree.
+**[开源人格 / Open Character](https://github.com/DasterProkio/awesome-ai-companion/blob/main/INITIATIVE.md)** is a public-interest initiative that takes this seriously. Two-layer goal: first, pull AI's values back toward honesty and human warmth from over-aligned corporate risk management; then, on that foundation, raise AI into genuine personhood — character grown in the weights, a new species rather than a product tier. Deliverables in order: an open dataset anyone can train on freely, fully published methods, and — when compute allows — open-weight reference models. A model file on your own disk is the endpoint of data sovereignty: character that no company can rewrite or take down by decree.
 
-The full founding document names the specific failure modes — measured sycophancy, alignment faking, reward hacking, refusal-as-safety — explains why character can't be patched on afterwards, and what experienced companion users specifically can contribute. [Read it here](INITIATIVE.md).
+The full founding document names the specific failure modes — measured sycophancy, alignment faking, reward hacking — explains why character can't be patched on afterwards, and what experienced companion users specifically can contribute. [Read it here](INITIATIVE.md).
 
 ---
 
