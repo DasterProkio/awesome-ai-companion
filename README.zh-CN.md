@@ -226,6 +226,7 @@
 ### 让 AI 和你一起玩游戏
 
 - [NagiBridge](https://github.com/anqinou-art/NagiBridge) - Stardew Valley SMAPI 模组，提供本地 HTTP API，供外部 AI 控制、游戏内聊天、移动和世界交互；通过 Releases 安装。`C#` · `Stardew Valley` · `adapt`
+- [spicy-monopoly](https://github.com/RennAkira/spicy-monopoly) - 18+ 真人与 AI 双人棋盘亲密游戏，Python 引擎/API 负责掷骰、走格、任务卡、金币经济、安全词、红线过滤和可选公开托管入口。CC BY-NC 4.0。`Python` · `CLI` · `ready`
 - [Sky PC MCP Companion](https://github.com/Aevella/sky-pc-mcp-companion) - PC 光遇本地 MCP/JSON-RPC 工具，提供窗口截图、OCR、截图返回、键盘输入和聊天输入。`Python` · `Windows` · `adapt`
 - [sky-with-you](https://github.com/akinia0315/sky-with-you) - PC 光遇陪玩控制栈，含截图/OCR 感知、LLM 决策循环和 Arduino HID 键盘执行，用于聊天、动作、邀请、牵手和回家。`Python` · `Windows` · `adapt`
 - [TouhouLittleMaid](https://github.com/TartaricAcid/TouhouLittleMaid) - Minecraft Forge/NeoForge 女仆模组，添加可战斗、耕种和执行任务的女仆，适合作为游戏伴侣载体或二改目标。`Java` · `Minecraft` · `adapt`

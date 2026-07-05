@@ -228,6 +228,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 ### Playing Games Together
 
 - [NagiBridge](https://github.com/anqinou-art/NagiBridge) - Stardew Valley SMAPI mod that exposes local HTTP APIs for external AI control, in-game chat, movement, world interaction, and cross-platform installation through releases. `C#` · `Stardew Valley` · `adapt`
+- [spicy-monopoly](https://github.com/RennAkira/spicy-monopoly) - 18+ two-player board game for a human and an AI, with a Python engine/API for dice, tiles, task cards, coin economy, safety words, redline filtering, and an optional public hosted endpoint. CC BY-NC 4.0. `Python` · `CLI` · `ready`
 - [Sky PC MCP Companion](https://github.com/Aevella/sky-pc-mcp-companion) - Local MCP/JSON-RPC tools for PC Sky: window screenshots, OCR, screenshot return, keyboard input, and chat typing over a local network. `Python` · `Windows` · `adapt`
 - [sky-with-you](https://github.com/akinia0315/sky-with-you) - PC Sky companion-control stack with screenshot/OCR perception, LLM decision loop, and Arduino HID keyboard execution for chat, emotes, invitations, hand-holding, and home travel. `Python` · `Windows` · `adapt`
 - [TouhouLittleMaid](https://github.com/TartaricAcid/TouhouLittleMaid) - Minecraft Forge/NeoForge mod adding maid companions that help with battles, farming, and other tasks; useful as a game companion carrier or modding target. `Java` · `Minecraft` · `adapt`
