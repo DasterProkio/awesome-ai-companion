@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome AI Companion icon</title>
+  <desc id="desc">A rose and violet heart mark on a dark starry background.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="36%" r="78%">
+      <stop offset="0%" stop-color="#20182c"/>
+      <stop offset="58%" stop-color="#100e18"/>
+      <stop offset="100%" stop-color="#0a090f"/>
+    </radialGradient>
+    <linearGradient id="heart" x1="38" y1="58" x2="218" y2="211" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f27d98"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.95 0 1 0 0 0.49 0 0 1 0 0.6 0 0 0 0.85 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <circle cx="58" cy="48" r="1.8" fill="#e8c48f" opacity="0.8"/>
+  <circle cx="199" cy="40" r="1.6" fill="#b18cfa" opacity="0.78"/>
+  <circle cx="224" cy="110" r="1.4" fill="#f27d98" opacity="0.7"/>
+  <circle cx="38" cy="179" r="1.3" fill="#818cf8" opacity="0.78"/>
+  <circle cx="182" cy="210" r="1.5" fill="#e8c48f" opacity="0.74"/>
+  <circle cx="79" cy="218" r="1.2" fill="#f27d98" opacity="0.65"/>
+
+  <path d="M50 134 C50 88 103 75 128 111 C153 75 206 88 206 134 C206 177 166 202 128 226 C90 202 50 177 50 134 Z" fill="url(#heart)" filter="url(#glow)"/>
+  <path d="M72 139 H100 L112 116 L130 169 L146 96 L162 139 H184" fill="none" stroke="#efeae4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.92" filter="url(#softShadow)"/>
+  <path d="M72 139 H100 L112 116 L130 169 L146 96 L162 139 H184" fill="none" stroke="#e8c48f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+</svg>

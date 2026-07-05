@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="./assets/awesome-ai-companion-banner.png" alt="Awesome AI Companion banner">
+</p>
+
+<p align="center">
+  <img src="./assets/awesome-ai-companion-icon.svg" width="88" alt="Awesome AI Companion icon">
+</p>
+
 # Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated index of open-source infrastructure for **long-term AI companion relationships**.

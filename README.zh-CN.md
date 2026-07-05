@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="./assets/awesome-ai-companion-banner.png" alt="Awesome AI Companion 横向背景图">
+</p>
+
+<p align="center">
+  <img src="./assets/awesome-ai-companion-icon.svg" width="88" alt="Awesome AI Companion icon">
+</p>
+
 # Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > 面向**长期 AI 伴侣关系**的开源基础设施索引。
