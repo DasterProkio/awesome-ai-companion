@@ -2,9 +2,9 @@
 
 > 面向**长期 AI 伴侣关系**的开源基础设施索引。
 
-[English](README.md) · [中文版](#目录)
+[English](README.md) · [中文版](#目录) · [网页版](https://daskio.de5.net/companion/)
 
-*欢迎贡献。 [网页索引](#web-index) · [贡献指南](#contributing)*
+*欢迎贡献。 [贡献指南](#contributing)*
 
 这里的描述基于项目 README 或仓库元信息重写，不按项目名猜用途。
 公开文档较薄、需要二次核验的项目标记为 `verify`。

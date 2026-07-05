@@ -4,9 +4,9 @@
 >
 > 构建长期 AI 伴侣关系的开源基础设施索引。
 
-[English](#contents) · [中文版](README.zh-CN.md)
+[English](#contents) · [中文版](README.zh-CN.md) · [Web Index 网页版](https://daskio.de5.net/companion/)
 
-*Contributions welcome. [Web Index](#web-index) · [Contributing](#contributing)*
+*Contributions welcome. [Contributing](#contributing)*
 
 Descriptions are based on each project's README or repository metadata, not on project names alone.
 Entries with thin public documentation are marked `verify`.
