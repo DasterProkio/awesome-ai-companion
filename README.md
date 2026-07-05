@@ -133,6 +133,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [Drivesoid](https://github.com/A1batr055/Drivesoid) - HTTP sidecar for AI personas that tracks emotional drives such as fatigue, longing, anxiety, play, protectiveness, and intimacy from conversation and sleep-cycle events. `JavaScript` · `infra`
 - [chord-affect-anchors](https://github.com/CyberSealNull/chord-affect-anchors) - Text-native prototype for recording affect with short context lines plus chord progressions, so later sessions or different base models can recover a similar emotional temperature. `HTML` · `infra`
 - [OmniDimen-Emotion](https://github.com/OmniDimen/OmniDimen-Emotion) - Emotion-specialized Qwen model releases and GGUF weights for emotion recognition and emotionally aware text generation on edge runtimes. `Model` · `infra`
+- [Eventide](https://github.com/chuli1122/Eventide) - Physiological state engine for AI companions: ABO-inspired body cycles, 7 tracked drives, 18 short-term events, dream linkage, and interaction settlement with JSON schema write-back. Generates hidden state prompts for model context. NSFW-adjacent. Non-commercial. `Python` · `infra`
 
 ---
 

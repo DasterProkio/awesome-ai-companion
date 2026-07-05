@@ -131,6 +131,7 @@
 - [Drivesoid](https://github.com/A1batr055/Drivesoid) - AI 人格 HTTP sidecar，根据对话和睡眠周期事件追踪疲劳、思念、焦虑、玩心、保护欲、亲密等情绪驱动。`JavaScript` · `infra`
 - [chord-affect-anchors](https://github.com/CyberSealNull/chord-affect-anchors) - 文本原生情绪记录原型，用一句语境 + 一组和弦进程记录 moment 的情绪温度，便于后续会话或不同底座模型恢复近似状态。`HTML` · `infra`
 - [OmniDimen-Emotion](https://github.com/OmniDimen/OmniDimen-Emotion) - 面向边缘部署的 Qwen 情绪专用模型和 GGUF 权重，用于情绪识别与情绪感知文本生成。`Model` · `infra`
+- [Eventide](https://github.com/chuli1122/Eventide) - AI 伴侣生理状态引擎：ABO 世界观身体周期、7 项身体数值、18 类短时事件、梦境联动、互动结算（JSON schema 安全写回），生成隐藏状态提示词插入模型上下文。偏 NSFW 向。非商业使用。`Python` · `infra`
 
 ---
 
