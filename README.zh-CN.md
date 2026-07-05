@@ -4,6 +4,20 @@
 
 # Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="center">
+  <a href="https://daskio.de5.net/companion/"><img alt="网页版索引" src="https://img.shields.io/badge/Web_Index-Live-f27d98?style=for-the-badge"></a>
+  <a href="./README.md"><img alt="English README" src="https://img.shields.io/badge/README-English-b18cfa?style=for-the-badge"></a>
+  <a href="./INITIATIVE.md"><img alt="开源人格公益计划" src="https://img.shields.io/badge/Initiative-Open_Character-e8c48f?style=for-the-badge"></a>
+  <a href="./LICENSE"><img alt="License: CC0 1.0" src="https://img.shields.io/badge/License-CC0_1.0-8ab4f8?style=for-the-badge"></a>
+</p>
+
+<p align="center">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&color=f27d98">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DasterProkio/awesome-ai-companion?style=flat-square&color=b18cfa">
+  <img alt="精选列表" src="https://img.shields.io/badge/curated-list-efeae4?style=flat-square">
+  <img alt="AI 伴侣基础设施" src="https://img.shields.io/badge/AI_companion-infrastructure-efeae4?style=flat-square">
+</p>
+
 > 面向**长期 AI 伴侣关系**的开源基础设施索引。
 
 [English](README.md) · [中文版](#目录) · [网页版](https://daskio.de5.net/companion/)
