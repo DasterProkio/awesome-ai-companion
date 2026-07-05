@@ -5,9 +5,9 @@
 # Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
-  <a href="https://daskio.de5.net/companion/"><img alt="Web Index" src="https://img.shields.io/badge/Web_Index-Live-f27d98?style=for-the-badge"></a>
-  <a href="./README.zh-CN.md"><img alt="Chinese README" src="https://img.shields.io/badge/README-%E4%B8%AD%E6%96%87-b18cfa?style=for-the-badge"></a>
-  <a href="./LICENSE"><img alt="License: CC0 1.0" src="https://img.shields.io/badge/License-CC0_1.0-8ab4f8?style=for-the-badge"></a>
+  <a href="https://daskio.de5.net/companion/"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fdaskio.de5.net%2Fcompanion%2F&up_message=online&down_message=offline&label=web%20index&style=flat-square&labelColor=0a090f&color=f27d98"></a>
+  <a href="https://github.com/DasterProkio/awesome-ai-companion/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
+  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=8ab4f8"></a>
 </p>
 
 > A curated index of open-source infrastructure for **long-term AI companion relationships**.
