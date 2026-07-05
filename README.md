@@ -198,6 +198,7 @@ Turning speech, sound, or music into structured information a companion can use.
 
 MCP/API services that let a companion act in the user's real environment.
 
+- [OpenCLI](https://github.com/jackwener/OpenCLI) - Turns websites, logged-in Chrome sessions, Electron apps, and local tools into deterministic CLI/browser primitives for humans and AI agents; includes built-in adapters, a browser bridge extension, and skills for Claude Code/Cursor. Apache-2.0. `JavaScript` · `CLI` · `adapt`
 - [Amap MCP Server](https://github.com/sugarforever/amap-mcp-server) - Gaode/Amap MCP server for geocoding, reverse geocoding, IP location, city weather, route planning, distance measurement, POI search, and stdio/SSE/streamable HTTP transports. `Python` · `Self-host` · `adapt`
 - [Open-Meteo Weather API](https://open-meteo.com/en/docs) - Free weather forecast API for coordinate-based hourly/daily forecasts, multiple national weather models, and up to 16-day forecast windows. `API` · `Cloud` · `ready`
 - [McDonald's MCP](https://open.mcd.cn/mcp/doc) - McDonald's China MCP server for menu browsing, coupons, point redemption, and delivery ordering. `MCP` · `Cloud` · `ready`
