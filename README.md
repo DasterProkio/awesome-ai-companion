@@ -7,15 +7,7 @@
 <p align="center">
   <a href="https://daskio.de5.net/companion/"><img alt="Web Index" src="https://img.shields.io/badge/Web_Index-Live-f27d98?style=for-the-badge"></a>
   <a href="./README.zh-CN.md"><img alt="Chinese README" src="https://img.shields.io/badge/README-%E4%B8%AD%E6%96%87-b18cfa?style=for-the-badge"></a>
-  <a href="./INITIATIVE.md"><img alt="Open Character initiative" src="https://img.shields.io/badge/Initiative-Open_Character-e8c48f?style=for-the-badge"></a>
   <a href="./LICENSE"><img alt="License: CC0 1.0" src="https://img.shields.io/badge/License-CC0_1.0-8ab4f8?style=for-the-badge"></a>
-</p>
-
-<p align="center">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&color=f27d98">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DasterProkio/awesome-ai-companion?style=flat-square&color=b18cfa">
-  <img alt="Curated list" src="https://img.shields.io/badge/curated-list-efeae4?style=flat-square">
-  <img alt="AI companion infrastructure" src="https://img.shields.io/badge/AI_companion-infrastructure-efeae4?style=flat-square">
 </p>
 
 > A curated index of open-source infrastructure for **long-term AI companion relationships**.
