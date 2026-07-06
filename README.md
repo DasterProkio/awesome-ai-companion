@@ -333,11 +333,15 @@ Everything in this list assumes one hard truth: your companion's character ultim
 The full founding document names the specific failure modes — measured sycophancy, alignment faking, reward hacking — explains why character can't be patched on afterwards, and what experienced companion users specifically can contribute. [Read it here](INITIATIVE.md).
 
 ---
+## Star History
 
-## Star History (星标增长)
-
-[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date&_=3)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
-
+<a href="https://www.star-history.com/?repos=DasterProkio%2Fawesome-ai-companion&type=date&logscale=&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=DasterProkio/awesome-ai-companion&type=date&theme=dark&logscale&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=DasterProkio/awesome-ai-companion&type=date&logscale&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=DasterProkio/awesome-ai-companion&type=date&logscale&legend=top-left" />
+ </picture>
+</a>
 ---
 
 ## Web Index
