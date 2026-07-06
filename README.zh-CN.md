@@ -164,6 +164,7 @@
 
 ### 视觉载体与 VTuber 式伴侣
 
+- [ai-live2d-body](https://github.com/zziying/ai-live2d-body) - 给已有 AI 伴侣装 Live2D 桌宠身体的架构思路：分层 Electron+PixiJS+pixi-live2d-display 技术栈、Claude Code hooks 联动、双向触摸注入、MCP 工具主动表达，大脑始终是原来的 agent，不换人。纯文档，无成品代码。`Guide` · `macOS` · `adapt`
 - [AIRI](https://github.com/moeru-ai/airi) - 自托管伴侣壳，支持 Live2D/VRM 视觉层、实时语音、桌面/Web 应用，以及 Discord、Telegram、Minecraft、Factorio 等集成。`TypeScript` · `Cross-platform` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻，含实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆/RAG。2025 年初起停更——作参考实现看待。`Python` · `Windows` · `verify`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - 沉浸式 AI Galgame 聊天软件：情绪表情、桌宠、日程、交互式剧情模块。`TypeScript` · `Windows` · `ready`

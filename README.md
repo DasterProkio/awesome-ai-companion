@@ -166,6 +166,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 
 ### Visual Presence & VTuber-Style Companions
 
+- [ai-live2d-body](https://github.com/zziying/ai-live2d-body) - Architecture guide for adding a Live2D desktop body to an existing AI companion without replacing its brain: layered Electron+PixiJS+pixi-live2d-display stack, Claude Code hooks, bidirectional touch injection, and MCP tools for active expression. Guide only, no packaged code. `Guide` · `macOS` · `adapt`
 - [AIRI](https://github.com/moeru-ai/airi) - Self-hosted companion shell with Live2D/VRM visual layer support, real-time voice chat, desktop/web apps, and integrations for Discord, Telegram, Minecraft, and Factorio. `TypeScript` · `Cross-platform` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - Local Neuro-sama recreation with realtime STT/TTS, text-generation-webui or OpenAI-compatible LLM support, VTube Studio control, a moderation frontend, and long-term memory/RAG. Development stalled since early 2025 — treat as a reference implementation. `Python` · `Windows` · `verify`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - Immersive AI-driven Galgame chat with emotional expressions, desktop pet, scheduling, and interactive story modules. `TypeScript` · `Windows` · `ready`
