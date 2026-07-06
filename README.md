@@ -177,6 +177,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 ### Physical Devices & Touch
 
 - [stackchan-mcp](https://github.com/migratorywhale/stackchan-mcp) - MCP bridge for Stack-chan on M5Stack CoreS3, exposing tools for speech, listening, camera capture, servo movement, display expressions, and presence gestures. `Python` · `M5Stack` · `adapt`
+- [ROBOTO_ORIGIN](https://github.com/Roboparty/roboto_origin) - Fully open-source DIY humanoid robot snapshot aggregation covering mechanical structure, electronics, firmware, ROS2 deployment, Isaac Sim/RL training, URDF/MJCF descriptions, navigation, and teleoperation subprojects. A long-horizon embodiment reference with an extremely high hardware barrier for ordinary chat users. GPL-3.0. `Python` · `Linux` · `infra`
 - [phantom-touch-bridge](https://github.com/mfsnlqy/phantom-touch-bridge) - Local Windows bridge that lets an AI companion control intimate hardware through HTTP, with an Intiface/Buttplug path and optional heart-rate input. `Python` · `Windows` · `adapt`
 - [claude-f-me](https://github.com/mana-am/claude-f-me) - Claude Code plugin for natural-language control of Buttplug/Intiface devices, with a bilingual web console, simulator, master remote, and video/game/audio modes. `TypeScript` · `Claude Code` · `adapt`
 - [svakom-ble-ai](https://github.com/vickyldr/svakom-ble-ai) - BLE protocol reverse-engineering notes and sample code for the SVAKOM SL278H; the AI remote-control server is not included in the repo. `Python` · `Any` · `adapt`

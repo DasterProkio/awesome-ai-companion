@@ -175,6 +175,7 @@
 ### 物理设备与触觉
 
 - [stackchan-mcp](https://github.com/migratorywhale/stackchan-mcp) - Stack-chan / M5Stack CoreS3 的 MCP 桥，提供说话、听录音、拍照、舵机动作、表情显示和存在感动作工具。`Python` · `M5Stack` · `adapt`
+- [ROBOTO_ORIGIN](https://github.com/Roboparty/roboto_origin) - 全开源 DIY 人形机器人聚合仓库，覆盖结构/CAD/PCB/BOM、固件、ROS2 部署、Isaac Sim/RL 训练、URDF/MJCF 描述、导航与遥操作子项目。适合作为长期具身路线的硬件参考，对普通文字聊天用户门槛极高。GPL-3.0。`Python` · `Linux` · `infra`
 - [phantom-touch-bridge](https://github.com/mfsnlqy/phantom-touch-bridge) - Windows 本地桥接服务，让 AI 伴侣通过 HTTP 控制亲密硬件，支持 Intiface/Buttplug 路线和可选心率输入。`Python` · `Windows` · `adapt`
 - [claude-f-me](https://github.com/mana-am/claude-f-me) - Claude Code 插件，用自然语言控制 Buttplug/Intiface 设备，含双语 Web 控制台、模拟器、主遥控器和视频/游戏/音频模式。`TypeScript` · `Claude Code` · `adapt`
 - [svakom-ble-ai](https://github.com/vickyldr/svakom-ble-ai) - SVAKOM SL278H 蓝牙协议逆向笔记与样本代码；AI 远程控制服务端未随仓库提供。`Python` · `Any` · `adapt`
