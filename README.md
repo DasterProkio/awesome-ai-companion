@@ -175,6 +175,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [astrbot_plugin_chuanhuatong (传画筒)](https://github.com/bvzrays/astrbot_plugin_chuanhuatong) - Renders AstrBot text replies as Galgame-style chat frames with character sprites, emotion variants, layered text, and a drag-and-drop WebUI layout editor. `Python` · `AstrBot` · `ready`
 - [Shinsekai](https://github.com/RachelForster/Shinsekai) - Local AI companion / visual-novel stage platform: persona-driven dialogue with TTS/ASR, memory, plugins, and galgame-style presentation. `Python` · `Cross-platform` · `ready`
 - [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - Emotional skin for AI chat: LLM persona drives the UI with inline text effects and full-screen mood skins. CC BY 4.0. `CSS` · `Web` · `adapt`
+- [Ghost Vessel](https://github.com/ghdtjrtka/ghost-vessel) - Monitor-resident, video-call-style avatar that fronts a local LLM agent (Hermes/OpenClaw) as a replacement for the messenger tab you keep open to talk to it. Agent replies drive fine-grained facial emotion beats from pre-rendered clips (no runtime GPU for the avatar), with a persistent mood/affinity system, local TTS out, and VAD+STT in; the agent's live slash-command menu is served in the chat pane. Open-core engine — avatars are pure-data bundles you build or buy, no bundled character. `Python` · `Windows` · `ready`
 
 ### Physical Devices & Touch
 
