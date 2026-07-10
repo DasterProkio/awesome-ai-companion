@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://daskio.de5.net/companion/"><img alt="网页版索引" src="https://img.shields.io/website?url=https%3A%2F%2Fdaskio.de5.net%2Fcompanion%2F&up_message=online&down_message=offline&label=web%20index&style=flat-square&labelColor=0a090f&color=f27d98"></a>
-  <a href="https://github.com/DasterProkio/awesome-ai-companion/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
+  <a href="https://github.com/DasterProkio/awesome-ai-companion"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=8ab4f8"></a>
 </p>
 
@@ -337,7 +337,7 @@
 
 ## 星标增长
 
-[![Star History Chart](https://api.star-history.com/svg?repos=DasterProkio/awesome-ai-companion&type=Date&_=3)](https://www.star-history.com/#DasterProkio/awesome-ai-companion&Date)
+[查看本仓库的 Star History](https://www.star-history.com/?repos=DasterProkio%2Fawesome-ai-companion&type=date&logscale=&legend=top-left)。
 
 ---
 
