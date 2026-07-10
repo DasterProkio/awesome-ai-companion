@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://daskio.de5.net/companion/"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fdaskio.de5.net%2Fcompanion%2F&up_message=online&down_message=offline&label=web%20index&style=flat-square&labelColor=0a090f&color=f27d98"></a>
-  <a href="https://github.com/DasterProkio/awesome-ai-companion/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
+  <a href="https://github.com/DasterProkio/awesome-ai-companion"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=8ab4f8"></a>
 </p>
 
@@ -57,7 +57,7 @@ Run [AstrBot](https://github.com/AstrBotDevs/AstrBot) as the backbone, wire in m
 - [Continuity & Data Ownership](#continuity--data-ownership)
 - [Related Lists](#related-lists)
 - [Related Initiative](#related-initiative-相关公益计划)
-- [Star History](#star-history-星标增长)
+- [Star History](#star-history)
 - [Web Index](#web-index)
 - [Contributing](#contributing)
 
@@ -338,13 +338,7 @@ The full founding document names the specific failure modes — measured sycopha
 ---
 ## Star History
 
-<a href="https://www.star-history.com/?repos=DasterProkio%2Fawesome-ai-companion&type=date&logscale=&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=DasterProkio/awesome-ai-companion&type=date&theme=dark&logscale&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=DasterProkio/awesome-ai-companion&type=date&logscale&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=DasterProkio/awesome-ai-companion&type=date&logscale&legend=top-left" />
- </picture>
-</a>
+[View this repository's star history](https://www.star-history.com/?repos=DasterProkio%2Fawesome-ai-companion&type=date&logscale=&legend=top-left).
 ---
 
 ## Web Index
