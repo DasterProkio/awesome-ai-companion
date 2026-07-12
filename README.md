@@ -101,6 +101,7 @@ Interfaces that give a companion a home-like space, phone-like surface, or persi
 - [SullyOS (手抓糯米机)](https://github.com/qegj567-cloud/SullyOS) - Virtual phone companion system. `TypeScript` · `Web` · `adapt`
 - [ZeroChat](https://github.com/sh1nny0u/ZeroChat) - WeChat-style AI companion Flutter app: multi-character chat, AI Moments feed, proactive messaging, scheduled tasks. MIT. `Dart` · `Android` · `adapt`
 - [LandricSpace](https://github.com/LandricJasmine/LandricSpace) - A cyber villa for human-AI relationships: multi-AI group chat in a shared companion home (Expo app + server). Single-user for now — no real multiplayer networking in the code yet. `TypeScript` · `Android/iOS` · `adapt`
+- [Atrio](https://github.com/29-Cu/atrio) - Self-hosted one-time-link guest lounge for an AI persona: friends chat with your companion, while admin routes expose only an AI-written visit summary rather than the raw transcript. Ships as an Express module/reference host with a tool-isolated Claude CLI adapter and optional memory hooks; bring your own frontend. CC BY 4.0. `JavaScript` · `Self-host` · `infra`
 
 ---
 
