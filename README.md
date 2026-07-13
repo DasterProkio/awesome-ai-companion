@@ -165,6 +165,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [fish-speech](https://github.com/fishaudio/fish-speech) - SOTA open-source TTS with strong multilingual support. `Python` · `Self-host` · `infra`
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) - Multi-lingual large voice generation model with inference, training, and deployment support. `Python` · `Self-host` · `infra`
 - [index-tts](https://github.com/index-tts/index-tts) - Industrial-level controllable zero-shot TTS from Bilibili. `Python` · `Self-host` · `infra`
+- [Callhome](https://github.com/Cheiineeey/callhome) - Self-hosted voice-call stack for AI companions: companion-initiated outbound calls, soft/cancellable hangups, voicemail, quick decline and conversational DND, escalation dialing, call summaries, bedtime reading, plus SenseVoice emotion tags and librosa acoustic cues so the companion can hear how you speak. Includes a runnable STT service and marker/gateway reference; integration required. MIT. `Python/HTML` · `Self-host` · `adapt`
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - MCP server that exposes `speak` tools for TTS, adds provider switching between DashScope/CosyVoice and ElevenLabs, and includes an inline audio player / visualizer panel. `TypeScript` · `Self-host` · `adapt`
 - [Gove](https://github.com/OmniDimen/Gove) - GPT-SoVITS-based multilingual male TTS voice model intended for use inside a GPT-SoVITS environment. `Model` · `GPT-SoVITS` · `infra`
 
