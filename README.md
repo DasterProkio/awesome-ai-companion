@@ -82,6 +82,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [Claude Code](https://github.com/anthropics/claude-code) - Official CLI coding agent often used as the host runtime for companion channels, local tools, hooks, MCP, and long-running sessions. `CLI` · `Cross-platform` · `infra`
 - [CcCompanion](https://github.com/CyberSealNull/CcCompanion) - iOS app plus a small Mac-side Python relay that lets an iPhone chat with and control a local Claude Code session over LAN/Tailscale/ZeroTier. `Swift` · `iOS` · `adapt`
 - [SullyOS (手抓糯米机)](https://github.com/qegj567-cloud/SullyOS) - Full-featured companion framework with a virtual phone interface. Also listed under Virtual Phones. `TypeScript` · `Web` · `adapt`
+- [CC Companion App](https://github.com/tjing9430/cc-companion-app) - Self-hostable companion chat app run daily in production by its authors: private + group chat lanes, console events, persistent memory notes, SSE realtime updates, PWA with phone access via Cloudflare tunnel. Works standalone with any OpenAI-compatible API, or as the frontend for a full local Claude Code session (MCP tools + extended thinking) bridged through [cc-connect](https://github.com/chenhg5/cc-connect). `JavaScript` · `Self-host` · `ready`
 - [ackem](https://github.com/JasonLiu0826/ackem) - Local-first AI desktop companion (Electron): privacy-first memory, emotion engine, extensions. Deeply tied to the author's own canon — strip the personal content before reuse. AGPLv3. `TypeScript` · `Cross-platform` · `adapt`
 
 ---
