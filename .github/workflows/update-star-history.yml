@@ -2,7 +2,7 @@ name: Update star history
 
 on:
   schedule:
-    - cron: "53 9 * * *"
+    - cron: "17 2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,13 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Curate README
-        run: python3 scripts/one-off-readme-curation.py
-      - name: Commit README changes
+      - name: Render chart
+        env:
+          GITHUB_TOKEN: ${{ secrets.STAR_HISTORY_TOKEN }}
+        run: python3 scripts/update-star-history.py
+      - name: Commit chart when changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md README.zh-CN.md
+          git add assets/star-history.svg
           git diff --cached --quiet && exit 0
-          git commit -m "Curate new reference entries and center README header"
+          git commit -m "Update star history chart"
           git push
