@@ -2,7 +2,7 @@ name: Issue-triggered README curation
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 permissions:
   contents: write
