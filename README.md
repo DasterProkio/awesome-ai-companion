@@ -341,7 +341,9 @@ The full founding document names the specific failure modes — measured sycopha
 ---
 ## Star History
 
-[View this repository's star history](https://www.star-history.com/?repos=DasterProkio%2Fawesome-ai-companion&type=date&logscale=&legend=top-left).
+## Star History (星标增长)
+
+[![Star History Chart](assets/star-history.svg)](https://github.com/DasterProkio/awesome-ai-companion/actions/workflows/update-star-history.yml)
 ---
 
 ## Web Index

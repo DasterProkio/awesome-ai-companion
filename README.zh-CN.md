@@ -340,7 +340,7 @@
 
 ## 星标增长
 
-[查看本仓库的 Star History](https://www.star-history.com/?repos=DasterProkio%2Fawesome-ai-companion&type=date&logscale=&legend=top-left)。
+[![Star History Chart](assets/star-history.svg)](https://github.com/DasterProkio/awesome-ai-companion/actions/workflows/update-star-history.yml)
 
 ---
 
