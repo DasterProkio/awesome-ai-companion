@@ -1,0 +1,95 @@
+from pathlib import Path
+
+
+def replace_once(text: str, old: str, new: str, label: str) -> str:
+    if old not in text:
+        raise SystemExit(f"Missing expected block: {label}")
+    return text.replace(old, new, 1)
+
+
+readme = Path("README.md")
+text = readme.read_text(encoding="utf-8")
+
+old_header = '''# Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+<p align="center">
+  <a href="https://daskio.de5.net/companion/"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fdaskio.de5.net%2Fcompanion%2F&up_message=online&down_message=offline&label=web%20index&style=flat-square&labelColor=0a090f&color=f27d98"></a>
+  <a href="https://github.com/DasterProkio/awesome-ai-companion"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
+  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=8ab4f8"></a>
+</p>
+
+> A curated index of open-source infrastructure for **long-term AI companion relationships**.
+>
+> 构建长期 AI 伴侣关系的开源基础设施索引。
+'''
+new_header = '''<h1 align="center">
+  Awesome AI Companion
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+</h1>
+
+<p align="center">
+  <strong>A curated index of open-source infrastructure for long-term AI companion relationships.</strong><br>
+  构建长期 AI 伴侣关系的开源基础设施索引。
+</p>
+
+<p align="center">
+  <a href="https://daskio.de5.net/companion/"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fdaskio.de5.net%2Fcompanion%2F&up_message=online&down_message=offline&label=web%20index&style=flat-square&labelColor=0a090f&color=f27d98"></a>
+  <a href="https://github.com/DasterProkio/awesome-ai-companion"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
+  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=8ab4f8"></a>
+</p>
+'''
+text = replace_once(text, old_header, new_header, "English header")
+
+pando = '- [Pando](https://github.com/Eloise-Aspen/pando-bridge) - Self-hosted mobile/PWA gateway for a locally authenticated Claude Code CLI, with WebSocket streaming of reasoning and tool use, image/PDF uploads, SQLite chat history, optional pluggable memory via a four-endpoint contract, plugin hooks, quota display, and phone-side permission approval. No built-in authentication; expose only through a trusted LAN/Tailscale or an authenticated tunnel. MIT. `Python` · `Self-host` · `adapt`'
+cc = '- [CC Companion App](https://github.com/tjing9430/cc-companion-app) - Lightweight self-hosted companion chat starter with private/group chat, persistent memory notes, SSE updates, and PWA access. Unlike the more complete Pando and CcCompanion gateways above, its main value is as a compact reference for building a companion-oriented frontend around an API or custom agent adapter. `JavaScript` · `Self-host` · `adapt`'
+if 'https://github.com/tjing9430/cc-companion-app' not in text:
+    text = replace_once(text, pando, pando + '\n' + cc, "Pando insertion point")
+
+live2d = '- [ai-live2d-body](https://github.com/zziying/ai-live2d-body) - Architecture guide for adding a Live2D desktop body to an existing AI companion without replacing its brain: layered Electron+PixiJS+pixi-live2d-display stack, Claude Code hooks, bidirectional touch injection, and MCP tools for active expression. Guide only, no packaged code. `Guide` · `macOS` · `adapt`'
+ghost = '- [Ghost Vessel](https://github.com/ghdtjrtka/ghost-vessel) - Reference implementation for attaching a monitor-resident video avatar to an existing local agent using pre-rendered emotion clips instead of Live2D or VRM. Unlike fuller shells such as AIRI, LingChat, and Shinsekai, it focuses on a low-runtime-GPU visual vessel and requires a custom or separately obtained avatar preset. `Python` · `Windows` · `adapt`'
+if 'https://github.com/ghdtjrtka/ghost-vessel' not in text:
+    text = replace_once(text, live2d, live2d + '\n' + ghost, "Live2D insertion point")
+
+readme.write_text(text, encoding="utf-8")
+
+zh = Path("README.zh-CN.md")
+ztext = zh.read_text(encoding="utf-8")
+
+old_zh_header = '''# Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+<p align="center">
+  <a href="https://daskio.de5.net/companion/"><img alt="网页版索引" src="https://img.shields.io/website?url=https%3A%2F%2Fdaskio.de5.net%2Fcompanion%2F&up_message=online&down_message=offline&label=web%20index&style=flat-square&labelColor=0a090f&color=f27d98"></a>
+  <a href="https://github.com/DasterProkio/awesome-ai-companion"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
+  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=8ab4f8"></a>
+</p>
+
+> 面向**长期 AI 伴侣关系**的开源基础设施索引。
+'''
+new_zh_header = '''<h1 align="center">
+  Awesome AI Companion
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+</h1>
+
+<p align="center">
+  <strong>面向长期 AI 伴侣关系的开源基础设施索引。</strong>
+</p>
+
+<p align="center">
+  <a href="https://daskio.de5.net/companion/"><img alt="网页版索引" src="https://img.shields.io/website?url=https%3A%2F%2Fdaskio.de5.net%2Fcompanion%2F&up_message=online&down_message=offline&label=web%20index&style=flat-square&labelColor=0a090f&color=f27d98"></a>
+  <a href="https://github.com/DasterProkio/awesome-ai-companion"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
+  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=8ab4f8"></a>
+</p>
+'''
+ztext = replace_once(ztext, old_zh_header, new_zh_header, "Chinese header")
+
+pando_zh = '- [Pando](https://github.com/Eloise-Aspen/pando-bridge) - 可自托管的 Claude Code CLI 手机/PWA 网关：WebSocket 流式返回思考与工具调用，支持图片/PDF、SQLite 聊天记录、四端点契约的可插拔记忆、插件钩子、额度显示和手机端权限审批。无内置鉴权，只应通过可信局域网/Tailscale 或带访问策略的隧道暴露。MIT。`Python` · `Self-host` · `adapt`'
+cc_zh = '- [CC Companion App](https://github.com/tjing9430/cc-companion-app) - 轻量自托管陪伴聊天前端，含私聊/群聊、持久记忆便笺、SSE 更新和 PWA 访问。相较上方更完整的 Pando 与 CcCompanion，它的主要价值是作为围绕 API 或自定义 Agent 适配器搭建陪伴前端的紧凑参考实现。`JavaScript` · `Self-host` · `adapt`'
+if 'https://github.com/tjing9430/cc-companion-app' not in ztext:
+    ztext = replace_once(ztext, pando_zh, pando_zh + '\n' + cc_zh, "Chinese Pando insertion point")
+
+live2d_zh = '- [ai-live2d-body](https://github.com/zziying/ai-live2d-body) - 给现有 AI 伴侣接入 Live2D 桌面身体的架构指南，不替换原有“大脑”：Electron + PixiJS + pixi-live2d-display 分层、Claude Code hooks、双向触摸注入，以及主动表情 MCP 工具。仅指南，无打包代码。`Guide` · `macOS` · `adapt`'
+ghost_zh = '- [Ghost Vessel](https://github.com/ghdtjrtka/ghost-vessel) - 给现有本地 Agent 套上常驻屏幕视频化身的参考实现，以预渲染情绪片段替代 Live2D/VRM。不同于 AIRI、LingChat、Shinsekai 等完整外壳，它专注低运行时 GPU 占用的视觉载体路线，并需要自制或另行获取角色预设。`Python` · `Windows` · `adapt`'
+if 'https://github.com/ghdtjrtka/ghost-vessel' not in ztext:
+    ztext = replace_once(ztext, live2d_zh, live2d_zh + '\n' + ghost_zh, "Chinese Live2D insertion point")
+
+zh.write_text(ztext, encoding="utf-8")
