@@ -119,3 +119,5 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Curate new reference entries and center README header"
           git push
+
+# Triggered after initial workflow registration.
