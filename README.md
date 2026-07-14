@@ -2,17 +2,21 @@
   <img src="./assets/awesome-ai-companion-banner.png" alt="Awesome AI Companion banner">
 </p>
 
-# Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<h1 align="center">
+  Awesome AI Companion
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+</h1>
+
+<p align="center">
+  <strong>A curated index of open-source infrastructure for long-term AI companion relationships.</strong><br>
+  构建长期 AI 伴侣关系的开源基础设施索引。
+</p>
 
 <p align="center">
   <a href="https://daskio.de5.net/companion/"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fdaskio.de5.net%2Fcompanion%2F&up_message=online&down_message=offline&label=web%20index&style=flat-square&labelColor=0a090f&color=f27d98"></a>
   <a href="https://github.com/DasterProkio/awesome-ai-companion"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=8ab4f8"></a>
 </p>
-
-> A curated index of open-source infrastructure for **long-term AI companion relationships**.
->
-> 构建长期 AI 伴侣关系的开源基础设施索引。
 
 [English](#contents) · [中文版](README.zh-CN.md) · [Web Index 网页版](https://daskio.de5.net/companion/)
 
@@ -82,6 +86,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [Claude Code](https://github.com/anthropics/claude-code) - Official CLI coding agent often used as the host runtime for companion channels, local tools, hooks, MCP, and long-running sessions. `CLI` · `Cross-platform` · `infra`
 - [CcCompanion](https://github.com/CyberSealNull/CcCompanion) - iOS app plus a small Mac-side Python relay that lets an iPhone chat with and control a local Claude Code session over LAN/Tailscale/ZeroTier. `Swift` · `iOS` · `adapt`
 - [Pando](https://github.com/Eloise-Aspen/pando-bridge) - Self-hosted mobile/PWA gateway for a locally authenticated Claude Code CLI, with WebSocket streaming of reasoning and tool use, image/PDF uploads, SQLite chat history, optional pluggable memory via a four-endpoint contract, plugin hooks, quota display, and phone-side permission approval. No built-in authentication; expose only through a trusted LAN/Tailscale or an authenticated tunnel. MIT. `Python` · `Self-host` · `adapt`
+- [CC Companion App](https://github.com/tjing9430/cc-companion-app) - Lightweight self-hosted companion chat starter with private/group chat, persistent memory notes, SSE updates, and PWA access. Unlike the more complete Pando and CcCompanion gateways above, its main value is as a compact reference for building a companion-oriented frontend around an API or custom agent adapter. `JavaScript` · `Self-host` · `adapt`
 - [SullyOS (手抓糯米机)](https://github.com/qegj567-cloud/SullyOS) - Full-featured companion framework with a virtual phone interface. Also listed under Virtual Phones. `TypeScript` · `Web` · `adapt`
 - [ackem](https://github.com/JasonLiu0826/ackem) - Local-first AI desktop companion (Electron): privacy-first memory, emotion engine, extensions. Deeply tied to the author's own canon — strip the personal content before reuse. AGPLv3. `TypeScript` · `Cross-platform` · `adapt`
 
@@ -173,6 +178,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 ### Visual Presence & VTuber-Style Companions
 
 - [ai-live2d-body](https://github.com/zziying/ai-live2d-body) - Architecture guide for adding a Live2D desktop body to an existing AI companion without replacing its brain: layered Electron+PixiJS+pixi-live2d-display stack, Claude Code hooks, bidirectional touch injection, and MCP tools for active expression. Guide only, no packaged code. `Guide` · `macOS` · `adapt`
+- [Ghost Vessel](https://github.com/ghdtjrtka/ghost-vessel) - Reference implementation for attaching a monitor-resident video avatar to an existing local agent using pre-rendered emotion clips instead of Live2D or VRM. Unlike fuller shells such as AIRI, LingChat, and Shinsekai, it focuses on a low-runtime-GPU visual vessel and requires a custom or separately obtained avatar preset. `Python` · `Windows` · `adapt`
 - [AIRI](https://github.com/moeru-ai/airi) - Self-hosted companion shell with Live2D/VRM visual layer support, real-time voice chat, desktop/web apps, and integrations for Discord, Telegram, Minecraft, and Factorio. `TypeScript` · `Cross-platform` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - Local Neuro-sama recreation with realtime STT/TTS, text-generation-webui or OpenAI-compatible LLM support, VTube Studio control, a moderation frontend, and long-term memory/RAG. Development stalled since early 2025 — treat as a reference implementation. `Python` · `Windows` · `verify`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - Immersive AI-driven Galgame chat with emotional expressions, desktop pet, scheduling, and interactive story modules. `TypeScript` · `Windows` · `ready`

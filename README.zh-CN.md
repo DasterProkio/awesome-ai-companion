@@ -2,15 +2,20 @@
   <img src="./assets/awesome-ai-companion-banner.png" alt="Awesome AI Companion 横向背景图">
 </p>
 
-# Awesome AI Companion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<h1 align="center">
+  Awesome AI Companion
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+</h1>
+
+<p align="center">
+  <strong>面向长期 AI 伴侣关系的开源基础设施索引。</strong>
+</p>
 
 <p align="center">
   <a href="https://daskio.de5.net/companion/"><img alt="网页版索引" src="https://img.shields.io/website?url=https%3A%2F%2Fdaskio.de5.net%2Fcompanion%2F&up_message=online&down_message=offline&label=web%20index&style=flat-square&labelColor=0a090f&color=f27d98"></a>
   <a href="https://github.com/DasterProkio/awesome-ai-companion"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=8ab4f8"></a>
 </p>
-
-> 面向**长期 AI 伴侣关系**的开源基础设施索引。
 
 [English](README.md) · [中文版](#目录) · [网页版](https://daskio.de5.net/companion/)
 
@@ -80,6 +85,7 @@
 - [Claude Code](https://github.com/anthropics/claude-code) - Anthropic 官方 CLI Agent，常被用作伴侣通道、长期终端会话、本地工具、hooks、MCP 的宿主运行时。`CLI` · `Cross-platform` · `infra`
 - [CcCompanion](https://github.com/CyberSealNull/CcCompanion) - iOS App + Mac 侧 Python relay，让 iPhone 通过 LAN/Tailscale/ZeroTier 与本地 Claude Code session 聊天和控制会话。`Swift` · `iOS` · `adapt`
 - [Pando](https://github.com/Eloise-Aspen/pando-bridge) - 可自托管的 Claude Code CLI 手机/PWA 网关：WebSocket 流式返回思考与工具调用，支持图片/PDF、SQLite 聊天记录、四端点契约的可插拔记忆、插件钩子、额度显示和手机端权限审批。无内置鉴权，只应通过可信局域网/Tailscale 或带访问策略的隧道暴露。MIT。`Python` · `Self-host` · `adapt`
+- [CC Companion App](https://github.com/tjing9430/cc-companion-app) - 轻量自托管陪伴聊天前端，含私聊/群聊、持久记忆便笺、SSE 更新和 PWA 访问。相较上方更完整的 Pando 与 CcCompanion，它的主要价值是作为围绕 API 或自定义 Agent 适配器搭建陪伴前端的紧凑参考实现。`JavaScript` · `Self-host` · `adapt`
 - [SullyOS (手抓糯米机)](https://github.com/qegj567-cloud/SullyOS) - 功能完整的陪伴框架，带虚拟手机界面。同时见虚拟手机区。`TypeScript` · `Web` · `adapt`
 - [ackem](https://github.com/JasonLiu0826/ackem) - 本地优先 AI 桌面陪伴（Electron）：隐私优先的记忆、情绪引擎、扩展。深度绑定作者个人设定，复用前需先剥离个人内容。AGPLv3。`TypeScript` · `Cross-platform` · `adapt`
 
@@ -171,6 +177,7 @@
 ### 视觉载体与 VTuber 式伴侣
 
 - [ai-live2d-body](https://github.com/zziying/ai-live2d-body) - 给已有 AI 伴侣装 Live2D 桌宠身体的架构思路：分层 Electron+PixiJS+pixi-live2d-display 技术栈、Claude Code hooks 联动、双向触摸注入、MCP 工具主动表达，大脑始终是原来的 agent，不换人。纯文档，无成品代码。`Guide` · `macOS` · `adapt`
+- [Ghost Vessel](https://github.com/ghdtjrtka/ghost-vessel) - 给现有本地 Agent 套上常驻屏幕视频化身的参考实现，以预渲染情绪片段替代 Live2D/VRM。不同于 AIRI、LingChat、Shinsekai 等完整外壳，它专注低运行时 GPU 占用的视觉载体路线，并需要自制或另行获取角色预设。`Python` · `Windows` · `adapt`
 - [AIRI](https://github.com/moeru-ai/airi) - 自托管伴侣壳，支持 Live2D/VRM 视觉层、实时语音、桌面/Web 应用，以及 Discord、Telegram、Minecraft、Factorio 等集成。`TypeScript` · `Cross-platform` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻，含实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆/RAG。2025 年初起停更——作参考实现看待。`Python` · `Windows` · `verify`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - 沉浸式 AI Galgame 聊天软件：情绪表情、桌宠、日程、交互式剧情模块。`TypeScript` · `Windows` · `ready`
