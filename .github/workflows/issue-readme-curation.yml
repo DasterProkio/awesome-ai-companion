@@ -1,6 +1,8 @@
-name: Issue-triggered README curation
+name: Scheduled README curation
 
 on:
+  schedule:
+    - cron: "*/5 * * * *"
   issues:
     types: [opened, edited]
 
@@ -10,7 +12,7 @@ permissions:
 
 jobs:
   curate:
-    if: github.event.issue.title == '[maintainer] run README curation'
+    if: github.event_name == 'schedule' || github.event.issue.title == '[maintainer] run README curation'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,6 +27,7 @@ jobs:
           git commit -m "Curate new reference entries and center README header"
           git push
       - name: Close trigger issue
+        if: github.event_name == 'issues'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh issue close "${{ github.event.issue.number }}" --comment "README curation completed."
