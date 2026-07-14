@@ -1,0 +1,30 @@
+name: Issue-triggered README curation
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  curate:
+    if: github.event.issue.title == '[maintainer] run README curation'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README files
+        run: python3 scripts/one-off-readme-curation.py
+      - name: Commit curated README changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.zh-CN.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Curate new reference entries and center README header"
+          git push
+      - name: Close trigger issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close "${{ github.event.issue.number }}" --comment "README curation completed."
