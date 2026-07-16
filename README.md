@@ -159,6 +159,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [chord-affect-anchors](https://github.com/CyberSealNull/chord-affect-anchors) - Concept deck for text-native affect anchoring: record a moment as a short context line plus a chord progression, so later sessions or different base models can recover a similar emotional temperature. Idea/spec only — no runnable code. `Spec` · `Any` · `infra`
 - [OmniDimen-Emotion](https://github.com/OmniDimen/OmniDimen-Emotion) - Emotion-specialized Qwen model releases and GGUF weights for emotion recognition and emotionally aware text generation on edge runtimes. `Model` · `Any` · `infra`
 - [Eventide](https://github.com/chuli1122/Eventide) - Physiological state engine for AI companions: ABO-inspired body cycles, 7 tracked drives, 18 short-term events, dream linkage, and interaction settlement with JSON schema write-back. Generates hidden state prompts for model context. NSFW-adjacent. Non-commercial. `Python` · `Any` · `infra`
+- [Tidefall](https://github.com/Vael-KY/Tidefall) - Supabase-native body-state system for AI companions: six-phase cycles, seven drifting body values, 18 short-term events, trigger-word reactions, interaction settlement, pg_cron automation, DB triggers, snapshots, and a browser dashboard. Based on Eventide; requires manual binding to your message table and tightening the default open RLS policies. PolyForm Noncommercial 1.0.0. `SQL/HTML` · `Supabase` · `adapt`
 
 ---
 

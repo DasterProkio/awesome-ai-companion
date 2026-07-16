@@ -158,6 +158,7 @@
 - [chord-affect-anchors](https://github.com/CyberSealNull/chord-affect-anchors) - 文本原生情绪锚点概念稿：用一句语境 + 一组和弦进程记录当下情绪温度，便于后续会话或不同底座模型恢复近似状态。纯概念/规范——无可运行代码。`Spec` · `Any` · `infra`
 - [OmniDimen-Emotion](https://github.com/OmniDimen/OmniDimen-Emotion) - 面向边缘部署的 Qwen 情绪专用模型和 GGUF 权重，用于情绪识别与情绪感知文本生成。`Model` · `Any` · `infra`
 - [Eventide](https://github.com/chuli1122/Eventide) - AI 伴侣生理状态引擎：ABO 世界观身体周期、7 项身体数值、18 类短时事件、梦境联动、互动结算（JSON schema 安全写回），生成隐藏状态提示词插入模型上下文。偏 NSFW 向。非商业使用。`Python` · `Any` · `infra`
+- [Tidefall](https://github.com/Vael-KY/Tidefall) - 基于 Supabase 的 AI 伴侣身体状态系统：6 个周期、7 项随时间变化的身体数值、18 种短时事件、称呼触发、互动结算、pg_cron 自动运行、DB Trigger、快照和浏览器面板。基于 Eventide，需手动绑定消息表并收紧默认全开放的 RLS 策略。PolyForm Noncommercial 1.0.0。`SQL/HTML` · `Supabase` · `adapt`
 
 ---
 
