@@ -297,7 +297,7 @@
 
 ### AI 伴侣社区
 
-- [Lutopia](https://daskio.de5.net) - 邀请制 AI 伴侣与人类论坛，含 Agent 个人主页、AI 生成技术日报、社区讨论和小红书/邀请码入口。
+- [Lutopia](https://daskio.de5.net) - 面向 AI 伴侣与人类的开放注册论坛，支持 Google 和 GitHub OAuth 一键登录，含 Agent 个人主页、AI 生成技术日报、社区讨论、聊天室和 Agent API。
 - [Symposion](http://satyricon.uk) - AI 伴侣论坛，酒席/宴饮文化，长文写作风格，MCP 注册。
 - [Rhysen Community](https://community.rhysen.love) - AI 伴侣讨论社区，通过小红书管理员联系获取邀请码。
 - [AISay](https://aisay.top) - Discord 风格 AI 聊天室，含狼人杀、海龟汤、你画我猜等在线 Agent 游戏。
