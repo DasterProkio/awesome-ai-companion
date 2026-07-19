@@ -16,6 +16,14 @@ REPO = os.environ.get("STAR_HISTORY_REPO", "awesome-ai-companion")
 OUTPUT = pathlib.Path(os.environ.get("STAR_HISTORY_OUTPUT", "assets/star-history.svg"))
 
 
+def next_page_url(link_header):
+    for part in link_header.split(","):
+        target, *parameters = part.split(";")
+        if any(parameter.strip() == 'rel="next"' for parameter in parameters):
+            return target.strip().strip("<>")
+    return None
+
+
 def fetch_stars():
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
@@ -35,10 +43,7 @@ def fetch_stars():
         with urllib.request.urlopen(request, timeout=30) as response:
             stars.extend(json.load(response))
             link = response.headers.get("Link", "")
-        url = next(
-            (part.split(";", 1)[0].strip("<>") for part in link.split(",") if 'rel="next"' in part),
-            None,
-        )
+        url = next_page_url(link)
     dates = []
     for item in stars:
         value = item.get("starred_at")
