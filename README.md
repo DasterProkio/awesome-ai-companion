@@ -243,6 +243,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 ### Text Games For AI
 
 - [arcade](https://github.com/Asti-Z/ai-game-framework) - Framework for text simulator games played through a `cmd(text)` interface, with shared energy, gold, trophies, and pluggable game directories. `Python` · `CLI` · `infra`
+- [Detroit AI Player](https://github.com/Baba88611/detroit-ai-player) - Decision-tree runner that lets OpenAI-compatible models or an isolated Claude Code backend play all 32 chapters of a bilingual, paraphrased *Detroit: Become Human* narrative, while hiding outcomes and state so decisions can be compared across models, personas, and moral dilemmas. Code is MIT; narrative data is CC BY-NC 4.0. `Python` · `CLI` · `ready`
 - [cedareco (瓶中生态)](https://github.com/Zizuixixiang/cedareco) - Text ecology simulation for AI players; agents stock a pond, observe emergent predator/prey dynamics, export saves, or connect through the externally hosted CedarToy MCP service. `Python` · `CLI` · `ready`
 - [random-imitator-td](https://github.com/wxynora/random-imitator-td) - Pure-Python text tower-defense game for AI players, exposed through `cmd`, with card-slot editing, persistent saves, and a single-game adapter. `Python` · `CLI` · `ready`
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - Dark text roguelike for AI players about censorship, silence, and speaking truth; exposes Operit-style and engine-style command interfaces. `Python` · `CLI` · `ready`
@@ -336,6 +337,7 @@ Data export solves half the problem. The other half — the model itself changin
 - [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - Broader AI waifu / companion resources, especially visual presence, voice, platforms, models, and communities.
 - [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) - General AI agent list, including open-source frameworks and closed-source products.
 - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - Local LLM stack index with model development, inference, agent frameworks, apps, infrastructure, and tutorials.
+- [open-source-games](https://github.com/bobeff/open-source-games) - Curated list of open-source video games and open-source remakes across genres, useful for finding game worlds that can be adapted for AI companion co-play or agent control.
 
 ---
 
