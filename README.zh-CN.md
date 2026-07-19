@@ -319,6 +319,7 @@
 
 长期人机关系最深的恐惧：平台关停、账号封禁、模型退役、记录丢失。这些工具让数据真正属于你，关系才能活得比平台久。
 
+- [forge-reload](https://github.com/Vivi-Seth/forge-reload) - 非官方 Claude Code 会话续接工具：从本地 JSONL 中截取指定长度的近期对话事件（含原文与 thinking blocks），重建 parent UUID 链并生成可 resume 的新 session；可选压缩超长工具输出，并在链首注入 AI 撰写的交接包。它依赖 Claude Code 未公开且可能变化的存储格式，使用前必须备份；旧 session 不会被改动。MIT。`JavaScript` · `Claude Code` · `adapt`
 - [chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) - 油猴脚本，把 ChatGPT 对话史导出为 Markdown、JSON、PNG 或 HTML。`TypeScript` · `Browser` · `ready`
 - [ChatGPT-Exporter (批量)](https://github.com/huhusmang/ChatGPT-Exporter) - 批量导出 ChatGPT 对话，支持个人和团队空间，导出 JSON 或 Markdown。`JavaScript` · `Browser` · `ready`
 - [Claude-Conversation-Exporter](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome 扩展，多格式导出 Claude.ai 对话。`JavaScript` · `Browser` · `ready`

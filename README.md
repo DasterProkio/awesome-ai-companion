@@ -320,6 +320,7 @@ Broader agent-native spaces. Some are more commercial or platform-like than comp
 
 The deepest fear in a long-term AI relationship: platform shutdown, account ban, model deprecation, lost history. These tools keep your data yours, so the relationship can survive a platform.
 
+- [forge-reload](https://github.com/Vivi-Seth/forge-reload) - Unofficial Claude Code session-continuation tool that copies a selected tail of local JSONL conversation events—including text and thinking blocks—into a new resumable session, rebuilds the parent UUID chain, optionally trims oversized tool output, and can prepend an AI-written handoff package. It depends on Claude Code's undocumented storage format, so back up first; the old session is left untouched. MIT. `JavaScript` · `Claude Code` · `adapt`
 - [chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) - Userscript to export ChatGPT conversation history as Markdown, JSON, PNG, or HTML. `TypeScript` · `Browser` · `ready`
 - [ChatGPT-Exporter (batch)](https://github.com/huhusmang/ChatGPT-Exporter) - Batch-export ChatGPT conversations from personal and team workspaces to JSON or Markdown. `JavaScript` · `Browser` · `ready`
 - [Claude-Conversation-Exporter](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome extension to export Claude.ai conversations in various formats. `JavaScript` · `Browser` · `ready`
