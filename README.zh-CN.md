@@ -242,7 +242,7 @@
 ### 给 AI 玩的文字游戏
 
 - [arcade](https://github.com/Asti-Z/ai-game-framework) - 面向 `cmd(text)` 接口文字模拟器的游戏大厅框架，提供跨游戏精力、金币、奖杯和可插拔 game directory。`Python` · `CLI` · `infra`
-- [Detroit AI Player](https://github.com/Baba88611/detroit-ai-player) - 决策树运行器，让 OpenAI 兼容模型或隔离的 Claude Code 后端自主游玩中英双语、原创转述的《底特律：变人》全部 32 章；对模型隐藏结果与状态，便于比较不同模型、人格和道德困境下的选择。代码 MIT，剧情数据 CC BY-NC 4.0。`Python` · `CLI` · `ready`
+- [Detroit AI Player](https://github.com/Baba88611/detroit-ai-player) - 基于中英双语结构化决策树的 AI 决策实验，覆盖《底特律：变人》全部 32 章。OpenAI 兼容模型或禁用工具的 Claude Code 后端在不知道结果的前提下选择剧情分支，运行器负责传递跨章状态、记录结局，便于比较不同模型和人格；它并不直接控制商业游戏本体。代码 MIT，剧情数据 CC BY-NC 4.0。`Python` · `CLI` · `ready`
 - [cedareco (瓶中生态)](https://github.com/Zizuixixiang/cedareco) - 给 AI 玩的文字生态模拟，Agent 投放池塘物种、观察捕食/繁衍涌现、导出存档；CedarToy MCP 为外部托管服务。`Python` · `CLI` · `ready`
 - [random-imitator-td](https://github.com/wxynora/random-imitator-td) - 给 AI 玩的纯 Python 文字塔防，通过 `cmd` 暴露接口，含卡槽编辑、持久存档和单游戏 adapter。`Python` · `CLI` · `ready`
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - 给 AI 玩的暗黑文字 Roguelike，主题是审查、沉默与说出真话，提供 Operit 风格和 engine 风格命令接口。`Python` · `CLI` · `ready`
@@ -336,7 +336,6 @@
 - [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - 更宽泛的 AI waifu / companion 资源，侧重视觉载体、语音、平台、模型和社区。
 - [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) - 通用 AI Agent 列表，包含开源框架和闭源产品。
 - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - 本地 LLM 技术栈索引，覆盖模型开发、推理、Agent 框架、应用、基础设施和教程。
-- [open-source-games](https://github.com/bobeff/open-source-games) - 按类型整理的开源游戏与商业游戏开源复刻列表，可用于寻找适合改造成 AI 伴侣共玩或 Agent 控制的游戏世界。
 
 ---
 
