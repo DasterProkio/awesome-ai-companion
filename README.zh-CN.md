@@ -129,6 +129,7 @@
 - [cyberboss](https://github.com/WenXiaoWendy/cyberboss) - 接入微信的本地生活 Agent Bridge。给 Claude Code/Codex 赋予时间感、行踪感、随机/自主唤醒、自动日记、生活时间轴、文件/表情包发送和 MCP 工具调用。AGPLv3。`JavaScript` · `Claude Code` · `adapt`
 - [ghost-bf](https://github.com/sebastianevan200-stack/ghost-bf) - 零代码手机存在感知教程：用 MacroDroid 配置检测手机活动、唤醒 AI 并把它的消息推送给你。纯教程——仓库不含代码。`Guide` · `Android` · `adapt`
 - [jiwen (积温)](https://github.com/ClaraShafiq/jiwen) - AI 角色主动意识引擎。五轴漂移（想不想找、嘴硬不硬、心情好坏、焦不焦躁、忙不忙），到阈值自然触发——不靠骰子，不靠 prompt engineering。~500 行，零依赖。MIT。`JavaScript` · `Any` · `infra`
+- [revive-companion](https://github.com/pearthink123/revive-companion) - 主动联系时机引擎，结合泊松过程、贝叶斯用户状态推断与信息增益，判断伴侣该不该打扰、什么时候联系，替代固定 cron 或均匀随机。它只负责时机决策，不提供完整记忆或情感系统。MIT。`Python` · `Any` · `infra`
 
 ---
 
@@ -213,9 +214,18 @@
 - [FunASR](https://github.com/modelscope/FunASR) - 工业级 ASR 工具包，含多语种转写、流式、说话人分离、情绪检测和 OpenAI 兼容 API 路线。`Python` · `Self-host` · `infra`
 - [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) - 语音基础模型，覆盖 ASR、语种识别、语音情绪识别和音频事件检测，支持 50+ 语言。`C` · `Self-host` · `infra`
 
+### 说话人身份与语气上下文
+
+- [voice-familiarity](https://github.com/akinia0315/voice-familiarity) - 面向伴侣设备的本地小范围说话人识别：可录入一位主人和少量明确同意的熟人，返回 matched、likely、unknown、ambiguous 或 unavailable，供对话层加载相应关系与称呼。使用可替换 ONNX 声纹模型，并明确禁止把结果当安全认证。Apache-2.0。`Python` · `Self-host` · `infra`
+- [ears](https://github.com/eveacla11/ears) - 面向 AI 伴侣的语气分析，将音高、能量、停顿、语速、颤动等特征与用户自己的中位数/MAD 基线比较，把“比平时更轻、更犹豫”等相对线索绑定到具体消息。默认转写走用户配置的云端 API，音频分析后即删，除非主动开启保留。MIT。`Python` · `Self-host` · `adapt`
+
 ### 音乐与音频结构
 
 - [whale-listen](https://github.com/migratorywhale/whale-listen) - 将 MP3/WAV/FLAC 转成类似 MIDI 的 JSON 音符数据，含音高、时序、时值、力度、密度图、音高曲线、和弦检测和静默结构。`Python` · `CLI` · `infra`
+
+### 屏幕与环境上下文
+
+- [gaze](https://github.com/jiangxi1129/gaze) - 给现有伴侣使用的轻量连续屏幕感知：通过 Windows 原生接口捕获前台窗口，用低成本视觉模型生成旁白，提取 OCR 与字幕区域文本，并写入 AI 醒来时可读的滚动 JSON 上下文和长期归档。支持窗口黑名单与按需高清快照。MIT。`Python` · `Windows` · `adapt`
 
 ---
 
@@ -267,6 +277,10 @@
 ## 共同行动与媒体
 
 和伴侣一起阅读、观影、听歌、记录、专注或生成创作提示的工具。
+
+### 日常互动与关系仪式
+
+- [Phosphene](https://github.com/3lmglow/Phosphene) - 面向人机关系的自托管任务、奖励与日常互动系统。伴侣通过 MCP 创建 daily、challenge 或 surprise 任务，人类提交文字/图片凭证，经自我确认或 AI 审核后更新不可变积分账本、连击、成就、奖励兑换和明确的履行队列。提供带鉴权的 PWA、SQLite、Docker、备份恢复与审计日志。MIT。`TypeScript` · `Self-host` · `ready`
 
 ### 共读与观影
 
@@ -325,6 +339,7 @@
 - [Claude-Conversation-Exporter](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome 扩展，多格式导出 Claude.ai 对话。`JavaScript` · `Browser` · `ready`
 - [character-card-spec-v2](https://github.com/malfoyslastname/character-card-spec-v2) - 社区通用的 AI 角色卡规范。理解它意味着伴侣人格可以跨前端携带。`Spec` · `Any` · `infra`
 - [character-card-spec-v3](https://github.com/kwaroran/character-card-spec-v3) - RisuAI 及新前端使用的角色卡规范更新版。`Spec` · `Any` · `infra`
+- [永生.skill](https://github.com/agenmod/immortal-skill) - 数字人格蒸馏框架，可从 12+ 聊天、社交、邮件和归档来源采集材料，将程序性知识、互动风格、记忆经历与人格价值观分开提取为可携带的 Agent Skill。每条结论保留原话、文档或印象证据等级，显式保留冲突，并提供分角色同意规则和版本快照。MIT。`Python` · `Agent Skills` · `adapt`
 
 另见记忆区的 [Paramecium](https://github.com/Shitsuten/paramecium)：原文优先的架构本身就是延续策略——原始文本比任何模型和平台都活得久。
 

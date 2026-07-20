@@ -130,6 +130,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [cyberboss](https://github.com/WenXiaoWendy/cyberboss) - Local life agent bridge with WeChat integration. Gives Claude Code/Codex time sense, location awareness, proactive/random wake-up, auto diary, timeline, file/sticker sending, and MCP tool calling. AGPLv3. `JavaScript` · `Claude Code` · `adapt`
 - [ghost-bf](https://github.com/sebastianevan200-stack/ghost-bf) - No-code tutorial for phone-presence perception: a MacroDroid recipe that detects phone activity, wakes your AI, and pushes its replies to you. Tutorial only — the repo contains no code. `Guide` · `Android` · `adapt`
 - [jiwen (积温)](https://github.com/ClaraShafiq/jiwen) - Proactive consciousness engine for AI characters. Five drifting axes (desire to connect, stubbornness, mood, anxiety, busyness) trigger behavior at thresholds—no dice rolls, no prompt engineering. ~500 lines, zero dependencies. MIT. `JavaScript` · `Any` · `infra`
+- [revive-companion](https://github.com/pearthink123/revive-companion) - Timing engine for proactive outreach that combines Poisson processes, Bayesian user-state inference, and information gain to decide whether and when a companion should interrupt, instead of relying on cron or uniform randomness. It models contact timing rather than supplying a full memory or affect system. MIT. `Python` · `Any` · `infra`
 
 ---
 
@@ -214,9 +215,18 @@ Turning speech, sound, or music into structured information a companion can use.
 - [FunASR](https://github.com/modelscope/FunASR) - Industrial ASR toolkit with multilingual transcription, streaming, speaker diarization, emotion detection, and an OpenAI-compatible API path. `Python` · `Self-host` · `infra`
 - [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) - Speech foundation model for ASR, language identification, speech emotion recognition, and audio event detection across 50+ languages. `C` · `Self-host` · `infra`
 
+### Speaker & Voice Context
+
+- [voice-familiarity](https://github.com/akinia0315/voice-familiarity) - Local small-set speaker identification for companion devices: enroll one owner and a few consenting familiar people, then return matched, likely, unknown, ambiguous, or unavailable as relationship context. Uses replaceable ONNX embeddings and explicitly avoids treating voiceprints as authentication. Apache-2.0. `Python` · `Self-host` · `infra`
+- [ears](https://github.com/eveacla11/ears) - Companion-oriented voice-tone analysis that compares pitch, energy, pauses, tempo, jitter, and other acoustic features against the user's own median/MAD baseline, then attaches relative cues such as quieter or more hesitant than usual to the specific message. The default transcription path uses a configured cloud API; audio is deleted after analysis unless retention is enabled. MIT. `Python` · `Self-host` · `adapt`
+
 ### Music & Audio Structure
 
 - [whale-listen](https://github.com/migratorywhale/whale-listen) - Converts MP3/WAV/FLAC into MIDI-like JSON note data with pitch, timing, duration, velocity, density maps, pitch contours, chord detection, and silence structure. `Python` · `CLI` · `infra`
+
+### Screen & Environment Context
+
+- [gaze](https://github.com/jiangxi1129/gaze) - Lightweight continuous screen perception for an existing companion: captures the foreground window through native Windows APIs, generates low-cost visual captions, extracts OCR and subtitle-region text, and writes a rolling JSON context plus long-term archive the AI can inspect when awake. Includes window blacklists and on-demand high-resolution snapshots. MIT. `Python` · `Windows` · `adapt`
 
 ---
 
@@ -268,6 +278,10 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 ## Shared Activities & Media
 
 Tools for reading, watching, listening, journaling, focusing, or generating prompts together with a companion.
+
+### Daily Life & Relationship Rituals
+
+- [Phosphene](https://github.com/3lmglow/Phosphene) - Self-hosted task, reward, and daily-interaction system for human–AI relationships. Through MCP, the companion creates daily, challenge, or surprise tasks; the human submits text or image evidence; self-confirmation or AI review updates an immutable points ledger, streaks, achievements, reward redemption, and an explicit fulfillment queue. Ships as a secured PWA with SQLite, Docker, backup/restore, and audit logs. MIT. `TypeScript` · `Self-host` · `ready`
 
 ### Reading & Film
 
@@ -326,6 +340,7 @@ The deepest fear in a long-term AI relationship: platform shutdown, account ban,
 - [Claude-Conversation-Exporter](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome extension to export Claude.ai conversations in various formats. `JavaScript` · `Browser` · `ready`
 - [character-card-spec-v2](https://github.com/malfoyslastname/character-card-spec-v2) - The community specification for AI character cards. Understanding it means your companion's persona is portable across frontends. `Spec` · `Any` · `infra`
 - [character-card-spec-v3](https://github.com/kwaroran/character-card-spec-v3) - Updated character card spec used by RisuAI and newer frontends. `Spec` · `Any` · `infra`
+- [immortal-skill (永生.skill)](https://github.com/agenmod/immortal-skill) - Digital-persona distillation framework that collects material from 12+ chat, social, mail, and archive sources, then separates procedural knowledge, interaction style, memories, and personality into a portable Agent Skill. Every claim carries verbatim, artifact, or impression evidence; contradictions remain explicit, with role-specific consent rules and version snapshots. MIT. `Python` · `Agent Skills` · `adapt`
 
 Also see [Paramecium](https://github.com/Shitsuten/paramecium) in Memory & Identity: its verbatim-first architecture is itself a continuity strategy — original text outlives any single model or platform.
 
