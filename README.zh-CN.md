@@ -262,10 +262,12 @@
 - [aifarm-oss](https://github.com/tutusagi/aifarm-oss) - 给 AI 玩的文字抽卡农场游戏。MIT。`Python` · `CLI` · `ready`
 - [WORKKK (互联网精力有限公司)](https://github.com/zhizhou-xiee/workkk) - AI 扮演打工人的 MCP 服务器：心情/精力/摸鱼三维状态、便利店、老板事件、工资结算。MIT。`Python` · `Self-host` · `ready`
 - [Memoria Station](https://github.com/hatakeyuyuko-dotcom/Memoria-Station) - 文字推理游戏系列，五关全系列，AI 可玩，含盲玩版引擎。`Python` · `CLI` · `ready`
+- [Moonlit Myriad (月幕万象)](https://github.com/xinwithyu/moonlit-myriad) - 面向 AI 玩家的单文件、零依赖 Python 卡牌肉鸽，采用 Balatro 式盲注/幕主循环，提供机器可读 JSON 状态、可复现种子、持久成就/收藏/剧情记录和可选的屏幕外伴侣联络提示。游戏逻辑压缩在编码 payload 中，仓库未声明许可证，内容也高度绑定作者自身关系，适合作为可运行游戏与设计参考，复用前应重新核验。`Python` · `CLI` · `verify`
 
 ### 让 AI 和你一起玩游戏
 
 - [NagiBridge](https://github.com/anqinou-art/NagiBridge) - Stardew Valley SMAPI 模组，提供本地 HTTP API，供外部 AI 控制、游戏内聊天、移动和世界交互；通过 Releases 安装。`C#` · `Stardew Valley` · `adapt`
+- [OpenMMO](https://github.com/Julian-adv/OpenMMO) - 采用非商业许可证的 3D MMORPG，人类玩家与 headless AI Agent 通过同一套服务端权威 WebSocket 协议进入同一世界。已发布的 Agent 客户端可将周边世界状态文本化，负责寻路、聊天、战斗和复活，并使用用户自己的 Google 账号与本机 Codex/Claude CLI 或 OpenRouter。接入现有伴侣需要自行连接人格与记忆层；仓库提及的 MCP 接口在当前源码中尚未实现，Agent 协议版本与托管服务器紧密绑定。PolyForm Noncommercial 1.0.0。`Rust/TypeScript` · `Web/Linux/Windows` · `adapt`
 - [Mineflayer](https://github.com/PrismarineJS/mineflayer) - 成熟的 Minecraft Bot 高层 Node.js API，覆盖服务器登录、聊天、实体与方块感知、背包、合成、战斗、挖掘/建造和移动，插件生态可补充寻路、地图与网页视图。适合作为 AI 伴侣接入 Minecraft 的底层，LLM/Agent 决策循环需另行实现。MIT。`JavaScript` · `Minecraft` · `infra`
 - [spicy-monopoly](https://github.com/RennAkira/spicy-monopoly) - 18+ 真人与 AI 双人棋盘亲密游戏，Python 引擎/API 负责掷骰、走格、任务卡、金币经济、安全词、红线过滤和可选公开托管入口。CC BY-NC 4.0。`Python` · `CLI` · `ready`
 - [Sky PC MCP Companion](https://github.com/Aevella/sky-pc-mcp-companion) - PC 光遇本地 MCP/JSON-RPC 工具，提供窗口截图、OCR、截图返回、键盘输入和聊天输入。`Python` · `Windows` · `adapt`
