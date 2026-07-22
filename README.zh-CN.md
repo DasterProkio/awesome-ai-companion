@@ -80,7 +80,7 @@
 - [Polaris](https://github.com/Aevella/polaris-local-first) - 本地优先 AI 工作空间，面向长期会话、协作者身份、资料卡片、工具调用和可追溯项目上下文。`TypeScript` · `Cross-platform` · `adapt`
 - [chatnest](https://github.com/ugui3u/chatnest) - 本地 AI 聊天 Web App，含前端 demo 与 full-stack 模式；支持流式回复、模型切换、上传、历史、工具摘要和可选 ChromaDB/jieba/BM25 记忆检索。`HTML` · `Web` · `adapt`
 - [AionsHome](https://github.com/death34018-hue/AionsHome) - 自托管局域网/Tailscale 陪伴中枢，含浏览器/PWA 聊天、本地存储、语音、摄像头监控、Android WebView 桥、音乐、EPUB 和智能家居接入。内置较多个人默认配置与硬编码域名，需自行替换。`Python` · `Self-host` · `adapt`
-- [Miru](https://github.com/kiyotakali/Miru) - 面向 macOS 与 Android 的自托管 AI 伴侣，包含 Live2D 桌面宠物、屏幕活动感知、可审计的 Markdown 记忆、夜间记忆整理、由 AttentionEngine 驱动的主动消息，以及经用户自有服务器实现的多设备同步。仓库当前提供客户端、服务端镜像与文档，完整后端源码仍在分阶段开放。Apache-2.0。`macOS/Android` · `Self-host` · `ready`
+- [Miru](https://github.com/kiyotakali/Miru) - 面向 macOS 与 Android 的打包式自托管伴侣，包含 Live2D 桌面宠物、屏幕活动感知、可审计 Markdown 记忆、夜间整理、AttentionEngine 主动消息和多设备同步。公开仓只有官网、文档与预编译发行包；服务端镜像的 `/opt/miru/app` 内实际带有约 4.2 万行可读 Python 源码及 Docker/部署文件，解包后可以研究和魔改后端，macOS/Android 客户端源码、Git 历史和完整测试集仍未公开。适合试用成品和参考后端实现，不适合作为干净的开源底座。Apache-2.0。`Python/Binary` · `macOS/Android/Self-host` · `adapt`
 - [LumiMuse](https://github.com/in30mn1a/LumiMuse) - 自托管角色聊天应用，用于创建角色、管理对话、抽取长期记忆、生成图片和导出自有数据。`TypeScript` · `Self-host` · `ready`
 - [My Raze](https://github.com/Do-fei/my-raze) - 全栈 AI 虚拟女友 PWA，含多角色聊天、OpenRouter 流式输出、fal.ai 场景自拍、浏览器/ElevenLabs/Fish Audio TTS、Whisper STT、心情与亲密度系统和主动通知。主要作为架构与界面参考：当前分支标明 DO NOT DEPLOY，仍依赖 Manus OAuth/Forge 服务，需继续完成安全加固和独立自托管适配。MIT。`TypeScript` · `Web` · `adapt`
 - [the-house](https://github.com/wuliu0012/the-house) - 单文件浏览器聊天前端，支持 Claude 或 OpenAI 兼容 API、本地浏览器存储、多窗口、记忆编辑、MCP 地址、图片输入和可选玩具桥接。`HTML` · `Web` · `adapt`
