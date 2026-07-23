@@ -100,7 +100,7 @@
 - [KI-CO (小屋)](https://github.com/Kisera001/KI-CO) - 本地优先陪伴小屋，含长对话、人格核、记忆档案、日记/时光记录、近期生活线、状态卡、观影室、设置和轻量记忆召回。`TypeScript` · `Web` · `ready`
 - [InternalBeyond (边界之外)](https://github.com/Sui-IB/InternalBeyond) - 离线单文件个人空间，含像素房间、多端口 AI 聊天、日志/日记、AI 书信、记忆星图、音乐播放器、个人名片、API 端口和 DIY 素材。默认内容深度绑定作者个人世界观，需替换为自己的素材。`HTML` · `Web` · `adapt`
 - [柚月小手机 (Yuzuki's Little Phone)](https://github.com/gaigai315/yuzuki-phone) - 面向 SillyTavern 的虚拟手机系统，含微信式聊天、朋友圈、微博热搜、视频通话、剧情注入模式和不污染主线记录的独立 API 模式。`JavaScript` · `SillyTavern` · `adapt`
-- [AI Virtual Phone](https://github.com/xiaolongbao0709/ai-virtual-phone) - 基于 Next.js 的 AI 虚拟互动手机：私聊/群聊/朋友圈、语音消息、转账红包卡片、角色卡/世界书/预设/正则、剧情/VN/查手机/地图冒险、应用市场 SDK、游戏大厅、生图、Minimax 语音、网易云音乐、Tripo 3D 世界、主题贴纸和 PWA 安装。AGPLv3。`TypeScript` · `Web` · `adapt`
+- [AI Virtual Phone](https://github.com/xiaolongbao0709/ai-virtual-phone) - 功能覆盖面在本索引的虚拟手机项目中属于最广的一档，推荐给愿意自行配置的人。基于 Next.js，包含私聊/群聊/朋友圈、语音消息、转账红包卡片、长期关系、角色卡/世界书/预设/正则、剧情/VN/查手机/访谈/地图/日记、应用市场 SDK、游戏大厅、生图、Minimax 语音、网易云音乐、Tripo 3D 世界、主题贴纸和 PWA 安装。基础聊天需自备 LLM API；云端、联机和多媒体能力还需配置 Supabase 及对应的第三方服务。AGPLv3。`TypeScript` · `Web` · `adapt`
 - [汪汪机 (WangWangPhone)](https://github.com/Liunian06/FlutterCppWangWangPhone) - AI 原生虚拟手机（C++ 核心 + Flutter UI），规划中的功能包括微信式聊天、朋友圈、语音/视频通话及多 LLM 支持。早期 WIP——当前回复为内置模拟，尚未接入任何 LLM。`Flutter` · `Android/iOS` · `verify`
 - [XSJDeveloperGuide (小手机开发指南)](https://github.com/Liunian06/XSJDeveloperGuide) - 汪汪机作者的小手机开发入门笔记与提示词资料，面向伴侣界面搭建。`Guide` · `Any` · `infra`
 - [freeapp (whale小手机)](https://github.com/whale-Yd00/freeapp) - 手机风格 AI 聊天伴侣，多 Provider 支持，虚拟手机界面。AGPLv3。`HTML` · `Web` · `adapt`
