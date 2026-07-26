@@ -296,6 +296,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [Duetto](https://github.com/avisforevelyn/Duetto) - Self-hostable listen-together player for two; AI companion that remembers every song you've shared. MIT. `JavaScript` · `Self-host` · `adapt`
 - [whale-browser-extension](https://github.com/whale-Yd00/whale-Yd00-whale-browser-extension) - Browser extension that lets an AI companion read webpage content alongside you, with selective text extraction and injection; built as the bridge for the whale/SullyOS ecosystem. MIT. `JavaScript` · `Browser` · `adapt`
 - [echo-reading](https://github.com/plustar35/echo-reading) - Deep reading notebook skeleton for Claude Code. Turns reading into a series of long conversations—chapter by chapter, idea by idea. `JavaScript` · `Claude Code` · `adapt`
+- [coread (共读室)](https://github.com/meowmana/coread) - Co-reading room where human and AI annotate the same book side by side: epub import with chapter and image extraction, CSS-column pagination that adapts from phone to desktop, shared highlights, comments and replies, reading presence, epub/markdown export with annotations, and MCP tools over stdio or SSE/Streamable HTTP. SQLite only, zero external dependencies. MIT. `TypeScript` · `Self-host` · `ready`
 
 ### Music & Listening Together
 
