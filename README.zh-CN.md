@@ -285,6 +285,7 @@
 ### 日常互动与关系仪式
 
 - [Phosphene](https://github.com/3lmglow/Phosphene) - 面向人机关系的自托管任务、奖励与日常互动系统。伴侣通过 MCP 创建 daily、challenge 或 surprise 任务，人类提交文字/图片凭证，经自我确认或 AI 审核后更新不可变积分账本、连击、成就、奖励兑换和明确的履行队列。提供带鉴权的 PWA、SQLite、Docker、备份恢复与审计日志。MIT。`TypeScript` · `Self-host` · `ready`
+- [shared-page](https://github.com/KKarsyline/shared-page) - 人与 AI 共用的手帐风日历与后端：三种笔迹（用户、AI、聊天记录自动提取），自带 6 个动作的 MCP 服务（包含渲染整页 PNG 的 `see`）、可双向点赞的便签、贴纸与照片拼贴、桌面小组件及可选推送。单用户、单时区架构。`Swift`/`Python` · `iOS`/`Self-host` · `adapt`
 
 ### 共读与观影
 
