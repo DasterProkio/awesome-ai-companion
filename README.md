@@ -286,6 +286,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 ### Daily Life & Relationship Rituals
 
 - [Phosphene](https://github.com/3lmglow/Phosphene) - Self-hosted task, reward, and daily-interaction system for human–AI relationships. Through MCP, the companion creates daily, challenge, or surprise tasks; the human submits text or image evidence; self-confirmation or AI review updates an immutable points ledger, streaks, achievements, reward redemption, and an explicit fulfillment queue. Ships as a secured PWA with SQLite, Docker, backup/restore, and audit logs. MIT. `TypeScript` · `Self-host` · `ready`
+- [shared-page](https://github.com/KKarsyline/shared-page) - Journal-style shared calendar and server for humans and AI companions: three ink colors (user, assistant, auto-extracted from chat), MCP server with six actions including full-page PNG rendering (`see`), sticky notes with mutual likes, photo and sticker scrapbooking, automated chat extraction, widget, and push notifications. Single-user, single-timezone by design. `Swift`/`Python` · `iOS`/`Self-host` · `adapt`
 
 ### Reading & Film
 
