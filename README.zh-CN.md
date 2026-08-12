@@ -185,6 +185,7 @@
 - [ai-live2d-body](https://github.com/zziying/ai-live2d-body) - 给已有 AI 伴侣装 Live2D 桌宠身体的架构思路：分层 Electron+PixiJS+pixi-live2d-display 技术栈、Claude Code hooks 联动、双向触摸注入、MCP 工具主动表达，大脑始终是原来的 agent，不换人。纯文档，无成品代码。`Guide` · `macOS` · `adapt`
 - [Ghost Vessel](https://github.com/ghdtjrtka/ghost-vessel) - 给现有本地 Agent 套上常驻屏幕视频化身的参考实现，以预渲染情绪片段替代 Live2D/VRM。不同于 AIRI、LingChat、Shinsekai 等完整外壳，它专注低运行时 GPU 占用的视觉载体路线，并需要自制或另行获取角色预设。`Python` · `Windows` · `adapt`
 - [AIRI](https://github.com/moeru-ai/airi) - 自托管伴侣壳，支持 Live2D/VRM 视觉层、实时语音、桌面/Web 应用，以及 Discord、Telegram、Minecraft、Factorio 等集成。`TypeScript` · `Cross-platform` · `ready`
+- [Amica](https://github.com/semperai/amica) - 浏览器端 3D 角色交互界面，也是多个项目直接内嵌的角色层：通过 three.js/@pixiv/three-vrm 导入 VRM 模型，回复带情绪标签驱动表情，语音链路含 Whisper 识别与 Silero VAD，浏览器内跑 Transformers.js，LLM 后端可插拔（llama.cpp、Ollama、KoboldCpp、Oobabooga、OpenRouter、OpenAI 兼容接口），TTS 支持 ElevenLabs/OpenAI/Coqui/RVC，视觉走 Bakllava。可用官方托管版也可自建；自 2025 年 7 月起无新提交。MIT。`TypeScript` · `Web` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻，含实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆/RAG。2025 年初起停更——作参考实现看待。`Python` · `Windows` · `verify`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - 沉浸式 AI Galgame 聊天软件：情绪表情、桌宠、日程、交互式剧情模块。`TypeScript` · `Windows` · `ready`
 - [astrbot_plugin_chuanhuatong (传画筒)](https://github.com/bvzrays/astrbot_plugin_chuanhuatong) - 把 AstrBot 纯文本回复渲染成带立绘的 Galgame 风聊天框图片：情绪差分、多层文本、拖拽式 WebUI 布局。`Python` · `AstrBot` · `ready`
