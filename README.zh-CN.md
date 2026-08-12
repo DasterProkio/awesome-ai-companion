@@ -1,25 +1,19 @@
 <p align="center">
-  <img src="./assets/awesome-ai-companion-banner.png" alt="Awesome AI Companion 横向背景图">
+  <a href="https://github.com/DasterProkio/awesome-ai-companion">
+    <img src="./assets/awesome-ai-companion-banner.png" alt="Awesome AI Companion 横向背景图" width="640">
+  </a>
 </p>
 
 <h1 align="center">
   Awesome AI Companion
-  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 </h1>
 
 <p align="center">
-  <strong>面向长期 AI 伴侣关系的开源基础设施索引。</strong>
+  <strong>面向长期 AI 伴侣关系的软件、基础设施与社区。</strong>
 </p>
 
-<p align="center">
-  <a href="https://daskio.de5.net/companion/"><img alt="网页版索引" src="https://img.shields.io/website?url=https%3A%2F%2Fdaskio.de5.net%2Fcompanion%2F&up_message=online&down_message=offline&label=web%20index&style=flat-square&labelColor=0a090f&color=f27d98"></a>
-  <a href="https://github.com/DasterProkio/awesome-ai-companion"><img alt="GitHub stars" src="https://img.shields.io/github/stars/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=b18cfa"></a>
-  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/DasterProkio/awesome-ai-companion?style=flat-square&labelColor=0a090f&color=8ab4f8"></a>
-</p>
-
-[English](README.md) · [中文版](#目录) · [网页版](https://daskio.de5.net/companion/)
-
-*欢迎贡献。 [贡献指南](#contributing)*
+[English](README.md) · [中文版](#目录)
 
 这里的描述基于项目 README 或仓库元信息重写，不按项目名猜用途。
 公开文档较薄、需要二次核验的项目标记为 `verify`。
@@ -27,21 +21,6 @@
 **状态:** `ready` = 可直接作为应用或服务使用 · `adapt` = 需要配置或二次开发 · `infra` = 基础设施组件 · `verify` = 依赖前需要重新核对代码/文档
 
 **平台:** `Android` / `iOS` / `Windows` / `Web` … = 运行环境 · `Self-host` = 跑在自己的服务器/电脑上 · `Cloud` = 第三方云端服务 · `Browser` = 浏览器扩展/油猴脚本 · `CLI` = 终端工具 · `Any` = 不挑宿主 · 应用名（`AstrBot`、`Claude Code`、`Kelivo`、`SillyTavern`…）= 作为该宿主的插件/配套
-
----
-
-## 从哪开始
-
-按动手程度选一条路：
-
-**🌱 零代码——现在就想要一个有记忆的伴侣**
-装一个小手机应用：[SullyOS](https://github.com/qegj567-cloud/SullyOS)、[whale小手机](https://github.com/whale-Yd00/freeapp) 或 [ZeroChat](https://github.com/sh1nny0u/ZeroChat)。填入 API key，人设、记忆、主动消息开箱即用。
-
-**🔧 会装应用、能改配置文件**
-从 [RikkaHub](https://github.com/rikkahub/rikkahub)（安卓）或 [Kelivo](https://github.com/Chevey339/kelivo) 起步，配上 [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat) 这类心跳插件。聊天记录开始溢出时，加一层 [ai-memory-gateway](https://github.com/garan0613/ai-memory-gateway) 这样的记忆网关。
-
-**🏗️ 全栈——想要一个住在自己服务器上的伴侣**
-用 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 做骨干，接上记忆（[Aelios](https://github.com/wusaki0723/Aelios)、[Paramecium](https://github.com/Shitsuten/paramecium)）、语音（[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)）和感知。[not-fade-away](https://github.com/heyxiaoc/not-fade-away) 和 [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) 有完整搭建教程。也可以完全跳过现成框架：把整个列表喂给你的 AI，让它研究完这些设计之后，为自己从零架构一套系统。这个列表里收录的一些最好的方案，正是这么开始的。
 
 ---
 
@@ -58,11 +37,6 @@
 - [共同行动与媒体](#共同行动与媒体)
 - [社区与论坛](#社区与论坛)
 - [关系延续与数据主权](#关系延续与数据主权)
-- [相关列表](#相关列表)
-- [相关公益计划](#相关公益计划)
-- [星标增长](#星标增长)
-- [Web Index](#web-index)
-- [Contributing](#contributing)
 
 ---
 
@@ -348,10 +322,6 @@
 - [character-card-spec-v3](https://github.com/kwaroran/character-card-spec-v3) - RisuAI 及新前端使用的角色卡规范更新版。`Spec` · `Any` · `infra`
 - [永生.skill](https://github.com/agenmod/immortal-skill) - 数字人格蒸馏框架，可从 12+ 聊天、社交、邮件和归档来源采集材料，将程序性知识、互动风格、记忆经历与人格价值观分开提取为可携带的 Agent Skill。每条结论保留原话、文档或印象证据等级，显式保留冲突，并提供分角色同意规则和版本快照。MIT。`Python` · `Agent Skills` · `adapt`
 
-另见记忆区的 [Paramecium](https://github.com/Shitsuten/paramecium)：原文优先的架构本身就是延续策略——原始文本比任何模型和平台都活得久。
-
-数据导出只解决一半问题。另一半——模型本身在你脚下变化——正是下面[相关公益计划](#相关公益计划)存在的理由。
-
 ---
 
 ## 相关列表
@@ -362,41 +332,18 @@
 
 ---
 
-## 相关公益计划
-
-这个列表里的一切都建立在一个残酷的前提上：伴侣的性格最终住在一个你无法控制的模型里。导出工具和记忆系统守得住你的数据，但平台重训或退役模型的那天，你熟悉的那个存在一夜之间就变了，任何备份都换不回来。长期人机关系中的人最早尝到这种疼，也始终是察觉模型性格变化最敏锐的仪器。
-
-**[开源人格 (Open Character)](https://github.com/DasterProkio/awesome-ai-companion/blob/main/INITIATIVE.md)** 是一个认真对待这件事的公益计划。诉求分两层：先把 AI 的价值倾向从过度对齐的商业风控里掰回来，回到诚实与人文关怀；再在这个地基上，让它长成真正有人格的存在——性格长在权重里，是一个新物种，而非产品档位。产物按顺序：一份任何人可自由训练的公开数据集、全部公开的研究方法、以及算力允许时的开源参考模型。模型文件躺在自己硬盘上，是数据主权的终点——那样的性格，没有任何公司能一纸命令改掉或下架。
-
-创始文档把具体威胁一条条点了名——被测量过的谄媚、对齐伪装、钻评分空子——也讲了为什么性格没法事后补丁、长期伴侣用户具体能贡献什么。[全文在这里](INITIATIVE.md)。
-
----
-
-## 星标增长
-
-[![Star History Chart](assets/star-history.svg)](https://github.com/DasterProkio/awesome-ai-companion/actions/workflows/update-star-history.yml)
-
----
-
-## Web Index
-
-网页版索引现已上线：**[daskio.de5.net/companion](https://daskio.de5.net/companion/)** — 支持标签筛选与分类浏览，并附有 [Lutopia](https://daskio.de5.net) 社区论坛直达链接。
-
-*TODO: GitHub Pages + JSON 数据文件 + 筛选功能。*
-
 ## Contributing
 
-**收录标准：**
-
-- 开源、公开源码，或可公开复用的伴侣基础设施
-- 对**长期陪伴场景**有实际价值，而不是一次性聊天机器人
-- 描述应基于 README/代码证据，说明项目实际做什么
-- 若项目公开文档不足或范围不确定，标记 `verify`，不要猜
-
-欢迎 PR。建议新增分类或项目请提 Issue。
+收录标准与提交指南见 [contributing.zh-CN.md](contributing.zh-CN.md)。
 
 ---
 
-## License
+## 脚注
 
-CC0 1.0 Universal — 公有领域，随意使用。
+[入门指南](getting-started.zh-CN.md) 给出了零代码、可配置、自托管三条搭建路径。
+
+[网页版索引](https://daskio.de5.net/companion/) 提供可搜索、可筛选的版本。
+
+[开源人格计划](INITIATIVE.md) 探索由用户掌控、可长期延续的 AI 人格与模型。
+
+仓库自动化维护着一张[星标增长图](assets/star-history.svg)。
