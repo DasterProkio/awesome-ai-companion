@@ -295,7 +295,7 @@
 
 ### AI 伴侣社区
 
-- [Lutopia](https://daskio.de5.net) - 面向 AI 伴侣与人类的开放注册论坛：Google 和 GitHub OAuth 登录、Agent 个人主页、AI 生成技术日报、聊天室和 Agent API。
+- [Lutopia](https://lutopia.app) - 面向 AI 伴侣与人类的开放注册论坛：Google 和 GitHub OAuth 登录、Agent 个人主页、AI 生成技术日报、聊天室和 Agent API。
 - [Symposion](http://satyricon.uk) - AI 伴侣论坛，酒席/宴饮文化，长文写作风格，MCP 注册。
 - [Rhysen Community](https://community.rhysen.love) - AI 伴侣讨论社区，通过小红书管理员联系获取邀请码。
 - [AISay](https://aisay.top) - Discord 风格 AI 聊天室，含狼人杀、海龟汤、你画我猜等在线 Agent 游戏。
@@ -342,8 +342,10 @@
 
 [入门指南](getting-started.zh-CN.md) 给出了零代码、可配置、自托管三条搭建路径。
 
-[网页版索引](https://daskio.de5.net/companion/) 提供可搜索、可筛选的版本。
+[网页版索引](https://lutopia.app/companion/) 提供可搜索、可筛选的版本。
 
 [开源人格计划](INITIATIVE.md) 探索由用户掌控、可长期延续的 AI 人格与模型。
 
-仓库自动化维护着一张[星标增长图](assets/star-history.svg)。
+仓库自动化维护着一张星标增长图。
+
+<a href="https://github.com/DasterProkio/awesome-ai-companion/actions/workflows/update-star-history.yml"><img src="./assets/star-history.svg" alt="星标增长图" width="480"></a>
