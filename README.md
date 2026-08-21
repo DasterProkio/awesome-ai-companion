@@ -66,6 +66,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [Pando](https://github.com/Eloise-Aspen/pando-bridge) - Self-hosted mobile/PWA gateway for a local Claude Code CLI: WebSocket streaming of reasoning and tool use, file uploads, SQLite history, and permission approval. No built-in auth. MIT. `Python` · `Self-host` · `adapt`.
 - [CC Companion App](https://github.com/tjing9430/cc-companion-app) - Lightweight self-hosted companion chat starter with private/group chat, persistent memory notes, SSE updates, and PWA access. A compact reference for building a companion frontend. `JavaScript` · `Self-host` · `adapt`.
 - [ackem](https://github.com/JasonLiu0826/ackem) - Local-first AI desktop companion (Electron): privacy-first memory, emotion engine, extensions. Deeply tied to the author's own canon — strip the personal content before reuse. AGPLv3. `TypeScript` · `Cross-platform` · `adapt`.
+- [Local Waifu](https://github.com/lumizone/local-waifu) - Packaged offline desktop companion for macOS and Windows: bundled local LLM runtime, semantic long-term memory with an auto-built knowledge graph of the people and places in your life, on-device image generation for selfies, image understanding, voice, a seven-stage bond model with a live mood state, and encrypted per-character files that export to another machine. Ships as signed prebuilt releases; no client source, one-time paid license. `Rust/TypeScript` · `macOS/Windows` · `ready`.
 
 ---
 

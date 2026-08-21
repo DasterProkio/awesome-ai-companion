@@ -65,6 +65,7 @@
 - [Pando](https://github.com/Eloise-Aspen/pando-bridge) - 可自托管的 Claude Code CLI 手机/PWA 网关：流式返回思考与工具调用、图片/PDF 上传、SQLite 记录、可插拔记忆和手机端权限审批。无内置鉴权。MIT。 `Python` · `Self-host` · `adapt`
 - [CC Companion App](https://github.com/tjing9430/cc-companion-app) - 轻量自托管陪伴聊天前端：私聊/群聊、持久记忆便笺、SSE 更新和 PWA 访问。适合作为围绕任意 Agent 适配器搭建陪伴前端的紧凑参考。 `JavaScript` · `Self-host` · `adapt`
 - [ackem](https://github.com/JasonLiu0826/ackem) - 本地优先 AI 桌面陪伴（Electron）：隐私优先的记忆、情绪引擎、扩展。深度绑定作者个人设定，复用前需先剥离个人内容。AGPLv3。`TypeScript` · `Cross-platform` · `adapt`
+- [Local Waifu](https://github.com/lumizone/local-waifu) - macOS/Windows 离线桌面陪伴应用：内置本地 LLM 运行时、语义长期记忆与自动构建的人物/地点知识图谱、本地出图自拍、图像理解、语音，以及七阶段关系模型和实时情绪状态，角色文件加密且可导出到其他机器。以签名预编译版本发布，不含客户端源码，一次性付费授权。`Rust/TypeScript` · `macOS/Windows` · `ready`
 
 ---
 
