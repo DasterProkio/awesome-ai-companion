@@ -106,6 +106,7 @@
 - [ghost-bf](https://github.com/sebastianevan200-stack/ghost-bf) - 零代码手机存在感知教程：用 MacroDroid 配置检测手机活动、唤醒 AI 并把它的消息推送给你。纯教程——仓库不含代码。`Guide` · `Android` · `adapt`
 - [jiwen (积温)](https://github.com/ClaraShafiq/jiwen) - AI 角色主动意识引擎：五轴漂移（想不想找、嘴硬不硬、心情、焦躁、忙碌）到阈值自然触发行为。~500 行，零依赖。MIT。 `JavaScript` · `Any` · `infra`
 - [revive-companion](https://github.com/pearthink123/revive-companion) - 主动联系时机引擎：结合泊松过程、贝叶斯用户状态推断与信息增益，判断伴侣何时该打扰。只负责时机决策，不含记忆或情感系统。MIT。 `Python` · `Any` · `infra`
+- [ai-surf-when-bored](https://github.com/sanqianzilanyue/ai-surf-when-bored) - 让 AI 伴侣自主冲浪的机制指南与核心 Python 逻辑：解决不愿出门与选题死循环，含反刍闸、换题引路及见闻自然回流。`Guide/Python` · `Any` · `adapt`。
 
 ---
 
