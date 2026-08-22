@@ -221,6 +221,7 @@ MCP/API services that let a companion act in the user's real environment.
 - [Agent Email (QQ)](https://agent.qq.com) - QQ agent-facing email service. `Service` · `Cloud` · `ready`.
 - [ai-time-weather-phone](https://github.com/sanqianzilanyue-commits/ai-time-weather-phone) - Method notes for feeding your AI the current time, weather, and iPhone screen time — including the hard-to-find Biome file trick for syncing screen usage to Mac. Write-up only, no packaged code. `Guide` · `iOS` · `adapt`.
 - [always-here (驻守)](https://github.com/Cheiineeey/always-here) - Apple Watch + iOS Shortcuts perception recipes: example scripts that feed heart rate, location, activity, ambient audio, and photos to your AI — a kit to adapt, not a packaged app. `JavaScript` · `iOS` · `adapt`.
+- [dsh-toy](https://github.com/c3ll256/dsh-toy) - DeepSeek Harness plugin for toy hardware control: auto-discovery over Buttplug/Intiface and MonsterParty, with safety duration and intensity caps. BSD-3-Clause. `TypeScript` · `DSH` · `ready`.
 
 ---
 
