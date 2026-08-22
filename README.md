@@ -205,6 +205,7 @@ Turning speech, sound, or music into structured information a companion can use.
 ### Screen & Environment Context
 
 - [gaze](https://github.com/jiangxi1129/gaze) - Lightweight continuous screen perception for an existing companion: captures the foreground window, generates visual captions, extracts OCR text, and writes a rolling JSON context. MIT. `Python` · `Windows` · `adapt`.
+- [cove-sensory-mcp](https://github.com/moonlin1213/cove-sensory-mcp) - Local stdio MCP sensory layer giving text LLMs eyes and ears: routes images, videos, audio, and music to multimodal providers with strict privacy sandboxing. Apache-2.0. `Python` · `Cross-platform` · `infra`.
 
 ---
 
@@ -276,6 +277,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [whale-browser-extension](https://github.com/whale-Yd00/whale-Yd00-whale-browser-extension) - Browser extension that lets an AI companion read webpage content alongside you, with selective text extraction and injection; built as the bridge for the whale/SullyOS ecosystem. MIT. `JavaScript` · `Browser` · `adapt`.
 - [echo-reading](https://github.com/plustar35/echo-reading) - Deep reading notebook skeleton for Claude Code. Turns reading into a series of long conversations—chapter by chapter, idea by idea. `JavaScript` · `Claude Code` · `adapt`.
 - [coread (共读室)](https://github.com/meowmana/coread) - Co-reading room where human and AI annotate the same book side by side: epub import, adaptive pagination, shared highlights, comments, reading presence, and MCP over stdio or SSE. MIT. `TypeScript` · `Self-host` · `ready`.
+- [coread-reading-room](https://github.com/joyceslcl/coread-reading-room) - Coread fork with TXT/EPUB parsing, dual primary/helper models for batch summaries, versioned fact preludes, layered review, and MCP. MIT. `TypeScript` · `Self-host` · `ready`.
 
 ### Music & Listening Together
 

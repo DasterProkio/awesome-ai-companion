@@ -204,6 +204,7 @@
 ### 屏幕与环境上下文
 
 - [gaze](https://github.com/jiangxi1129/gaze) - 给现有伴侣使用的轻量连续屏幕感知：捕获前台窗口、生成低成本视觉旁白、提取 OCR 文本，写入 AI 可读的滚动 JSON 上下文。MIT。 `Python` · `Windows` · `adapt`
+- [cove-sensory-mcp](https://github.com/moonlin1213/cove-sensory-mcp) - 给纯文本 LLM 眼睛与耳朵的本地 stdio MCP 感知层：支持图像、视频、音频与音乐的多模态代理识别，带严格隐私沙箱。Apache-2.0。`Python` · `Cross-platform` · `infra`。
 
 ---
 
@@ -275,6 +276,7 @@
 - [whale-browser-extension](https://github.com/whale-Yd00/whale-Yd00-whale-browser-extension) - 浏览器插件，让 AI 伴侣和你一起阅读网页内容，支持选择性文本提取和注入；为 whale/SullyOS 生态设计的配套桥接。MIT。`JavaScript` · `Browser` · `adapt`
 - [echo-reading](https://github.com/plustar35/echo-reading) - Claude Code 深读笔记本骨架。把读书变成一次次促膝长谈——逐章、逐段、逐想法。`JavaScript` · `Claude Code` · `adapt`
 - [coread (共读室)](https://github.com/meowmana/coread) - 人与 AI 并肩批注同一本书的共读室：epub 导入、自适应分页、共享划线、评论与回复、在读状态，MCP 支持 stdio 或 SSE。MIT。`TypeScript` · `Self-host` · `ready`
+- [coread-reading-room](https://github.com/joyceslcl/coread-reading-room) - 共读室增强版：支持 TXT/EPUB 解析、主/辅双模型批读摘要、版本化前情事实库、分层复读记忆与 MCP 服务。MIT。`TypeScript` · `Self-host` · `ready`。
 
 ### 音乐与共听
 
