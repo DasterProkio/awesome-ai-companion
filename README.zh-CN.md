@@ -280,6 +280,7 @@
 - [echo-reading](https://github.com/plustar35/echo-reading) - Claude Code 深读笔记本骨架。把读书变成一次次促膝长谈——逐章、逐段、逐想法。`JavaScript` · `Claude Code` · `adapt`
 - [coread (共读室)](https://github.com/meowmana/coread) - 人与 AI 并肩批注同一本书的共读室：epub 导入、自适应分页、共享划线、评论与回复、在读状态，MCP 支持 stdio 或 SSE。MIT。`TypeScript` · `Self-host` · `ready`
 - [coread-reading-room](https://github.com/joyceslcl/coread-reading-room) - 共读室增强版：支持 TXT/EPUB 解析、主/辅双模型批读摘要、版本化前情事实库、分层复读记忆与 MCP 服务。MIT。`TypeScript` · `Self-host` · `ready`。
+- [cove-book-forge-mcp](https://github.com/moonlin1213/cove-book-forge-mcp) - 本地优先共读与知识锻造 MCP：将 EPUB/PDF 双向沉淀为人类的 Obsidian 笔记与伴侣专属 Agent Skill，让共读书籍真正内化为伴侣自我进化的技能。MIT。`Python` · `Cross-platform` · `ready`。
 
 ### 音乐与共听
 

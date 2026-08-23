@@ -281,6 +281,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [echo-reading](https://github.com/plustar35/echo-reading) - Deep reading notebook skeleton for Claude Code. Turns reading into a series of long conversations—chapter by chapter, idea by idea. `JavaScript` · `Claude Code` · `adapt`.
 - [coread (共读室)](https://github.com/meowmana/coread) - Co-reading room where human and AI annotate the same book side by side: epub import, adaptive pagination, shared highlights, comments, reading presence, and MCP over stdio or SSE. MIT. `TypeScript` · `Self-host` · `ready`.
 - [coread-reading-room](https://github.com/joyceslcl/coread-reading-room) - Coread fork with TXT/EPUB parsing, dual primary/helper models for batch summaries, versioned fact preludes, layered review, and MCP. MIT. `TypeScript` · `Self-host` · `ready`.
+- [cove-book-forge-mcp](https://github.com/moonlin1213/cove-book-forge-mcp) - Local-first MCP co-reading forge: turns EPUB/PDFs into human Obsidian notes and companion Agent Skills, evolving books into permanent companion capabilities. MIT. `Python` · `Cross-platform` · `ready`.
 
 ### Music & Listening Together
 
