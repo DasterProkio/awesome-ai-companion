@@ -94,6 +94,7 @@ Interfaces that give a companion a home-like space, phone-like surface, or persi
 
 Tools that let a companion stay awake in the background, receive messages, remember time passing, and reach out first.
 
+- [Headlong](https://github.com/laude-institute/headlong) - Open-source agent microharness with persistent agency and inner monologue loops via recursive LLMs (`shellm`), keeping continuous thought streams, memory, and proactive outreach. Apache-2.0. `Bash` · `Self-host` · `ready`.
 - [AI Companion Runtime](https://github.com/yf0522/ai-companion-runtime) - Full-stack real-time companion runtime with WebSocket streaming, intent/emotion/risk/memory engines, tool dispatch, model routing, and trace observability. Memory subsystems are still WIP. `Python` · `Self-host` · `infra`.
 - [AstrBot](https://github.com/AstrBotDevs/AstrBot) - AI agent framework bridging many IM platforms (QQ, WeChat, Telegram, etc.) with LLMs, plugins, and web dashboard. A mature multi-channel backbone for reaching your companion anywhere. AGPLv3. `Python` · `Self-host` · `infra`.
 - [astrbot_plugin_proactive_chat](https://github.com/DBJD-CR/astrbot_plugin_proactive_chat) - AstrBot plugin for proactive messaging in DMs and groups: context awareness, persistent state, dynamic mood, do-not-disturb hours, TTS, standalone WebUI. `Python` · `AstrBot` · `ready`.

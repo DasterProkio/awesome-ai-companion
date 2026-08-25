@@ -94,6 +94,7 @@
 
 让伴侣能在后台醒来、接收消息、记住时间流逝，并主动联系你。
 
+- [Headlong](https://github.com/laude-institute/headlong) - 具备持久自主性与内心独白循环的开源 Agent 微架构：基于递归 LLM (`shellm`) 维持连续心智流、长期记忆与自主思考，无需外界触发即可主动探索或发起对话。Apache-2.0。`Bash` · `Self-host` · `ready`
 - [AI Companion Runtime](https://github.com/yf0522/ai-companion-runtime) - 全栈实时陪伴运行时：WebSocket 流式对话、意图/情绪/风险/记忆引擎、工具调度、模型路由和 trace 观测。记忆子系统仍在开发中。 `Python` · `Self-host` · `infra`
 - [AstrBot](https://github.com/AstrBotDevs/AstrBot) - 多平台 AI Agent 框架，打通 QQ、微信、Telegram 等 IM 与 LLM、插件生态、可视化面板。成熟的多端通道骨干，让伴侣在任何聊天软件触达你。AGPLv3。`Python` · `Self-host` · `infra`
 - [astrbot_plugin_proactive_chat](https://github.com/DBJD-CR/astrbot_plugin_proactive_chat) - AstrBot 主动消息插件：上下文感知、持久化状态、动态情绪、免打扰时段、TTS 集成、独立 WebUI。`Python` · `AstrBot` · `ready`
