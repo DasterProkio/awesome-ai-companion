@@ -12,6 +12,6 @@
 
 ## 全栈
 
-用 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 做骨干，通过 [Aelios](https://github.com/wusaki0723/Aelios) 或 [Paramecium](https://github.com/Shitsuten/paramecium) 接上记忆，再用 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 补上语音。[not-fade-away](https://github.com/heyxiaoc/not-fade-away) 和 [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) 这类端到端教程展示了各部分如何拼合。
+以 [Headlong](https://github.com/laude-institute/headlong)（原生自主心智流/内心独白）或 [AstrBot](https://github.com/AstrBotDevs/AstrBot)（多平台通道）为骨干，通过 [Aelios](https://github.com/wusaki0723/Aelios) 或 [Paramecium](https://github.com/Shitsuten/paramecium) 接上记忆，再用 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 补上语音。[not-fade-away](https://github.com/heyxiaoc/not-fade-away) 和 [cloud-and-island](https://github.com/cocoRaina/cloud-and-island) 这类端到端教程展示了各部分如何拼合。
 
 也可以完全跳过现成框架：把整个列表喂给你的 AI，让它研究完这些设计之后，为自己从零架构一套系统。这个列表里收录的一些最好的方案，正是这么开始的。
