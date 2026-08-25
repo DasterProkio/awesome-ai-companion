@@ -10,7 +10,8 @@
 </h1>
 
 <p align="center">
-  <strong>面向长期 AI 伴侣关系的软件、基础设施与社区。</strong>
+  <strong>人机恋开源项目大全</strong><br>
+  面向长期 AI 伴侣关系的开源软件、基础设施与社区。
 </p>
 
 [English](README.md) · [中文版](#目录)
