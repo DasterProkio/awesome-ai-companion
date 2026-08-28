@@ -181,6 +181,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 ### Sticker Libraries (表情包库)
 
 - [astrbot_plugin_meme_manager](https://github.com/anka-afk/astrbot_plugin_meme_manager) - Sticker manager plugin for AstrBot: AI picks and sends stickers by emotion tags, WebUI management, cloud sync. `Python` · `AstrBot` · `ready`.
+- [DeepSeek酱语录 (DeepSeek-chan Meme Pack)](https://ai-meme.cdqyfdbymn.me/) - DeepSeek whale-girl sticker gallery: 128 curated quote-caption memes (蓝色大肥鱼/鲸鱼娘), WebP preview+original, tag filters, one-click share-card export, updated with new model releases. `Web` · `DeepSeek` · `live`.
 
 ---
 
