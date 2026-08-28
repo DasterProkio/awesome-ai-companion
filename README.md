@@ -111,6 +111,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [jiwen (积温)](https://github.com/ClaraShafiq/jiwen) - Proactive consciousness engine for AI characters. Five drifting axes (connection, stubbornness, mood, anxiety, busyness) trigger behavior at thresholds. ~500 lines, zero dependencies. MIT. `JavaScript` · `Any` · `infra`.
 - [revive-companion](https://github.com/pearthink123/revive-companion) - Timing engine for proactive outreach, combining Poisson processes, Bayesian user-state inference, and information gain to decide when a companion should interrupt. Timing only. MIT. `Python` · `Any` · `infra`.
 - [ai-surf-when-bored](https://github.com/sanqianzilanyue/ai-surf-when-bored) - Implementation guide and core Python routines for companion autonomous web-browsing: desire framing, n-gram rumination gates, and natural dialogue recall. `Guide/Python` · `Any` · `adapt`.
+- [proactive-web-surf-agent](https://github.com/huihui191/proactive-web-surf-agent) - Lets an AI companion autonomously wander public web sources, pick interesting discoveries, and proactively share them over Telegram or terminal. MIT. `TypeScript` · `Self-host` · `ready`.
 
 ---
 
