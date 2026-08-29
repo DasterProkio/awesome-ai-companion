@@ -170,6 +170,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [astrbot_plugin_chuanhuatong (传画筒)](https://github.com/bvzrays/astrbot_plugin_chuanhuatong) - Renders AstrBot text replies as Galgame-style chat frames with character sprites, emotion variants, layered text, and a drag-and-drop WebUI layout editor. `Python` · `AstrBot` · `ready`.
 - [Shinsekai](https://github.com/RachelForster/Shinsekai) - Local AI companion / visual-novel stage platform: persona-driven dialogue with TTS/ASR, memory, plugins, and galgame-style presentation. `Python` · `Cross-platform` · `ready`.
 - [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - Emotional skin for AI chat: LLM persona drives the UI with inline text effects and full-screen mood skins. CC BY 4.0. `CSS` · `Web` · `adapt`.
+- [local-ai-girlfriend](https://github.com/tangyistudio/local-ai-girlfriend) - Measured VRAM and latency budget for a companion stack on one consumer GPU (cloned-voice TTS + lip-sync + local 8B): per-tier configurations for 8/16/24/32 GB, and the harness that produced every figure with the raw readings committed. Also ships a dependency-free player for pivot-frame clip libraries - cutting between pre-rendered clips without a visible seam - plus two checkers for the library itself. Demo character is all-rights-reserved; code is MIT plus an attribution clause. Docs are EN + Traditional Chinese. `Python/JavaScript` · `Self-host` · `ready`.
 
 ### Physical Devices & Touch
 

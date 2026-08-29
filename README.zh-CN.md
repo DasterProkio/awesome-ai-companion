@@ -170,6 +170,7 @@
 - [astrbot_plugin_chuanhuatong (传画筒)](https://github.com/bvzrays/astrbot_plugin_chuanhuatong) - 把 AstrBot 纯文本回复渲染成带立绘的 Galgame 风聊天框图片：情绪差分、多层文本、拖拽式 WebUI 布局。`Python` · `AstrBot` · `ready`
 - [Shinsekai](https://github.com/RachelForster/Shinsekai) - 本地 AI 伴侣/视觉小说演出平台：人设驱动对话，含 TTS/ASR、记忆、插件和 Galgame 式演出。`Python` · `Cross-platform` · `ready`
 - [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - AI 聊天情绪皮肤：AI 人格驱动 UI，行内文字特效+全屏情绪皮肤。CC BY 4.0。`CSS` · `Web` · `adapt`
+- [local-ai-girlfriend](https://github.com/tangyistudio/local-ai-girlfriend) - 在单张消费级显卡上实测的伴侣栈显存与延迟账单（克隆音色 TTS + 对口型 + 本地 8B）：8/16/24/32 GB 分级配置，以及产出每个数字的测量脚本，原始读数一并提交。另附零依赖播放器，用于枢纽帧片段库——在预渲染片段之间硬切而看不出接缝——以及两个片段库自检工具。示范角色版权保留；代码为 MIT 外加署名条款。文档为英文 + 繁体中文。 `Python/JavaScript` · `Self-host` · `ready`
 
 ### 物理设备与触觉
 
