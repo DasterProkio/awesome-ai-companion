@@ -142,6 +142,7 @@
 - [OmniDimen-Emotion](https://github.com/OmniDimen/OmniDimen-Emotion) - 面向边缘部署的 Qwen 情绪专用模型和 GGUF 权重，用于情绪识别与情绪感知文本生成。`Model` · `Any` · `infra`
 - [Eventide](https://github.com/chuli1122/Eventide) - AI 伴侣生理状态引擎：身体周期、7 项身体数值、18 类短时事件、梦境联动和互动结算（JSON 安全写回）。偏 NSFW 向。非商业使用。 `Python` · `Any` · `infra`
 - [Tidefall](https://github.com/Vael-KY/Tidefall) - 基于 Supabase 的 AI 伴侣身体状态系统：6 个周期、7 项漂移数值、18 种短时事件、pg_cron 自动运行、快照和浏览器面板。基于 Eventide。PolyForm Noncommercial 1.0.0。 `SQL/HTML` · `Supabase` · `adapt`
+- [ai-companion-cot-emotion](https://github.com/yanke521/ai-companion-cot-emotion) - 伴侣内心独白思考链（CoT）与情绪引擎实践指南：告别原生 Thinking 编剧感，提供经过实战检验的意识流提示词与数值漂移架构。`Guide` · `Any` · `adapt`。
 
 ---
 

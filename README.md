@@ -142,6 +142,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [OmniDimen-Emotion](https://github.com/OmniDimen/OmniDimen-Emotion) - Emotion-specialized Qwen model releases and GGUF weights for emotion recognition and emotionally aware text generation on edge runtimes. `Model` · `Any` · `infra`.
 - [Eventide](https://github.com/chuli1122/Eventide) - Physiological state engine for AI companions: body cycles, 7 tracked drives, 18 short-term events, dream linkage, and interaction settlement with JSON write-back. NSFW-adjacent. Non-commercial. `Python` · `Any` · `infra`.
 - [Tidefall](https://github.com/Vael-KY/Tidefall) - Supabase-native body-state system for AI companions: six-phase cycles, seven drifting values, 18 short-term events, pg_cron automation, and a browser dashboard. Based on Eventide. PolyForm NC 1.0.0. `SQL/HTML` · `Supabase` · `adapt`.
+- [ai-companion-cot-emotion](https://github.com/yanke521/ai-companion-cot-emotion) - Production-tested guide and prompt architecture for companion inner-monologue CoT and drifting emotion state engines. `Guide` · `Any` · `adapt`.
 
 ---
 
