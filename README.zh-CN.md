@@ -169,6 +169,8 @@
 - [AIRI](https://github.com/moeru-ai/airi) - 自托管伴侣壳，支持 Live2D/VRM 视觉层、实时语音、桌面/Web 应用，以及 Discord、Telegram、Minecraft、Factorio 等集成。`TypeScript` · `Cross-platform` · `ready`
 - [Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) - 跨平台语音驱动 Live2D 虚拟主播框架：支持免提连续对话、语音打断与全本地 LLM/TTS 运行。`Python` · `Cross-platform` · `ready`。
 - [super-agent-party](https://github.com/heshengtao/super-agent-party) - 全能自托管 AI 伴侣系统：融合 Neuro-sama 式游戏互动、Live2D 具身、实时语音与工具调度。AGPL-3.0。`JavaScript` · `Cross-platform` · `ready`。
+- [Soul-of-Waifu](https://github.com/jofizcd/Soul-of-Waifu) - 开源桌面 AI 伴侣：集 Live2D/VRM 具身、TRPG 跑团引擎、神经荷尔蒙 OS 桌面 Agent（屏幕感知/键鼠控制/MCP）与四层认知记忆于一体。GPL-3.0。`Python` · `Windows` · `ready`。
+- [ChatdollKit](https://github.com/uezo/ChatdollKit) - Unity 3D 虚拟伴侣开发 SDK：动作语音同步、自主眨眼口型、语音打断（Barge-in）、VAD 与多端 LLM/TTS 路由。Apache-2.0。`C#` · `Cross-platform` · `infra`。
 - [Amica](https://github.com/semperai/amica) - 浏览器端 3D 角色交互界面，也是多个项目直接内嵌的角色层：VRM 模型导入、情绪标签驱动表情、Whisper 识别与 Silero VAD、可插拔 LLM 后端和多家 TTS。2025 年 7 月起无新提交。MIT。 `TypeScript` · `Web` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻：实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆。2025 年初起停更。 `Python` · `Windows` · `verify`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - 沉浸式 AI Galgame 聊天软件：情绪表情、桌宠、日程、交互式剧情模块。`TypeScript` · `Windows` · `ready`
@@ -277,6 +279,7 @@
 
 - [Phosphene](https://github.com/3lmglow/Phosphene) - 面向人机关系的自托管任务与奖励系统：伴侣通过 MCP 创建任务，人类提交凭证，审核后更新不可变积分账本、连击和成就。MIT。 `TypeScript` · `Self-host` · `ready`
 - [shared-page](https://github.com/KKarsyline/shared-page) - 人与 AI 共用的手帐风日历与后端：三种笔迹、可渲染整页 PNG 的 MCP 服务、可互相点赞的便签、照片拼贴、桌面小组件和推送。
+- [memex](https://github.com/memex-lab/memex) - 本地优先双端 AI 日记（iOS/Android）：捕捉碎片生活（文字/语音/照片），由多 Agent 整理为时间线卡片与伴侣共鸣洞察。GPL-3.0。`Dart` · `Android/iOS` · `ready`。
 
 ### 共读与观影
 

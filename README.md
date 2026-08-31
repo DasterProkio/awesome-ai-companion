@@ -169,6 +169,8 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [AIRI](https://github.com/moeru-ai/airi) - Self-hosted companion shell with Live2D/VRM visual layer support, real-time voice chat, desktop/web apps, and integrations for Discord, Telegram, Minecraft, and Factorio. `TypeScript` · `Cross-platform` · `ready`.
 - [Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) - Cross-platform voice-driven Live2D VTuber framework: hands-free voice chat, voice interruption, and local LLM/TTS backends. `Python` · `Cross-platform` · `ready`.
 - [super-agent-party](https://github.com/heshengtao/super-agent-party) - All-in-one self-hosted AI companion system combining Neuro-sama-style game interaction, Live2D, voice chat, and tools. AGPL-3.0. `JavaScript` · `Cross-platform` · `ready`.
+- [Soul-of-Waifu](https://github.com/jofizcd/Soul-of-Waifu) - Desktop companion with Live2D/VRM avatars, tabletop RPG engine, neurohormonal OS agent (screen/mouse control), and 4-tier cognitive memory. GPL-3.0. `Python` · `Windows` · `ready`.
+- [ChatdollKit](https://github.com/uezo/ChatdollKit) - Unity 3D virtual companion SDK: speech-motion sync, autonomous blink/lip-sync, barge-in voice interruption, VAD, and multi-LLM/TTS routing. Apache-2.0. `C#` · `Cross-platform` · `infra`.
 - [Amica](https://github.com/semperai/amica) - Browser-based 3D character interface, and the avatar layer several projects embed: VRM import, emotion-driven expressions, Whisper STT, and pluggable LLM and TTS backends. Unmaintained. MIT. `TypeScript` · `Web` · `ready`.
 - [Neuro](https://github.com/kimjammer/Neuro) - Local Neuro-sama recreation with realtime STT/TTS, text-generation-webui or OpenAI-compatible LLM support, VTube Studio control, a moderation frontend, and long-term memory. Stalled since early 2025. `Python` · `Windows` · `verify`.
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - Immersive AI-driven Galgame chat with emotional expressions, desktop pet, scheduling, and interactive story modules. `TypeScript` · `Windows` · `ready`.
@@ -277,6 +279,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 
 - [Phosphene](https://github.com/3lmglow/Phosphene) - Self-hosted task and reward system for human-AI relationships: the companion creates tasks over MCP, the human submits evidence, and review updates an immutable points ledger and streaks. MIT. `TypeScript` · `Self-host` · `ready`.
 - [shared-page](https://github.com/KKarsyline/shared-page) - Journal-style shared calendar and server for humans and AI companions: three ink colors, an MCP server with full-page PNG rendering, sticky notes with mutual likes, a widget, and push notifications.
+- [memex](https://github.com/memex-lab/memex) - Local-first mobile AI journal (iOS/Android): captures life fragments (text, voice, photo) into structured timeline cards with companion insights. GPL-3.0. `Dart` · `Android/iOS` · `ready`.
 
 ### Reading & Film
 
