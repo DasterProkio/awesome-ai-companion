@@ -67,6 +67,8 @@
 - [CC Companion App](https://github.com/tjing9430/cc-companion-app) - 轻量自托管陪伴聊天前端：私聊/群聊、持久记忆便笺、SSE 更新和 PWA 访问。适合作为围绕任意 Agent 适配器搭建陪伴前端的紧凑参考。 `JavaScript` · `Self-host` · `adapt`
 - [ackem](https://github.com/JasonLiu0826/ackem) - 本地优先 AI 桌面陪伴（Electron）：隐私优先的记忆、情绪引擎、扩展。深度绑定作者个人设定，复用前需先剥离个人内容。AGPLv3。`TypeScript` · `Cross-platform` · `adapt`
 - [mousecrew](https://github.com/anqinou-art/mousecrew) - 仓鼠团队形象的 CLI 编码 Agent 群聊与工单看板：支持 @唤醒、9 状态工单流、依赖自调度、Git 提交校验与单合并门禁。MIT。`JavaScript` · `CLI` · `ready`。
+- [yoji](https://github.com/wangxijie001/yoji) - 有情绪的开源桌面 AI 伴侣：支持本地语音唤醒、悬浮挂件、情绪漂移、MCP 无限扩展与日常办公协助。MIT。`TypeScript` · `Cross-platform` · `ready`。
+- [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent) - 基于 Cyrene_Harness 框架的桌面智能体：兼顾沉浸式昔涟人设陪伴、办公编程辅助与音乐天气等多工具扩展。MIT。`TypeScript` · `Cross-platform` · `adapt`。
 
 ---
 
@@ -165,6 +167,8 @@
 - [ai-live2d-body](https://github.com/zziying/ai-live2d-body) - 给已有 AI 伴侣加装 Live2D 桌宠身体的架构指南：分层 Electron+PixiJS 技术栈、Claude Code hooks、双向触摸注入和 MCP 工具，不替换原有大脑。纯文档。 `Guide` · `macOS` · `adapt`
 - [Ghost Vessel](https://github.com/ghdtjrtka/ghost-vessel) - 给本地 Agent 套上常驻屏幕视频化身的参考实现，用预渲染情绪片段替代 Live2D/VRM。运行时 GPU 占用低，角色预设需自备。 `Python` · `Windows` · `adapt`
 - [AIRI](https://github.com/moeru-ai/airi) - 自托管伴侣壳，支持 Live2D/VRM 视觉层、实时语音、桌面/Web 应用，以及 Discord、Telegram、Minecraft、Factorio 等集成。`TypeScript` · `Cross-platform` · `ready`
+- [Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) - 跨平台语音驱动 Live2D 虚拟主播框架：支持免提连续对话、语音打断与全本地 LLM/TTS 运行。`Python` · `Cross-platform` · `ready`。
+- [super-agent-party](https://github.com/heshengtao/super-agent-party) - 全能自托管 AI 伴侣系统：融合 Neuro-sama 式游戏互动、Live2D 具身、实时语音与工具调度。AGPL-3.0。`JavaScript` · `Cross-platform` · `ready`。
 - [Amica](https://github.com/semperai/amica) - 浏览器端 3D 角色交互界面，也是多个项目直接内嵌的角色层：VRM 模型导入、情绪标签驱动表情、Whisper 识别与 Silero VAD、可插拔 LLM 后端和多家 TTS。2025 年 7 月起无新提交。MIT。 `TypeScript` · `Web` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻：实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆。2025 年初起停更。 `Python` · `Windows` · `verify`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - 沉浸式 AI Galgame 聊天软件：情绪表情、桌宠、日程、交互式剧情模块。`TypeScript` · `Windows` · `ready`
