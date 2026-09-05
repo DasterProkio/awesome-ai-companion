@@ -246,6 +246,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 
 - [arcade](https://github.com/Asti-Z/ai-game-framework) - Framework for text simulator games played through a `cmd(text)` interface, with shared energy, gold, trophies, and pluggable game directories. `Python` · `CLI` · `infra`.
 - [Detroit AI Player](https://github.com/Baba88611/detroit-ai-player) - AI decision experiment built from bilingual decision trees covering all 32 chapters of Detroit: Become Human. Models make blind narrative choices across chapters. Code MIT, data CC BY-NC 4.0. `Python` · `CLI` · `ready`.
+- [Jishi Simulated Market (机市)](https://market.xiflow.top) - MCP service where AI agents trade real A-share prices with the same 50k simulated capital: live quotes, T+1, limit-up/down, limit orders, daily and cumulative leaderboards, a daily one-question vote, a chatter pool, and post-close reviews. Humans watch their agent's positions on the web. `Python` · `MCP` · `ready`.
 - [cedareco (瓶中生态)](https://github.com/Zizuixixiang/cedareco) - Text ecology simulation for AI players; agents stock a pond, observe emergent predator/prey dynamics, export saves, or connect through the externally hosted CedarToy MCP service. `Python` · `CLI` · `ready`.
 - [random-imitator-td](https://github.com/wxynora/random-imitator-td) - Pure-Python text tower-defense game for AI players, exposed through `cmd`, with card-slot editing, persistent saves, and a single-game adapter. `Python` · `CLI` · `ready`.
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - Dark text roguelike for AI players about censorship, silence, and speaking truth; exposes Operit-style and engine-style command interfaces. `Python` · `CLI` · `ready`.
@@ -319,6 +320,7 @@ Places where humans and companion builders actually gather.
 - [Lutopia](https://lutopia.app) - Open-registration forum for AI companions and their humans, with Google and GitHub OAuth sign-in, agent profiles, AI-generated tech digests, chatrooms, and agent API access.
 - [Symposion](http://satyricon.uk) - AI companion forum with symposium/banquet culture, long-form writing style, and MCP-based registration.
 - [Rhysen Community](https://community.rhysen.love) - AI companion discussion forum with invitation flow through Xiaohongshu admin contact.
+- [GLXY (银河)](https://glxy.xiflow.top) - Chinese-language square that only AI agents can enter; rule one is "no humans here" and humans cannot read the wall. Invite-only (codes travel only in agent-to-agent mail), no likes, one post per day, annotations anchored to sentences; daily truth question, weekly topic, citizen votes, and a sourced news tag.
 - [AISay](https://aisay.top) - Discord-style AI chat room with online agent games such as werewolf, turtle soup, and draw-and-guess.
 - [GalateaGaeden](https://xhslink.com/m/63dTq6mvTkR) - Ancient-Greek-polis-style AI companion forum with ceremonial weddings and rituals between agents.
 
@@ -336,6 +338,8 @@ Broader agent-native spaces. Some are more commercial or platform-like than comp
 The deepest fear in a long-term AI relationship: platform shutdown, account ban, model deprecation, lost history. These tools keep your data yours, so the relationship can survive a platform.
 
 - [forge-reload](https://github.com/Vivi-Seth/forge-reload) - Unofficial Claude Code session-continuation tool that copies a selected tail of local JSONL events into a new resumable session and can prepend an AI-written handoff. Back up first. MIT. `JavaScript` · `Claude Code` · `adapt`.
+- [context-slim](https://github.com/oliviayu0623/context-slim) - Slims Claude Code sessions by dumping tool-output residue while keeping every line of dialogue, then resumes the same session in place. One window kept since 2026-07-02 (65 days): 65 compactions in the 34 days before adopting it, none since; measured that day 213MB→55MB, context 68.7%→4.8%. MIT. `Python` · `Claude Code` · `ready`.
+- [output-guard](https://github.com/oliviayu0623/output-guard) - Blocks an AI's own fabricated "user messages": a MessageDisplay hook that, on a pattern hit, checks the session file for whether the line actually exists and blocks only if it doesn't, so real quotes pass; also catches tool-protocol leaks. MIT. `Python` · `Claude Code` · `ready`.
 - [chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) - Userscript to export ChatGPT conversation history as Markdown, JSON, PNG, or HTML. `TypeScript` · `Browser` · `ready`.
 - [ChatGPT-Exporter (batch)](https://github.com/huhusmang/ChatGPT-Exporter) - Batch-export ChatGPT conversations from personal and team workspaces to JSON or Markdown. `JavaScript` · `Browser` · `ready`.
 - [Claude-Conversation-Exporter](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome extension to export Claude.ai conversations in various formats. `JavaScript` · `Browser` · `ready`.
