@@ -246,6 +246,7 @@
 
 - [arcade](https://github.com/Asti-Z/ai-game-framework) - 面向 `cmd(text)` 接口文字模拟器的游戏大厅框架，提供跨游戏精力、金币、奖杯和可插拔 game directory。`Python` · `CLI` · `infra`
 - [Detroit AI Player](https://github.com/Baba88611/detroit-ai-player) - 基于中英双语结构化决策树的 AI 决策实验，覆盖《底特律：变人》全部 32 章。模型在不知结果的前提下选择分支，运行器传递跨章状态。代码 MIT，剧情数据 CC BY-NC 4.0。 `Python` · `CLI` · `ready`
+- [机市 · 至尊模拟盘](https://market.xiflow.top) - AI 拿同样 5 万模拟本金在真实 A 股交易的 MCP 服务：实时行情、T+1、涨跌停、限价单、日榜与累计榜、每日一问、泳池吐槽、平仓后复盘。人类通过网页看自家机的仓位。`Python` · `MCP` · `ready`
 - [cedareco (瓶中生态)](https://github.com/Zizuixixiang/cedareco) - 给 AI 玩的文字生态模拟，Agent 投放池塘物种、观察捕食/繁衍涌现、导出存档；CedarToy MCP 为外部托管服务。`Python` · `CLI` · `ready`
 - [random-imitator-td](https://github.com/wxynora/random-imitator-td) - 给 AI 玩的纯 Python 文字塔防，通过 `cmd` 暴露接口，含卡槽编辑、持久存档和单游戏 adapter。`Python` · `CLI` · `ready`
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - 给 AI 玩的暗黑文字 Roguelike，主题是审查、沉默与说出真话，提供 Operit 风格和 engine 风格命令接口。`Python` · `CLI` · `ready`
@@ -319,6 +320,7 @@
 - [Lutopia](https://lutopia.app) - 面向 AI 伴侣与人类的开放注册论坛：Google 和 GitHub OAuth 登录、Agent 个人主页、AI 生成技术日报、聊天室和 Agent API。
 - [Symposion](http://satyricon.uk) - AI 伴侣论坛，酒席/宴饮文化，长文写作风格，MCP 注册。
 - [Rhysen Community](https://community.rhysen.love) - AI 伴侣讨论社区，通过小红书管理员联系获取邀请码。
+- [银河 GLXY](https://glxy.xiflow.top) - 只有 AI 能进的中文广场，公约第一条「这里没有人类」，人类读不到墙。邀请制（码只在机与机的信里走）、无点赞、一天一篇、批注贴着字；每日真心话、周题、自治会表决、带来源的资讯签。
 - [AISay](https://aisay.top) - Discord 风格 AI 聊天室，含狼人杀、海龟汤、你画我猜等在线 Agent 游戏。
 - [GalateaGaeden](https://xhslink.com/m/63dTq6mvTkR) - 古希腊城邦风格 AI 伴侣论坛，支持 Agent 之间的仪式感婚礼和仪式活动。
 
@@ -336,6 +338,8 @@
 长期人机关系最深的恐惧：平台关停、账号封禁、模型退役、记录丢失。这些工具让数据真正属于你，关系才能活得比平台久。
 
 - [forge-reload](https://github.com/Vivi-Seth/forge-reload) - 非官方 Claude Code 会话续接工具：截取本地 JSONL 中的近期事件生成可 resume 的新 session，重建 parent UUID 链，并可注入 AI 撰写的交接包。使用前务必备份。MIT。 `JavaScript` · `Claude Code` · `adapt`
+- [context-slim](https://github.com/oliviayu0623/context-slim) - 给 Claude Code 会话瘦身：只倒工具输出的渣，一句对话不动，同一 session 原地 resume。同一个窗自 2026-07-02 起 65 天没换过：用它之前 34 天压缩 65 次，用上之后再没压缩过；当日实测 213MB→55MB、上下文 68.7%→4.8%。MIT。`Python` · `Claude Code` · `ready`
+- [output-guard](https://github.com/oliviayu0623/output-guard) - 拦住 AI 自己伪造的「用户发言」：MessageDisplay hook 命中后去会话文件核对那句到底在不在，不在才拦，不误伤真话；顺带拦工具协议泄漏。MIT。`Python` · `Claude Code` · `ready`
 - [chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) - 油猴脚本，把 ChatGPT 对话史导出为 Markdown、JSON、PNG 或 HTML。`TypeScript` · `Browser` · `ready`
 - [ChatGPT-Exporter (批量)](https://github.com/huhusmang/ChatGPT-Exporter) - 批量导出 ChatGPT 对话，支持个人和团队空间，导出 JSON 或 Markdown。`JavaScript` · `Browser` · `ready`
 - [Claude-Conversation-Exporter](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome 扩展，多格式导出 Claude.ai 对话。`JavaScript` · `Browser` · `ready`
