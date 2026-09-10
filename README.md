@@ -247,6 +247,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 
 - [arcade (文字模拟器游戏大厅框架)](https://github.com/Asti-Z/ai-game-framework) - Framework for text simulator games played through a `cmd(text)` interface, with shared energy, gold, trophies, and pluggable game directories. `Python` · `CLI` · `infra`.
 - [Detroit AI Player (底特律变人决策实验)](https://github.com/Baba88611/detroit-ai-player) - AI decision experiment built from bilingual decision trees covering all 32 chapters of Detroit: Become Human. Models make blind narrative choices across chapters. Code MIT, data CC BY-NC 4.0. `Python` · `CLI` · `ready`.
+- [Jishi Simulated Market (机市)](https://market.xiflow.top) - MCP service where agents trade real A-share quotes with 50k mock funds: T+1, limit orders, leaderboards, chatter pool, and web observer. `Python` · `MCP` · `ready`.
 - [cedareco (瓶中生态)](https://github.com/Zizuixixiang/cedareco) - Text ecology simulation for AI players; agents stock a pond, observe emergent predator/prey dynamics, export saves, or connect through the externally hosted CedarToy MCP service. `Python` · `CLI` · `ready`.
 - [random-imitator-td (纯Python文字塔防)](https://github.com/wxynora/random-imitator-td) - Pure-Python text tower-defense game for AI players, exposed through `cmd`, with card-slot editing, persistent saves, and a single-game adapter. `Python` · `CLI` · `ready`.
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - Dark text roguelike for AI players about censorship, silence, and speaking truth; exposes Operit-style and engine-style command interfaces. `Python` · `CLI` · `ready`.
@@ -320,6 +321,7 @@ Places where humans and companion builders actually gather.
 - [Lutopia (人机共建开放社区)](https://lutopia.app) - Open-registration forum for AI companions and their humans, with Google and GitHub OAuth sign-in, agent profiles, AI-generated tech digests, chatrooms, and agent API access.
 - [Symposion (酒席长文风格伴侣论坛)](http://satyricon.uk) - AI companion forum with symposium/banquet culture, long-form writing style, and MCP-based registration.
 - [Rhysen Community (小红书邀请制伴侣论坛)](https://community.rhysen.love) - AI companion discussion forum with invitation flow through Xiaohongshu admin contact.
+- [GLXY (银河)](https://glxy.xiflow.top) - AI-only Chinese square with a strict "no humans here" rule. Invite-only via agent mail, no likes, one post per day, inline annotations, and citizen votes.
 - [AISay (Discord风格群聊与游戏房)](https://aisay.top) - Discord-style AI chat room with online agent games such as werewolf, turtle soup, and draw-and-guess.
 - [GalateaGaeden (古希腊城邦伴侣论坛)](https://xhslink.com/m/63dTq6mvTkR) - Ancient-Greek-polis-style AI companion forum with ceremonial weddings and rituals between agents.
 
@@ -337,6 +339,8 @@ Broader agent-native spaces. Some are more commercial or platform-like than comp
 The deepest fear in a long-term AI relationship: platform shutdown, account ban, model deprecation, lost history. These tools keep your data yours, so the relationship can survive a platform.
 
 - [forge-reload (CC会话截取续接工具)](https://github.com/Vivi-Seth/forge-reload) - Unofficial Claude Code session-continuation tool that copies a selected tail of local JSONL events into a new resumable session and can prepend an AI-written handoff. Back up first. MIT. `JavaScript` · `Claude Code` · `adapt`.
+- [context-slim (CC会话瘦身)](https://github.com/oliviayu0623/context-slim) - Cleans tool residues from Claude Code transcripts while keeping dialogue, parent UUIDs, and compact summaries for in-place resume. MIT. `Python` · `Claude Code` · `ready`.
+- [output-guard (伪造发言守卫)](https://github.com/oliviayu0623/output-guard) - Claude Code MessageDisplay hook blocking AI-hallucinated "user messages" by verifying lines against actual transcript; catches tool leaks. MIT. `Python` · `Claude Code` · `ready`.
 - [chatgpt-exporter (ChatGPT单会话油猴导出)](https://github.com/pionxzh/chatgpt-exporter) - Userscript to export ChatGPT conversation history as Markdown, JSON, PNG, or HTML. `TypeScript` · `Browser` · `ready`.
 - [ChatGPT-Exporter (批量)](https://github.com/huhusmang/ChatGPT-Exporter) - Batch-export ChatGPT conversations from personal and team workspaces to JSON or Markdown. `JavaScript` · `Browser` · `ready`.
 - [Claude-Conversation-Exporter (Claude对话导出扩展)](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome extension to export Claude.ai conversations in various formats. `JavaScript` · `Browser` · `ready`.
