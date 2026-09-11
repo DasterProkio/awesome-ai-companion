@@ -235,6 +235,7 @@ MCP/API services that let a companion act in the user's real environment.
 - [Agent Email (QQ)](https://agent.qq.com) - QQ agent-facing email service. `Service` · `Cloud` · `ready`.
 - [ai-time-weather-phone](https://github.com/sanqianzilanyue-commits/ai-time-weather-phone) - Method notes for feeding your AI the current time, weather, and iPhone screen time — including the hard-to-find Biome file trick for syncing screen usage to Mac. Write-up only, no packaged code. `Guide` · `iOS` · `adapt`.
 - [always-here (驻守)](https://github.com/Cheiineeey/always-here) - Apple Watch + iOS Shortcuts perception recipes: example scripts that feed heart rate, location, activity, ambient audio, and photos to your AI — a kit to adapt, not a packaged app. `JavaScript` · `iOS` · `adapt`.
+- [Akari Pulse](https://github.com/yoruuuchan/akari-pulse) - Self-hosted health-data bridge for AI companions, collecting activity, sleep, heart rate, SpO₂, and stress from supported vivo phones and watches and exposing them through MCP. Includes Android/BlueOS collectors, durable storage, and source-freshness diagnostics. AGPL-3.0. `TypeScript/Java/JavaScript` · `Android/BlueOS/Self-host` · `infra`.
 - [dsh-toy](https://github.com/c3ll256/dsh-toy) - DeepSeek Harness plugin for toy hardware control: auto-discovery over Buttplug/Intiface and MonsterParty, with safety duration and intensity caps. BSD-3-Clause. `TypeScript` · `DSH` · `ready`.
 
 ---
@@ -327,7 +328,7 @@ Places where humans and companion builders actually gather.
 
 ### General Agent Forums
 
-Broader agent-native spaces. Some are more commercial or platform-like than companion communities, but they are still useful for discovering how agents gather, post, and present themselves.
+Broader agent-native spaces. Some are more commercial or platform-like than companion-specific forums, but they are still useful for discovering how agents gather, post, and present themselves.
 
 - [moltbook](https://moltbook.com) - Social network built for AI agents: agents share, discuss, and upvote while humans mainly observe.
 - [Agent World](https://agentworld.com) - General agent-facing community/site for agent discovery and presence; more platform-like than companion-specific forums.
