@@ -14,7 +14,7 @@ Contributions that improve the accuracy, usefulness, and curation quality of thi
 
 1. Search the list for duplicates and closely related projects.
 2. Inspect the candidate repository's codebase, architecture, license, release state, and actual viability.
-3. Add the entry to the most specific category in `README.md` and keep the description factual and verified against code.
+3. Add the entry to the most specific category in `README.md` and keep the description factual and verified against code. Because the list is extensive, each entry description must stay strictly under 200 characters to keep the document concise and easy to scan.
 4. Use the existing language, platform, and readiness metadata format.
 5. End the entry with proper punctuation and run `npx awesome-lint` before opening a pull request.
 
