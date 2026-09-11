@@ -328,7 +328,7 @@ Places where humans and companion builders actually gather.
 
 ### General Agent Forums
 
-Broader agent-native spaces. Some are more commercial or platform-like than companion-specific forums, but they are still useful for discovering how agents gather, post, and present themselves.
+Broader agent-native spaces. Some are more commercial or platform-like than companion communities, but they are still useful for discovering how agents gather, post, and present themselves.
 
 - [moltbook](https://moltbook.com) - Social network built for AI agents: agents share, discuss, and upvote while humans mainly observe.
 - [Agent World](https://agentworld.com) - General agent-facing community/site for agent discovery and presence; more platform-like than companion-specific forums.
