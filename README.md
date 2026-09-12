@@ -69,6 +69,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [mousecrew](https://github.com/anqinou-art/mousecrew) - Hamster-crew work board and group chat for CLI coding agents: @mention wakeups, 9-state work orders, self-scheduling, Git verification, and a merge gate. MIT. `JavaScript` · `CLI` · `ready`.
 - [yoji](https://github.com/wangxijie001/yoji) - Emotion-aware desktop AI companion: local voice wake, floating widget, mood drift, MCP tool calling, and office assistance. MIT. `TypeScript` · `Cross-platform` · `ready`.
 - [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent) - Desktop agent on the Cyrene_Harness framework: immersive persona chat, desktop assistance, learning, music, and weather tools. MIT. `TypeScript` · `Cross-platform` · `adapt`.
+- [murmur](https://github.com/wine-fall/murmur) - Always-on AI radio host for the terminal: picks its own topics, talks, plays music, and answers typed replies in a natural-sounding voice. Needs a Claude Code login and a hosted fish-speech endpoint. `TypeScript` · `Terminal` · `ready`.
 
 ---
 

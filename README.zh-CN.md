@@ -69,6 +69,7 @@
 - [mousecrew](https://github.com/anqinou-art/mousecrew) - 仓鼠团队形象的 CLI 编码 Agent 群聊与工单看板：支持 @唤醒、9 状态工单流、依赖自调度、Git 提交校验与单合并门禁。MIT。`JavaScript` · `CLI` · `ready`。
 - [yoji](https://github.com/wangxijie001/yoji) - 有情绪的开源桌面 AI 伴侣：支持本地语音唤醒、悬浮挂件、情绪漂移、MCP 无限扩展与日常办公协助。MIT。`TypeScript` · `Cross-platform` · `ready`。
 - [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent) - 基于 Cyrene_Harness 框架的桌面智能体：兼顾沉浸式昔涟人设陪伴、办公编程辅助与音乐天气等多工具扩展。MIT。`TypeScript` · `Cross-platform` · `adapt`。
+- [murmur](https://github.com/wine-fall/murmur) - 常驻终端的 AI 电台主播：自己挑话题开口聊、放歌、回来接着播；你打字回它，它用接近真人的声音回答；一位主播，对你的记忆会随相处加深。需要 Claude Code 登录和一个托管的 fish-speech 端点。MIT。`TypeScript` · `Terminal` · `ready`
 
 ---
 
