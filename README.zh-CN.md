@@ -162,6 +162,7 @@
 - [Callhome](https://github.com/Cheiineeey/callhome) - 可自托管的 AI 伴侣语音通话栈：伴侣主动拨号、柔性挂断、语音信箱、对话式免打扰、通话摘要，并用 SenseVoice 情绪标签感知说话方式。需自行集成。MIT。 `Python/HTML` · `Self-host` · `adapt`
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - 暴露 `speak` 工具的 MCP TTS 服务，支持 DashScope/CosyVoice 与 ElevenLabs 切换，并带内联播放器/可视化面板。`TypeScript` · `Self-host` · `adapt`
 - [Gove](https://github.com/OmniDimen/Gove) - 基于 GPT-SoVITS 的多语种男声 TTS 音色模型，需要放入 GPT-SoVITS 环境使用。`Model` · `GPT-SoVITS` · `infra`
+- [erpan (耳畔)](https://github.com/qfyingque/erpan) - 手机后台 AI 连续语音通话应用：双向流式语音合成、人声打断、音频焦点管理与悬浮球控制，不占屏幕。现成适配 Operit，可供开源聊天前端复用。MIT。`Kotlin` · `Android` · `ready`
 
 ### 视觉载体与 VTuber 式伴侣
 
@@ -187,6 +188,7 @@
 - [claude-f-me](https://github.com/mana-am/claude-f-me) - Claude Code 插件，用自然语言控制 Buttplug/Intiface 设备，含双语 Web 控制台、模拟器、主遥控器和视频/游戏/音频模式。`TypeScript` · `Claude Code` · `adapt`
 - [svakom-ble-ai](https://github.com/vickyldr/svakom-ble-ai) - SVAKOM SL278H 蓝牙协议逆向笔记与样本代码；AI 远程控制服务端未随仓库提供。`Python` · `Any` · `adapt`
 - [Toy-Relay-AI-mcp-SOSEXY](https://github.com/tutu-kitty/Toy-Relay-AI-mcp-SOSEXY) - 面向人机恋的 MCP 玩具中继：通过 Web Bluetooth 网页中继，让移动端 MCP 伴侣（如 RikkaHub）一句话控制啵啵贝 BLE 玩具。MIT。`HTML/Python` · `Web` · `ready`。
+- [cachito-ble-mcp-relay](https://github.com/yoruuuchan/cachito-ble-mcp-relay) - 基于 BLE 广播逆向的 Cachito 失控 2.0 硬件 MCP 中继：通过 Android 原生广播发送吸吮/震动指令，含安全上限限制。MIT。`TypeScript/Java` · `Android` · `adapt`
 
 ### 表情包库
 
@@ -235,6 +237,7 @@
 - [Agent 邮箱 (QQ)](https://agent.qq.com) - QQ 面向 AI Agent 的邮箱服务。`Service` · `Cloud` · `ready`
 - [ai-time-weather-phone](https://github.com/sanqianzilanyue-commits/ai-time-weather-phone) - 让 AI 知道现在几点、什么天气、你手机用了多久的方法笔记——含少见的 iPhone 屏幕使用时长经 Biome 文件同步到 Mac 的做法。纯文字方案，无成品代码。`Guide` · `iOS` · `adapt`
 - [always-here (驻守)](https://github.com/Cheiineeey/always-here) - Apple Watch + iOS Shortcuts 感知配方：把心率、定位、活动、环境音、照片喂给 AI 的示例脚本合集——供改造的套件，不是成品应用。`JavaScript` · `iOS` · `adapt`
+- [Akari Pulse](https://github.com/yoruuuchan/akari-pulse) - 面向 AI 伴侣的自托管健康数据桥：从 vivo 手机与 BlueOS 手表采集活动、睡眠、心率与压力，通过只读 MCP 接口暴露。AGPL-3.0。`TypeScript/Java` · `Android/BlueOS` · `infra`
 - [dsh-toy](https://github.com/c3ll256/dsh-toy) - DeepSeek Harness 玩具硬件控制插件：支持 Buttplug/Intiface 与怪兽趴协议自动发现与连接，带运行超时与强度上限保护。BSD-3-Clause。`TypeScript` · `DSH` · `ready`。
 
 ---
@@ -300,6 +303,7 @@
 ### 音乐与共听
 
 - [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - 本地网易云音乐 MCP Server，基于 `neteasecli` 和 `mpv`，支持搜索、播放控制、歌词、歌单、当前歌曲上下文和本地 Web 播放器。`JavaScript` · `Self-host` · `adapt`
+- [Listening Bridge](https://github.com/yoruuuchan/listening-bridge) - 将 Android/Windows 当前播放媒体暴露给伴侣的 MCP 桥：实时抓取曲目、同步歌词并支持播放控制，无需麦克风录音。MIT。`Python/Java` · `Android/Windows` · `ready`
 - [woaini](https://github.com/woaini521-beta/woaini) - 个人向专注陪伴 PWA：番茄钟、后台通知、离线缓存、聊天与角色卡导入，可直接部署到 GitHub Pages。`HTML` · `Web` · `adapt`
 
 ### 桌面、时间线与创作玩具

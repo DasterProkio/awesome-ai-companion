@@ -162,6 +162,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [Callhome](https://github.com/Cheiineeey/callhome) - Self-hosted voice-call stack for AI companions: companion-initiated calls, soft hangups, voicemail, conversational DND, call summaries, and emotion tags so it hears how you speak. MIT. `Python/HTML` · `Self-host` · `adapt`.
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - MCP server that exposes `speak` tools for TTS, adds provider switching between DashScope/CosyVoice and ElevenLabs, and includes an inline audio player / visualizer panel. `TypeScript` · `Self-host` · `adapt`.
 - [Gove](https://github.com/OmniDimen/Gove) - GPT-SoVITS-based multilingual male TTS voice model intended for use inside a GPT-SoVITS environment. `Model` · `GPT-SoVITS` · `infra`.
+- [erpan (耳畔)](https://github.com/qfyingque/erpan) - Background voice call app for companions on Android: bidirectional streaming TTS, barge-in, and overlay controls without blocking the screen; Operit ready. MIT. `Kotlin` · `Android` · `ready`.
 
 ### Visual Presence & VTuber-Style Companions
 
