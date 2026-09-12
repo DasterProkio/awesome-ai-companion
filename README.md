@@ -112,7 +112,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [ghost-bf](https://github.com/sebastianevan200-stack/ghost-bf) - No-code tutorial for phone-presence perception: a MacroDroid recipe that detects phone activity, wakes your AI, and pushes its replies to you. Tutorial only — the repo contains no code. `Guide` · `Android` · `adapt`.
 - [jiwen (积温)](https://github.com/ClaraShafiq/jiwen) - Proactive consciousness engine for AI characters. Five drifting axes (connection, stubbornness, mood, anxiety, busyness) trigger behavior at thresholds. ~500 lines, zero dependencies. MIT. `JavaScript` · `Any` · `infra`.
 - [revive-companion](https://github.com/pearthink123/revive-companion) - Timing engine for proactive outreach, combining Poisson processes, Bayesian user-state inference, and information gain to decide when a companion should interrupt. Timing only. MIT. `Python` · `Any` · `infra`.
-- [ai-surf-when-bored](https://github.com/sanqianzilanyue-commits/ai-surf-when-bored) - Implementation guide and core Python routines for companion autonomous web-browsing: desire framing, n-gram rumination gates, and natural dialogue recall. `Guide/Python` · `Any` · `adapt`.
+- [ai-surf-when-bored](https://github.com/sanqianzilanyue/ai-surf-when-bored) - Implementation guide and core Python routines for companion autonomous web-browsing: desire framing, n-gram rumination gates, and natural dialogue recall. `Guide/Python` · `Any` · `adapt`.
 - [proactive-web-surf-agent](https://github.com/huihui191/proactive-web-surf-agent) - Lets an AI companion autonomously wander public web sources, pick interesting discoveries, and proactively share them over Telegram or terminal. MIT. `TypeScript` · `Self-host` · `ready`.
 
 ---
@@ -136,7 +136,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [nocturne_memory](https://github.com/Dataojitori/nocturne_memory) - Rollbackable, visual long-term memory server for MCP agents: graph-like structured memory instead of vector RAG, works across models and sessions, drop-in for OpenClaw. MIT. `Python` · `Self-host` · `infra`.
 - [imprint-memory](https://github.com/Qizhan7/imprint-memory) - Local-first memory layer that auto-captures every conversation turn through a Claude Code hook, a claude.ai extension, and Telegram adapters, with hybrid BM25 + semantic recall. `Python` · `Self-host` · `infra`.
 - [astrbot_plugin_livingmemory](https://github.com/lxfight-s-Astrbot-Plugins/astrbot_plugin_livingmemory) - Long-term memory plugin for AstrBot with dynamic memory lifecycle. `Python` · `AstrBot` · `ready`.
-- [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot-Plugins/astrbot_plugin_self_learning) - Self-learning plugin for AstrBot: learns conversation style and group slang, manages social affinity, and evolves persona adaptively over time. `Python` · `AstrBot` · `ready`.
+- [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - Self-learning plugin for AstrBot: learns conversation style and group slang, manages social affinity, and evolves persona adaptively over time. `Python` · `AstrBot` · `ready`.
 
 ### Affect & Drives
 
@@ -197,6 +197,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 ## Perception
 
 Turning speech, sound, or music into structured information a companion can use.
+
 ### Speech Recognition
 
 - [Whisper](https://github.com/openai/whisper) - General-purpose speech recognition model for multilingual transcription, translation, language identification, and related speech tasks. `Python` · `Self-host` · `infra`.
@@ -340,13 +341,14 @@ The deepest fear in a long-term AI relationship: platform shutdown, account ban,
 
 - [forge-reload](https://github.com/Vivi-Seth/forge-reload) - Unofficial Claude Code session-continuation tool that copies a selected tail of local JSONL events into a new resumable session and can prepend an AI-written handoff. Back up first. MIT. `JavaScript` · `Claude Code` · `adapt`.
 - [context-slim](https://github.com/oliviayu0623/context-slim) - Cleans tool residues from Claude Code transcripts while keeping dialogue, parent UUIDs, and compact summaries for in-place resume. MIT. `Python` · `Claude Code` · `ready`.
-- [output-guard](https://github.com/oliviayu0623/output-guard) - Claude Code MessageDisplay hook blocking AI-hallucinated "user messages" by verifying lines against actual transcript; catches tool leaks. MIT. `JavaScript` · `Claude Code` · `ready`.
+- [output-guard](https://github.com/oliviayu0623/output-guard) - Claude Code MessageDisplay hook blocking AI-hallucinated "user messages" by verifying lines against actual transcript; catches tool leaks. MIT. `Python` · `Claude Code` · `ready`.
 - [chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) - Userscript to export ChatGPT conversation history as Markdown, JSON, PNG, or HTML. `TypeScript` · `Browser` · `ready`.
 - [ChatGPT-Exporter (batch)](https://github.com/huhusmang/ChatGPT-Exporter) - Batch-export ChatGPT conversations from personal and team workspaces to JSON or Markdown. `JavaScript` · `Browser` · `ready`.
 - [Claude-Conversation-Exporter](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome extension to export Claude.ai conversations in various formats. `JavaScript` · `Browser` · `ready`.
 - [character-card-spec-v2](https://github.com/malfoyslastname/character-card-spec-v2) - The community specification for AI character cards. Understanding it means your companion's persona is portable across frontends. `Spec` · `Any` · `infra`.
 - [character-card-spec-v3](https://github.com/kwaroran/character-card-spec-v3) - Updated character card spec used by RisuAI and newer frontends. `Spec` · `Any` · `infra`.
 - [immortal-skill (永生.skill)](https://github.com/agenmod/immortal-skill) - Digital-persona distillation framework that collects material from 12+ chat, social, and mail sources, then separates knowledge, style, memories, and personality into a portable Agent Skill. MIT. `Python` · `Agent Skills` · `adapt`.
+
 ---
 
 ## Related Lists
