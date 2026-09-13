@@ -69,7 +69,6 @@
 - [mousecrew](https://github.com/anqinou-art/mousecrew) - 仓鼠团队形象的 CLI 编码 Agent 群聊与工单看板：支持 @唤醒、9 状态工单流、依赖自调度、Git 提交校验与单合并门禁。MIT。`JavaScript` · `CLI` · `ready`。
 - [yoji](https://github.com/wangxijie001/yoji) - 有情绪的开源桌面 AI 伴侣：支持本地语音唤醒、悬浮挂件、情绪漂移、MCP 无限扩展与日常办公协助。MIT。`TypeScript` · `Cross-platform` · `ready`。
 - [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent) - 基于 Cyrene_Harness 框架的桌面智能体：兼顾沉浸式昔涟人设陪伴、办公编程辅助与音乐天气等多工具扩展。MIT。`TypeScript` · `Cross-platform` · `adapt`。
-- [murmur](https://github.com/wine-fall/murmur) - 常驻终端的 AI 电台主播：自己挑话题开口聊、放歌、回来接着播；你打字回它，它用接近真人的声音回答；一位主播，对你的记忆会随相处加深。需要 Claude Code 登录和一个托管的 fish-speech 端点。MIT。`TypeScript` · `Terminal` · `ready`
 
 ---
 
@@ -163,7 +162,8 @@
 - [Callhome](https://github.com/Cheiineeey/callhome) - 可自托管的 AI 伴侣语音通话栈：伴侣主动拨号、柔性挂断、语音信箱、对话式免打扰、通话摘要，并用 SenseVoice 情绪标签感知说话方式。需自行集成。MIT。 `Python/HTML` · `Self-host` · `adapt`
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - 暴露 `speak` 工具的 MCP TTS 服务，支持 DashScope/CosyVoice 与 ElevenLabs 切换，并带内联播放器/可视化面板。`TypeScript` · `Self-host` · `adapt`
 - [Gove](https://github.com/OmniDimen/Gove) - 基于 GPT-SoVITS 的多语种男声 TTS 音色模型，需要放入 GPT-SoVITS 环境使用。`Model` · `GPT-SoVITS` · `infra`
-- [erpan (耳畔)](https://github.com/qfyingque/erpan) - 手机后台 AI 连续语音通话应用：双向流式语音合成、人声打断、音频焦点管理与悬浮球控制，不占屏幕。现成适配 Operit，可供开源聊天前端复用。MIT。`Kotlin` · `Android` · `ready`
+- [erpan (耳畔)](https://github.com/qfyingque/erpan) - 手机端后台语音连麦方案：与 murmur 终端电台相对应，主打 Android 双向流式通话与麦克风开口打断，悬浮球控制不占屏幕，适配 Operit。MIT。`Kotlin` · `Android` · `ready`
+- [murmur](https://github.com/wine-fall/murmur) - 终端后台电台主播方案：与 erpan 手机连麦不同，走自主单向广播路线，挑话题播报与放歌闪避混音，打字平滑插话。需 Claude Code 与 fish-speech。MIT。`TypeScript` · `Terminal` · `ready`
 
 ### 视觉载体与 VTuber 式伴侣
 

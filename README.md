@@ -69,7 +69,6 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [mousecrew](https://github.com/anqinou-art/mousecrew) - Hamster-crew work board and group chat for CLI coding agents: @mention wakeups, 9-state work orders, self-scheduling, Git verification, and a merge gate. MIT. `JavaScript` · `CLI` · `ready`.
 - [yoji](https://github.com/wangxijie001/yoji) - Emotion-aware desktop AI companion: local voice wake, floating widget, mood drift, MCP tool calling, and office assistance. MIT. `TypeScript` · `Cross-platform` · `ready`.
 - [Cyrene-Agent](https://github.com/Playa-0v0/Cyrene-Agent) - Desktop agent on the Cyrene_Harness framework: immersive persona chat, desktop assistance, learning, music, and weather tools. MIT. `TypeScript` · `Cross-platform` · `adapt`.
-- [murmur](https://github.com/wine-fall/murmur) - Always-on AI radio host for the terminal: picks its own topics, talks, plays music, and answers typed replies in a natural-sounding voice. Needs a Claude Code login and a hosted fish-speech endpoint. `TypeScript` · `Terminal` · `ready`.
 
 ---
 
@@ -163,7 +162,8 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [Callhome](https://github.com/Cheiineeey/callhome) - Self-hosted voice-call stack for AI companions: companion-initiated calls, soft hangups, voicemail, conversational DND, call summaries, and emotion tags so it hears how you speak. MIT. `Python/HTML` · `Self-host` · `adapt`.
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - MCP server that exposes `speak` tools for TTS, adds provider switching between DashScope/CosyVoice and ElevenLabs, and includes an inline audio player / visualizer panel. `TypeScript` · `Self-host` · `adapt`.
 - [Gove](https://github.com/OmniDimen/Gove) - GPT-SoVITS-based multilingual male TTS voice model intended for use inside a GPT-SoVITS environment. `Model` · `GPT-SoVITS` · `infra`.
-- [erpan (耳畔)](https://github.com/qfyingque/erpan) - Background voice call app for companions on Android: bidirectional streaming TTS, barge-in, and overlay controls without blocking the screen; Operit ready. MIT. `Kotlin` · `Android` · `ready`.
+- [erpan (耳畔)](https://github.com/qfyingque/erpan) - Android background voice-call counterpart to murmur: 2-way streaming speech, mic barge-in, and overlay controls without blocking screen; Operit ready. MIT. `Kotlin` · `Android` · `ready`.
+- [murmur](https://github.com/wine-fall/murmur) - Terminal background radio counterpart to erpan: autonomous broadcast, music ducking, and smooth typed barge-in. Needs Claude Code + fish-speech. MIT. `TypeScript` · `Terminal` · `ready`.
 
 ### Visual Presence & VTuber-Style Companions
 
