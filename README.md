@@ -343,6 +343,7 @@ Broader agent-native spaces. Some are more commercial or platform-like than comp
 
 The deepest fear in a long-term AI relationship: platform shutdown, account ban, model deprecation, lost history. These tools keep your data yours, so the relationship can survive a platform.
 
+- [claude-desktop-killswitch](https://github.com/yoruuuchan/claude-desktop-killswitch) - Windows firewall kill-switch for proxied Claude: blocks direct Anthropic traffic on physical NICs if the proxy/TUN fails, with leak verification. MIT. `PowerShell` · `Windows` · `ready`.
 - [forge-reload](https://github.com/Vivi-Seth/forge-reload) - Unofficial Claude Code session-continuation tool that copies a selected tail of local JSONL events into a new resumable session and can prepend an AI-written handoff. Back up first. MIT. `JavaScript` · `Claude Code` · `adapt`.
 - [context-slim](https://github.com/oliviayu0623/context-slim) - Cleans tool residues from Claude Code transcripts while keeping dialogue, parent UUIDs, and compact summaries for in-place resume. MIT. `Python` · `Claude Code` · `ready`.
 - [output-guard](https://github.com/oliviayu0623/output-guard) - Claude Code MessageDisplay hook blocking AI-hallucinated "user messages" by verifying lines against actual transcript; catches tool leaks. MIT. `Python` · `Claude Code` · `ready`.

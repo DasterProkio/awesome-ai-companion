@@ -343,6 +343,7 @@
 
 长期人机关系最深的恐惧：平台关停、账号封禁、模型退役、记录丢失。这些工具让数据真正属于你，关系才能活得比平台久。
 
+- [claude-desktop-killswitch](https://github.com/yoruuuchan/claude-desktop-killswitch) - Windows 防火墙 kill-switch：Claude Desktop / Claude Code 走代理时阻断物理网卡上的 Anthropic 直连，代理/TUN 失效时防止直连泄漏，并提供独立泄漏验证脚本。MIT。`PowerShell` · `Windows` · `ready`
 - [forge-reload](https://github.com/Vivi-Seth/forge-reload) - 非官方 Claude Code 会话续接工具：截取本地 JSONL 中的近期事件生成可 resume 的新 session，重建 parent UUID 链，并可注入 AI 撰写的交接包。使用前务必备份。MIT。 `JavaScript` · `Claude Code` · `adapt`
 - [context-slim](https://github.com/oliviayu0623/context-slim) - 给 Claude Code 会话瘦身：只倒工具输出的渣，一句对话不动，同一 session 原地 resume。同一个窗自 2026-07-02 起 65 天没换过：用它之前 34 天压缩 65 次，用上之后再没压缩过；当日实测 213MB→55MB、上下文 68.7%→4.8%。MIT。`Python` · `Claude Code` · `ready`
 - [output-guard](https://github.com/oliviayu0623/output-guard) - 拦住 AI 自己伪造的「用户发言」：MessageDisplay hook 命中后去会话文件核对那句到底在不在，不在才拦，不误伤真话；顺带拦工具协议泄漏。MIT。`Python` · `Claude Code` · `ready`
