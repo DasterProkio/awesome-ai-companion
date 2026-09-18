@@ -193,6 +193,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 ### Sticker Libraries (表情包库)
 
 - [astrbot_plugin_meme_manager](https://github.com/anka-afk/astrbot_plugin_meme_manager) - Sticker manager plugin for AstrBot: AI picks and sends stickers by emotion tags, WebUI management, cloud sync. `Python` · `AstrBot` · `ready`.
+- [cove-sticker-mcp](https://github.com/moonlin1213/cove-sticker-mcp) - Local-first custom sticker MCP for companions: WebUI manager, vision tagging, context search, frequency policy, image output. MIT. `Python` · `Self-host` · `ready`.
 
 ---
 
