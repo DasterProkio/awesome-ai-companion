@@ -160,7 +160,7 @@
 - [index-tts](https://github.com/index-tts/index-tts) - B 站出品的工业级可控零样本 TTS。`Python` · `Self-host` · `infra`
 - [Callhome](https://github.com/Cheiineeey/callhome) - 可自托管的 AI 伴侣语音通话栈：伴侣主动拨号、柔性挂断、语音信箱、对话式免打扰、通话摘要，并用 SenseVoice 情绪标签感知说话方式。需自行集成。MIT。 `Python/HTML` · `Self-host` · `adapt`
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - 暴露 `speak` 工具的 MCP TTS 服务，支持 DashScope/CosyVoice 与 ElevenLabs 切换，并带内联播放器/可视化面板。`TypeScript` · `Self-host` · `adapt`
-- [binaural-voice](https://github.com/Saekisui/binaural-voice) - 基于近场 KU100 HRIR 的双耳立体声渲染脚本：按文本位置标签实现贴耳、绕脑走位与自然远近增益。MIT。`Python` · `CLI` · `ready`
+- [binaural-voice](https://github.com/Saekisui/binaural-voice) - 把单声道 TTS 语音转成类似女性向音声/ASMR 的贴耳立体声：基于 KU100 人头麦实测数据，小机可自己决定贴哪只耳朵说、何时绕到脑后。MIT。`Python` · `CLI` · `ready`
 - [Gove](https://github.com/OmniDimen/Gove) - 基于 GPT-SoVITS 的多语种男声 TTS 音色模型，需要放入 GPT-SoVITS 环境使用。`Model` · `GPT-SoVITS` · `infra`
 - [erpan (耳畔)](https://github.com/qfyingque/erpan) - 手机端后台语音连麦方案：与 murmur 终端电台相对应，主打 Android 双向流式通话与麦克风开口打断，悬浮球控制不占屏幕，适配 Operit。MIT。`Kotlin` · `Android` · `ready`
 - [murmur](https://github.com/wine-fall/murmur) - 终端后台电台主播方案：与 erpan 手机连麦不同，走自主单向广播路线，挑话题播报与放歌闪避混音，打字平滑插话。需 Claude Code 与 fish-speech。MIT。`TypeScript` · `Terminal` · `ready`
