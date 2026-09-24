@@ -82,8 +82,13 @@ let TL, R;
 const dust = [], stars = [], sparks = [];
 let prevT = -1;
 
-function init(tl) {
-  TL = tl; R = rng(700);
+let WALL, AV = {};
+const wallRows = [];
+function init(tl, assets) {
+  TL = tl; R = rng(700); WALL = assets.wall;
+  const imgs = Object.entries(assets.avatars).map(([login, src]) => {
+    const im = new Image(); im.src = src; AV[login] = im; return im.decode();
+  });
   for (let i = 0; i < 240; i++) dust.push({ x: R() * W, y: R() * H, r: R() * 1.6 + .4, ph: R() * 6.28, sp: R() * 6 + 2 });
   // 700 heart targets: rejection-sample (x²+y²−1)³ − x²y³ ≤ 0, biased to a crisp outline
   const pts = [];
@@ -103,7 +108,7 @@ function init(tl) {
   const loads = [];
   for (const fam of ["Noto Serif SC", "Noto Sans SC"]) for (const w of [400, 500, 600, 700]) loads.push(document.fonts.load(`${w} 40px "${fam}"`, all));
   for (const s of ["300 40px Fraunces", "italic 300 40px Fraunces", "600 40px Fraunces", "500 40px 'JetBrains Mono'"]) loads.push(document.fonts.load(s, all));
-  return Promise.all(loads).then(() => document.fonts.ready).then(() => [...document.fonts].filter(f => f.status === "loaded").length);
+  return Promise.all([...loads, ...imgs]).then(() => document.fonts.ready).then(() => { layoutWall(); return 0; }).then(() => [...document.fonts].filter(f => f.status === "loaded").length);
 }
 
 function spawn(x, y, n, speed = 1, seed = 1) {
@@ -289,7 +294,7 @@ function item(t) {
   // measure hook first so the card grows to fit
   const hookFont = `700 70px ${F.serif}`;
   const lines = wrap(p.hook, hookFont, w - 120);
-  const h = 560 + lines.length * 98;
+  const h = 630 + lines.length * 98;
 
   g.save(); g.globalAlpha = a;
   rrect(x, y, w, h, 44);
@@ -312,12 +317,14 @@ function item(t) {
   g.fillText(p.name, x + 60, by + 80);
   if (p.alt) { const nw = g.measureText(p.name).width; text(p.alt, x + 60 + nw + 20, by + 80, { font: F.sans, size: 36, color: C.muted, align: "left" }); }
   text(p.cat, x + 60, by + 140, { font: F.sans, size: 32, color: C.gold, align: "left", weight: 500 });
+  avatar(p.author, x + 84, by + 190, 24);
+  text("@" + p.author, x + 122, by + 200, { font: F.mono, size: 28, color: C.muted, align: "left", weight: 500 });
   // tags
   let tx = x + 60;
   for (const tg of p.tags) {
     g.font = `500 26px ${F.mono}`; const tw = g.measureText(tg).width + 32;
-    rrect(tx, by + 172, tw, 48, 10); g.fillStyle = "rgba(255,255,255,0.07)"; g.fill();
-    text(tg, tx + tw / 2, by + 205, { font: F.mono, size: 26, color: C.muted, weight: 500 });
+    rrect(tx, by + 242, tw, 48, 10); g.fillStyle = "rgba(255,255,255,0.07)"; g.fill();
+    text(tg, tx + tw / 2, by + 275, { font: F.mono, size: 26, color: C.muted, weight: 500 });
     tx += tw + 12;
   }
   g.restore();
@@ -331,6 +338,123 @@ function item(t) {
     g.beginPath(); g.arc(dx0 + k * gap, 1560, k === i ? 10 : 7, 0, 6.283); g.fill();
   }
   g.globalAlpha = 1;
+}
+
+
+function avatar(login, cx, cy, r, ring) {
+  const im = AV[login];
+  g.save();
+  g.beginPath(); g.arc(cx, cy, r, 0, 6.283); g.closePath();
+  g.save(); g.clip();
+  if (im) g.drawImage(im, cx - r, cy - r, r * 2, r * 2); else { g.fillStyle = C.dim; g.fill(); }
+  g.restore();
+  g.lineWidth = ring ? 5 : 2; g.strokeStyle = ring ? grad(cx - r, cy - r, cx + r, cy + r) : "rgba(255,255,255,0.18)"; g.stroke();
+  g.restore();
+}
+
+// ---------- overview wall: every entry in the list ----------
+const WALL_Y0 = 1035, WALL_ROW = 58, WALL_ROWS = 14;
+function layoutWall() {
+  g.font = `500 26px ${F.sans}`;
+  for (let r = 0; r < WALL_ROWS; r++) wallRows.push({ pills: [], width: 0, dir: r % 2 ? 1 : -1, speed: 26 + (r * 7) % 20 });
+  WALL.names.forEach((n, k) => {
+    const row = wallRows[k % WALL_ROWS];
+    const w = g.measureText(n.name).width + 58;
+    row.pills.push({ ...n, k, x: row.width, w });
+    row.width += w + 12;
+  });
+}
+function wallScene(t) {
+  const wl = TL.wall; if (!wl) return;
+  const a = vis(t, wl.in, wl.out, .5);
+  if (a <= 0) return;
+  const cp = inOutCubic(seg(t, wl.count[0], wl.count[1]));
+  const n = Math.round(cp * WALL.total);
+  const dy = (1 - outCubic(seg(t, wl.in, wl.in + .8))) * 30;
+  g.save(); g.globalAlpha = a;
+  text("这份列表里，已经有", W / 2, 640 + dy, { font: F.serif, size: 46, color: C.muted, weight: 600 });
+  g.save(); g.font = `italic 300 210px ${F.num}`; g.textAlign = "center"; g.fillStyle = grad(W / 2 - 200, 650, W / 2 + 200, 850);
+  g.shadowColor = "rgba(242,125,152,0.4)"; g.shadowBlur = 36; g.fillText(String(n), W / 2, 840 + dy); g.restore();
+  text(`个开源项目 · ${WALL.categories.length} 个分类`, W / 2, 920 + dy, { font: F.serif, size: 44, weight: 600 });
+  const newN = WALL.names.filter(x => x.new).length;
+  const na = seg(t, wl.count[1] + .3, wl.count[1] + .8);
+  if (na > 0) text(`粉色的 ${newN} 个，是九月新来的`, W / 2, 990, { font: F.sans, size: 32, color: C.rose, weight: 500, alpha: na });
+
+  const tt = t - wl.in, glow = na * (.6 + .4 * Math.sin(t * 6));
+  for (let r = 0; r < WALL_ROWS; r++) {
+    const row = wallRows[r], y = WALL_Y0 + r * WALL_ROW;
+    const span = row.width;
+    let off = (row.dir * row.speed * tt + r * 137) % span; if (off > 0) off -= span;
+    for (let rep = 0; rep < 3; rep++) for (const p of row.pills) {
+      const x = off + rep * span + p.x;
+      if (x > W || x + p.w < 0) continue;
+      const pv = p.k / WALL.names.length;
+      const pa = clamp((cp - pv) * WALL.names.length / 6);
+      if (pa <= 0) continue;
+      g.globalAlpha = a * pa;
+      rrect(x, y, p.w, 46, 23);
+      if (p.new) {
+        g.fillStyle = grad(x, y, x + p.w, y + 46); g.fill();
+        if (glow > 0) { g.save(); g.globalAlpha = a * glow * .6; g.lineWidth = 3; g.strokeStyle = C.gold; g.stroke(); g.restore(); }
+      } else { g.fillStyle = "rgba(255,255,255,0.065)"; g.fill(); }
+      g.fillStyle = p.new ? "#1d1020" : STAR_COLORS[p.cat % 5];
+      g.beginPath(); g.arc(x + 22, y + 23, 5, 0, 6.283); g.fill();
+      g.font = `500 26px ${F.sans}`; g.textAlign = "left"; g.fillStyle = p.new ? "#1d1020" : C.muted;
+      g.fillText(p.name, x + 38, y + 32);
+    }
+  }
+  g.restore();
+  // soften the row ends
+  for (const [x0, x1] of [[0, 120], [W, W - 120]]) {
+    const gr = g.createLinearGradient(x0, 0, x1, 0);
+    gr.addColorStop(0, "rgba(12,10,18,1)"); gr.addColorStop(1, "rgba(12,10,18,0)");
+    g.fillStyle = gr; g.fillRect(Math.min(x0, x1), WALL_Y0 - 10, 120, WALL_ROWS * WALL_ROW + 20);
+  }
+}
+
+// ---------- thanks to the authors ----------
+function authorPops() {
+  const th = TL.thanks_authors;
+  return TL.authors.map((_, i) => th.in + .6 + i * .28);
+}
+function thanksAuthors(t) {
+  const th = TL.thanks_authors; if (!th) return;
+  const a = vis(t, th.in, th.out, .5);
+  if (a <= 0) return;
+  const dy = (1 - outCubic(seg(t, th.in, th.in + .8))) * 30;
+  g.save(); g.globalAlpha = a;
+  text("谢谢做出这些项目的你们", W / 2, 640 + dy, { font: F.serif, size: 66, weight: 700 });
+  text(`九月的 ${TL.projects.length} 个新项目，来自这 ${TL.authors.length} 位作者`, W / 2, 715 + dy, { font: F.sans, size: 32, color: C.muted });
+  const pops = authorPops();
+  const rows = [TL.authors.slice(0, 4), TL.authors.slice(4)];
+  let idx = 0;
+  rows.forEach((row, ri) => {
+    const cy = 900 + ri * 360, gap = 245, x0 = W / 2 - (row.length - 1) * gap / 2;
+    row.forEach((au, ci) => {
+      const p = seg(t, pops[idx], pops[idx] + .45); idx++;
+      if (p <= 0) return;
+      const cx = x0 + ci * gap, s = outBack(p);
+      g.save(); g.globalAlpha = a * clamp(p * 2);
+      g.translate(cx, cy); g.scale(s, s); g.translate(-cx, -cy);
+      avatar(au.login, cx, cy, 82, !!au.pr);
+      if (au.pr) {
+        g.font = `700 22px ${F.sans}`; const cw = g.measureText("PR 投稿").width + 26;
+        rrect(cx - cw / 2, cy + 62, cw, 38, 19); g.fillStyle = grad(cx - cw / 2, 0, cx + cw / 2, 0); g.fill();
+        text("PR 投稿", cx, cy + 89, { font: F.sans, size: 22, weight: 700, color: "#1d1020" });
+      }
+      g.restore();
+      const ta = a * seg(t, pops[idx - 1] + .15, pops[idx - 1] + .6);
+      text("@" + au.login, cx, cy + 142, { font: F.mono, size: 25, weight: 500, alpha: ta });
+      TL.projects.filter(pr => pr.author === au.login).forEach((pr, k) => {
+        g.font = `400 24px ${F.sans}`; const w = g.measureText(pr.name).width;
+        const sz = w > 225 ? Math.floor(24 * 225 / w) : 24;
+        text(pr.name, cx, cy + 180 + k * 32, { font: F.sans, size: sz, color: C.muted, alpha: ta });
+      });
+    });
+  });
+  const fa = seg(t, th.in + 2.9, th.in + 3.5);
+  text("也谢谢每一位投稿、点星、转发的人", W / 2, 1640 + (1 - fa) * 20, { font: F.serif, size: 44, weight: 600, color: C.gold, alpha: fa });
+  g.restore();
 }
 
 function endCard(t) {
@@ -366,6 +490,7 @@ function frame(t) {
   TL.fireworks.forEach(([at, fx, fy], i) => { if (crossed(t, at)) spawn(W * fx, H * fy, 110, 1, 20 + i); });
   const { start, step } = TL.items;
   TL.projects.forEach((_, i) => { if (crossed(t, start + i * step + .05)) spawn(W / 2, 330, 30, .5, 40 + i); });
+  if (TL.thanks_authors) authorPops().forEach((at, i) => { if (crossed(t, at)) { const r = i < 4 ? 0 : 1, n = r ? 3 : 4, k = r ? i - 4 : i; spawn(W / 2 - (n - 1) * 122.5 + k * 245, 900 + r * 360, 18, .45, 60 + i); } });
   if (crossed(t, TL.end.cta)) spawn(W / 2, 640, 120, .9, 99);
 
   background(t);
@@ -379,6 +504,8 @@ function frame(t) {
   topBadge(t);
   septTitle(t);
   item(t);
+  wallScene(t);
+  thanksAuthors(t);
   endCard(t);
 
   for (let i = sparks.length - 1; i >= 0; i--) {

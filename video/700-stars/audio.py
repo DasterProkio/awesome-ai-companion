@@ -202,6 +202,23 @@ for i, (at, fx, _) in enumerate(TL["fireworks"]):
     place(bell([79, 84, 76, 88][i], 1.5), at + 0.05, pan=fx * 2 - 1, gain=0.08, reverb=0.7)
     crackle(at + 0.1, 0.9, 14, 0.12, 10 + i)
 
+# Overview wall: every entry in the list counts up
+wl = TL.get("wall")
+if wl:
+    w0, w1 = wl["count"]
+    for i, ch in enumerate([F_, G, A, C]):
+        place(pad([m + 12 for m in ch], 1.9), wl["in"] + i * 1.6, gain=0.13, reverb=0.6)
+    place(whoosh(0.8, 300, 3500), wl["in"] - 0.3, gain=0.16, reverb=0.3)
+    total = json.loads((HERE / "wall.json").read_text())["total"]
+    steps = 36
+    for k in range(steps):
+        p = k / (steps - 1)
+        at = w0 + p * (w1 - w0)
+        place(pluck(72 + penta[k % 5] + 12 * ((k // 5) % 2), 0.2), at, pan=np.sin(k * 1.7) * 0.7, gain=0.06, reverb=0.4)
+    place(bell(84, 2.2), w1, gain=0.10, reverb=0.7)
+    place(bell(88, 2.0), w1 + 0.05, gain=0.07, reverb=0.7)
+    crackle(w1 + 0.3, 1.0, 16, 0.06, 7)
+
 # September title
 st0, st1 = TL["septTitle"]
 place(whoosh(0.7, 300, 3000), st0 - 0.25, gain=0.18, reverb=0.3)
@@ -232,6 +249,17 @@ for i in range(n_items):
     at = s0 + i * step
     place(bell(melody[i], 1.4), at, pan=-0.2 if i % 2 else 0.2, gain=0.11, reverb=0.6)
     place(whoosh(0.35, 800, 6000), at - 0.18, gain=0.06, reverb=0.2)
+
+# Thanks to the authors: warm chords and a bell as each avatar appears
+th = TL.get("thanks_authors")
+if th:
+    for i, ch in enumerate([F_, C, G]):
+        place(pad(ch, 2.3), th["in"] + i * 1.9, gain=0.15, reverb=0.6)
+    for i in range(len(TL["authors"])):
+        at = th["in"] + 0.6 + i * 0.28
+        place(bell(72 + penta[i % 5] + 12 * (i // 5), 1.3), at, pan=(i - 3) * 0.2, gain=0.09, reverb=0.6)
+    place(bell(79, 2.4), th["in"] + 2.9, gain=0.08, reverb=0.8)
+    place(bell(84, 2.4), th["in"] + 3.0, gain=0.06, reverb=0.8)
 
 # Act 6: back in the chat, soft chords (F G C)
 c2 = TL["chat2"]["in"][0]

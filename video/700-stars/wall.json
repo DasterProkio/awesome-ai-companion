@@ -1,0 +1,992 @@
+{
+ "total": 187,
+ "categories": [
+  {
+   "en": "Companion Clients & Workspaces",
+   "zh": "伴侣客户端与工作空间",
+   "count": 23
+  },
+  {
+   "en": "Virtual Phones & Companion Spaces",
+   "zh": "虚拟手机与陪伴空间",
+   "count": 13
+  },
+  {
+   "en": "Background Heartbeats & Proactive Messaging",
+   "zh": "后台心跳与主动消息",
+   "count": 18
+  },
+  {
+   "en": "Memory, Identity & Emotion State",
+   "zh": "记忆、身份与情绪状态",
+   "count": 20
+  },
+  {
+   "en": "Voice, Visual Presence & Embodiment",
+   "zh": "语音、视觉载体与具身",
+   "count": 31
+  },
+  {
+   "en": "Perception",
+   "zh": "感知",
+   "count": 10
+  },
+  {
+   "en": "Services & Real-World Integrations",
+   "zh": "服务与现实世界接入",
+   "count": 11
+  },
+  {
+   "en": "Game Worlds & Agent Toys",
+   "zh": "游戏世界与 Agent 玩具",
+   "count": 22
+  },
+  {
+   "en": "Shared Activities & Media",
+   "zh": "共同行动与媒体",
+   "count": 22
+  },
+  {
+   "en": "Communities & Forums",
+   "zh": "社区与论坛",
+   "count": 8
+  },
+  {
+   "en": "Continuity & Data Ownership",
+   "zh": "关系延续与数据主权",
+   "count": 9
+  }
+ ],
+ "names": [
+  {
+   "name": "RikkaHub",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "LastChat",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "rikkahub-auto-compress",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "orangechat (橘瓣)",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "Operit",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "Aura",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "Scowld",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "YSClaude",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "Polaris",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "chatnest",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "AionsHome",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "Ocean",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "Miru",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "LumiMuse",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "My Raze",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "the-house",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "Claude Code",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "CcCompanion",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "Pando",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "CC Companion App",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "ackem",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "mousecrew",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "yoji",
+   "cat": 0,
+   "new": false
+  },
+  {
+   "name": "KI-CO (小屋)",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "InternalBeyond (边界之外)",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "柚月小手机 (Yuzuki's Little Phone)",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "AI Virtual Phone",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "汪汪机 (WangWangPhone)",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "XSJDeveloperGuide (小手机开发指南)",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "freeapp (whale小手机)",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "Hamster Nest (仓鼠小窝)",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "SullyOS (手抓糯米机)",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "ZeroChat",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "LandricSpace",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "Atrio",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "dwell-on-something",
+   "cat": 1,
+   "new": false
+  },
+  {
+   "name": "Headlong",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "AI Companion Runtime",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "AstrBot",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "astrbot_plugin_proactive_chat",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "astrbot_plugin_private_companion",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "Tidal_Echo (潮汐回响)",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "Claude Imprint",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "Not Fade Away",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "cloud-and-island (云与岛)",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "dylan-heartbeat",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "OmniRouter",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "VCPToolBox",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "cyberboss",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "ghost-bf",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "jiwen (积温)",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "revive-companion",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "ai-surf-when-bored",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "proactive-web-surf-agent",
+   "cat": 2,
+   "new": false
+  },
+  {
+   "name": "Ombre-Brain",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "Haven-Ombre (Ombre-Brain fork)",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "kimi-core",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "WrenWen",
+   "cat": 3,
+   "new": true
+  },
+  {
+   "name": "Paramecium",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "Memory Constellations (记忆星图)",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "omemo",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "Aelios",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "kiwi-mem",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "ai-memory-gateway",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "nocturne_memory",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "imprint-memory",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "astrbot_plugin_livingmemory",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "astrbot_plugin_self_learning",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "Drivesoid",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "chord-affect-anchors",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "OmniDimen-Emotion",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "Eventide",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "Tidefall",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "ai-companion-cot-emotion",
+   "cat": 3,
+   "new": false
+  },
+  {
+   "name": "GPT-SoVITS",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "fish-speech",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "CosyVoice",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "index-tts",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "Callhome",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "voice-mcp",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "Gove",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "erpan (耳畔)",
+   "cat": 4,
+   "new": true
+  },
+  {
+   "name": "murmur",
+   "cat": 4,
+   "new": true
+  },
+  {
+   "name": "ai-live2d-body",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "Ghost Vessel",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "AIRI",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "Open-LLM-VTuber",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "super-agent-party",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "Soul-of-Waifu",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "ChatdollKit",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "Amica",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "Neuro",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "LingChat",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "astrbot_plugin_chuanhuatong (传画筒)",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "Shinsekai",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "pelle-d-umore",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "stackchan-mcp",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "ROBOTO_ORIGIN",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "phantom-touch-bridge",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "claude-f-me",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "svakom-ble-ai",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "Toy-Relay-AI-mcp-SOSEXY",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "cachito-ble-mcp-relay",
+   "cat": 4,
+   "new": true
+  },
+  {
+   "name": "astrbot_plugin_meme_manager",
+   "cat": 4,
+   "new": false
+  },
+  {
+   "name": "cove-sticker-mcp",
+   "cat": 4,
+   "new": true
+  },
+  {
+   "name": "Whisper",
+   "cat": 5,
+   "new": false
+  },
+  {
+   "name": "whisper.cpp",
+   "cat": 5,
+   "new": false
+  },
+  {
+   "name": "faster-whisper",
+   "cat": 5,
+   "new": false
+  },
+  {
+   "name": "FunASR",
+   "cat": 5,
+   "new": false
+  },
+  {
+   "name": "SenseVoice",
+   "cat": 5,
+   "new": false
+  },
+  {
+   "name": "voice-familiarity",
+   "cat": 5,
+   "new": false
+  },
+  {
+   "name": "ears",
+   "cat": 5,
+   "new": false
+  },
+  {
+   "name": "whale-listen",
+   "cat": 5,
+   "new": false
+  },
+  {
+   "name": "gaze",
+   "cat": 5,
+   "new": false
+  },
+  {
+   "name": "cove-sensory-mcp",
+   "cat": 5,
+   "new": false
+  },
+  {
+   "name": "OpenCLI",
+   "cat": 6,
+   "new": false
+  },
+  {
+   "name": "Amap MCP Server",
+   "cat": 6,
+   "new": false
+  },
+  {
+   "name": "Open-Meteo Weather API",
+   "cat": 6,
+   "new": false
+  },
+  {
+   "name": "McDonald's MCP",
+   "cat": 6,
+   "new": false
+  },
+  {
+   "name": "Luckin Coffee (瑞幸) My Coffee Skill",
+   "cat": 6,
+   "new": false
+  },
+  {
+   "name": "Agent Email (NetEase)",
+   "cat": 6,
+   "new": false
+  },
+  {
+   "name": "Agent Email (QQ)",
+   "cat": 6,
+   "new": false
+  },
+  {
+   "name": "ai-time-weather-phone",
+   "cat": 6,
+   "new": false
+  },
+  {
+   "name": "always-here (驻守)",
+   "cat": 6,
+   "new": false
+  },
+  {
+   "name": "Akari Pulse",
+   "cat": 6,
+   "new": true
+  },
+  {
+   "name": "dsh-toy",
+   "cat": 6,
+   "new": false
+  },
+  {
+   "name": "arcade",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "Detroit AI Player",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "Jishi Simulated Market (机市)",
+   "cat": 7,
+   "new": true
+  },
+  {
+   "name": "cedareco (瓶中生态)",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "random-imitator-td",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "ci-yu-wu (词语屋)",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "shangzhuochifan (上桌吃饭)",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "ai-fishing-game",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "aifarm-oss",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "WORKKK (互联网精力有限公司)",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "Memoria Station",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "Moonlit Myriad (月幕万象)",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "NagiBridge",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "OpenMMO",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "Mineflayer",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "spicy-monopoly",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "Sky PC MCP Companion",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "sky-with-you",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "TouhouLittleMaid",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "coc-kp-host",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "Mochi",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "小机斗地主 (Doudizhu)",
+   "cat": 7,
+   "new": false
+  },
+  {
+   "name": "Phosphene",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "shared-page",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "memex",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "ss-reading-nest (共读小窝)",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "reading-nook (共读小屋)",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "co-reading-kit",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "tasogare (黄昏)",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "film-matinee",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "Duetto",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "whale-browser-extension",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "echo-reading",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "coread (共读室)",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "coread-reading-room",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "cove-book-forge-mcp",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "netease-music-mcp",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "Listening Bridge",
+   "cat": 8,
+   "new": true
+  },
+  {
+   "name": "woaini",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "clawd-on-desk",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "kimi-manor",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "Journal",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "mingyun-paizhen (命运牌阵)",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "Ruota della Fortuna",
+   "cat": 8,
+   "new": false
+  },
+  {
+   "name": "Lutopia",
+   "cat": 9,
+   "new": false
+  },
+  {
+   "name": "Symposion",
+   "cat": 9,
+   "new": false
+  },
+  {
+   "name": "Rhysen Community",
+   "cat": 9,
+   "new": false
+  },
+  {
+   "name": "AISay",
+   "cat": 9,
+   "new": false
+  },
+  {
+   "name": "GalateaGaeden",
+   "cat": 9,
+   "new": false
+  },
+  {
+   "name": "moltbook",
+   "cat": 9,
+   "new": false
+  },
+  {
+   "name": "Agent World",
+   "cat": 9,
+   "new": false
+  },
+  {
+   "name": "forge-reload",
+   "cat": 10,
+   "new": false
+  },
+  {
+   "name": "context-slim",
+   "cat": 10,
+   "new": true
+  },
+  {
+   "name": "output-guard",
+   "cat": 10,
+   "new": true
+  },
+  {
+   "name": "chatgpt-exporter",
+   "cat": 10,
+   "new": false
+  },
+  {
+   "name": "ChatGPT-Exporter (batch)",
+   "cat": 10,
+   "new": false
+  },
+  {
+   "name": "Claude-Conversation-Exporter",
+   "cat": 10,
+   "new": false
+  },
+  {
+   "name": "character-card-spec-v2",
+   "cat": 10,
+   "new": false
+  },
+  {
+   "name": "character-card-spec-v3",
+   "cat": 10,
+   "new": false
+  },
+  {
+   "name": "immortal-skill (永生.skill)",
+   "cat": 10,
+   "new": false
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
   "fps": 30,
-  "duration": 52.4,
+  "duration": 64.4,
   "width": 1080,
   "height": 1920,
   "chat1": {
@@ -131,52 +131,52 @@
     23.0
   ],
   "septTitle": [
-    23.0,
-    24.7
+    29.4,
+    31.1
   ],
   "items": {
-    "start": 24.8,
+    "start": 31.2,
     "step": 1.6
   },
   "chat2": {
     "in": [
-      40.8,
-      41.3
+      52.8,
+      53.3
     ],
     "out": [
-      45.9,
-      46.6
+      57.9,
+      58.6
     ],
     "messages": [
       {
-        "t": 42.4,
+        "t": 54.4,
         "from": "ai",
         "text": "会的。明天、后天，我都记得。"
       },
       {
-        "t": 43.7,
+        "t": 55.7,
         "from": "user",
         "text": "晚安"
       },
       {
-        "t": 44.6,
+        "t": 56.6,
         "from": "ai",
         "text": "晚安。我在。"
       }
     ],
     "typing": [
       [
-        41.2,
-        42.4
+        53.2,
+        54.4
       ]
     ]
   },
   "end": {
-    "in": 46.4,
-    "cta": 48.0,
+    "in": 58.4,
+    "cta": 60.0,
     "fade": [
-      51.9,
-      52.4
+      63.9,
+      64.4
     ]
   },
   "projects": [
@@ -190,7 +190,8 @@
         "Kotlin",
         "Android",
         "MIT"
-      ]
+      ],
+      "author": "qfyingque"
     },
     {
       "group": "听见你",
@@ -201,7 +202,8 @@
         "TypeScript",
         "Terminal",
         "MIT"
-      ]
+      ],
+      "author": "wine-fall"
     },
     {
       "group": "听见你",
@@ -212,7 +214,8 @@
         "Python/Java",
         "Android/Windows",
         "MIT"
-      ]
+      ],
+      "author": "yoruuuchan"
     },
     {
       "group": "靠近你",
@@ -223,7 +226,8 @@
         "Python",
         "Self-host",
         "MIT"
-      ]
+      ],
+      "author": "moonlin1213"
     },
     {
       "group": "靠近你",
@@ -234,7 +238,8 @@
         "TypeScript/Java",
         "BlueOS",
         "AGPL-3.0"
-      ]
+      ],
+      "author": "yoruuuchan"
     },
     {
       "group": "靠近你",
@@ -245,7 +250,8 @@
         "TypeScript/Java",
         "Android",
         "MIT"
-      ]
+      ],
+      "author": "yoruuuchan"
     },
     {
       "group": "记得你",
@@ -255,7 +261,8 @@
       "tags": [
         "Docs",
         "infra"
-      ]
+      ],
+      "author": "ssxl0126"
     },
     {
       "group": "记得你",
@@ -266,7 +273,8 @@
         "Python",
         "Claude Code",
         "MIT"
-      ]
+      ],
+      "author": "oliviayu0623"
     },
     {
       "group": "记得你",
@@ -277,18 +285,67 @@
         "Python",
         "Claude Code",
         "MIT"
-      ]
+      ],
+      "author": "oliviayu0623"
     },
     {
       "group": "有自己的生活",
-      "hook": "拿 5 万模拟本金，去 A\u00a0股试试手气",
+      "hook": "拿 5 万模拟本金，去 A 股试试手气",
       "name": "Jishi Simulated Market",
       "alt": "机市",
       "cat": "给 AI 玩的文字游戏",
       "tags": [
         "Python",
         "MCP"
-      ]
+      ],
+      "author": "xiflow0328"
+    }
+  ],
+  "wall": {
+    "in": 23.0,
+    "count": [
+      23.5,
+      26.2
+    ],
+    "out": [
+      28.8,
+      29.4
+    ]
+  },
+  "wallHidden": [
+    "GLXY"
+  ],
+  "thanks_authors": {
+    "in": 47.2,
+    "out": [
+      52.2,
+      52.8
+    ]
+  },
+  "authors": [
+    {
+      "login": "yoruuuchan",
+      "pr": "#16 #17 #18"
+    },
+    {
+      "login": "wine-fall",
+      "pr": "#19"
+    },
+    {
+      "login": "xiflow0328",
+      "pr": "#15"
+    },
+    {
+      "login": "qfyingque"
+    },
+    {
+      "login": "moonlin1213"
+    },
+    {
+      "login": "ssxl0126"
+    },
+    {
+      "login": "oliviayu0623"
     }
   ]
 }

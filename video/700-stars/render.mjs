@@ -19,7 +19,13 @@ const browser = await chromium.launch(existsSync("/opt/pw-browsers/chromium") ? 
 const page = await browser.newPage({ viewport: { width: TL.width, height: TL.height }, deviceScaleFactor: 1 });
 page.on("pageerror", e => console.error("page error:", e.message));
 await page.goto(pathToFileURL(join(here, "scene.html")).href, { waitUntil: "networkidle" });
-const fonts = await page.evaluate(tl => window.init(tl), TL);
+const assets = { wall: JSON.parse(readFileSync(join(here, "wall.json"), "utf8")), avatars: {} };
+for (const a of TL.authors || []) {
+  const f = join(here, "avatars", `${a.login}.png`);
+  if (existsSync(f)) assets.avatars[a.login] = "data:image/png;base64," + readFileSync(f).toString("base64");
+  else console.warn(`missing avatar ${f} (run ./fetch-assets.sh)`);
+}
+const fonts = await page.evaluate(([tl, as]) => window.init(tl, as), [TL, assets]);
 console.log(`fonts loaded: ${fonts}`);
 
 const grab = async (type = "jpeg") => {
