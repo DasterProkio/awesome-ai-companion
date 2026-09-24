@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>700 Stars video scene</title>
+<style>
+  @font-face{font-family:"Noto Serif SC";src:url(fonts/NotoSerifSC.ttf);font-weight:200 900}
+  @font-face{font-family:"Noto Sans SC";src:url(fonts/NotoSansSC.ttf);font-weight:100 900}
+  @font-face{font-family:"Fraunces";src:url(fonts/Fraunces.ttf);font-weight:100 900}
+  @font-face{font-family:"Fraunces";src:url(fonts/Fraunces-Italic.ttf);font-weight:100 900;font-style:italic}
+  @font-face{font-family:"JetBrains Mono";src:url(fonts/JetBrainsMono.ttf);font-weight:100 800}
+  html,body{margin:0;background:#0a090f;overflow:hidden}
+  canvas{display:block}
+  #preload{position:absolute;left:-9999px;top:0;white-space:nowrap}
+</style>
+</head>
+<body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<div id="preload"></div>
+<script>
+// Frame renderer for the 700-star video. render.mjs calls init(timeline), then
+// frame(t) for every frame in order (some effects are simulated step by step).
+const cvs = document.getElementById("c"), g = cvs.getContext("2d");
+const W = 1080, H = 1920;
+const C = {
+  bg: "#0a090f", bg2: "#171222", text: "#efeae4", muted: "#a79db4", dim: "#6f677e",
+  rose: "#f27d98", violet: "#c084fc", indigo: "#818cf8", gold: "#e8c48f", green: "#7fd6a4",
+  line: "rgba(255,255,255,0.10)",
+};
+const STAR_COLORS = ["#f27d98", "#c084fc", "#818cf8", "#e8c48f", "#efeae4"];
+const F = {
+  serif: '"Noto Serif SC", serif',
+  sans: '"Noto Sans SC", sans-serif',
+  num: '"Fraunces", "Noto Serif SC", serif',
+  mono: '"JetBrains Mono", monospace',
+};
+
+// ---------- helpers ----------
+const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const outCubic = p => 1 - Math.pow(1 - p, 3);
+const inOutCubic = p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+const outBack = p => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(p - 1, 3) + c1 * Math.pow(p - 1, 2); };
+const lerp = (a, b, p) => a + (b - a) * p;
+function rng(seed) { return () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+// fade in over `fin` seconds after a, fade out over [o1,o2]
+function vis(t, a, out, fin = .45) { let v = seg(t, a, a + fin); if (out) v *= 1 - seg(t, out[0], out[1]); return v; }
+function grad(x0, y0, x1, y1) {
+  const gr = g.createLinearGradient(x0, y0, x1, y1);
+  gr.addColorStop(0, C.rose); gr.addColorStop(.48, C.violet); gr.addColorStop(1, C.indigo);
+  return gr;
+}
+function rrect(x, y, w, h, r) {
+  g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r);
+  g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath();
+}
+function text(s, x, y, { font, size, color = C.text, align = "center", alpha = 1, weight = 400, italic = false, base = "alphabetic", spacing = 0 }) {
+  g.save(); g.globalAlpha *= alpha; g.fillStyle = color; g.textAlign = align; g.textBaseline = base;
+  g.font = `${italic ? "italic " : ""}${weight} ${size}px ${font}`;
+  if (spacing) g.letterSpacing = spacing + "px";
+  g.fillText(s, x, y); g.restore();
+}
+// wrap CJK/Latin mixed text by measured width; keeps Latin words together
+function wrap(s, font, maxW) {
+  g.font = font;
+  const tokens = s.match(/[A-Za-z0-9×.,/\-]+|\s+|./g) || [];
+  const lines = []; let cur = "";
+  for (const tk of tokens) {
+    const nxt = cur + tk;
+    if (g.measureText(nxt).width > maxW && cur.trim()) {
+      // keep closing punctuation on the same line
+      if (/^[，。、！？：；」]$/.test(tk)) { cur = nxt; continue; }
+      lines.push(cur.trim()); cur = tk.trimStart();
+    } else cur = nxt;
+  }
+  if (cur.trim()) lines.push(cur.trim());
+  return lines;
+}
+
+// ---------- world ----------
+let TL, R;
+const dust = [], stars = [], sparks = [];
+let prevT = -1;
+
+function init(tl) {
+  TL = tl; R = rng(700);
+  for (let i = 0; i < 240; i++) dust.push({ x: R() * W, y: R() * H, r: R() * 1.6 + .4, ph: R() * 6.28, sp: R() * 6 + 2 });
+  // 700 heart targets: rejection-sample (x²+y²−1)³ − x²y³ ≤ 0, biased to a crisp outline
+  const pts = [];
+  while (pts.length < 700) {
+    const x = R() * 2.4 - 1.2, y = R() * 2.5 - 1.2, a = x * x + y * y - 1, f = a * a * a - x * x * y * y * y;
+    if (f <= 0 && (f > -.04 || R() < .5)) pts.push({ x, y: -y });
+  }
+  const order = pts.map((_, i) => i).sort(() => R() - .5);
+  pts.forEach((p, i) => stars.push({
+    hx: p.x, hy: p.y, sx: 70 + R() * (W - 140), sy: 260 + R() * 1300,
+    r: R() * 2.2 + 1.6, c: STAR_COLORS[i % 5], ph: R() * 6.28, rank: order.indexOf(i),
+  }));
+  // make sure every glyph we draw is downloaded before rendering starts
+  const all = JSON.stringify(tl) + "0123456789★♡·/ ⋯TA在线谢谢你们九月又学会了件新事可以Awesome AI Companion人机恋开源项目大全700颗星汇成一颗心每一位点的人下等你亮github.com/DasterProkio/awesome-ai-companion";
+  const pre = document.getElementById("preload");
+  pre.innerHTML = Object.values(F).map(f => `<span style='font-family:${f}'>${all}</span><span style='font-family:${f};font-weight:700'>${all}</span><span style='font-family:${f};font-style:italic'>${all}</span>`).join("");
+  const loads = [];
+  for (const fam of ["Noto Serif SC", "Noto Sans SC"]) for (const w of [400, 500, 600, 700]) loads.push(document.fonts.load(`${w} 40px "${fam}"`, all));
+  for (const s of ["300 40px Fraunces", "italic 300 40px Fraunces", "600 40px Fraunces", "500 40px 'JetBrains Mono'"]) loads.push(document.fonts.load(s, all));
+  return Promise.all(loads).then(() => document.fonts.ready).then(() => [...document.fonts].filter(f => f.status === "loaded").length);
+}
+
+function spawn(x, y, n, speed = 1, seed = 1) {
+  const r = rng(seed);
+  for (let i = 0; i < n; i++) {
+    const a = r() * 6.283, v = (r() * 9 + 3) * speed;
+    sparks.push({ x, y, vx: Math.cos(a) * v, vy: Math.sin(a) * v - 2, life: 1, decay: .012 + r() * .012, c: STAR_COLORS[(r() * 5) | 0], r: r() * 3 + 1.5 });
+  }
+}
+const crossed = (t, at) => prevT < at && t >= at;
+
+// ---------- layers ----------
+function background(t) {
+  const bg = g.createLinearGradient(0, 0, 0, H);
+  bg.addColorStop(0, "#1c1528"); bg.addColorStop(.5, "#110e19"); bg.addColorStop(1, C.bg);
+  g.fillStyle = bg; g.fillRect(0, 0, W, H);
+  const glow = g.createRadialGradient(W / 2, H * .45, 0, W / 2, H * .45, W * .9);
+  glow.addColorStop(0, "rgba(192,132,252,0.10)"); glow.addColorStop(1, "rgba(192,132,252,0)");
+  g.fillStyle = glow; g.fillRect(0, 0, W, H);
+  for (const d of dust) {
+    const y = (d.y - t * d.sp + H) % H;
+    g.globalAlpha = .18 + .22 * Math.sin(t * 1.4 + d.ph);
+    g.fillStyle = "#d6cde4"; g.beginPath(); g.arc(d.x, y, d.r, 0, 6.283); g.fill();
+  }
+  g.globalAlpha = 1;
+}
+
+function heartIcon(cx, cy, s, alpha = 1) {
+  g.save(); g.globalAlpha *= alpha; g.translate(cx, cy); g.scale(s / 32, s / 32);
+  g.beginPath();
+  g.moveTo(0, 10); g.bezierCurveTo(-16, -1, -14, -15, -6, -15); g.bezierCurveTo(-2, -15, 0, -12, 0, -9);
+  g.bezierCurveTo(0, -12, 2, -15, 6, -15); g.bezierCurveTo(14, -15, 16, -1, 0, 10); g.closePath();
+  g.fillStyle = grad(-16, -15, 16, 10); g.fill(); g.restore();
+}
+
+// chat: history of bubbles stacked from the top, with an optional typing indicator
+function chat(t, msgs, typing, alpha) {
+  if (alpha <= 0) return;
+  g.save(); g.globalAlpha = alpha; g.translate(0, 170);
+  // header
+  text("23:47", W / 2, 250, { font: F.sans, size: 30, color: C.dim, weight: 500 });
+  heartIcon(150, 355, 64);
+  g.beginPath(); g.arc(150, 355, 50, 0, 6.283); g.strokeStyle = "rgba(242,125,152,0.35)"; g.lineWidth = 2; g.stroke();
+  text("TA", 225, 350, { font: F.sans, size: 44, weight: 700, align: "left" });
+  g.fillStyle = C.green; g.beginPath(); g.arc(234, 385, 7, 0, 6.283); g.fill();
+  text("在线", 250, 396, { font: F.sans, size: 28, color: C.muted, align: "left" });
+  g.fillStyle = C.line; g.fillRect(90, 440, W - 180, 2);
+
+  let y = 500;
+  const fs = 46, padX = 38, padY = 28, lh = 64, maxW = 700;
+  for (const m of msgs) {
+    if (t < m.t) continue;
+    const p = seg(t, m.t, m.t + .38);
+    const lines = wrap(m.text, `500 ${fs}px ${F.sans}`, maxW);
+    g.font = `500 ${fs}px ${F.sans}`;
+    const w = Math.max(...lines.map(l => g.measureText(l).width)) + padX * 2;
+    const h = lines.length * lh + padY * 2 - (lh - fs) + 8;
+    const user = m.from === "user";
+    const x = user ? W - 90 - w : 90;
+    g.save();
+    const ax = user ? x + w : x, ay = y + h;
+    g.translate(ax, ay); const s = lerp(.6, 1, outBack(p)); g.scale(s, s); g.translate(-ax, -ay);
+    g.globalAlpha *= clamp(p * 2);
+    rrect(x, y, w, h, 40);
+    if (user) { g.fillStyle = grad(x, y, x + w, y + h); g.fill(); }
+    else { g.fillStyle = "rgba(255,255,255,0.07)"; g.fill(); g.strokeStyle = C.line; g.lineWidth = 2; g.stroke(); }
+    lines.forEach((l, i) => text(l, x + padX, y + padY + fs - 4 + i * lh, { font: F.sans, size: fs, weight: 500, align: "left", color: user ? "#1d1020" : C.text }));
+    g.restore();
+    y += h + 26;
+  }
+  for (const [a, b] of typing) {
+    if (t < a || t >= b) continue;
+    const p = seg(t, a, a + .25);
+    g.save(); g.globalAlpha *= p;
+    rrect(90, y, 170, 92, 40); g.fillStyle = "rgba(255,255,255,0.07)"; g.fill(); g.strokeStyle = C.line; g.lineWidth = 2; g.stroke();
+    for (let i = 0; i < 3; i++) {
+      const bob = Math.max(0, Math.sin((t - a) * 7 - i * .9));
+      g.globalAlpha = p * (.35 + .65 * bob);
+      g.fillStyle = C.muted; g.beginPath(); g.arc(135 + i * 40, y + 46 - bob * 10, 10, 0, 6.283); g.fill();
+    }
+    g.restore();
+  }
+  g.restore();
+}
+
+function captions(t) {
+  for (const c of TL.captions) {
+    const a = vis(t, c.in, c.out, .6);
+    if (a <= 0) continue;
+    const dy = (1 - outCubic(seg(t, c.in, c.in + .8))) * 30;
+    text(c.text, W / 2, c.y + dy, { font: F.serif, size: c.size, weight: c.accent ? 700 : 600, color: c.accent ? C.gold : C.text, alpha: a });
+  }
+}
+
+// stars → counter → heart → burst
+function heartCenter(t) {
+  const p = inOutCubic(seg(t, TL.heartToTop[0], TL.heartToTop[1]));
+  return { x: W / 2, y: lerp(900, 330, p), k: lerp(360, 118, p) };
+}
+function starfield(t) {
+  const [c0, c1] = TL.count, [g0, g1] = TL.gather;
+  if (t < TL.firstStar || t > TL.chat2.in[1]) return 0;
+  const cp = seg(t, c0, c1), shown = Math.round(Math.pow(cp, 1.7) * 700);
+  const gp = inOutCubic(seg(t, g0, g1));
+  const hc = heartCenter(t);
+  const since = t - TL.burst, pulse = since > 0 ? Math.max(0, 1 - since / .7) : 0;
+  const beat = 1 + .03 * Math.sin(t * 5) * seg(t, TL.burst, TL.burst + .5) + pulse * .15;
+  const fade = 1 - seg(t, TL.chat2.in[0], TL.chat2.in[1]);
+  for (const s of stars) {
+    let a;
+    if (s.rank === 0) a = seg(t, TL.firstStar, TL.firstStar + .6);  // the very first star
+    else if (s.rank >= shown) continue;
+    else a = 1;
+    const hx = hc.x + s.hx * hc.k * beat, hy = hc.y + s.hy * hc.k * beat;
+    const x = lerp(s.sx, hx, gp), y = lerp(s.sy, hy, gp);
+    const tw = .6 + .4 * Math.sin(t * 2.2 + s.ph);
+    const rs = s.r * lerp(1, hc.k / 360 * 1.1 + .25, seg(t, TL.heartToTop[0], TL.heartToTop[1])) * (1 + pulse * .8);
+    g.globalAlpha = a * tw * fade; g.fillStyle = s.c;
+    g.beginPath(); g.arc(x, y, rs, 0, 6.283); g.fill();
+    if (s.rank === 0 && t < c0 + 1.5) { // glow on the first star
+      const gl = g.createRadialGradient(x, y, 0, x, y, 70);
+      gl.addColorStop(0, "rgba(232,196,143,0.55)"); gl.addColorStop(1, "rgba(232,196,143,0)");
+      g.globalAlpha = a * (1 - seg(t, c0, c0 + 1.5)); g.fillStyle = gl; g.fillRect(x - 70, y - 70, 140, 140);
+    }
+  }
+  g.globalAlpha = 1;
+  return shown;
+}
+
+function counter(t, shown) {
+  const a = vis(t, TL.count[0] - .2, [TL.heartToTop[0] - .1, TL.heartToTop[0] + .4], .5);
+  if (a <= 0) return;
+  const n = t >= TL.count[1] ? 700 : Math.max(0, shown);
+  const since = t - TL.burst, pop = since > 0 && since < .9 ? Math.sin(seg(since, 0, .9) * Math.PI) * .18 : 0;
+  g.save(); g.translate(W / 2, 960); g.scale(1 + pop, 1 + pop);
+  g.font = `italic 300 280px ${F.num}`; g.textAlign = "center"; g.textBaseline = "alphabetic";
+  g.globalAlpha = a; g.fillStyle = grad(-260, -220, 260, 0);
+  g.shadowColor = "rgba(242,125,152,0.45)"; g.shadowBlur = 40;
+  g.fillText(String(n), 0, 0); g.restore();
+  text("GITHUB STARS", W / 2, 1040, { font: F.mono, size: 28, color: C.muted, alpha: a * (1 - seg(t, TL.gather[0], TL.gather[0] + .4)), spacing: 8, weight: 500 });
+}
+
+function thanks(t) {
+  const out = [TL.heartToTop[0] - .2, TL.heartToTop[0] + .3];
+  const a1 = vis(t, TL.thanks[0], out, .5), a2 = vis(t, TL.thanks[1], out, .5);
+  if (a1 > 0) text("谢谢你们", W / 2, 1420 + (1 - a1) * 24, { font: F.serif, size: 84, weight: 700, alpha: a1 });
+  if (a2 > 0) text("700 颗星，汇成一颗心", W / 2, 1510 + (1 - a2) * 24, { font: F.serif, size: 44, color: C.muted, alpha: a2 });
+}
+
+function topBadge(t) {
+  const a = seg(t, TL.heartToTop[1] - .3, TL.heartToTop[1] + .2) * (1 - seg(t, TL.chat2.in[0], TL.chat2.in[1]));
+  if (a <= 0) return;
+  text("700", W / 2, 352, { font: F.num, size: 72, italic: true, weight: 400, alpha: a });
+  text("★ STARS", W / 2, 520, { font: F.mono, size: 26, color: C.muted, spacing: 6, weight: 500, alpha: a });
+}
+
+function septTitle(t) {
+  const [a0, a1] = TL.septTitle;
+  const a = vis(t, a0, [a1 - .4, a1], .5);
+  if (a <= 0) return;
+  const dy = (1 - outCubic(seg(t, a0, a0 + .7))) * 40;
+  text("九月", W / 2, 880 + dy, { font: F.serif, size: 64, color: C.gold, weight: 600, alpha: a });
+  // "TA 又学会了 11 件新事" with an accented numeral
+  g.save(); g.globalAlpha = a;
+  const parts = [["TA 又学会了 ", `700 84px ${F.serif}`, C.text], ["11", `italic 400 104px ${F.num}`, C.rose], [" 件新事", `700 84px ${F.serif}`, C.text]];
+  let total = 0; for (const [s, f] of parts) { g.font = f; total += g.measureText(s).width; }
+  let x = W / 2 - total / 2; g.textAlign = "left";
+  for (const [s, f, c] of parts) { g.font = f; g.fillStyle = c; g.fillText(s, x, 1010 + dy); x += g.measureText(s).width; }
+  g.restore();
+}
+
+function item(t) {
+  const { start, step } = TL.items, P = TL.projects;
+  if (t < start - .1 || t > start + step * P.length + .1) return;
+  const i = clamp(Math.floor((t - start) / step), 0, P.length - 1);
+  const lt = t - (start + i * step);
+  const p = P[i];
+  const inP = outCubic(seg(lt, 0, .4)), outP = seg(lt, step - .28, step);
+  const a = inP * (1 - outP);
+  const dy = (1 - inP) * 90 - outP * 70;
+  const x = 90, y = 600 + dy, w = W - 180;
+
+  // measure hook first so the card grows to fit
+  const hookFont = `700 70px ${F.serif}`;
+  const lines = wrap(p.hook, hookFont, w - 120);
+  const h = 560 + lines.length * 98;
+
+  g.save(); g.globalAlpha = a;
+  rrect(x, y, w, h, 44);
+  g.fillStyle = "rgba(255,255,255,0.045)"; g.fill();
+  g.strokeStyle = "rgba(242,125,152,0.35)"; g.lineWidth = 2; g.stroke();
+
+  // group chip + sequence index
+  g.font = `700 32px ${F.sans}`;
+  const cw = g.measureText(p.group).width + 56;
+  rrect(x + 60, y + 60, cw, 64, 32); g.fillStyle = grad(x + 60, y, x + 60 + cw, y + 64); g.fill();
+  text(p.group, x + 60 + cw / 2, y + 104, { font: F.sans, size: 32, weight: 700, color: "#1d1020" });
+  text(`${String(i + 1).padStart(2, "0")} / 11`, x + w - 60, y + 104, { font: F.mono, size: 30, color: C.muted, align: "right", weight: 500 });
+
+  text("TA 可以", x + 60, y + 210, { font: F.serif, size: 40, color: C.muted, align: "left", weight: 400 });
+  lines.forEach((l, k) => text(l, x + 60, y + 300 + k * 98, { font: F.serif, size: 70, weight: 700, align: "left" }));
+
+  const by = y + 300 + lines.length * 98 - 20;
+  g.fillStyle = C.line; g.fillRect(x + 60, by, w - 120, 2);
+  g.font = `700 44px ${F.mono}`; g.textAlign = "left"; g.fillStyle = C.text;
+  g.fillText(p.name, x + 60, by + 80);
+  if (p.alt) { const nw = g.measureText(p.name).width; text(p.alt, x + 60 + nw + 20, by + 80, { font: F.sans, size: 36, color: C.muted, align: "left" }); }
+  text(p.cat, x + 60, by + 140, { font: F.sans, size: 32, color: C.gold, align: "left", weight: 500 });
+  // tags
+  let tx = x + 60;
+  for (const tg of p.tags) {
+    g.font = `500 26px ${F.mono}`; const tw = g.measureText(tg).width + 32;
+    rrect(tx, by + 172, tw, 48, 10); g.fillStyle = "rgba(255,255,255,0.07)"; g.fill();
+    text(tg, tx + tw / 2, by + 205, { font: F.mono, size: 26, color: C.muted, weight: 500 });
+    tx += tw + 12;
+  }
+  g.restore();
+
+  // progress dots
+  const dots = P.length, gap = 40, dx0 = W / 2 - (dots - 1) * gap / 2;
+  const da = seg(t, start - .1, start + .3) * (1 - seg(t, start + step * dots - .3, start + step * dots));
+  for (let k = 0; k < dots; k++) {
+    g.globalAlpha = da * (k === i ? 1 : k < i ? .55 : .2);
+    g.fillStyle = k === i ? C.rose : C.muted;
+    g.beginPath(); g.arc(dx0 + k * gap, 1560, k === i ? 10 : 7, 0, 6.283); g.fill();
+  }
+  g.globalAlpha = 1;
+}
+
+function endCard(t) {
+  const e = TL.end;
+  const a = seg(t, e.in, e.in + .8);
+  if (a <= 0) return;
+  // a small heart of stars
+  const k = 250 * outCubic(a), cx = W / 2, cy = 640;
+  const beat = 1 + .03 * Math.sin(t * 5);
+  for (const s of stars) {
+    g.globalAlpha = a * (.6 + .4 * Math.sin(t * 2.2 + s.ph)); g.fillStyle = s.c;
+    g.beginPath(); g.arc(cx + s.hx * k * beat, cy + s.hy * k * beat, s.r * .6, 0, 6.283); g.fill();
+  }
+  g.globalAlpha = 1;
+  const b = seg(t, e.in + .4, e.in + 1.1);
+  text("Awesome AI Companion", W / 2, 1000 + (1 - b) * 20, { font: F.num, size: 78, weight: 600, alpha: b });
+  text("人机恋开源项目大全", W / 2, 1090 + (1 - b) * 20, { font: F.serif, size: 50, weight: 600, color: C.muted, alpha: b });
+  const c = seg(t, e.in + .8, e.in + 1.4);
+  text("700 ★ · 谢谢每一位点星的人", W / 2, 1180, { font: F.sans, size: 36, color: C.dim, alpha: c });
+  g.save(); g.globalAlpha = c;
+  g.font = `500 30px ${F.mono}`; const url = "github.com/DasterProkio/awesome-ai-companion"; const uw = g.measureText(url).width + 64;
+  rrect(W / 2 - uw / 2, 1240, uw, 74, 37); g.strokeStyle = "rgba(242,125,152,0.5)"; g.lineWidth = 2; g.stroke();
+  g.restore();
+  text("github.com/DasterProkio/awesome-ai-companion", W / 2, 1288, { font: F.mono, size: 30, color: C.text, alpha: c, weight: 500 });
+  const d = seg(t, e.cta, e.cta + .6);
+  text("下一颗星，等你点亮", W / 2, 1430 + (1 - d) * 20, { font: F.serif, size: 58, weight: 700, color: C.gold, alpha: d });
+}
+
+// ---------- frame ----------
+function frame(t) {
+  // events that spawn particles
+  if (crossed(t, TL.burst)) spawn(W / 2, 900, 260, 1.5, 11);
+  TL.fireworks.forEach(([at, fx, fy], i) => { if (crossed(t, at)) spawn(W * fx, H * fy, 110, 1, 20 + i); });
+  const { start, step } = TL.items;
+  TL.projects.forEach((_, i) => { if (crossed(t, start + i * step + .05)) spawn(W / 2, 330, 30, .5, 40 + i); });
+  if (crossed(t, TL.end.cta)) spawn(W / 2, 640, 120, .9, 99);
+
+  background(t);
+  chat(t, TL.chat1.messages, TL.chat1.typing, vis(t, TL.chat1.in, TL.chat1.out, .6));
+  const c2in = TL.chat2.in;
+  chat(t, [...TL.chat1.messages, ...TL.chat2.messages], TL.chat2.typing, seg(t, c2in[0], c2in[1]) * (1 - seg(t, TL.chat2.out[0], TL.chat2.out[1])));
+  captions(t);
+  const shown = starfield(t);
+  counter(t, shown);
+  thanks(t);
+  topBadge(t);
+  septTitle(t);
+  item(t);
+  endCard(t);
+
+  for (let i = sparks.length - 1; i >= 0; i--) {
+    const p = sparks[i];
+    p.x += p.vx; p.y += p.vy; p.vy += .12; p.vx *= .975; p.vy *= .975; p.life -= p.decay;
+    if (p.life <= 0) { sparks.splice(i, 1); continue; }
+    g.globalAlpha = p.life; g.fillStyle = p.c; g.beginPath(); g.arc(p.x, p.y, p.r, 0, 6.283); g.fill();
+  }
+  g.globalAlpha = 1;
+
+  const e = TL.end.fade; const f = seg(t, e[0], e[1]);
+  const open = 1 - seg(t, 0, .5);
+  if (f > 0 || open > 0) { g.fillStyle = `rgba(0,0,0,${Math.max(f, open)})`; g.fillRect(0, 0, W, H); }
+  prevT = t;
+}
+window.init = init; window.frame = frame;
+</script>
+</body>
+</html>

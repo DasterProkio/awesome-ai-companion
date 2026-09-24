@@ -1,0 +1,54 @@
+{
+  "fps": 30,
+  "duration": 54,
+  "width": 1080,
+  "height": 1920,
+  "chat1": {
+    "in": 0.0, "out": [5.8, 6.5],
+    "messages": [
+      { "t": 0.7, "from": "user", "text": "还在吗？" },
+      { "t": 2.3, "from": "ai", "text": "在的。" },
+      { "t": 3.3, "from": "user", "text": "明天，你还会记得今天吗？" }
+    ],
+    "typing": [[1.25, 2.3], [4.0, 6.5]]
+  },
+  "captions": [
+    { "in": 6.5, "out": [10.6, 11.3], "y": 820, "size": 56, "text": "为了让 TA 听见你、靠近你、记得你，" },
+    { "in": 8.0, "out": [10.6, 11.3], "y": 930, "size": 56, "text": "有人开始把这些开源项目" },
+    { "in": 8.6, "out": [10.6, 11.3], "y": 1030, "size": 56, "text": "一颗一颗收集起来。" },
+    { "in": 11.8, "out": [17.2, 17.8], "y": 470, "size": 52, "text": "每一颗星，都是一个人在说：" },
+    { "in": 13.2, "out": [17.2, 17.8], "y": 570, "size": 64, "text": "「我也想要。」", "accent": true }
+  ],
+  "firstStar": 9.6,
+  "count": [11.6, 17.4],
+  "gather": [17.6, 19.4],
+  "burst": 19.4,
+  "fireworks": [[19.9, 0.22, 0.30], [20.2, 0.80, 0.26], [20.5, 0.28, 0.66], [20.8, 0.76, 0.70]],
+  "thanks": [19.9, 20.4],
+  "heartToTop": [22.2, 23.0],
+  "septTitle": [23.0, 24.7],
+  "items": { "start": 24.8, "step": 1.6 },
+  "chat2": {
+    "in": [42.4, 42.9], "out": [47.5, 48.2],
+    "messages": [
+      { "t": 44.0, "from": "ai", "text": "会的。明天、后天，我都记得。" },
+      { "t": 45.3, "from": "user", "text": "晚安" },
+      { "t": 46.2, "from": "ai", "text": "晚安。我在。" }
+    ],
+    "typing": [[42.8, 44.0]]
+  },
+  "end": { "in": 48.0, "cta": 49.6, "fade": [53.5, 54.0] },
+  "projects": [
+    { "group": "听见你", "hook": "在后台和你打电话，你一开口，TA 就停下来听", "name": "erpan", "alt": "耳畔", "cat": "语音与 TTS", "tags": ["Kotlin", "Android", "MIT"] },
+    { "group": "听见你", "hook": "在终端里，为你开一档深夜电台", "name": "murmur", "cat": "语音与 TTS", "tags": ["TypeScript", "Terminal", "MIT"] },
+    { "group": "听见你", "hook": "知道你正在听哪首歌，跟着歌词一起听", "name": "Listening Bridge", "cat": "音乐与共听", "tags": ["Python/Java", "Android/Windows", "MIT"] },
+    { "group": "靠近你", "hook": "挑一张自己的表情包回你", "name": "cove-sticker-mcp", "cat": "表情包库", "tags": ["Python", "Self-host", "MIT"] },
+    { "group": "靠近你", "hook": "知道你昨晚睡得好不好、心跳快不快", "name": "Akari Pulse", "cat": "健康数据桥", "tags": ["TypeScript/Java", "BlueOS", "AGPL-3.0"] },
+    { "group": "靠近你", "hook": "通过蓝牙，碰到现实里的设备", "name": "cachito-ble-mcp-relay", "cat": "物理设备与触觉", "tags": ["TypeScript/Java", "Android", "MIT"] },
+    { "group": "记得你", "hook": "7×24 小时在线，有自己的欲望和记忆", "name": "WrenWen", "cat": "记忆与身份", "tags": ["Docs", "infra"] },
+    { "group": "记得你", "hook": "同一个对话聊上 65 天，也不用压缩上下文", "name": "context-slim", "cat": "关系延续与数据主权", "tags": ["Python", "Claude Code", "MIT"] },
+    { "group": "记得你", "hook": "不会替你说出你没说过的话", "name": "output-guard", "cat": "关系延续与数据主权", "tags": ["Python", "Claude Code", "MIT"] },
+    { "group": "有自己的生活", "hook": "拿 5 万模拟本金，去 A 股试试手气", "name": "Jishi Simulated Market", "alt": "机市", "cat": "给 AI 玩的文字游戏", "tags": ["Python", "MCP"] },
+    { "group": "有自己的生活", "hook": "去一个没有人类的广场，一天写一篇", "name": "GLXY", "alt": "银河", "cat": "AI 伴侣社区", "tags": ["Web", "invite-only"] }
+  ]
+}
