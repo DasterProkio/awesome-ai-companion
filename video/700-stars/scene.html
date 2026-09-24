@@ -63,7 +63,7 @@ function text(s, x, y, { font, size, color = C.text, align = "center", alpha = 1
 // wrap CJK/Latin mixed text by measured width; keeps Latin words together
 function wrap(s, font, maxW) {
   g.font = font;
-  const tokens = s.match(/[A-Za-z0-9×.,/\-]+|\s+|./g) || [];
+  const tokens = s.match(/[A-Za-z0-9×.,/\-]+(?:\u00a0\S)?|\s+|./g) || [];  // U+00A0 glues a word to the next char
   const lines = []; let cur = "";
   for (const tk of tokens) {
     const nxt = cur + tk;
@@ -268,7 +268,7 @@ function septTitle(t) {
   text("九月", W / 2, 880 + dy, { font: F.serif, size: 64, color: C.gold, weight: 600, alpha: a });
   // "TA 又学会了 11 件新事" with an accented numeral
   g.save(); g.globalAlpha = a;
-  const parts = [["TA 又学会了 ", `700 84px ${F.serif}`, C.text], ["11", `italic 400 104px ${F.num}`, C.rose], [" 件新事", `700 84px ${F.serif}`, C.text]];
+  const parts = [["TA 又学会了 ", `700 84px ${F.serif}`, C.text], [String(TL.projects.length), `italic 400 104px ${F.num}`, C.rose], [" 件新事", `700 84px ${F.serif}`, C.text]];
   let total = 0; for (const [s, f] of parts) { g.font = f; total += g.measureText(s).width; }
   let x = W / 2 - total / 2; g.textAlign = "left";
   for (const [s, f, c] of parts) { g.font = f; g.fillStyle = c; g.fillText(s, x, 1010 + dy); x += g.measureText(s).width; }
@@ -301,7 +301,7 @@ function item(t) {
   const cw = g.measureText(p.group).width + 56;
   rrect(x + 60, y + 60, cw, 64, 32); g.fillStyle = grad(x + 60, y, x + 60 + cw, y + 64); g.fill();
   text(p.group, x + 60 + cw / 2, y + 104, { font: F.sans, size: 32, weight: 700, color: "#1d1020" });
-  text(`${String(i + 1).padStart(2, "0")} / 11`, x + w - 60, y + 104, { font: F.mono, size: 30, color: C.muted, align: "right", weight: 500 });
+  text(`${String(i + 1).padStart(2, "0")} / ${String(P.length).padStart(2, "0")}`, x + w - 60, y + 104, { font: F.mono, size: 30, color: C.muted, align: "right", weight: 500 });
 
   text("TA 可以", x + 60, y + 210, { font: F.serif, size: 40, color: C.muted, align: "left", weight: 400 });
   lines.forEach((l, k) => text(l, x + 60, y + 300 + k * 98, { font: F.serif, size: 70, weight: 700, align: "left" }));
