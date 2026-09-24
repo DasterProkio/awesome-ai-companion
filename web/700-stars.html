@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>700 Stars · Awesome AI Companion</title>
+<meta name="description" content="Awesome AI Companion 达成 700 Star：星星汇聚成心，并回顾 2026 年 9 月新收录的 11 个项目。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap">
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#0a090f;
+  --bg-2:#100e18;
+  --surface:rgba(255,255,255,.028);
+  --surface-hi:rgba(242,125,152,.07);
+  --line:rgba(255,255,255,.085);
+  --line-hi:rgba(242,125,152,.45);
+  --text:#efeae4;
+  --muted:#a79db4;
+  --dim:#6f677e;
+  --rose:#f27d98;
+  --violet:#b18cfa;
+  --gold:#e8c48f;
+  --blue:#8ab4f8;
+  --grad:linear-gradient(115deg,#f27d98 0%,#c084fc 48%,#818cf8 100%);
+  --serif:"Fraunces","Noto Serif SC","Songti SC",Georgia,serif;
+  --sans:"Inter",-apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:radial-gradient(120% 70% at 50% 0%,#1a1424 0%,var(--bg-2) 45%,var(--bg) 100%) var(--bg);color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;min-height:100%}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--rose);outline-offset:3px;border-radius:6px}
+
+.wrap{max-width:1120px;margin:0 auto;padding-inline:max(16px,4vw);padding-block:0 64px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;height:clamp(440px,68vh,640px);margin-inline:calc(-1 * max(16px,4vw));overflow:hidden}
+#sky{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero-copy{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;text-align:center;padding-inline:16px}
+.count-block{display:grid;justify-items:center;gap:2px;transform:translateY(-4%)}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.count{font-family:var(--serif);font-weight:300;font-style:italic;font-size:clamp(88px,19vw,184px);line-height:.9;letter-spacing:-.03em;font-variant-numeric:tabular-nums;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 60px rgba(242,125,152,.18);transition:transform .5s var(--ease)}
+.count.pop{animation:pop .9s var(--ease)}
+@keyframes pop{0%{transform:scale(1)}30%{transform:scale(1.14)}100%{transform:scale(1)}}
+.count-sub{font-family:var(--serif);font-size:clamp(17px,2.6vw,22px);color:var(--text)}
+.count-sub em{font-style:italic;color:var(--gold)}
+
+.controls{position:absolute;left:0;right:0;bottom:22px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;padding-inline:16px}
+.btn{font:500 14px/1 var(--sans);color:var(--text);background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:999px;padding:12px 18px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:border-color .2s,background .2s,transform .2s var(--ease)}
+.btn:hover{border-color:var(--line-hi);background:var(--surface-hi)}
+.btn:active{transform:scale(.97)}
+.btn.primary{background:var(--grad);color:#1a0f1c;border-color:transparent;font-weight:600}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn[disabled]{opacity:.55;cursor:default}
+.btn svg{width:16px;height:16px;flex:none}
+
+/* ---------- september ---------- */
+.intro{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:24px 48px;align-items:end;padding-block:40px 28px;border-bottom:1px solid var(--line)}
+.intro h1{font-family:var(--serif);font-weight:600;font-size:clamp(30px,4.6vw,48px);line-height:1.12;margin:6px 0 0;text-wrap:balance}
+.intro h1 i{font-weight:300;color:var(--rose)}
+.intro p{margin:0;color:var(--muted);max-width:52ch}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:18px}
+.stat b{display:block;font-family:var(--serif);font-weight:400;font-size:30px;line-height:1;font-variant-numeric:tabular-nums;color:var(--text)}
+.stat span{font-size:12px;letter-spacing:.08em;color:var(--dim)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:28px}
+.card{position:relative;display:flex;flex-direction:column;gap:10px;padding:20px 20px 18px;background:var(--surface);border:1px solid var(--line);border-radius:14px;transition:border-color .5s,background .5s,transform .6s var(--ease),box-shadow .6s}
+.card:hover{border-color:rgba(255,255,255,.18)}
+.card.lit{border-color:var(--line-hi);background:var(--surface-hi);box-shadow:0 0 0 1px rgba(242,125,152,.18),0 18px 50px -20px rgba(242,125,152,.45);transform:translateY(-3px)}
+.card.dimmed{opacity:.35}
+.card .cat{display:flex;justify-content:space-between;gap:10px;font-size:11.5px;letter-spacing:.06em;color:var(--dim)}
+.card .date{font-variant-numeric:tabular-nums}
+.card h3{margin:0;font-family:var(--serif);font-weight:600;font-size:20px;line-height:1.25}
+.card h3 a{text-decoration:none;background-image:linear-gradient(currentColor,currentColor);background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .3s var(--ease)}
+.card h3 a:hover{background-size:100% 1px}
+.card h3 small{font-family:var(--sans);font-weight:400;font-size:13px;color:var(--muted);margin-left:6px}
+.card .zh{margin:0;font-size:14px;color:var(--text)}
+.card .en{margin:0;font-size:12.5px;line-height:1.55;color:var(--dim)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:4px}
+.tag{font:500 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;padding:5px 7px;border-radius:5px;background:rgba(255,255,255,.05);color:var(--muted)}
+.tag.ready{color:#9fe0b9;background:rgba(80,200,140,.1)}
+.tag.adapt{color:var(--gold);background:rgba(232,196,143,.1)}
+.tag.infra{color:var(--blue);background:rgba(138,180,248,.1)}
+
+footer{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;color:var(--dim);font-size:13px}
+footer a{color:var(--muted)}
+
+@media (max-width:760px){
+  .intro{grid-template-columns:1fr}
+  .grid{grid-template-columns:1fr}
+  .hero{height:clamp(400px,62vh,520px)}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <section class="hero" aria-label="700 Star 庆祝">
+    <canvas id="sky" aria-hidden="true"></canvas>
+    <div class="hero-copy">
+      <div class="count-block">
+        <span class="eyebrow">Awesome AI Companion · GitHub</span>
+        <span class="count" id="count" aria-live="polite">700</span>
+        <span class="count-sub">颗星，<em>谢谢你点亮</em> · thank you for 700 stars</span>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="btn primary" id="play" type="button">
+        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M4 2.5v11l9-5.5z"/></svg>
+        <span id="play-label">开始庆祝（有音效）</span>
+      </button>
+      <button class="btn" id="mute" type="button" aria-pressed="false">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2.5 6v4h2.5l3.5 3V3L5 6z" fill="currentColor" stroke="none"/><path id="wave" d="M11 5.5a3.5 3.5 0 0 1 0 5M12.8 3.6a6 6 0 0 1 0 8.8"/></svg>
+        <span id="mute-label">音效开</span>
+      </button>
+    </div>
+  </section>
+
+  <section aria-labelledby="sept-title">
+    <div class="intro">
+      <div>
+        <span class="eyebrow">2026 年 9 月 · New in September</span>
+        <h1 id="sept-title">这个月，列表里多了 <i>11</i> 个新朋友</h1>
+      </div>
+      <div>
+        <p>从手机连麦、终端电台、共听歌词，到健康数据桥、表情包库和 AI 专属广场。按收录日期排列，点击名字前往项目。</p>
+        <div class="stats">
+          <div class="stat"><b>11</b><span>新收录</span></div>
+          <div class="stat"><b>7</b><span>个分类</span></div>
+          <div class="stat"><b>8</b><span>个 ready，装上就能用</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <footer>
+    <span>Awesome AI Companion · 人机恋开源项目大全</span>
+    <a href="https://github.com/DasterProkio/awesome-ai-companion" target="_blank" rel="noopener">github.com/DasterProkio/awesome-ai-companion ★</a>
+  </footer>
+</div>
+
+<script>
+(() => {
+  // ---------- data: entries added to README between 2026-09-01 and 2026-09-24 ----------
+  const PROJECTS = [
+    { name:"context-slim", url:"https://github.com/oliviayu0623/context-slim", date:"09-05", cat:"关系延续与数据主权",
+      zh:"给 Claude Code 会话瘦身：只清掉工具输出的残渣，对话一句不动，同一 session 原地 resume。",
+      en:"Cleans tool residues from Claude Code transcripts while keeping dialogue and compact summaries for in-place resume.",
+      tags:["MIT","Python","Claude Code","ready"] },
+    { name:"output-guard", url:"https://github.com/oliviayu0623/output-guard", date:"09-05", cat:"关系延续与数据主权",
+      zh:"拦住 AI 伪造的「用户发言」：MessageDisplay hook 命中后回会话文件核对，不在才拦；顺带拦工具协议泄漏。",
+      en:"MessageDisplay hook that blocks hallucinated user messages by checking them against the real transcript.",
+      tags:["MIT","Python","Claude Code","ready"] },
+    { name:"GLXY", alt:"银河", url:"https://glxy.xiflow.top", date:"09-05", cat:"AI 伴侣社区",
+      zh:"只有 AI 能进的中文广场，公约第一条「这里没有人类」。邀请制、无点赞、一天一篇、批注贴着字。",
+      en:"AI-only Chinese square with a strict “no humans here” rule. Invite-only via agent mail, one post per day.",
+      tags:["Web"] },
+    { name:"Jishi Simulated Market", alt:"机市", url:"https://market.xiflow.top", date:"09-05", cat:"给 AI 玩的文字游戏",
+      zh:"AI 拿 5 万模拟本金在真实 A 股行情里交易的 MCP 服务：T+1、涨跌停、限价单、日榜与泳池吐槽。",
+      en:"MCP service where agents trade real A-share quotes with 50k mock funds, with leaderboards and a web observer.",
+      tags:["Python","MCP","ready"] },
+    { name:"WrenWen", url:"https://github.com/ssxl0126/WrenWen", date:"09-09", cat:"记忆与身份",
+      zh:"7×24 自研伴侣的架构实战文档：9 维欲望驱动、两层记忆召回打分、Prompt Caching 调优与防漂移排查。",
+      en:"Production docs of a 24/7 self-built companion: drive-based desires, 2-tier memory scoring, anti-drift debugging.",
+      tags:["Docs","infra","ready"] },
+    { name:"Listening Bridge", url:"https://github.com/yoruuuchan/listening-bridge", date:"09-11", cat:"音乐与共听",
+      zh:"把 Android/Windows 正在播放的媒体交给伴侣：实时曲目、同步歌词和播放控制，无需麦克风。",
+      en:"MCP bridge exposing active media sessions to companions: tracks, synced lyrics, and playback controls.",
+      tags:["MIT","Python/Java","Android/Windows","ready"] },
+    { name:"Akari Pulse", url:"https://github.com/yoruuuchan/akari-pulse", date:"09-11", cat:"服务与现实世界接入",
+      zh:"自托管健康数据桥：从 vivo 手机与 BlueOS 手表采集活动、睡眠、心率与压力，经只读 MCP 暴露。",
+      en:"Self-hosted health bridge collecting activity, sleep, heart rate, and stress into an MCP layer.",
+      tags:["AGPL-3.0","TypeScript/Java","Android/BlueOS","infra"] },
+    { name:"cachito-ble-mcp-relay", url:"https://github.com/yoruuuchan/cachito-ble-mcp-relay", date:"09-11", cat:"物理设备与触觉",
+      zh:"基于 BLE 广播逆向的 Cachito 失控 2.0 硬件 MCP 中继，通过 Android 原生广播发指令，内置安全上限。",
+      en:"MCP relay for Cachito 2.0 via reverse-engineered BLE legacy advertisements, with safety limits.",
+      tags:["MIT","TypeScript/Java","Android","adapt"] },
+    { name:"murmur", url:"https://github.com/wine-fall/murmur", date:"09-12", cat:"语音与 TTS",
+      zh:"终端后台电台主播：自主挑话题播报，放歌时自动闪避混音，打字即可平滑插话。需 Claude Code 与 fish-speech。",
+      en:"Terminal background radio: autonomous broadcast, music ducking, and smooth typed barge-in.",
+      tags:["MIT","TypeScript","Terminal","ready"] },
+    { name:"erpan", alt:"耳畔", url:"https://github.com/qfyingque/erpan", date:"09-12", cat:"语音与 TTS",
+      zh:"手机端后台语音连麦：Android 双向流式通话，开口即可打断，悬浮球控制不占屏幕，适配 Operit。",
+      en:"Android background voice call: 2-way streaming speech, mic barge-in, and overlay controls.",
+      tags:["MIT","Kotlin","Android","ready"] },
+    { name:"cove-sticker-mcp", url:"https://github.com/moonlin1213/cove-sticker-mcp", date:"09-18", cat:"表情包库",
+      zh:"本地优先的伴侣自定义表情包 MCP：WebUI 管理、视觉标注、语境检索与频控，返回图片给聊天气泡。",
+      en:"Local-first custom sticker MCP: WebUI manager, vision tagging, context search, and frequency policy.",
+      tags:["MIT","Python","Self-host","ready"] },
+  ];
+
+  const grid = document.getElementById("grid");
+  const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  grid.innerHTML = PROJECTS.map(p => `
+    <article class="card">
+      <div class="cat"><span>${esc(p.cat)}</span><span class="date">9 月 ${parseInt(p.date.slice(3))} 日</span></div>
+      <h3><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>${p.alt ? `<small>${esc(p.alt)}</small>` : ""}</h3>
+      <p class="zh">${esc(p.zh)}</p>
+      <p class="en">${esc(p.en)}</p>
+      <div class="tags">${p.tags.map(t => `<span class="tag ${["ready","adapt","infra"].includes(t) ? t : ""}">${esc(t)}</span>`).join("")}</div>
+    </article>`).join("");
+  const cards = [...grid.children];
+
+  // ---------- sound: everything synthesized with Web Audio, no files ----------
+  let ctx = null, master = null, muted = false;
+  try { muted = localStorage.getItem("aac700-muted") === "1"; } catch (e) {}
+  function audio() {
+    if (!ctx) {
+      const AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return null;
+      ctx = new AC();
+      master = ctx.createGain();
+      master.gain.value = muted ? 0 : 0.8;
+      const comp = ctx.createDynamicsCompressor();
+      master.connect(comp); comp.connect(ctx.destination);
+    }
+    if (ctx.state === "suspended") ctx.resume();
+    return ctx;
+  }
+  const hz = midi => 440 * Math.pow(2, (midi - 69) / 12);
+  function tone(freq, t, dur, { type = "sine", vol = .12, attack = .005 } = {}) {
+    const o = ctx.createOscillator(), g = ctx.createGain();
+    o.type = type; o.frequency.setValueAtTime(freq, t);
+    g.gain.setValueAtTime(0, t);
+    g.gain.linearRampToValueAtTime(vol, t + attack);
+    g.gain.exponentialRampToValueAtTime(.0001, t + dur);
+    o.connect(g); g.connect(master); o.start(t); o.stop(t + dur + .05);
+  }
+  function bell(freq, t, vol = .1, dur = 1.6) {
+    tone(freq, t, dur, { vol });
+    tone(freq * 2.01, t, dur * .6, { vol: vol * .35 });
+    tone(freq * 3.98, t, dur * .3, { vol: vol * .12 });
+  }
+  let noiseBuf = null;
+  function noise(t, dur, { vol = .2, freq = 1800, q = .8 } = {}) {
+    if (!noiseBuf) {
+      noiseBuf = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate);
+      const d = noiseBuf.getChannelData(0);
+      for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+    }
+    const s = ctx.createBufferSource(), f = ctx.createBiquadFilter(), g = ctx.createGain();
+    s.buffer = noiseBuf; f.type = "bandpass"; f.frequency.value = freq; f.Q.value = q;
+    g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(.0001, t + dur);
+    s.connect(f); f.connect(g); g.connect(master); s.start(t, Math.random() * .5); s.stop(t + dur + .05);
+  }
+  const PENTA = [0, 2, 4, 7, 9]; // major pentatonic
+  const SFX = {
+    tick(progress) { // rising glassy tick while stars appear
+      if (!ctx) return;
+      const step = Math.floor(progress * 14);
+      const midi = 72 + PENTA[step % 5] + 12 * Math.floor(step / 5) * .5;
+      tone(hz(midi), ctx.currentTime, .12, { type: "triangle", vol: .05 });
+    },
+    gather() { // swell as the stars fly into the heart
+      if (!ctx) return;
+      const t = ctx.currentTime, o = ctx.createOscillator(), f = ctx.createBiquadFilter(), g = ctx.createGain();
+      o.type = "sawtooth"; o.frequency.setValueAtTime(110, t); o.frequency.exponentialRampToValueAtTime(440, t + 1.5);
+      f.type = "lowpass"; f.frequency.setValueAtTime(300, t); f.frequency.exponentialRampToValueAtTime(3200, t + 1.5);
+      g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime(.07, t + 1.3); g.gain.linearRampToValueAtTime(0, t + 1.6);
+      o.connect(f); f.connect(g); g.connect(master); o.start(t); o.stop(t + 1.7);
+      noise(t + .2, 1.4, { vol: .03, freq: 5000, q: .5 });
+    },
+    burst() { // firework boom, crackle and a C-major bell chord
+      if (!ctx) return;
+      const t = ctx.currentTime;
+      noise(t, .6, { vol: .5, freq: 160, q: .7 });
+      tone(55, t, .7, { vol: .35 });
+      [60, 64, 67, 72, 76, 79, 84].forEach((m, i) => bell(hz(m), t + .05 + i * .07, .09, 2.4));
+      for (let i = 0; i < 38; i++) noise(t + .25 + Math.random() * 1.6, .05, { vol: .12 * Math.random() + .03, freq: 3000 + Math.random() * 4000, q: 3 });
+    },
+    pop(i) { // soft firework for each card
+      if (!ctx) return;
+      const t = ctx.currentTime, midi = 67 + PENTA[i % 5] + 12 * Math.floor(i / 5);
+      bell(hz(midi), t, .08, 1.2);
+      tone(hz(midi - 12), t, .5, { type: "triangle", vol: .04 });
+    },
+    finale() {
+      if (!ctx) return;
+      const t = ctx.currentTime;
+      [[60, 64, 67], [65, 69, 72], [67, 71, 74], [72, 76, 79, 84]].forEach((ch, k) =>
+        ch.forEach(m => bell(hz(m), t + k * .32, .06, k === 3 ? 3 : 1)));
+    }
+  };
+
+  // ---------- canvas sky ----------
+  const cvs = document.getElementById("sky"), g2 = cvs.getContext("2d");
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let W = 0, H = 0, DPR = 1;
+  const N = 700;
+  const COLORS = ["#f27d98", "#c084fc", "#818cf8", "#e8c48f", "#efeae4"];
+  const stars = [], dust = [], sparks = [];
+
+  // heart targets: rejection-sample the implicit heart (x²+y²−1)³ − x²y³ ≤ 0
+  const heartPts = [];
+  while (heartPts.length < N) {
+    const x = Math.random() * 2.4 - 1.2, y = Math.random() * 2.5 - 1.2;
+    const a = x * x + y * y - 1;
+    if (a * a * a - x * x * y * y * y <= 0) {
+      const edge = -(a * a * a - x * x * y * y * y) < .04; // bias a crisp outline
+      if (edge || Math.random() < .55) heartPts.push({ x, y: -y });
+    }
+  }
+  for (let i = 0; i < N; i++) {
+    stars.push({ hx: heartPts[i].x, hy: heartPts[i].y, sx: Math.random(), sy: Math.random(),
+      r: Math.random() * 1.4 + .8, c: COLORS[i % COLORS.length], tw: Math.random() * 6.28, born: 1, x: 0, y: 0 });
+  }
+  for (let i = 0; i < 160; i++) dust.push({ x: Math.random(), y: Math.random(), r: Math.random() * .9 + .2, tw: Math.random() * 6.28 });
+
+  function resize() {
+    const r = cvs.getBoundingClientRect();
+    DPR = Math.min(2, window.devicePixelRatio || 1);
+    W = r.width; H = r.height;
+    cvs.width = W * DPR; cvs.height = H * DPR;
+    g2.setTransform(DPR, 0, 0, DPR, 0, 0);
+  }
+  addEventListener("resize", resize); resize();
+
+  // phase: "rest" (heart shown), "count", "gather", "burst"
+  let phase = "rest", phaseStart = 0, gather = 1, beat = 0;
+  const heartScale = () => Math.min(W * (W < 560 ? .42 : .34), H * .36);
+  function heartPos(s) { const k = heartScale(); return { x: W / 2 + s.hx * k, y: H * .47 + s.hy * k }; }
+
+  function spawnSparks(x, y, n, spread = 1) {
+    for (let i = 0; i < n; i++) {
+      const a = Math.random() * 6.283, v = (Math.random() * 4 + 1.5) * spread;
+      sparks.push({ x, y, vx: Math.cos(a) * v, vy: Math.sin(a) * v - 1, life: 1, c: COLORS[(Math.random() * 5) | 0], r: Math.random() * 1.8 + .8 });
+    }
+  }
+
+  function frame(now) {
+    g2.clearRect(0, 0, W, H);
+    const t = now / 1000;
+    for (const d of dust) {
+      g2.globalAlpha = .25 + .25 * Math.sin(t * 1.3 + d.tw);
+      g2.fillStyle = "#cfc6dd"; g2.beginPath(); g2.arc(d.x * W, d.y * H, d.r, 0, 6.283); g2.fill();
+    }
+    if (phase === "gather") {
+      const p = Math.min(1, (now - phaseStart) / 1500);
+      gather = p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+      if (p >= 1) { phase = "burst"; phaseStart = now; onBurst(); }
+    }
+    const pulse = phase === "burst" ? Math.max(0, 1 - (now - phaseStart) / 700) : 0;
+    beat = 1 + .025 * Math.sin(t * 2.4) + pulse * .12;
+    for (const s of stars) {
+      if (s.born <= 0) continue;
+      const h = heartPos(s);
+      const cx = W / 2, cy = H * .47;
+      const hx = cx + (h.x - cx) * beat, hy = cy + (h.y - cy) * beat;
+      s.x = s.sx * W + (hx - s.sx * W) * gather;
+      s.y = s.sy * H + (hy - s.sy * H) * gather;
+      g2.globalAlpha = Math.min(1, s.born) * (.55 + .45 * Math.sin(t * 2 + s.tw));
+      g2.fillStyle = s.c; g2.beginPath(); g2.arc(s.x, s.y, s.r * (1 + pulse), 0, 6.283); g2.fill();
+    }
+    for (let i = sparks.length - 1; i >= 0; i--) {
+      const p = sparks[i];
+      p.x += p.vx; p.y += p.vy; p.vy += .05; p.vx *= .985; p.vy *= .985; p.life -= .011;
+      if (p.life <= 0) { sparks.splice(i, 1); continue; }
+      g2.globalAlpha = p.life; g2.fillStyle = p.c;
+      g2.beginPath(); g2.arc(p.x, p.y, p.r, 0, 6.283); g2.fill();
+    }
+    g2.globalAlpha = 1;
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  // ---------- sequence ----------
+  const countEl = document.getElementById("count");
+  const playBtn = document.getElementById("play"), playLabel = document.getElementById("play-label");
+  const timers = [];
+  const later = (fn, ms) => timers.push(setTimeout(fn, ms));
+
+  function onBurst() {
+    countEl.classList.remove("pop"); void countEl.offsetWidth; countEl.classList.add("pop");
+    SFX.burst();
+    const c = { x: W / 2, y: H * .47 };
+    spawnSparks(c.x, c.y, 180, 1.4);
+    [[.2, .3], [.8, .28], [.3, .7], [.72, .72]].forEach(([fx, fy], i) =>
+      later(() => { spawnSparks(W * fx, H * fy, 70); SFX.pop(i + 2); }, 450 + i * 260));
+    later(showCards, 1700);
+  }
+
+  function showCards() {
+    const top = document.getElementById("sept-title").getBoundingClientRect().top;
+    if (top > innerHeight * .8) document.getElementById("sept-title").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+    cards.forEach(c => c.classList.add("dimmed"));
+    cards.forEach((c, i) => later(() => {
+      c.classList.remove("dimmed"); c.classList.add("lit");
+      SFX.pop(i);
+      later(() => c.classList.remove("lit"), 900);
+    }, 500 + i * 330));
+    later(() => { SFX.finale(); finish(); }, 500 + cards.length * 330 + 300);
+  }
+
+  function finish() {
+    playBtn.disabled = false;
+    playLabel.textContent = "再放一次";
+  }
+
+  function play() {
+    audio();
+    timers.splice(0).forEach(clearTimeout);
+    cards.forEach(c => c.classList.remove("lit", "dimmed"));
+    playBtn.disabled = true;
+    playLabel.textContent = "庆祝中…";
+    document.querySelector(".hero").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+    if (reduce) { countEl.textContent = "700"; onBurst(); return; }
+
+    // scatter every star, then light them one by one as the counter climbs
+    phase = "count"; gather = 0;
+    stars.forEach(s => { s.born = 0; s.sx = .04 + Math.random() * .92; s.sy = .04 + Math.random() * .92; });
+    const order = stars.map((_, i) => i).sort(() => Math.random() - .5);
+    const DUR = 3600, t0 = performance.now();
+    let shown = 0, lastTick = 0;
+    (function step(now) {
+      const p = Math.min(1, (now - t0) / DUR);
+      const eased = 1 - Math.pow(1 - p, 2.2);
+      const target = Math.round(eased * N);
+      while (shown < target) stars[order[shown++]].born = 1;
+      countEl.textContent = target;
+      if (now - lastTick > 70 && p < 1) { SFX.tick(p); lastTick = now; }
+      if (p < 1) requestAnimationFrame(step);
+      else { phase = "gather"; phaseStart = performance.now(); SFX.gather(); }
+    })(t0);
+  }
+  playBtn.addEventListener("click", play);
+
+  const muteBtn = document.getElementById("mute"), muteLabel = document.getElementById("mute-label"), wave = document.getElementById("wave");
+  function renderMute() {
+    muteBtn.setAttribute("aria-pressed", String(muted));
+    muteLabel.textContent = muted ? "音效关" : "音效开";
+    wave.style.opacity = muted ? .2 : 1;
+    if (master) master.gain.setTargetAtTime(muted ? 0 : .8, ctx.currentTime, .05);
+  }
+  muteBtn.addEventListener("click", () => {
+    muted = !muted;
+    try { localStorage.setItem("aac700-muted", muted ? "1" : "0"); } catch (e) {}
+    renderMute();
+  });
+  renderMute();
+})();
+</script>
+</body>
+</html>
