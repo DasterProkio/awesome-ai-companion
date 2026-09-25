@@ -457,6 +457,41 @@ function thanksAuthors(t) {
   g.restore();
 }
 
+
+// ---------- cold open: the payoff up front, so the first frame says what this is ----------
+function coldOpen(t) {
+  const co = TL.coldOpen; if (!co) return;
+  const a = 1 - seg(t, co.out[0], co.out[1]);
+  if (a <= 0) return;
+  const since = t - co.burst, pulse = since > 0 ? Math.max(0, 1 - since / .6) : 0;
+  const beat = 1 + .035 * Math.sin(t * 6) + pulse * .12, k = 330, cx = W / 2, cy = 860;
+  for (const s of stars) {
+    g.globalAlpha = a * (.6 + .4 * Math.sin(t * 2.2 + s.ph)); g.fillStyle = s.c;
+    g.beginPath(); g.arc(cx + s.hx * k * beat, cy + s.hy * k * beat, s.r * (1 + pulse * .6), 0, 6.283); g.fill();
+  }
+  g.save(); g.globalAlpha = a;
+  const pop = 1 + pulse * .1;
+  g.save(); g.translate(cx, 930); g.scale(pop, pop);
+  g.font = `italic 300 250px ${F.num}`; g.textAlign = "center"; g.fillStyle = grad(-240, -200, 240, 0);
+  g.shadowColor = "rgba(242,125,152,0.5)"; g.shadowBlur = 44; g.fillText("700", 0, 0); g.restore();
+  text("人机恋开源项目大全", cx, 330, { font: F.serif, size: 54, weight: 700, color: C.gold });
+  text("AWESOME AI COMPANION", cx, 392, { font: F.mono, size: 26, color: C.muted, spacing: 6, weight: 500 });
+  text("我们攒到 700 颗星了", cx, 1400, { font: F.serif, size: 84, weight: 700 });
+  text(`${WALL.total} 个让 AI 伴侣「一直在」的开源项目`, cx, 1490, { font: F.sans, size: 40, color: C.muted, weight: 500 });
+  g.restore();
+}
+
+// persistent title so a viewer who scrolls in at any second knows what this is
+function header(t) {
+  const h = TL.header; if (!h) return;
+  const a = seg(t, h.in, h.in + .5) * (1 - seg(t, TL.end.in - .4, TL.end.in));
+  if (a <= 0) return;
+  const label = "人机恋开源项目大全 · 700 ★";
+  g.font = `500 30px ${F.sans}`; const w = g.measureText(label).width;
+  heartIcon(W / 2 - w / 2 - 26, 150, 30, a * .9);
+  text(label, W / 2 + 14, 161, { font: F.sans, size: 30, weight: 500, color: C.muted, alpha: a });
+}
+
 function endCard(t) {
   const e = TL.end;
   const a = seg(t, e.in, e.in + .8);
@@ -486,6 +521,7 @@ function endCard(t) {
 // ---------- frame ----------
 function frame(t) {
   // events that spawn particles
+  if (TL.coldOpen && crossed(t, TL.coldOpen.burst)) spawn(W / 2, 860, 220, 1.4, 3);
   if (crossed(t, TL.burst)) spawn(W / 2, 900, 260, 1.5, 11);
   TL.fireworks.forEach(([at, fx, fy], i) => { if (crossed(t, at)) spawn(W * fx, H * fy, 110, 1, 20 + i); });
   const { start, step } = TL.items;
@@ -494,6 +530,8 @@ function frame(t) {
   if (crossed(t, TL.end.cta)) spawn(W / 2, 640, 120, .9, 99);
 
   background(t);
+  coldOpen(t);
+  header(t);
   chat(t, TL.chat1.messages, TL.chat1.typing, vis(t, TL.chat1.in, TL.chat1.out, .6));
   const c2in = TL.chat2.in;
   chat(t, [...TL.chat1.messages, ...TL.chat2.messages], TL.chat2.typing, seg(t, c2in[0], c2in[1]) * (1 - seg(t, TL.chat2.out[0], TL.chat2.out[1])));
@@ -517,8 +555,7 @@ function frame(t) {
   g.globalAlpha = 1;
 
   const e = TL.end.fade; const f = seg(t, e[0], e[1]);
-  const open = 1 - seg(t, 0, .5);
-  if (f > 0 || open > 0) { g.fillStyle = `rgba(0,0,0,${Math.max(f, open)})`; g.fillRect(0, 0, W, H); }
+  if (f > 0) { g.fillStyle = `rgba(0,0,0,${f})`; g.fillRect(0, 0, W, H); }
   prevT = t;
 }
 window.init = init; window.frame = frame;

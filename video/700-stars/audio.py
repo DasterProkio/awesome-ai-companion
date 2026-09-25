@@ -155,9 +155,22 @@ def crackle(t0, dur, count, gain, seed):
 A, F_, C, G, Dm, Em = [57, 60, 64], [53, 57, 60], [48, 55, 64], [55, 59, 62], [50, 57, 62], [52, 55, 59]
 
 # Act 1–2: late night chat and the first captions (Am F C G)
+# Cold open: firework hit on the first beat, then the chord settles
+co = TL.get("coldOpen")
+if co:
+    place(boom(), co["burst"], gain=0.5, reverb=0.3)
+    for i, m in enumerate([60, 64, 67, 72, 76, 79]):
+        place(bell(m, 2.6), co["burst"] + 0.03 + i * 0.05, pan=(i - 2.5) * 0.25, gain=0.09, reverb=0.7)
+    place(pad([48, 55, 60, 64, 67], co["out"][1] + 0.6), 0.0, gain=0.16, reverb=0.7)
+    crackle(co["burst"] + 0.2, 1.6, 34, 0.14, 2)
+    place(whoosh(0.7, 300, 3000), co["out"][0] - 0.1, gain=0.14, reverb=0.3)
+
+# Late-night chat and the first captions (Am F C G), spread over the chat and captions
+c1_in = TL["chat1"]["in"]
+span = (TL["captions"][1]["out"][1] - c1_in) / 4
 for i, ch in enumerate([A, F_, C, G]):
-    place(pad(ch, 3.4, 0.9), i * 2.8, gain=0.16, reverb=0.6)
-    place(np.sin(2 * np.pi * hz(ch[0] - 12) * tt(3.0)) * env(int(3.0 * SR), 0.6, 2.5), i * 2.8, gain=0.08)
+    place(pad(ch, span + 0.6, 0.9), c1_in + i * span, gain=0.16, reverb=0.6)
+    place(np.sin(2 * np.pi * hz(ch[0] - 12) * tt(span + 0.2)) * env(int((span + 0.2) * SR), 0.5, span), c1_in + i * span, gain=0.08)
 
 for m in TL["chat1"]["messages"] + TL["chat2"]["messages"]:
     place(send_sound() if m["from"] == "user" else receive_sound(), m["t"], pan=0.3 if m["from"] == "user" else -0.3,
@@ -174,8 +187,9 @@ place(bell(96, 2.5), TL["firstStar"], gain=0.12, reverb=0.8)
 
 # Act 3: counting to 700. A tick every 10 stars, so ticks speed up with the count.
 c0, c1 = TL["count"]
-place(pad([53, 60, 65, 69], 3.3), c0, gain=0.14, reverb=0.6)
-place(pad([55, 62, 67, 71], 3.0), c0 + 3.0, gain=0.16, reverb=0.6)
+half = (c1 - c0) / 2
+place(pad([53, 60, 65, 69], half + 0.3), c0, gain=0.14, reverb=0.6)
+place(pad([55, 62, 67, 71], half + 0.3), c0 + half, gain=0.16, reverb=0.6)
 penta = [0, 2, 4, 7, 9]
 last = -1
 for k in range(1, 71):
@@ -207,7 +221,8 @@ wl = TL.get("wall")
 if wl:
     w0, w1 = wl["count"]
     for i, ch in enumerate([F_, G, A, C]):
-        place(pad([m + 12 for m in ch], 1.9), wl["in"] + i * 1.6, gain=0.13, reverb=0.6)
+        q = (wl["out"][1] - wl["in"]) / 4
+        place(pad([m + 12 for m in ch], q + 0.3), wl["in"] + i * q, gain=0.13, reverb=0.6)
     place(whoosh(0.8, 300, 3500), wl["in"] - 0.3, gain=0.16, reverb=0.3)
     total = json.loads((HERE / "wall.json").read_text())["total"]
     steps = 36

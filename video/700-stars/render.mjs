@@ -50,7 +50,7 @@ if (stills) {
     "-movflags", "+faststart", join(out, "awesome-ai-companion-700-stars.mp4"));
   const ff = spawn(FFMPEG, args, { stdio: ["pipe", "inherit", "inherit"] });
   const done = new Promise((res, rej) => ff.on("close", c => c === 0 ? res() : rej(new Error("ffmpeg exit " + c))));
-  const coverAt = Math.round(21.2 * TL.fps);
+  const coverAt = Math.round(1.0 * TL.fps);  // cold open: heart, 700 and the headline
   for (let f = 0; f < total; f++) {
     await page.evaluate(t => window.frame(t), f / TL.fps);
     const jpg = await grab();
