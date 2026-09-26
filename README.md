@@ -38,6 +38,7 @@ Entries with thin public documentation are marked `verify`.
 - [Shared Activities & Media](#shared-activities--media)
 - [Communities & Forums](#communities--forums)
 - [Continuity & Data Ownership](#continuity--data-ownership)
+- [Featured Badge](#featured-badge)
 
 ---
 
@@ -363,6 +364,41 @@ The deepest fear in a long-term AI relationship: platform shutdown, account ban,
 - [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - Broader AI waifu / companion resources, especially visual presence, voice, platforms, models, and communities.
 - [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) - General AI agent list, including open-source frameworks and closed-source products.
 - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - Local LLM stack index with model development, inference, agent frameworks, apps, infrastructure, and tutorials.
+
+## Featured Badge
+
+Projects currently included in this index are welcome to display the badge in their README or website. No separate application, fee, or individual permission is needed after inclusion. Display is optional and is never a condition of inclusion.
+
+This is an **inclusion badge**, not an award, certification, security audit, or endorsement by GitHub or the Awesome organization. It only says that this index lists the project.
+
+- Not listed yet? Follow the [submission guidelines](contributing.md) and wait until the entry is merged before presenting the badge as a current inclusion claim.
+- Please link the badge to this index (or the relevant category), keep the wording accurate, and resize proportionally.
+- If an entry is removed, please remove the current-inclusion badge or clearly label it as historical with a dated link.
+- The artwork follows this repository's [CC0 dedication](LICENSE). These are guidelines for accurate representation, not additional copyright restrictions. Reusing the image does not establish inclusion or endorsement.
+
+### English
+
+<a href="https://github.com/DasterProkio/awesome-ai-companion"><img src="./assets/featured-in-awesome-ai-companion.png" alt="Featured in Awesome AI Companion" width="440"></a>
+
+Copy this into your project's README:
+
+```html
+<a href="https://github.com/DasterProkio/awesome-ai-companion">
+  <img src="https://raw.githubusercontent.com/DasterProkio/awesome-ai-companion/main/assets/featured-in-awesome-ai-companion.png" alt="Featured in Awesome AI Companion" width="440">
+</a>
+```
+
+### Chinese
+
+<a href="https://github.com/DasterProkio/awesome-ai-companion/blob/main/README.zh-CN.md"><img src="./assets/featured-in-awesome-ai-companion-zh-CN.png" alt="已收录于人机恋开源项目大全" width="440"></a>
+
+```html
+<a href="https://github.com/DasterProkio/awesome-ai-companion/blob/main/README.zh-CN.md">
+  <img src="https://raw.githubusercontent.com/DasterProkio/awesome-ai-companion/main/assets/featured-in-awesome-ai-companion-zh-CN.png" alt="已收录于人机恋开源项目大全" width="440">
+</a>
+```
+
+Maintainers may send listed projects a short, optional invitation with their entry link and this section. Check the project's preferred contact channel first; avoid bulk promotional issues or unsolicited badge-only pull requests.
 
 ## Contributing
 

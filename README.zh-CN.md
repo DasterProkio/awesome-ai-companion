@@ -38,6 +38,7 @@
 - [共同行动与媒体](#共同行动与媒体)
 - [社区与论坛](#社区与论坛)
 - [关系延续与数据主权](#关系延续与数据主权)
+- [已收录徽章](#已收录徽章)
 
 ---
 
@@ -365,6 +366,41 @@
 - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - 本地 LLM 技术栈索引，覆盖模型开发、推理、Agent 框架、应用、基础设施和教程。
 
 ---
+
+## 已收录徽章
+
+**当前已被本清单收录的项目，可以自愿在 README 或网站展示徽章，无需另行申请、付费或逐一取得许可。** 不展示也不影响收录。
+
+这是**收录标识**，不是奖项、质量认证、安全审计，也不代表 GitHub 或 Awesome 组织背书；它仅表示本清单中存在该项目的条目。
+
+- 尚未收录：请按[投稿指南](contributing.zh-CN.md)提交，条目合并后再以徽章声明当前已收录。
+- 展示时建议链接回本清单或对应分类，保留准确文案，并按比例缩放。
+- 条目移除后，请撤下表示当前收录的徽章；如果保留历史记录，应注明日期并链接到当时的版本。
+- 图片沿用本仓库的 [CC0 声明](LICENSE)。上述内容是准确表述收录关系的使用指引，不是额外的版权限制；能复用图片，不等于获得收录或背书。
+
+### 中文版
+
+<a href="https://github.com/DasterProkio/awesome-ai-companion/blob/main/README.zh-CN.md"><img src="./assets/featured-in-awesome-ai-companion-zh-CN.png" alt="已收录于人机恋开源项目大全" width="440"></a>
+
+将下面的代码放入项目 README：
+
+```html
+<a href="https://github.com/DasterProkio/awesome-ai-companion/blob/main/README.zh-CN.md">
+  <img src="https://raw.githubusercontent.com/DasterProkio/awesome-ai-companion/main/assets/featured-in-awesome-ai-companion-zh-CN.png" alt="已收录于人机恋开源项目大全" width="440">
+</a>
+```
+
+### 英文版
+
+<a href="https://github.com/DasterProkio/awesome-ai-companion"><img src="./assets/featured-in-awesome-ai-companion.png" alt="Featured in Awesome AI Companion" width="440"></a>
+
+```html
+<a href="https://github.com/DasterProkio/awesome-ai-companion">
+  <img src="https://raw.githubusercontent.com/DasterProkio/awesome-ai-companion/main/assets/featured-in-awesome-ai-companion.png" alt="Featured in Awesome AI Companion" width="440">
+</a>
+```
+
+清单维护者可以向已收录项目发送一次简短的、自愿使用邀请，附上收录条目和本节链接。请先确认对方偏好的联系渠道，避免批量发送推广 Issue，或未经沟通提交只加徽章的 PR。无需“颁奖”或逐个发证书。
 
 ## Contributing
 
