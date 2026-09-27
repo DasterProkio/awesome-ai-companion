@@ -16,8 +16,8 @@
 
 [English](#contents) · [中文版](README.zh-CN.md)
 
-Every entry is written after reading the source and checking how it is actually implemented, not copied from README marketing or guessed from the name.
-Projects with incomplete implementations or docs that lag behind the code are marked `verify` or `adapt`, never `ready`.
+We read the code of every project here, and each description says what it actually does.
+Anything unfinished or unclear is tagged `verify`.
 
 **Status:** `ready` = usable as an app or service · `adapt` = needs setup or customization · `infra` = building block · `verify` = re-check before relying on the description
 
