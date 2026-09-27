@@ -17,9 +17,9 @@
 [English](#contents) · [中文版](README.zh-CN.md)
 
 We read the code of every project here, and each description says what it actually does.
-Anything unfinished or unclear is tagged `verify`.
+Anything unfinished or unclear is tagged `verify` or `adapt`.
 
-**Status:** `ready` = usable as an app or service · `adapt` = needs setup or customization · `infra` = building block · `verify` = re-check before relying on the description
+**Status:** `ready` = usable as an app or service · `adapt` = needs setup or customization · `infra` = building block · `verify` = unfinished or unclear; check the code yourself before relying on it
 
 **Platform:** `Android` / `iOS` / `Windows` / `Web` … = where it runs · `Self-host` = runs on your own server/machine · `Cloud` = hosted third-party service · `Browser` = extension/userscript · `CLI` = terminal tool · `Any` = host-agnostic · app names (`AstrBot`, `Claude Code`, `Kelivo`, `SillyTavern`…) = plugs into that host
 

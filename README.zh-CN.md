@@ -17,9 +17,9 @@
 [English](README.md) · [中文版](#目录)
 
 收录的每个项目我们都翻过代码，写的是它实际能干什么。
-还没做完、或者说不清楚的，会标 `verify`。
+还没做完、或者说不清楚的，会标 `verify` 或 `adapt`。
 
-**状态:** `ready` = 可直接作为应用或服务使用 · `adapt` = 需要配置或二次开发 · `infra` = 基础设施组件 · `verify` = 依赖前需要重新核对代码/文档
+**状态:** `ready` = 可直接作为应用或服务使用 · `adapt` = 需要配置或二次开发 · `infra` = 基础设施组件 · `verify` = 还没做完或说不清楚，用之前自己再看一遍代码
 
 **平台:** `Android` / `iOS` / `Windows` / `Web` … = 运行环境 · `Self-host` = 跑在自己的服务器/电脑上 · `Cloud` = 第三方云端服务 · `Browser` = 浏览器扩展/油猴脚本 · `CLI` = 终端工具 · `Any` = 不挑宿主 · 应用名（`AstrBot`、`Claude Code`、`Kelivo`、`SillyTavern`…）= 作为该宿主的插件/配套
 

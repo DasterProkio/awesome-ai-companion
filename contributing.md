@@ -6,13 +6,13 @@ Contributions that improve the accuracy, usefulness, and curation quality of thi
 
 - The project is open-source, public-source, or openly reusable companion infrastructure.
 - It is useful for long-term companion setups rather than only one-shot chatbot interactions.
-- **Code verification over claims**: Submissions must reflect actual code inspection, not just README marketing or generated summaries. Core logic, architecture, and real operational boundaries must be verified in the codebase.
+- **Read the code of every project.** Descriptions state what the code actually implements; core logic, data flow, and how far it really runs must be confirmed in the codebase.
 - It is maintained, documented, functional, and distinct from existing entries.
 - **The free version must be fully usable.** Charging for convenience is fine, such as paid hosting or giving paying users new releases a version or two earlier. Projects whose free version is deliberately limited (for example, history capped at 24 hours, or core features locked behind a subscription) are not listed. Core features here means what an individual uses with their companion; charging for enterprise-only features is fine.
 - **No ads in the software.** Sponsor or donation links in the README are fine.
 - Costs outside the project itself, such as model APIs, servers, and hardware, do not count as charging.
 - Projects that later add paywalls to core features or add ads will be removed from the list.
-- Uncertain, experimental, or thinly documented projects must use the `verify` or `adapt` status instead of overstating readiness (`ready`).
+- Projects that are unfinished, experimental, or unclear are tagged `verify` or `adapt`. `ready` is reserved for projects that work once installed.
 
 ## Submitting a Change
 
