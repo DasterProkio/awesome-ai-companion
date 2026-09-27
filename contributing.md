@@ -8,12 +8,13 @@ Contributions that improve the accuracy, usefulness, and curation quality of thi
 - It is useful for long-term companion setups rather than only one-shot chatbot interactions.
 - **Code verification over claims**: Submissions must reflect actual code inspection, not just README marketing or generated summaries. Core logic, architecture, and real operational boundaries must be verified in the codebase.
 - It is maintained, documented, functional, and distinct from existing entries.
+- **The free version must be fully usable.** Charging for convenience is fine, such as paid hosting or giving paying users new releases a version or two earlier. Projects whose free version is deliberately limited (for example, history capped at 24 hours, or core features locked behind a subscription) are not listed.
 - Uncertain, experimental, or thinly documented projects must use the `verify` or `adapt` status instead of overstating readiness (`ready`).
 
 ## Submitting a Change
 
 1. Search the list for duplicates and closely related projects.
-2. Inspect the candidate repository's codebase, architecture, license, release state, and actual viability.
+2. Inspect the candidate repository's codebase, architecture, license, pricing, release state, and actual viability.
 3. Add the entry to the most specific category in `README.md` and keep the description factual and verified against code. Because the list is extensive, each entry description must stay strictly under 200 characters to keep the document concise and easy to scan.
 4. Use the existing language, platform, and readiness metadata format.
 5. End the entry with proper punctuation and run `npx awesome-lint` before opening a pull request.
