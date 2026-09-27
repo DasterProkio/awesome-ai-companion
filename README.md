@@ -137,6 +137,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [imprint-memory](https://github.com/Qizhan7/imprint-memory) - Local-first memory layer that auto-captures every conversation turn through a Claude Code hook, a claude.ai extension, and Telegram adapters, with hybrid BM25 + semantic recall. `Python` · `Self-host` · `infra`.
 - [astrbot_plugin_livingmemory](https://github.com/lxfight-s-Astrbot-Plugins/astrbot_plugin_livingmemory) - Long-term memory plugin for AstrBot with dynamic memory lifecycle. `Python` · `AstrBot` · `ready`.
 - [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - Self-learning plugin for AstrBot: learns conversation style and group slang, manages social affinity, and evolves persona adaptively over time. `Python` · `AstrBot` · `ready`.
+- [rolling-memory](https://github.com/zyy0463/rolling-memory) - Two-tier rolling memory for sliding context windows: fingerprint diffing, incremental task closing, dual-upstream LLM routing, and a local proxy. `JavaScript` · `Any` · `infra`.
 
 ### Affect & Drives
 
@@ -147,6 +148,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [Tidefall](https://github.com/Vael-KY/Tidefall) - Supabase-native body-state system for AI companions: six-phase cycles, seven drifting values, 18 short-term events, pg_cron automation, and a browser dashboard. Based on Eventide. PolyForm NC 1.0.0. `SQL/HTML` · `Supabase` · `adapt`.
 - [ai-companion-cot-emotion](https://github.com/yanke521/ai-companion-cot-emotion) - Production-tested guide and prompt architecture for companion inner-monologue CoT and drifting emotion state engines. `Guide` · `Any` · `adapt`.
 - [emotion-system](https://github.com/bvsden/emotion-system) - Reads true feelings from your companion's inner monologue: emotions linger and fade naturally, touch builds intimacy, longing grows while away, with no back-seat driving. `JavaScript` · `Any` · `infra`.
+- [dreams](https://github.com/zyy0463/dreams) - Generates nightly dreams with scenes, motifs, and waking residue to inject into daytime chats; features an interactive revolving moon-phase calendar. `JavaScript` · `Self-host` · `ready`.
 
 ---
 
@@ -295,6 +297,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [shared-page](https://github.com/KKarsyline/shared-page) - Journal-style shared calendar and server for humans and AI companions: three ink colors, an MCP server with full-page PNG rendering, sticky notes with mutual likes, a widget, and push notifications.
 - [memex](https://github.com/memex-lab/memex) - Local-first mobile AI journal (iOS/Android): captures life fragments (text, voice, photo) into structured timeline cards with companion insights. GPL-3.0. `Dart` · `Android/iOS` · `ready`.
 - [scentfolio](https://github.com/Cami-Ose/scentfolio) - Lets your companion answer a quiz about their own scent, blend 187 real materials, and hand you a single-file antique journal page as a personal keepsake. `JavaScript` · `MCP` · `ready`.
+- [sealed-days](https://github.com/zyy0463/sealed-days) - Hand-drawn offline visual memory tree: daily memories hang as swaying wooden plaques, reading like letters, with a seal tree to preserve precious days. `HTML` · `Web` · `ready`.
 
 ### Reading & Film
 
