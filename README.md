@@ -373,7 +373,7 @@ Projects currently included in this index are welcome to display the badge in th
 
 This is an **inclusion badge**, not an award, certification, security audit, or endorsement by GitHub or the Awesome organization. It only says that this index lists the project.
 
-- Not listed yet? Follow the [submission guidelines](contributing.md) and wait until the entry is merged before presenting the badge as a current inclusion claim.
+- Not listed yet? Follow the [submission guidelines](#contributing) and wait until the entry is merged before presenting the badge as a current inclusion claim.
 - Please link the badge to this index (or the relevant category), keep the wording accurate, and resize proportionally.
 - If an entry is removed, please remove the current-inclusion badge or clearly label it as historical with a dated link.
 - The artwork follows this repository's [CC0 dedication](LICENSE). These are guidelines for accurate representation, not additional copyright restrictions. Reusing the image does not establish inclusion or endorsement.
