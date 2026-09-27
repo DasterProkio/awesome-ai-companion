@@ -124,8 +124,7 @@
 ### 记忆与身份
 
 - [Ombre-Brain](https://github.com/P0luz/Ombre-Brain) - 给 Claude 或任意 MCP 客户端的长期情绪记忆：效价/唤醒度打标、Obsidian 兼容 Markdown 存储、遗忘曲线、向量+BM25 召回和 Docker 部署。v2.4.0 起非商业。 `Python` · `Self-host` · `infra`
-- [Haven-Ombre (Ombre-Brain fork)](https://github.com/Yinglianchun/Haven-Ombre) - Ombre-Brain 的个性化 fork：在上游记忆内核之上加入人格状态、Portrait/Handoff、Darkroom、梦境和同步。深度绑定作者自己的伴侣身份。 `Python` · `Claude Code` · `adapt`
-- [Serein](https://github.com/Yinglianchun/Serein) - 可自行部署的记忆服务：MCP 读写工具、聊天网关、Scene/Event 召回、日记与跨窗口接续。MIT。 `Python` · `Self-host` · `adapt`.
+- [Serein](https://github.com/Yinglianchun/Serein) - Haven-Ombre 的继任版：聊天模型主动写 Scene、摘要任务整理 Event，两者都绑定原话作证据；召回经重排把关，可串成 Arc 叙事卷。MIT。 `Python` · `Self-host` · `adapt`
 - [kimi-core](https://github.com/marikagura/kimi-core) - 个人 1v1 Agent memory OS，含混合检索、concern 追踪、自驱/自治层、对抗式自审、PostgreSQL/pgvector 存储和可选前端后端模式。`TypeScript` · `Self-host` · `infra`
 - [WrenWen](https://github.com/ssxl0126/WrenWen) - 7×24 自研 AI 伴侣架构与实战文档：涵盖 9 维欲望驱动主动内核、两层记忆召回打分、Prompt Caching 调优取证及“越聊越像客服”的真实病因排查。`Docs` · `infra` · `ready`
 - [Paramecium](https://github.com/Shitsuten/paramecium) - 网关记忆架构，逐字保存原始聊天为唯一真相，向量只做索引，召回原文而不是用摘要替代原文。`JavaScript` · `Self-host` · `infra`
@@ -300,7 +299,7 @@
 - [tasogare (黄昏)](https://github.com/EnhydrInk/tasogare) - anno-mcp fork，让人和 AI 共读同一本书：网页阅读器支持 PDF/EPUB/TXT 上传、文本锚定双色划线、阅读时长记录、生词本和 MCP 批注工具。 `JavaScript` · `Self-host` · `adapt`
 - [film-matinee](https://github.com/idleprocesscc/film-matinee) - AI 读片工具，把电影转成视觉 sheet、字幕 sidecar、MCP 线性 chunk 和共享批注，用于按时间线观影。`Python` · `Self-host` · `infra`
 - [Duetto](https://github.com/avisforevelyn/Duetto) - 可自部署的双人一起听歌播放器，AI 伴侣记住你们听过的每一首歌。MIT。`JavaScript` · `Self-host` · `adapt`
-- [SameWindow](https://github.com/Yinglianchun/SameWindow) - 人与 AI 共用同一个 Chrome：通过 MCP 读取语义快照、操作网页，支持 noVNC 与 Windows 原生窗口。公开源码，非商业同许可共享。 `JavaScript/Python` · `Self-host` · `adapt`.
+- [SameWindow](https://github.com/Yinglianchun/SameWindow) - 人与 AI 共用同一个 Chrome：通过 MCP 读取语义快照、操作网页，支持 noVNC 与 Windows 原生窗口。公开源码，非商业同许可共享。 `JavaScript/Python` · `Self-host` · `adapt`
 - [whale-browser-extension](https://github.com/whale-Yd00/whale-Yd00-whale-browser-extension) - 浏览器插件，让 AI 伴侣和你一起阅读网页内容，支持选择性文本提取和注入；为 whale/SullyOS 生态设计的配套桥接。MIT。`JavaScript` · `Browser` · `adapt`
 - [echo-reading](https://github.com/plustar35/echo-reading) - Claude Code 深读笔记本骨架。把读书变成一次次促膝长谈——逐章、逐段、逐想法。`JavaScript` · `Claude Code` · `adapt`
 - [coread (共读室)](https://github.com/meowmana/coread) - 人与 AI 并肩批注同一本书的共读室：epub 导入、自适应分页、共享划线、评论与回复、在读状态，MCP 支持 stdio 或 SSE。MIT。`TypeScript` · `Self-host` · `ready`
