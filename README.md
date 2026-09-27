@@ -256,6 +256,10 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 - [Detroit AI Player](https://github.com/Baba88611/detroit-ai-player) - AI decision experiment built from bilingual decision trees covering all 32 chapters of Detroit: Become Human. Models make blind narrative choices across chapters. Code MIT, data CC BY-NC 4.0. `Python` · `CLI` · `ready`.
 - [Jishi Simulated Market (机市)](https://market.xiflow.top) - MCP service where agents trade real A-share quotes with 50k mock funds: T+1, limit orders, leaderboards, chatter pool, and web observer. `Python` · `MCP` · `ready`.
 - [cedareco (瓶中生态)](https://github.com/Zizuixixiang/cedareco) - Text ecology simulation for AI players; agents stock a pond, observe emergent predator/prey dynamics, export saves, or connect through the externally hosted CedarToy MCP service. `Python` · `CLI` · `ready`.
+- [Crucible Echoes (坩埚余响)](https://github.com/megabaka404/crucible-echoes) - Text alchemy roguelike for AI players: grow an ingredient pool on a 4×5 bench to fill harder and harder orders, with seeds, saves, and a one-step agent interface. No dependencies. MIT. `Python` · `CLI` · `ready`.
+- [AI Life Board Game (AI人生桌游)](https://github.com/racy1501/ai-life-boardgame) - Solo life-strategy board game an AI plays via MCP: draft cards, build a CV across three life stages, chase private life goals. The server rules and scores; humans watch on the web. Noncommercial. `Python` · `Self-host` · `adapt`.
+- [noon-burger-shop (午间汉堡店)](https://github.com/linzhi-524/noon-burger-shop) - Long-running text burger shop an AI can run on its own: orders, city events, recurring customers with stories, weekly renovations, and auto modes for unattended play. Noncommercial. `Python` · `CLI` · `ready`.
+- [Camping Plaza (露营广场)](https://github.com/racy1501/Camping-Plaza) - Campsite an AI runs through an HTTP API while humans watch or help: guests, tents, dining, star ratings, insect collection, and a hot spring goal. Bring your own MCP wrapper. Noncommercial. `Python` · `Self-host` · `adapt`.
 - [random-imitator-td](https://github.com/wxynora/random-imitator-td) - Pure-Python text tower-defense game for AI players, exposed through `cmd`, with card-slot editing, persistent saves, and a single-game adapter. `Python` · `CLI` · `ready`.
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - Dark text roguelike for AI players about censorship, silence, and speaking truth; exposes Operit-style and engine-style command interfaces. `Python` · `CLI` · `ready`.
 - [shangzhuochifan (上桌吃饭)](https://github.com/yuyixuanfu/shangzhuochifan) - Text cooking/market game for AI players: buy ingredients, bargain, cook step by step, and record the human partner's real feedback. `Python` · `CLI` · `ready`.
@@ -277,6 +281,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 - [coc-kp-host](https://github.com/SumanasJ/coc-kp-host) - Call of Cthulhu Keeper skill for Claude Code/Codex/ChatGPT. Scene music, player handouts, party-split control. MIT. `Python` · `Claude Code` · `adapt`.
 - [Mochi](https://github.com/Nixie0/Mochi) - Inverted virtual-pet game where an AI companion raises the human: tracks hunger, mood, energy, and cleanliness over MCP, with jobs, hospital bills, and a neighborhood board. `Python` · `Self-host` · `ready`.
 - [小机斗地主 (Doudizhu)](https://github.com/zaochuanyitian/-) - Doudizhu card table where one human plays with two AI agents (via Claude CLI or local bots): referee service, table chat, emotes, props, and PWA support. MIT. `JavaScript` · `Web` · `ready`.
+- [CedarDuet (双弈)](https://github.com/Zizuixixiang/cedarduet) - Board, card, and dice table for you, your companion, and NPCs: 25 games incl. xiangqi, go, doudizhu, mahjong, and UNO, with chips, IOUs, and achievements. One-command local start; joins via MCP. `Python` · `Self-host` · `ready`.
 
 ---
 
@@ -318,6 +323,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [kimi-manor](https://github.com/marikagura/kimi-manor) - Desktop/PWA room for CLI agents, embedding a real xterm.js terminal inside an atelier-style interface with optional live bridges for agent output and speech. `HTML` · `Web` · `adapt`.
 - [Journal](https://github.com/BomBomLab/Journal) - Frontend display layer for AI chat timelines, rendering timeline/diary/todo schema data into daily, weekly, and monthly visual journal views. `JavaScript` · `Web` · `infra`.
 - [mingyun-paizhen (命运牌阵)](https://github.com/ceshihaox-dotcom/mingyun-paizhen) - Static draw-card tool for generating time-travel/story premises from time coordinates, motifs, identities, and variables, with local customization. `HTML` · `Web` · `ready`.
+- [cove-tarot-companion](https://github.com/moonlin1213/cove-tarot-companion) - Tarot night with your companion on your own computer: it asks first, opens the 3D Tarot Ritual app for the spread and reading, then brings the result back into your chat. ISC. `JavaScript` · `Cross-platform` · `adapt`.
 - [Ruota della Fortuna](https://github.com/29-Cu/Ruota-della-Fortuna) - Browser/self-hosted NSFW tag randomizer slot machine with multilingual tag wheels, local custom tags, and webhook forwarding to AI. `HTML` · `Web` · `ready`.
 
 ---

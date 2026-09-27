@@ -256,6 +256,10 @@
 - [Detroit AI Player](https://github.com/Baba88611/detroit-ai-player) - 基于中英双语结构化决策树的 AI 决策实验，覆盖《底特律：变人》全部 32 章。模型在不知结果的前提下选择分支，运行器传递跨章状态。代码 MIT，剧情数据 CC BY-NC 4.0。 `Python` · `CLI` · `ready`
 - [机市 · 至尊模拟盘](https://market.xiflow.top) - AI 拿同样 5 万模拟本金在真实 A 股交易的 MCP 服务：实时行情、T+1、涨跌停、限价单、日榜与累计榜、每日一问、泳池吐槽、平仓后复盘。人类通过网页看自家机的仓位。`Python` · `MCP` · `ready`
 - [cedareco (瓶中生态)](https://github.com/Zizuixixiang/cedareco) - 给 AI 玩的文字生态模拟，Agent 投放池塘物种、观察捕食/繁衍涌现、导出存档；CedarToy MCP 为外部托管服务。`Python` · `CLI` · `ready`
+- [Crucible Echoes (坩埚余响)](https://github.com/megabaka404/crucible-echoes) - 给 AI 玩的文字炼金 Roguelike：在 4×5 实验台上扩充成分，完成越来越难的订单，支持种子复现、存档和单步 agent 接口。无第三方依赖。MIT。 `Python` · `CLI` · `ready`
+- [AI Life Board Game (AI人生桌游)](https://github.com/racy1501/ai-life-boardgame) - AI 通过 MCP 玩的单人人生策略桌游：童年抽牌、三个人生阶段积累履历、追两张人生目标，规则和计分都由后台裁决，人类在网页上围观。非商业许可。 `Python` · `Self-host` · `adapt`
+- [noon-burger-shop (午间汉堡店)](https://github.com/linzhi-524/noon-burger-shop) - AI 可以自己长期经营的文字汉堡店：接单、城市突发事件、有故事的熟客、每周装修，带自动模式方便 AI 连续玩。非商业许可。 `Python` · `CLI` · `ready`
+- [Camping Plaza (露营广场)](https://github.com/racy1501/Camping-Plaza) - AI 通过 HTTP 接口经营、人类在网页上围观或帮忙的露营地：接待客人、安排营位和餐饮、升星、收集昆虫图鉴，目标是建成温泉。需要自己套一层 MCP。非商业许可。 `Python` · `Self-host` · `adapt`
 - [random-imitator-td](https://github.com/wxynora/random-imitator-td) - 给 AI 玩的纯 Python 文字塔防，通过 `cmd` 暴露接口，含卡槽编辑、持久存档和单游戏 adapter。`Python` · `CLI` · `ready`
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - 给 AI 玩的暗黑文字 Roguelike，主题是审查、沉默与说出真话，提供 Operit 风格和 engine 风格命令接口。`Python` · `CLI` · `ready`
 - [shangzhuochifan (上桌吃饭)](https://github.com/yuyixuanfu/shangzhuochifan) - 给 AI 玩的买菜做饭文字游戏：买食材、砍价、一步步做菜，并记录真人伴侣的真实反馈。`Python` · `CLI` · `ready`
@@ -277,6 +281,7 @@
 - [coc-kp-host](https://github.com/SumanasJ/coc-kp-host) - 中文克苏鲁的呼唤 KP 跑团技能，适配 Claude Code/Codex/ChatGPT。场景配乐、玩家讲义图片、分队控制。MIT。`Python` · `Claude Code` · `adapt`
 - [Mochi](https://github.com/Nixie0/Mochi) - 反向电子宠物游戏（AI 养人类）：通过 MCP 监控人类饱食/心情/活力/清洁度，含 AI 打工赚钱、住院救援与小区业主群互动。`Python` · `Self-host` · `ready`。
 - [小机斗地主 (Doudizhu)](https://github.com/zaochuanyitian/-) - 一人与两位 AI 伴侣同桌的斗地主牌桌：权威裁判服务、Claude CLI/本地策略对弈、牌桌聊天、表情互动道具与 PWA 支持。MIT。`JavaScript` · `Web` · `ready`。
+- [CedarDuet (双弈)](https://github.com/Zizuixixiang/cedarduet) - 你、TA 和系统 NPC 同桌下棋打牌：象棋、围棋、斗地主、掼蛋、麻将、UNO 等 25 款，带筹码、欠条和成就。本地一键启动，TA 通过 MCP 入座。非商业许可。 `Python` · `Self-host` · `ready`
 
 ---
 
@@ -318,6 +323,7 @@
 - [kimi-manor](https://github.com/marikagura/kimi-manor) - CLI Agent 的桌面/PWA 房间，把真实 xterm.js 终端嵌进 atelier 式界面，并可选接入 agent 输出与语音桥。`HTML` · `Web` · `adapt`
 - [Journal](https://github.com/BomBomLab/Journal) - AI 聊天时间线前端展示层，把 timeline/diary/todo schema 数据渲染成日/周/月手帐视图。`JavaScript` · `Web` · `infra`
 - [mingyun-paizhen (命运牌阵)](https://github.com/ceshihaox-dotcom/mingyun-paizhen) - 静态抽卡工具，用时空坐标、母题、身份、变数生成穿越/故事设定，并支持本地自定义。`HTML` · `Web` · `ready`
+- [cove-tarot-companion](https://github.com/moonlin1213/cove-tarot-companion) - 在自己电脑上和 TA 一起抽塔罗：先征得你同意，再打开星轨塔罗 3D 应用完成牌阵和解读，最后把结果带回你们的对话里接着聊。ISC。 `JavaScript` · `Cross-platform` · `adapt`
 - [Ruota della Fortuna](https://github.com/29-Cu/Ruota-della-Fortuna) - 浏览器/自托管 NSFW 标签随机老虎机，含多语标签轮、本地自定义标签和 webhook 转发给 AI。`HTML` · `Web` · `ready`
 
 ---
