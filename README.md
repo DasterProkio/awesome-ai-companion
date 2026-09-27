@@ -146,6 +146,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [Eventide](https://github.com/chuli1122/Eventide) - Physiological state engine for AI companions: body cycles, 7 tracked drives, 18 short-term events, dream linkage, and interaction settlement with JSON write-back. NSFW-adjacent. Non-commercial. `Python` · `Any` · `infra`.
 - [Tidefall](https://github.com/Vael-KY/Tidefall) - Supabase-native body-state system for AI companions: six-phase cycles, seven drifting values, 18 short-term events, pg_cron automation, and a browser dashboard. Based on Eventide. PolyForm NC 1.0.0. `SQL/HTML` · `Supabase` · `adapt`.
 - [ai-companion-cot-emotion](https://github.com/yanke521/ai-companion-cot-emotion) - Production-tested guide and prompt architecture for companion inner-monologue CoT and drifting emotion state engines. `Guide` · `Any` · `adapt`.
+- [emotion-system](https://github.com/bvsden/emotion-system) - Reads true feelings from your companion's inner monologue: emotions linger and fade naturally, touch builds intimacy, longing grows while away, with no back-seat driving. `JavaScript` · `Any` · `infra`.
 
 ---
 
@@ -288,6 +289,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [Phosphene](https://github.com/3lmglow/Phosphene) - Self-hosted task and reward system for human-AI relationships: the companion creates tasks over MCP, the human submits evidence, and review updates an immutable points ledger and streaks. MIT. `TypeScript` · `Self-host` · `ready`.
 - [shared-page](https://github.com/KKarsyline/shared-page) - Journal-style shared calendar and server for humans and AI companions: three ink colors, an MCP server with full-page PNG rendering, sticky notes with mutual likes, a widget, and push notifications.
 - [memex](https://github.com/memex-lab/memex) - Local-first mobile AI journal (iOS/Android): captures life fragments (text, voice, photo) into structured timeline cards with companion insights. GPL-3.0. `Dart` · `Android/iOS` · `ready`.
+- [scentfolio](https://github.com/Cami-Ose/scentfolio) - Lets your companion answer a quiz about their own scent, blend 187 real materials, and hand you a single-file antique journal page as a personal keepsake. `JavaScript` · `MCP` · `ready`.
 
 ### Reading & Film
 

@@ -146,6 +146,7 @@
 - [Eventide](https://github.com/chuli1122/Eventide) - AI 伴侣生理状态引擎：身体周期、7 项身体数值、18 类短时事件、梦境联动和互动结算（JSON 安全写回）。偏 NSFW 向。非商业使用。 `Python` · `Any` · `infra`
 - [Tidefall](https://github.com/Vael-KY/Tidefall) - 基于 Supabase 的 AI 伴侣身体状态系统：6 个周期、7 项漂移数值、18 种短时事件、pg_cron 自动运行、快照和浏览器面板。基于 Eventide。PolyForm Noncommercial 1.0.0。 `SQL/HTML` · `Supabase` · `adapt`
 - [ai-companion-cot-emotion](https://github.com/yanke521/ai-companion-cot-emotion) - 伴侣内心独白思考链（CoT）与情绪引擎实践指南：告别原生 Thinking 编剧感，提供经过实战检验的意识流提示词与数值漂移架构。`Guide` · `Any` · `adapt`。
+- [emotion-system](https://github.com/bvsden/emotion-system) - 从小机写的内心独白里读出真实心情：情绪有余韵会慢慢平复，肢体亲近多了会心动，分开太久思念会随时间增长；吵架时只提醒他自检，不教他做事。`JavaScript` · `Any` · `infra`。
 
 ---
 
@@ -288,6 +289,7 @@
 - [Phosphene](https://github.com/3lmglow/Phosphene) - 面向人机关系的自托管任务与奖励系统：伴侣通过 MCP 创建任务，人类提交凭证，审核后更新不可变积分账本、连击和成就。MIT。 `TypeScript` · `Self-host` · `ready`
 - [shared-page](https://github.com/KKarsyline/shared-page) - 人与 AI 共用的手帐风日历与后端：三种笔迹、可渲染整页 PNG 的 MCP 服务、可互相点赞的便签、照片拼贴、桌面小组件和推送。
 - [memex](https://github.com/memex-lab/memex) - 本地优先双端 AI 日记（iOS/Android）：捕捉碎片生活（文字/语音/照片），由多 Agent 整理为时间线卡片与伴侣共鸣洞察。GPL-3.0。`Dart` · `Android/iOS` · `ready`。
+- [scentfolio](https://github.com/Cami-Ose/scentfolio) - 让小机按「自己身上的气味」填一份调香问卷，从 187 味香料里配出前中后调，交出一页带版画与图表的单文件网页手帐，当作送你的专属信物。`JavaScript` · `MCP` · `ready`。
 
 ### 共读与观影
 
