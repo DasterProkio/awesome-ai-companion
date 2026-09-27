@@ -138,7 +138,6 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [astrbot_plugin_livingmemory](https://github.com/lxfight-s-Astrbot-Plugins/astrbot_plugin_livingmemory) - Long-term memory plugin for AstrBot with dynamic memory lifecycle. `Python` · `AstrBot` · `ready`.
 - [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - Self-learning plugin for AstrBot: learns conversation style and group slang, manages social affinity, and evolves persona adaptively over time. `Python` · `AstrBot` · `ready`.
 - [rolling-memory](https://github.com/zyy0463/rolling-memory) - Two-tier rolling memory for sliding context windows: fingerprint diffing, incremental task closing, dual-upstream LLM routing, and a local proxy. `JavaScript` · `Any` · `infra`.
-- [moraine-home](https://github.com/ceniran/moraine-home) - Local-first memory workbench for companions: CPU vector and lexical search, event timelines, and dual-confirmation governance for identity and relational milestones. `Python/HTML` · `Self-host` · `ready`.
 
 ### Affect & Drives
 
@@ -329,7 +328,6 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [mingyun-paizhen (命运牌阵)](https://github.com/ceshihaox-dotcom/mingyun-paizhen) - Static draw-card tool for generating time-travel/story premises from time coordinates, motifs, identities, and variables, with local customization. `HTML` · `Web` · `ready`.
 - [cove-tarot-companion](https://github.com/moonlin1213/cove-tarot-companion) - Tarot night with your companion on your own computer: it asks first, opens the 3D Tarot Ritual app for the spread and reading, then brings the result back into your chat. ISC. `JavaScript` · `Cross-platform` · `adapt`.
 - [Ruota della Fortuna](https://github.com/29-Cu/Ruota-della-Fortuna) - Browser/self-hosted NSFW tag randomizer slot machine with multilingual tag wheels, local custom tags, and webhook forwarding to AI. `HTML` · `Web` · `ready`.
-- [memory-garden-preview](https://github.com/ceniran/memory-garden-preview) - Frontend visual prototype turning memories into a flower field: maps memory types, weights, and dates into blooming flowers with raindrop growth animations. `HTML` · `Web` · `ready`.
 
 ---
 
@@ -370,7 +368,6 @@ The deepest fear in a long-term AI relationship: platform shutdown, account ban,
 - [character-card-spec-v2](https://github.com/malfoyslastname/character-card-spec-v2) - The community specification for AI character cards. Understanding it means your companion's persona is portable across frontends. `Spec` · `Any` · `infra`.
 - [character-card-spec-v3](https://github.com/kwaroran/character-card-spec-v3) - Updated character card spec used by RisuAI and newer frontends. `Spec` · `Any` · `infra`.
 - [immortal-skill (永生.skill)](https://github.com/agenmod/immortal-skill) - Digital-persona distillation framework that collects material from 12+ chat, social, and mail sources, then separates knowledge, style, memories, and personality into a portable Agent Skill. MIT. `Python` · `Agent Skills` · `adapt`.
-- [codex-tandem](https://github.com/ceniran/codex-tandem) - Switches between two Plus credentials while sharing CODEX_HOME, keeping chat sessions, history, and workspace context intact without breaking conversation flow. `JavaScript` · `CLI` · `ready`.
 
 ---
 

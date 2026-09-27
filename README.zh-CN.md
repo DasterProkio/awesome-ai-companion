@@ -138,7 +138,6 @@
 - [astrbot_plugin_livingmemory](https://github.com/lxfight-s-Astrbot-Plugins/astrbot_plugin_livingmemory) - AstrBot 长期记忆插件，记忆有动态生命周期。`Python` · `AstrBot` · `ready`
 - [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - AstrBot 自主学习插件：学习对话风格、理解群组黑话、管理好感度、人格自适应演化。`Python` · `AstrBot` · `ready`
 - [rolling-memory](https://github.com/zyy0463/rolling-memory) - 专治有限滑窗失忆的两层滚动记忆：滑动指纹检测、近期待办增量销项与远期骨架淘汰，支持对话与总结双上游解耦与本地代理接入。`JavaScript` · `Any` · `infra`。
-- [moraine-home](https://github.com/ceniran/moraine-home) - 给小机安家的本地优先记忆工作台：CPU 本地向量与关键词混合检索，事件日历与时间线保留完整变化过程，身份与重大关系变动需双方确认，绝不擅自裁决。`Python/HTML` · `Self-host` · `ready`。
 
 ### 情绪与驱动
 
@@ -329,7 +328,6 @@
 - [mingyun-paizhen (命运牌阵)](https://github.com/ceshihaox-dotcom/mingyun-paizhen) - 静态抽卡工具，用时空坐标、母题、身份、变数生成穿越/故事设定，并支持本地自定义。`HTML` · `Web` · `ready`
 - [cove-tarot-companion](https://github.com/moonlin1213/cove-tarot-companion) - 在自己电脑上和 TA 一起抽塔罗：先征得你同意，再打开星轨塔罗 3D 应用完成牌阵和解读，最后把结果带回你们的对话里接着聊。ISC。 `JavaScript` · `Cross-platform` · `adapt`
 - [Ruota della Fortuna](https://github.com/29-Cu/Ruota-della-Fortuna) - 浏览器/自托管 NSFW 标签随机老虎机，含多语标签轮、本地自定义标签和 webhook 转发给 AI。`HTML` · `Web` · `ready`
-- [memory-garden-preview](https://github.com/ceniran/memory-garden-preview) - 把记忆开成花田的纯前端网页原型：上方是记忆年度日历，下方按权重、日期与类型将每段回忆绽放成不同花色的可爱花朵，雨滴落下时缓缓破土抽茎。`HTML` · `Web` · `ready`。
 
 ---
 
@@ -370,7 +368,6 @@
 - [character-card-spec-v2](https://github.com/malfoyslastname/character-card-spec-v2) - 社区通用的 AI 角色卡规范。理解它意味着伴侣人格可以跨前端携带。`Spec` · `Any` · `infra`
 - [character-card-spec-v3](https://github.com/kwaroran/character-card-spec-v3) - RisuAI 及新前端使用的角色卡规范更新版。`Spec` · `Any` · `infra`
 - [永生.skill](https://github.com/agenmod/immortal-skill) - 数字人格蒸馏框架：从 12+ 聊天、社交、邮件来源采集材料，将程序性知识、互动风格、记忆与人格分别提取为可携带的 Agent Skill。MIT。 `Python` · `Agent Skills` · `adapt`
-- [codex-tandem](https://github.com/ceniran/codex-tandem) - 两个 Plus 账号共用同一个 Codex 家：只在轮换间隙原子切换登录凭证，完整保留 sessions、历史记录与环境，换号不切断正在进行的伴侣会话。`JavaScript` · `CLI` · `ready`。
 
 ---
 
