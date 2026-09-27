@@ -224,7 +224,6 @@
 ### 屏幕与环境上下文
 
 - [gaze](https://github.com/jiangxi1129/gaze) - 给现有伴侣使用的轻量连续屏幕感知：捕获前台窗口、生成低成本视觉旁白、提取 OCR 文本，写入 AI 可读的滚动 JSON 上下文。MIT。 `Python` · `Windows` · `adapt`
-- [Screenpipe](https://github.com/screenpipe/screenpipe) - 在本地持续记录你电脑屏幕上的文字和声音，TA 可以通过 MCP 查你今天、这周都在做什么。个人自己编译使用免费，官方安装包需要订阅。 `Rust/TypeScript` · `Cross-platform` · `infra`
 - [cove-sensory-mcp](https://github.com/moonlin1213/cove-sensory-mcp) - 给纯文本 LLM 眼睛与耳朵的本地 stdio MCP 感知层：支持图像、视频、音频与音乐的多模态代理识别，带严格隐私沙箱。Apache-2.0。`Python` · `Cross-platform` · `infra`。
 
 ---
