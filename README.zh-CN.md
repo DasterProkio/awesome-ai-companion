@@ -138,6 +138,7 @@
 - [astrbot_plugin_livingmemory](https://github.com/lxfight-s-Astrbot-Plugins/astrbot_plugin_livingmemory) - AstrBot 长期记忆插件，记忆有动态生命周期。`Python` · `AstrBot` · `ready`
 - [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - AstrBot 自主学习插件：学习对话风格、理解群组黑话、管理好感度、人格自适应演化。`Python` · `AstrBot` · `ready`
 - [rolling-memory](https://github.com/zyy0463/rolling-memory) - 专治有限滑窗失忆的两层滚动记忆：滑动指纹检测、近期待办增量销项与远期骨架淘汰，支持对话与总结双上游解耦与本地代理接入。`JavaScript` · `Any` · `infra`。
+- [moraine-home](https://github.com/ceniran/moraine-home) - 给小机安家的本地优先记忆工作台：CPU 本地向量与关键词混合检索，事件日历与时间线保留完整变化过程，身份与重大关系变动需双方确认，绝不擅自裁决。`Python/HTML` · `Self-host` · `ready`。
 
 ### 情绪与驱动
 

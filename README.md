@@ -138,6 +138,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [astrbot_plugin_livingmemory](https://github.com/lxfight-s-Astrbot-Plugins/astrbot_plugin_livingmemory) - Long-term memory plugin for AstrBot with dynamic memory lifecycle. `Python` · `AstrBot` · `ready`.
 - [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - Self-learning plugin for AstrBot: learns conversation style and group slang, manages social affinity, and evolves persona adaptively over time. `Python` · `AstrBot` · `ready`.
 - [rolling-memory](https://github.com/zyy0463/rolling-memory) - Two-tier rolling memory for sliding context windows: fingerprint diffing, incremental task closing, dual-upstream LLM routing, and a local proxy. `JavaScript` · `Any` · `infra`.
+- [moraine-home](https://github.com/ceniran/moraine-home) - Local-first memory workbench for companions: CPU vector and lexical search, event timelines, and dual-confirmation governance for identity and relational milestones. `Python/HTML` · `Self-host` · `ready`.
 
 ### Affect & Drives
 
