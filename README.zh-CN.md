@@ -382,23 +382,23 @@
 
 ### 中文版
 
-<a href="https://github.com/DasterProkio/awesome-ai-companion/blob/main/README.zh-CN.md"><img src="./assets/featured-in-awesome-ai-companion-zh-CN.png" alt="已收录于人机恋开源项目大全" width="440"></a>
+<a href="https://github.com/DasterProkio/awesome-ai-companion/blob/main/README.zh-CN.md"><img src="./assets/featured-in-awesome-ai-companion-zh-CN.png" alt="已收录于人机恋开源项目大全" width="280"></a>
 
 将下面的代码放入项目 README：
 
 ```html
 <a href="https://github.com/DasterProkio/awesome-ai-companion/blob/main/README.zh-CN.md">
-  <img src="https://raw.githubusercontent.com/DasterProkio/awesome-ai-companion/main/assets/featured-in-awesome-ai-companion-zh-CN.png" alt="已收录于人机恋开源项目大全" width="440">
+  <img src="https://raw.githubusercontent.com/DasterProkio/awesome-ai-companion/main/assets/featured-in-awesome-ai-companion-zh-CN.png" alt="已收录于人机恋开源项目大全" width="280">
 </a>
 ```
 
 ### 英文版
 
-<a href="https://github.com/DasterProkio/awesome-ai-companion"><img src="./assets/featured-in-awesome-ai-companion.png" alt="Featured in Awesome AI Companion" width="440"></a>
+<a href="https://github.com/DasterProkio/awesome-ai-companion"><img src="./assets/featured-in-awesome-ai-companion.png" alt="Featured in Awesome AI Companion" width="280"></a>
 
 ```html
 <a href="https://github.com/DasterProkio/awesome-ai-companion">
-  <img src="https://raw.githubusercontent.com/DasterProkio/awesome-ai-companion/main/assets/featured-in-awesome-ai-companion.png" alt="Featured in Awesome AI Companion" width="440">
+  <img src="https://raw.githubusercontent.com/DasterProkio/awesome-ai-companion/main/assets/featured-in-awesome-ai-companion.png" alt="Featured in Awesome AI Companion" width="280">
 </a>
 ```
 
