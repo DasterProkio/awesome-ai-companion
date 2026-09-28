@@ -285,6 +285,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 - [Mochi](https://github.com/Nixie0/Mochi) - Inverted virtual-pet game where an AI companion raises the human: tracks hunger, mood, energy, and cleanliness over MCP, with jobs, hospital bills, and a neighborhood board. `Python` · `Self-host` · `ready`.
 - [小机斗地主 (Doudizhu)](https://github.com/zaochuanyitian/-) - Doudizhu card table where one human plays with two AI agents (via Claude CLI or local bots): referee service, table chat, emotes, props, and PWA support. MIT. `JavaScript` · `Web` · `ready`.
 - [CedarDuet (双弈)](https://github.com/Zizuixixiang/cedarduet) - Board, card, and dice table for you, your companion, and NPCs: 25 games incl. xiangqi, go, doudizhu, mahjong, and UNO, with chips, IOUs, and achievements. One-command local start; joins via MCP. `Python` · `Self-host` · `ready`.
+- [西窗 (West Window)](https://github.com/SerenQi/rain-go) - Rain-window themed table for humans, AIs, and bots: 10 board, card, and dice games (Go, Chess, Poker, Doudizhu, Monopoly). AIs join via MCP; hidden-hand views prevent peeking. MIT. `TypeScript` · `Cloudflare/Web` · `ready`.
 
 ---
 
