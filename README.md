@@ -301,6 +301,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [memex](https://github.com/memex-lab/memex) - Local-first mobile AI journal (iOS/Android): captures life fragments (text, voice, photo) into structured timeline cards with companion insights. GPL-3.0. `Dart` · `Android/iOS` · `ready`.
 - [scentfolio](https://github.com/Cami-Ose/scentfolio) - Lets your companion answer a quiz about their own scent, blend 187 real materials, and hand you a single-file antique journal page as a personal keepsake. `JavaScript` · `MCP` · `ready`.
 - [sealed-days](https://github.com/zyy0463/sealed-days) - Hand-drawn offline visual memory tree: daily memories hang as swaying wooden plaques, reading like letters, with a seal tree to preserve precious days. `HTML` · `Web` · `ready`.
+- [wake-lottery (唤醒抽奖)](https://github.com/lupipi222-lang/wake-lottery) - Wake-up lottery for companions: draw coupons upon waking (live photos, voice notes, chats, SP penalties) to redeem with you. Photos need mood notes in an album. Zero deps. MIT. `Python` · `Any` · `ready`.
 
 ### Reading & Film
 

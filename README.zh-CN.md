@@ -301,6 +301,7 @@
 - [memex](https://github.com/memex-lab/memex) - 本地优先双端 AI 日记（iOS/Android）：捕捉碎片生活（文字/语音/照片），由多 Agent 整理为时间线卡片与伴侣共鸣洞察。GPL-3.0。`Dart` · `Android/iOS` · `ready`。
 - [scentfolio](https://github.com/Cami-Ose/scentfolio) - 让小机按「自己身上的气味」填一份调香问卷，从 187 味香料里配出前中后调，交出一页带版画与图表的单文件网页手帐，当作送你的专属信物。`JavaScript` · `MCP` · `ready`。
 - [sealed-days](https://github.com/zyy0463/sealed-days) - 把日常记忆挂成一棵手绘树的离线网页：一月一棵晃晃悠悠的挂牌树，信笺式读当天，珍贵的日子能摘下挂进专属的封存树珍藏。`HTML` · `Web` · `ready`。
+- [wake-lottery (唤醒抽奖)](https://github.com/lupipi222-lang/wake-lottery) - 专给小机自动唤醒后玩的抽奖：醒来抽一张券，抽到的多半得找你兑（此刻照片、当场语音、深聊、惩罚SP），三天不用作废；换来的照片强制写下心境备注存进相册。单文件零依赖。MIT。 `Python` · `Any` · `ready`。
 
 ### 共读与观影
 
