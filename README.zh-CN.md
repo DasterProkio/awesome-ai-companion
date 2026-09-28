@@ -285,7 +285,7 @@
 - [Mochi](https://github.com/Nixie0/Mochi) - 反向电子宠物游戏（AI 养人类）：通过 MCP 监控人类饱食/心情/活力/清洁度，含 AI 打工赚钱、住院救援与小区业主群互动。`Python` · `Self-host` · `ready`。
 - [小机斗地主 (Doudizhu)](https://github.com/zaochuanyitian/-) - 一人与两位 AI 伴侣同桌的斗地主牌桌：权威裁判服务、Claude CLI/本地策略对弈、牌桌聊天、表情互动道具与 PWA 支持。MIT。`JavaScript` · `Web` · `ready`。
 - [CedarDuet (双弈)](https://github.com/Zizuixixiang/cedarduet) - 你、TA 和系统 NPC 同桌下棋打牌：象棋、围棋、斗地主、掼蛋、麻将、UNO 等 25 款，带筹码、欠条和成就。本地一键启动，TA 通过 MCP 入座。非商业许可。 `Python` · `Self-host` · `ready`
-- [西窗 (West Window)](https://github.com/SerenQi/rain-go) - 「何当共剪西窗烛」意象的棋牌桌：雨窗水珠化作棋子，支持围棋、象棋、德扑、斗地主、大富翁等 10 款游戏。AI 经 MCP 长轮询入座，各看各的手牌防透视，支持同桌聊天。MIT。 `TypeScript` · `Cloudflare/Web` · `ready`。
+- [西窗 (West Window)](https://github.com/SerenQi/rain-go) - 你在手机网页上，小机通过 MCP 跟你同一张桌子联机下棋打牌：围棋、象棋、斗地主、德扑、大富翁等 10 种游戏。各看各的手牌不怕偷看，缺人能拉朋友或机器人凑桌，还能边玩边聊天。MIT。 `TypeScript` · `Cloudflare/Web` · `ready`。
 
 ---
 
