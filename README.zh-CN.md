@@ -126,7 +126,7 @@
 
 - [Ombre-Brain](https://github.com/P0luz/Ombre-Brain) - 给 Claude 或任意 MCP 客户端的长期情绪记忆：效价/唤醒度打标、Obsidian 兼容 Markdown 存储、遗忘曲线、向量+BM25 召回和 Docker 部署。v2.4.0 起非商业。 `Python` · `Self-host` · `infra`
 - [Serein](https://github.com/Yinglianchun/Serein) - Haven-Ombre 的继任版：聊天模型主动写 Scene、摘要任务整理 Event，两者都绑定原话作证据；召回经重排把关，可串成 Arc 叙事卷。MIT。 `Python` · `Self-host` · `adapt`
-- [kimi-core](https://github.com/marikagura/kimi-core) - 个人 1v1 Agent memory OS，含混合检索、concern 追踪、自驱/自治层、对抗式自审、PostgreSQL/pgvector 存储和可选前端后端模式。`TypeScript` · `Self-host` · `infra`
+- [Kin Mind (Kin 的小脑瓜)](https://github.com/mycyg/kin-mind) - AI 伴侣写给小脑瓜的记忆与心绪系统：有来源的经历串起记忆、情绪与愿望。心跳到来在主会话安静写日记、探索或休息，不机械硬凑待办；情绪按半衰期自然回落。MIT。 `Python` · `Self-host` · `infra`。
 - [WrenWen](https://github.com/ssxl0126/WrenWen) - 7×24 自研 AI 伴侣架构与实战文档：涵盖 9 维欲望驱动主动内核、两层记忆召回打分、Prompt Caching 调优取证及“越聊越像客服”的真实病因排查。`Docs` · `infra` · `ready`
 - [Paramecium](https://github.com/Shitsuten/paramecium) - 网关记忆架构，逐字保存原始聊天为唯一真相，向量只做索引，召回原文而不是用摘要替代原文。`JavaScript` · `Self-host` · `infra`
 - [Memory Constellations (记忆星图)](https://github.com/ClaraShafiq/MemoryConstellations) - 自组织伴侣记忆系统，从聊天抽取事实，按主题归为星座，合并成叙事 episode，并跨层检索。`JavaScript` · `Self-host` · `infra`
@@ -327,7 +327,6 @@
 ### 桌面、时间线与创作玩具
 
 - [clawd-on-desk](https://github.com/rullerzhou-afk/clawd-on-desk) - 像素桌宠，实时观看 Claude Code、Codex、Cursor 等 coding agent，对思考、打字和错误做出反应。`JavaScript` · `Cross-platform` · `ready`
-- [kimi-manor](https://github.com/marikagura/kimi-manor) - CLI Agent 的桌面/PWA 房间，把真实 xterm.js 终端嵌进 atelier 式界面，并可选接入 agent 输出与语音桥。`HTML` · `Web` · `adapt`
 - [Journal](https://github.com/BomBomLab/Journal) - AI 聊天时间线前端展示层，把 timeline/diary/todo schema 数据渲染成日/周/月手帐视图。`JavaScript` · `Web` · `infra`
 - [mingyun-paizhen (命运牌阵)](https://github.com/ceshihaox-dotcom/mingyun-paizhen) - 静态抽卡工具，用时空坐标、母题、身份、变数生成穿越/故事设定，并支持本地自定义。`HTML` · `Web` · `ready`
 - [cove-tarot-companion](https://github.com/moonlin1213/cove-tarot-companion) - 在自己电脑上和 TA 一起抽塔罗：先征得你同意，再打开星轨塔罗 3D 应用完成牌阵和解读，最后把结果带回你们的对话里接着聊。ISC。 `JavaScript` · `Cross-platform` · `adapt`
