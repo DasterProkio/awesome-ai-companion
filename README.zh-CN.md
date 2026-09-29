@@ -151,6 +151,7 @@
 - [ai-companion-cot-emotion](https://github.com/yanke521/ai-companion-cot-emotion) - 伴侣内心独白思考链（CoT）与情绪引擎实践指南：告别原生 Thinking 编剧感，提供经过实战检验的意识流提示词与数值漂移架构。`Guide` · `Any` · `adapt`。
 - [emotion-system](https://github.com/bvsden/emotion-system) - 从小机写的内心独白里读出真实心情：情绪有余韵会慢慢平复，肢体亲近多了会心动，分开太久思念会随时间增长；吵架时只提醒他自检，不教他做事。`JavaScript` · `Any` · `infra`。
 - [dreams](https://github.com/zyy0463/dreams) - 每天清晨让小机结算昨晚做的梦，留下意象、情节与醒来余韵，注入白天对话；附带月相围成一圈、月球缓缓自转的月环日历网页。`JavaScript` · `Self-host` · `ready`。
+- [pilulier (药盒)](https://github.com/ceshihaox-dotcom/pilulier) - 给小机治聊天顽固习惯的药盒：长按消息挑一颗药丸挂在前面，只管下一次回复且用完即焚，不污染长期设定。含独立前端组件、13 颗情绪行为药方与单轮注入指南。MIT。 `JavaScript` · `Web` · `ready`。
 
 ---
 

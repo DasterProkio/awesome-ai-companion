@@ -151,6 +151,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [ai-companion-cot-emotion](https://github.com/yanke521/ai-companion-cot-emotion) - Production-tested guide and prompt architecture for companion inner-monologue CoT and drifting emotion state engines. `Guide` · `Any` · `adapt`.
 - [emotion-system](https://github.com/bvsden/emotion-system) - Reads true feelings from your companion's inner monologue: emotions linger and fade naturally, touch builds intimacy, longing grows while away, with no back-seat driving. `JavaScript` · `Any` · `infra`.
 - [dreams](https://github.com/zyy0463/dreams) - Generates nightly dreams with scenes, motifs, and waking residue to inject into daytime chats; features an interactive revolving moon-phase calendar. `JavaScript` · `Self-host` · `ready`.
+- [pilulier (药盒)](https://github.com/ceshihaox-dotcom/pilulier) - Pill box for companion chats: attach a behavioral pill for the next reply only, burned after reading to keep history clean. UI component, 13 prompt pills & guide. MIT. `JavaScript` · `Web` · `ready`.
 
 ---
 
