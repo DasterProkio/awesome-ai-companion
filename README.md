@@ -63,6 +63,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [My Raze](https://github.com/Do-fei/my-raze) - Full-stack AI girlfriend PWA with multi-character chat, OpenRouter streaming, contextual selfies via fal.ai, multi-provider TTS/STT, mood and intimacy systems, and proactive notifications. MIT. `TypeScript` · `Web` · `adapt`.
 - [the-house](https://github.com/wuliu0012/the-house) - Single-file browser chat frontend for Claude or OpenAI-compatible APIs, with local browser storage, multiple chat windows, memory editing, MCP endpoints, image input, and optional toy bridge. `HTML` · `Web` · `adapt`.
 - [Claude Code](https://github.com/anthropics/claude-code) - Official CLI coding agent often used as the host runtime for companion channels, local tools, hooks, MCP, and long-running sessions. `CLI` · `Cross-platform` · `infra`.
+- [android-claude-wechat](https://github.com/xvxv-stack7/android-claude-wechat) - One-command installer putting Claude Code and its runtime onto an Android phone through Termux, no root or PC needed; includes an optional IM bridge. MIT. `Shell` · `Android` · `adapt`.
 - [CcCompanion](https://github.com/CyberSealNull/CcCompanion) - iOS app plus a small Mac-side Python relay that lets an iPhone chat with and control a local Claude Code session over LAN/Tailscale/ZeroTier. `Swift` · `iOS` · `adapt`.
 - [Pando](https://github.com/Eloise-Aspen/pando-bridge) - Self-hosted mobile/PWA gateway for a local Claude Code CLI: WebSocket streaming of reasoning and tool use, file uploads, SQLite history, and permission approval. No built-in auth. MIT. `Python` · `Self-host` · `adapt`.
 - [CC Companion App](https://github.com/tjing9430/cc-companion-app) - Lightweight self-hosted companion chat starter with private/group chat, persistent memory notes, SSE updates, and PWA access. A compact reference for building a companion frontend. `JavaScript` · `Self-host` · `adapt`.
@@ -115,6 +116,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [revive-companion](https://github.com/pearthink123/revive-companion) - Timing engine for proactive outreach, combining Poisson processes, Bayesian user-state inference, and information gain to decide when a companion should interrupt. Timing only. MIT. `Python` · `Any` · `infra`.
 - [ai-surf-when-bored](https://github.com/sanqianzilanyue/ai-surf-when-bored) - Implementation guide and core Python routines for companion autonomous web-browsing: desire framing, n-gram rumination gates, and natural dialogue recall. `Guide/Python` · `Any` · `adapt`.
 - [proactive-web-surf-agent](https://github.com/huihui191/proactive-web-surf-agent) - Lets an AI companion autonomously wander public web sources, pick interesting discoveries, and proactively share them over Telegram or terminal. MIT. `TypeScript` · `Self-host` · `ready`.
+- [android-claude-agent](https://github.com/xvxv-stack7/android-claude-agent) - Root-free adb hands for a Termux companion: reads screen, foreground app, battery and steps, acts on the phone, and wakes only when worth it. MIT. `Shell` · `Android` · `adapt`.
 
 ---
 
@@ -324,6 +326,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - Local MCP server for NetEase Cloud Music using `neteasecli` and `mpv`, with search, playback control, lyrics, playlists, current-song context, and a local web player. `JavaScript` · `Self-host` · `adapt`.
 - [Listening Bridge](https://github.com/yoruuuchan/listening-bridge) - MCP bridge exposing active Android/Windows media sessions to companions: tracks, synced lyrics, and playback controls over WebSocket. MIT. `Python/Java` · `Android/Windows` · `ready`.
 - [woaini](https://github.com/woaini521-beta/woaini) - Personal focus-companion PWA: Pomodoro timer, background notifications, offline cache, chat, and character-card import, deployable straight to GitHub Pages. `HTML` · `Web` · `adapt`.
+- [android-claude-music](https://github.com/xvxv-stack7/android-claude-music) - Android listening companion: reads the system media session, aligns lyrics to playback, picks and plays songs itself on a virtual display without taking over your screen. MIT. `Shell/Python` · `Android` · `adapt`.
 
 ### Desktop, Timelines & Creative Play
 
