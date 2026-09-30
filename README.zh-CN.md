@@ -187,6 +187,8 @@
 - [astrbot_plugin_chuanhuatong (传画筒)](https://github.com/bvzrays/astrbot_plugin_chuanhuatong) - 把 AstrBot 纯文本回复渲染成带立绘的 Galgame 风聊天框图片：情绪差分、多层文本、拖拽式 WebUI 布局。`Python` · `AstrBot` · `ready`
 - [Shinsekai](https://github.com/RachelForster/Shinsekai) - 本地 AI 伴侣/视觉小说演出平台：人设驱动对话，含 TTS/ASR、记忆、插件和 Galgame 式演出。`Python` · `Cross-platform` · `ready`
 - [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - AI 聊天情绪皮肤：AI 人格驱动 UI，行内文字特效+全屏情绪皮肤。CC BY 4.0。`CSS` · `Web` · `adapt`
+- [VPet（虚拟桌宠模拟器）](https://github.com/LorisYounger/VPet) - 成熟的 WPF 桌宠模拟器：互动投喂、ChatGPT 对话、Steam 创意工坊 MOD、代码插件，可通过 NuGet 嵌入 WPF 应用。Apache-2.0。`C#` · `Windows` · `ready`。
+- [Desktop Pet](https://github.com/git2968/Desktop-pet) - Electron 桌宠，渲染 Live2D 模型或 8x9 像素精灵图：人设驱动的 AI 对话气泡、表情动作联动、MCP 工具、Agent Skills、离线 Vosk 语音输入。MIT。`TypeScript` · `Windows` · `ready`。
 
 ### 物理设备与触觉
 
