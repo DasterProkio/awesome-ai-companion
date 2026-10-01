@@ -50,6 +50,7 @@
 - [LastChat](https://github.com/Cocolalilal/LastChat) - RikkaHub fork，侧重隐私和个性化 Android 聊天体验，含 Provider preset、多模态输入、RAG 记忆和 UI 改造。`Kotlin` · `Android` · `adapt`
 - [rikkahub-auto-compress](https://github.com/innna327-source/rikkahub-auto-compress) - 非官方 RikkaHub fork，核心用途是自动滚动摘要与上下文压缩，基于 RikkaHub 2.2.5 代码线。`Kotlin` · `Android` · `adapt`
 - [orangechat (橘瓣)](https://github.com/sue1231513/orangechat) - RikkaHub 陪伴向二改：QuickJS 插件系统、主动消息、14 个安卓设备工具，面向生活感知型玩法。记忆为关键词库而非向量。 `Kotlin` · `Android` · `adapt`
+- [Orbis](https://github.com/AZHi-xinxin/Orbis) - RikkaHub 陪伴向衍生版：本地后花园（日记、信件、心愿），可导入 TXT/Markdown、让 AI 按章节读书并留批注的藏书阁，由独立 DM 模型主持的海龟汤，以及多 AI 群聊。`Kotlin` · `Android` · `ready`
 - [Operit](https://github.com/AAswordman/Operit) - Android Agent 应用，含工具调用、工作流自动化、记忆、角色卡、语音、本地 MNN/llama.cpp 模型和内置 Ubuntu 24 环境。`Kotlin` · `Android` · `ready`
 - [Aura (奥拉)](https://github.com/gqy20/Aura) - Android AI 陪伴 App：跨会话长期记忆、情绪状态机、随相处加深的关系模型、图片理解、Health Connect 数据、MCP，可选本地 Qwen 推理。 `Kotlin` · `Android` · `ready`
 - [Scowld](https://github.com/apoorvdarshan/scowld) - 原生 iOS 语音伴侣：VRM 动画角色、语音与文字聊天、本地对话历史、设备端唤醒检测，AI/STT/TTS 均自备密钥，密钥保存在 iOS 钥匙串。MIT。 `Swift` · `iOS` · `ready`
