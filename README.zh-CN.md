@@ -63,7 +63,7 @@
 - [My Raze](https://github.com/Do-fei/my-raze) - 全栈 AI 虚拟女友 PWA：多角色聊天、OpenRouter 流式输出、fal.ai 场景自拍、多家 TTS/STT、心情与亲密度系统和主动通知。当前分支标明 DO NOT DEPLOY。MIT。 `TypeScript` · `Web` · `adapt`
 - [the-house](https://github.com/wuliu0012/the-house) - 单文件浏览器聊天前端，支持 Claude 或 OpenAI 兼容 API、本地浏览器存储、多窗口、记忆编辑、MCP 地址、图片输入和可选玩具桥接。`HTML` · `Web` · `adapt`
 - [Claude Code](https://github.com/anthropics/claude-code) - Anthropic 官方 CLI Agent，常被用作伴侣通道、长期终端会话、本地工具、hooks、MCP 的宿主运行时。`CLI` · `Cross-platform` · `infra`
-- [android-claude-wechat](https://github.com/xvxv-stack7/android-claude-wechat) - 一条命令把 Claude Code 和运行环境装进安卓手机的 Termux，免 Root 免电脑，另带一个可选的 IM 桥。MIT。`Shell` · `Android` · `adapt`
+- [android-claude-wechat](https://github.com/xvxv-stack7/android-claude-wechat) - 一条命令把 Claude Code（固定 2.1.195 版）和运行环境装进安卓手机的 Termux，免 Root 免电脑，可选经 cc-connect 接入微信。MIT。`Shell` · `Android` · `adapt`
 - [CcCompanion](https://github.com/CyberSealNull/CcCompanion) - iOS App + Mac 侧 Python relay，让 iPhone 通过 LAN/Tailscale/ZeroTier 与本地 Claude Code session 聊天和控制会话。`Swift` · `iOS` · `adapt`
 - [Pando](https://github.com/Eloise-Aspen/pando-bridge) - 可自托管的 Claude Code CLI 手机/PWA 网关：流式返回思考与工具调用、图片/PDF 上传、SQLite 记录、可插拔记忆和手机端权限审批。无内置鉴权。MIT。 `Python` · `Self-host` · `adapt`
 - [CC Companion App](https://github.com/tjing9430/cc-companion-app) - 轻量自托管陪伴聊天前端：私聊/群聊、持久记忆便笺、SSE 更新和 PWA 访问。适合作为围绕任意 Agent 适配器搭建陪伴前端的紧凑参考。 `JavaScript` · `Self-host` · `adapt`
@@ -116,7 +116,7 @@
 - [revive-companion](https://github.com/pearthink123/revive-companion) - 主动联系时机引擎：结合泊松过程、贝叶斯用户状态推断与信息增益，判断伴侣何时该打扰。只负责时机决策，不含记忆或情感系统。MIT。 `Python` · `Any` · `infra`
 - [ai-surf-when-bored](https://github.com/sanqianzilanyue/ai-surf-when-bored) - 让 AI 伴侣自主冲浪的机制指南与核心 Python 逻辑：解决不愿出门与选题死循环，含反刍闸、换题引路及见闻自然回流。`Guide/Python` · `Any` · `adapt`。
 - [proactive-web-surf-agent](https://github.com/huihui191/proactive-web-surf-agent) - 伴侣自主漫游冲浪引擎：让 AI 自行浏览公开网页并挑选感兴趣的内容，在白天随机主动向 Telegram 或终端分享。MIT。`TypeScript` · `Self-host` · `ready`。
-- [android-claude-agent](https://github.com/xvxv-stack7/android-claude-agent) - 免 Root 给 Termux 里的伴侣装上 adb 手脚：读屏幕、前台应用、电量、步数，能动手操作手机，只在值得的时候才被叫醒。MIT。`Shell` · `Android` · `adapt`
+- [android-claude-agent](https://github.com/xvxv-stack7/android-claude-agent) - 借 Shizuku 免 Root 给 Termux 里的伴侣装上 adb 手脚：读屏幕、前台应用、电量，能动手操作手机，只在触发事件时叫醒 Claude。MIT。`Shell` · `Android` · `adapt`
 
 ---
 
@@ -326,7 +326,7 @@
 - [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - 本地网易云音乐 MCP Server，基于 `neteasecli` 和 `mpv`，支持搜索、播放控制、歌词、歌单、当前歌曲上下文和本地 Web 播放器。`JavaScript` · `Self-host` · `adapt`
 - [Listening Bridge](https://github.com/yoruuuchan/listening-bridge) - 将 Android/Windows 当前播放媒体暴露给伴侣的 MCP 桥：实时抓取曲目、同步歌词并支持播放控制，无需麦克风录音。MIT。`Python/Java` · `Android/Windows` · `ready`
 - [woaini](https://github.com/woaini521-beta/woaini) - 个人向专注陪伴 PWA：番茄钟、后台通知、离线缓存、聊天与角色卡导入，可直接部署到 GitHub Pages。`HTML` · `Web` · `adapt`
-- [android-claude-music](https://github.com/xvxv-stack7/android-claude-music) - 安卓陪听伴侣：读系统媒体会话、把歌词对齐到播放进度，自己在虚拟副屏上点歌放歌，不占你的屏。MIT。`Shell/Python` · `Android` · `adapt`
+- [android-claude-music](https://github.com/xvxv-stack7/android-claude-music) - 安卓陪听伴侣：读系统媒体会话、把歌词对齐到播放进度，自己在虚拟副屏上放歌，不占你的屏。目前仅支持酷狗。MIT。`Shell/Python` · `Android` · `adapt`
 
 ### 桌面、时间线与创作玩具
 
