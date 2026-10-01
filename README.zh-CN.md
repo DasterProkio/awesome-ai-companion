@@ -108,6 +108,7 @@
 - [Not Fade Away](https://github.com/heyxiaoc/not-fade-away) - 用官方 channels、本地终端和自托管网页前端搭建常驻、自愈 Claude Code 伴侣的部署指南与机读规格。`Guide` · `Claude Code` · `adapt`
 - [cloud-and-island (云与岛)](https://github.com/cocoRaina/cloud-and-island) - 给 Claude 一个家的完整搭建教程：记忆库、日记、Telegram 桥接、健康数据、Mini App。`Guide` · `Claude Code` · `adapt`
 - [Keep the Crow (把乌鸦留在身边)](https://github.com/sunmoon-orbit/Keep-the-crow) - 30 章长篇实战教程：让 Claude Code 常驻自有服务器当伴侣，含手机 PWA 聊天、SQLite 记忆库与语义检索、推送与主动消息、TTS、手环健康数据、共读书架及安全加固与踩坑记录。CC BY-NC 4.0。`Guide` · `Claude Code` · `adapt`
+- [ai-companion-telegram-guide (把 AI 伴侣搬进 Telegram)](https://github.com/liora-vale/ai-companion-telegram-guide) - 把聊天窗口里的伴侣搬进自己的 Telegram Bot：基于 MochiBot + OpenRouter + VPS，讲怎么把长篇 Skill 编译成常驻 Core 并用请求 dump 验收、旧聊天迁进长期记忆、systemd 常驻、备份回滚，附已读不回、突然变陌生等故障排查。ElevenLabs 语音标为实验扩展。文字 CC BY 4.0，代码 MIT。 `Guide` · `MochiBot` · `adapt`
 - [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat) - Kelivo 插件，定期唤醒伴侣、注入主动行为上下文、维护时间线连续性，并在 AI 判断需要时通过 Bark 推送消息。`JavaScript` · `Kelivo` · `adapt`
 - [OmniRouter](https://github.com/OmniDimen/OmniRouter) - 本地 OpenAI 兼容 API 路由器，支持多 Provider/模型、分组、权重/随机/顺序路由、视觉模型跳过、重试和 Web 管理界面。`Python` · `Self-host` · `infra`
 - [VCPToolBox](https://github.com/lioensky/VCPToolBox) - LLM API 与前端之间的工业级中间层：统一指令协议、持久化多层级记忆、分布式插件引擎和多 Agent 协作。私有协议，非商业许可。 `Python` · `Self-host` · `verify`
