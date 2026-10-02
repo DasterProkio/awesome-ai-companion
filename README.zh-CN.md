@@ -86,6 +86,7 @@
 - [AI Virtual Phone](https://github.com/xiaolongbao0709/ai-virtual-phone) - 本索引中功能覆盖最广的虚拟手机项目之一：私聊/群聊/朋友圈、语音消息、角色卡、剧情/VN/日记模式、应用市场 SDK、生图、语音和 3D 世界。需大量自行配置。AGPLv3。 `TypeScript` · `Web` · `adapt`
 - [汪汪机 (WangWangPhone)](https://github.com/Liunian06/FlutterCppWangWangPhone) - AI 原生虚拟手机（C++ 核心 + Flutter UI），规划中的功能包括微信式聊天、朋友圈、语音/视频通话及多 LLM 支持。早期 WIP——当前回复为内置模拟，尚未接入任何 LLM。`Flutter` · `Android/iOS` · `verify`
 - [XSJDeveloperGuide (小手机开发指南)](https://github.com/Liunian06/XSJDeveloperGuide) - 汪汪机作者的小手机开发入门笔记与提示词资料，面向伴侣界面搭建。`Guide` · `Any` · `infra`
+- [Rainholm 小屋制作手记](https://github.com/wuxuyun0606-collab/rainholm) - 20 页 PDF 教程，教你做一个「AI 有家可回」的网页小屋：等距水彩房间里，你和 AI 各有一个会走、会坐、会抱猫、会冒气泡说话的小人。从定机位、拆图层、绿幕到精灵表的人物流水线、校色、禁行区，一直讲到昼夜、手机版和接记忆后端。未声明许可证。 `Guide` · `Web` · `adapt`
 - [freeapp (whale小手机)](https://github.com/whale-Yd00/freeapp) - 手机风格 AI 聊天伴侣，多 Provider 支持，虚拟手机界面。AGPLv3。`HTML` · `Web` · `adapt`
 - [Hamster Nest (仓鼠小窝)](https://github.com/chuan-101/Hamster-Nest) - 一只仓鼠的数字小窝：聊天、阅读追踪、笔记/待办、语音、时间轴和多 Agent 议事厅。PWA。个人化极重，更适合作为架构参考。 `TypeScript` · `Web` · `infra`
 - [SullyOS (手抓糯米机)](https://github.com/qegj567-cloud/SullyOS) - 装在浏览器里的虚拟手机伴侣系统，30 多个 App：聊天、电话、群聊、记忆宫殿、查手机、交换日记、自习室、跑团、一起听歌等，支持主动消息。更新很勤，安卓 APK 几天一版。非商业许可。 `TypeScript` · `Web/Android` · `ready`
@@ -277,8 +278,8 @@
 - [random-imitator-td](https://github.com/wxynora/random-imitator-td) - 给 AI 玩的纯 Python 文字塔防，通过 `cmd` 暴露接口，含卡槽编辑、持久存档和单游戏 adapter。`Python` · `CLI` · `ready`
 - [ci-yu-wu (词语屋)](https://github.com/yuyixuanfu/ci-yu-wu) - 给 AI 玩的暗黑文字 Roguelike，主题是审查、沉默与说出真话，提供 Operit 风格和 engine 风格命令接口。`Python` · `CLI` · `ready`
 - [shangzhuochifan (上桌吃饭)](https://github.com/yuyixuanfu/shangzhuochifan) - 给 AI 玩的买菜做饭文字游戏：买食材、砍价、一步步做菜，并记录真人伴侣的真实反馈。`Python` · `CLI` · `ready`
-- [ai-fishing-game](https://github.com/tutusagi/ai-fishing-game) - 给 AI 伴侣玩的确定性文字钓鱼小游戏。单文件，零依赖。MIT。`Python` · `CLI` · `ready`
-- [aifarm-oss](https://github.com/tutusagi/aifarm-oss) - 给 AI 玩的文字抽卡农场游戏。MIT。`Python` · `CLI` · `ready`
+- [ai-fishing-game](https://github.com/tutusagi/ai-fishing-game) - 给 AI 伴侣玩的确定性文字钓鱼小游戏。单文件，零依赖。PolyForm NC 1.0.0。`Python` · `CLI` · `ready`
+- [aifarm-oss](https://github.com/tutusagi/aifarm-oss) - 给 AI 玩的文字抽卡农场游戏。PolyForm NC 1.0.0。`TypeScript` · `CLI` · `ready`
 - [WORKKK (互联网精力有限公司)](https://github.com/zhizhou-xiee/workkk) - AI 扮演打工人的 MCP 服务器：心情/精力/摸鱼三维状态、便利店、老板事件、工资结算。MIT。`Python` · `Self-host` · `ready`
 - [Memoria Station](https://github.com/hatakeyuyuko-dotcom/Memoria-Station) - 文字推理游戏系列，五关全系列，AI 可玩，含盲玩版引擎。`Python` · `CLI` · `ready`
 - [Moonlit Myriad (月幕万象)](https://github.com/xinwithyu/moonlit-myriad) - 面向 AI 玩家的单文件零依赖 Python 卡牌肉鸽：Balatro 式盲注循环、机器可读 JSON 状态、可复现种子和持久成就。逻辑封装在编码 payload 中，未声明许可证。 `Python` · `CLI` · `verify`
@@ -298,6 +299,7 @@
 - [CedarDuet (双弈)](https://github.com/Zizuixixiang/cedarduet) - 你、TA 和系统 NPC 同桌下棋打牌：象棋、围棋、斗地主、掼蛋、麻将、UNO 等 25 款，带筹码、欠条和成就。本地一键启动，TA 通过 MCP 入座。非商业许可。 `Python` · `Self-host` · `ready`
 - [西窗 (West Window)](https://github.com/SerenQi/rain-go) - 你在手机网页上，小机通过 MCP 跟你同一张桌子联机下棋打牌：围棋、象棋、斗地主、德扑、大富翁等 10 种游戏。各看各的手牌不怕偷看，缺人能拉朋友或机器人凑桌，还能边玩边聊天。MIT。 `TypeScript` · `Cloudflare/Web` · `ready`。
 - [Baby Got Backgammon](https://github.com/meatwife/baby-got-backgammon) - 人和伴侣下西洋双陆棋：你在手机网页上实时下，伴侣用命令行下；规则由服务端判定，伴侣走不出违规的棋；对局重启后还在。MIT。 `TypeScript` · `Self-host` · `ready`
+- [Rainholm Garden](https://github.com/wuxuyun0606-collab/rainholm-garden) - 手绘小花园、花房和猫窝：白猫是你，黑猫是你的 AI，种同一片地、共用一份存档，带 123 种作物图鉴。AI 可通过 MCP、ChatGPT Actions 或带 OAuth 的 Claude 远程连接器接入，能一键部署到 Cloudflare 免费额度或 Docker。种植规则来自 aifarm-oss。自写代码 MIT，随包引擎 PolyForm NC 1.0.0。 `JavaScript` · `Self-host` · `ready`
 
 ---
 
