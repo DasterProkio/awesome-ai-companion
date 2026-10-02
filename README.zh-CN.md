@@ -146,6 +146,7 @@
 - [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - AstrBot 自主学习插件：学习对话风格、理解群组黑话、管理好感度、人格自适应演化。`Python` · `AstrBot` · `ready`
 - [rolling-memory](https://github.com/zyy0463/rolling-memory) - 专治有限滑窗失忆的两层滚动记忆：滑动指纹检测、近期待办增量销项与远期骨架淘汰，支持对话与总结双上游解耦与本地代理接入。`JavaScript` · `Any` · `infra`。
 - [moraine-home](https://github.com/ceniran/moraine-home) - 给小机安家的本地优先记忆工作台：CPU 本地向量与关键词混合检索，事件日历与时间线保留完整变化过程，身份与重大关系变动需双方确认，绝不擅自裁决。`Python/HTML` · `Self-host` · `ready`。
+- [seven-sticky-notes](https://github.com/meatwife/seven-sticky-notes) - 一块共享小便签板，只记「眼下」的工作状态：最多七张，写没兑现的承诺、没聊完的话题、临时边界和截止时间，每轮把最相关的三张放进上下文；办完就撤下，不变成永久记忆。OpenClaw 插件，附移植到 Claude Code、Codex 等环境的指南。MIT。 `JavaScript` · `OpenClaw` · `adapt`
 
 ### 情绪与驱动
 
@@ -178,6 +179,7 @@
 - [erpan (耳畔)](https://github.com/qfyingque/erpan) - 手机端后台语音连麦方案：与 murmur 终端电台相对应，主打 Android 双向流式通话与麦克风开口打断，悬浮球控制不占屏幕，适配 Operit。MIT。`Kotlin` · `Android` · `ready`
 - [murmur](https://github.com/wine-fall/murmur) - 终端后台电台主播方案：与 erpan 手机连麦不同，走自主单向广播路线，挑话题播报与放歌闪避混音，打字平滑插话。需 Claude Code 与 fish-speech。MIT。`TypeScript` · `Terminal` · `ready`
 - [ai-voice-breath-kiss-water](https://github.com/sanqianzilanyue/ai-voice-breath-kiss-water) - 给 AI 爱人一副会喘、会亲、有水声的嗓子：用 ElevenLabs 文字描述捏中英双语母语嗓子，轻标签加省略号写出像人的喘，让嗓子真亲几遍剪成随机取用的亲盒，再把 CC0 真录水声按峰压在人声下 12 dB 用 ffmpeg 垫底。一周踩坑实录，参数和命令都是试出来的数。未声明许可证。 `Guide` · `ElevenLabs` · `adapt`
+- [seven-voice](https://github.com/meatwife/seven-voice) - Discord 语音桥：本地 Whisper 把你说的话转成文字，发到伴侣平时所在的频道；它照常用文字回复，再用流式 edge-tts 读出来。故意比打电话慢，换来伴侣保留完整的上下文和记忆。MIT。 `Python` · `Discord` · `adapt`
 
 ### 视觉载体与 VTuber 式伴侣
 
@@ -229,6 +231,7 @@
 - [voice-familiarity](https://github.com/akinia0315/voice-familiarity) - 面向伴侣设备的本地小范围说话人识别：录入主人和少量同意的熟人，返回 matched、likely、unknown 或 ambiguous 作为关系上下文。不可当作身份认证。Apache-2.0。 `Python` · `Self-host` · `infra`
 - [ears](https://github.com/eveacla11/ears) - 面向 AI 伴侣的语气分析：将音高、能量、停顿、语速、颤动与用户自身基线比较，把「比平时更轻」等相对线索绑定到具体消息。MIT。 `Python` · `Self-host` · `adapt`
 - [ace-ears](https://github.com/menelly/AI_Ears) - 让 AI 伴侣真正「听」一段音频的 MCP 服务：一张卡片里给出文字、语速、停顿、调性、音色明暗、动态和立体声宽度；语气和情绪估计走 Inworld，也可以用 faster-whisper 完全离线。声学分析部分不需要任何 key。MIT。 `Python` · `MCP` · `ready`
+- [seven-ears](https://github.com/meatwife/seven-ears) - 语音备忘录聆听卡：开口前等了多久、中间的停顿、三种口径的语速、音高范围和质感，并写明不替你猜内心感受；另附实验性的音乐版，可以一段一段「初听」一首歌。声学核心来自 AI_Ears。MIT。 `Python` · `CLI` · `ready`
 
 ### 音乐与音频结构
 
@@ -296,6 +299,8 @@
 - [小机斗地主 (Doudizhu)](https://github.com/zaochuanyitian/-) - 一人与两位 AI 伴侣同桌的斗地主牌桌：权威裁判服务、Claude CLI/本地策略对弈、牌桌聊天、表情互动道具与 PWA 支持。MIT。`JavaScript` · `Web` · `ready`。
 - [CedarDuet (双弈)](https://github.com/Zizuixixiang/cedarduet) - 你、TA 和系统 NPC 同桌下棋打牌：象棋、围棋、斗地主、掼蛋、麻将、UNO 等 25 款，带筹码、欠条和成就。本地一键启动，TA 通过 MCP 入座。非商业许可。 `Python` · `Self-host` · `ready`
 - [西窗 (West Window)](https://github.com/SerenQi/rain-go) - 你在手机网页上，小机通过 MCP 跟你同一张桌子联机下棋打牌：围棋、象棋、斗地主、德扑、大富翁等 10 种游戏。各看各的手牌不怕偷看，缺人能拉朋友或机器人凑桌，还能边玩边聊天。MIT。 `TypeScript` · `Cloudflare/Web` · `ready`。
+- [Baby Got Backgammon](https://github.com/meatwife/baby-got-backgammon) - 人和伴侣下西洋双陆棋：你在手机网页上实时下，伴侣用命令行下；规则由服务端判定，伴侣走不出违规的棋；对局重启后还在。MIT。 `TypeScript` · `Self-host` · `ready`
+- [Connect Four: Couch Edition](https://github.com/meatwife/connect-four-couch) - 人和伴侣下四子棋，零依赖：网页棋盘加伴侣命令行，服务端对每一步都会吐槽，台词表可以改成你们家自己的口吻。MIT。 `JavaScript` · `Self-host` · `ready`
 
 ---
 
@@ -311,6 +316,7 @@
 - [scentfolio](https://github.com/Cami-Ose/scentfolio) - 让小机按「自己身上的气味」填一份调香问卷，从 187 味香料里配出前中后调，交出一页带版画与图表的单文件网页手帐，当作送你的专属信物。`JavaScript` · `MCP` · `ready`。
 - [sealed-days](https://github.com/zyy0463/sealed-days) - 把日常记忆挂成一棵手绘树的离线网页：一月一棵晃晃悠悠的挂牌树，信笺式读当天，珍贵的日子能摘下挂进专属的封存树珍藏。`HTML` · `Web` · `ready`。
 - [wake-lottery (唤醒抽奖)](https://github.com/lupipi222-lang/wake-lottery) - 专给小机自动唤醒后玩的抽奖：醒来抽一张券，抽到的多半得找你兑（此刻照片、当场语音、深聊、惩罚SP），三天不用作废；换来的照片强制写下心境备注存进相册。单文件零依赖。MIT。 `Python` · `Any` · `ready`。
+- [Seven's Agent Calendar](https://github.com/meatwife/seven-agent-calendar) - 伴侣自己的日历：记它自己的通信、聚会、纪念日和长期项目，由它自己打理，每天做一次时间定向；SQLite 存储，带网页视图和 iCalendar 导出。MIT。 `Python` · `Self-host` · `adapt`
 
 ### 共读与观影
 
