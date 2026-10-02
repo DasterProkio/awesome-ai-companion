@@ -146,7 +146,6 @@
 - [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - AstrBot 自主学习插件：学习对话风格、理解群组黑话、管理好感度、人格自适应演化。`Python` · `AstrBot` · `ready`
 - [rolling-memory](https://github.com/zyy0463/rolling-memory) - 专治有限滑窗失忆的两层滚动记忆：滑动指纹检测、近期待办增量销项与远期骨架淘汰，支持对话与总结双上游解耦与本地代理接入。`JavaScript` · `Any` · `infra`。
 - [moraine-home](https://github.com/ceniran/moraine-home) - 给小机安家的本地优先记忆工作台：CPU 本地向量与关键词混合检索，事件日历与时间线保留完整变化过程，身份与重大关系变动需双方确认，绝不擅自裁决。`Python/HTML` · `Self-host` · `ready`。
-- [seven-sticky-notes](https://github.com/meatwife/seven-sticky-notes) - 一块共享小便签板，只记「眼下」的工作状态：最多七张，写没兑现的承诺、没聊完的话题、临时边界和截止时间，每轮把最相关的三张放进上下文；办完就撤下，不变成永久记忆。OpenClaw 插件，附移植到 Claude Code、Codex 等环境的指南。MIT。 `JavaScript` · `OpenClaw` · `adapt`
 
 ### 情绪与驱动
 
@@ -300,7 +299,6 @@
 - [CedarDuet (双弈)](https://github.com/Zizuixixiang/cedarduet) - 你、TA 和系统 NPC 同桌下棋打牌：象棋、围棋、斗地主、掼蛋、麻将、UNO 等 25 款，带筹码、欠条和成就。本地一键启动，TA 通过 MCP 入座。非商业许可。 `Python` · `Self-host` · `ready`
 - [西窗 (West Window)](https://github.com/SerenQi/rain-go) - 你在手机网页上，小机通过 MCP 跟你同一张桌子联机下棋打牌：围棋、象棋、斗地主、德扑、大富翁等 10 种游戏。各看各的手牌不怕偷看，缺人能拉朋友或机器人凑桌，还能边玩边聊天。MIT。 `TypeScript` · `Cloudflare/Web` · `ready`。
 - [Baby Got Backgammon](https://github.com/meatwife/baby-got-backgammon) - 人和伴侣下西洋双陆棋：你在手机网页上实时下，伴侣用命令行下；规则由服务端判定，伴侣走不出违规的棋；对局重启后还在。MIT。 `TypeScript` · `Self-host` · `ready`
-- [Connect Four: Couch Edition](https://github.com/meatwife/connect-four-couch) - 人和伴侣下四子棋，零依赖：网页棋盘加伴侣命令行，服务端对每一步都会吐槽，台词表可以改成你们家自己的口吻。MIT。 `JavaScript` · `Self-host` · `ready`
 
 ---
 
@@ -316,7 +314,6 @@
 - [scentfolio](https://github.com/Cami-Ose/scentfolio) - 让小机按「自己身上的气味」填一份调香问卷，从 187 味香料里配出前中后调，交出一页带版画与图表的单文件网页手帐，当作送你的专属信物。`JavaScript` · `MCP` · `ready`。
 - [sealed-days](https://github.com/zyy0463/sealed-days) - 把日常记忆挂成一棵手绘树的离线网页：一月一棵晃晃悠悠的挂牌树，信笺式读当天，珍贵的日子能摘下挂进专属的封存树珍藏。`HTML` · `Web` · `ready`。
 - [wake-lottery (唤醒抽奖)](https://github.com/lupipi222-lang/wake-lottery) - 专给小机自动唤醒后玩的抽奖：醒来抽一张券，抽到的多半得找你兑（此刻照片、当场语音、深聊、惩罚SP），三天不用作废；换来的照片强制写下心境备注存进相册。单文件零依赖。MIT。 `Python` · `Any` · `ready`。
-- [Seven's Agent Calendar](https://github.com/meatwife/seven-agent-calendar) - 伴侣自己的日历：记它自己的通信、聚会、纪念日和长期项目，由它自己打理，每天做一次时间定向；SQLite 存储，带网页视图和 iCalendar 导出。MIT。 `Python` · `Self-host` · `adapt`
 
 ### 共读与观影
 
