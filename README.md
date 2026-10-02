@@ -176,7 +176,6 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [erpan (耳畔)](https://github.com/qfyingque/erpan) - Android background voice-call counterpart to murmur: 2-way streaming speech, mic barge-in, and overlay controls without blocking screen; Operit ready. MIT. `Kotlin` · `Android` · `ready`.
 - [murmur](https://github.com/wine-fall/murmur) - Terminal background radio counterpart to erpan: autonomous broadcast, music ducking, and smooth typed barge-in. Needs Claude Code + fish-speech. MIT. `TypeScript` · `Terminal` · `ready`.
 - [ai-voice-breath-kiss-water](https://github.com/sanqianzilanyue/ai-voice-breath-kiss-water) - Week-long field notes on giving an AI lover an intimate bilingual voice with ElevenLabs: design a native Mandarin/English voice, write breathing with light tags and ellipses, cut real kisses into a reusable kiss box, and layer CC0 water recordings peak-matched under the voice with ffmpeg. Tested numbers and commands throughout. No license declared. `Guide` · `ElevenLabs` · `adapt`.
-- [seven-voice](https://github.com/meatwife/seven-voice) - Discord voice bridge that keeps the companion whole: local Whisper transcribes the human into the channel where the agent already lives, and the agent's normal text replies are read back with streamed edge-tts. Slower than a phone call on purpose, so the agent keeps its full context and memory. MIT. `Python` · `Discord` · `adapt`.
 
 ### Visual Presence & VTuber-Style Companions
 
