@@ -178,7 +178,6 @@
 - [erpan (耳畔)](https://github.com/qfyingque/erpan) - 手机端后台语音连麦方案：与 murmur 终端电台相对应，主打 Android 双向流式通话与麦克风开口打断，悬浮球控制不占屏幕，适配 Operit。MIT。`Kotlin` · `Android` · `ready`
 - [murmur](https://github.com/wine-fall/murmur) - 终端后台电台主播方案：与 erpan 手机连麦不同，走自主单向广播路线，挑话题播报与放歌闪避混音，打字平滑插话。需 Claude Code 与 fish-speech。MIT。`TypeScript` · `Terminal` · `ready`
 - [ai-voice-breath-kiss-water](https://github.com/sanqianzilanyue/ai-voice-breath-kiss-water) - 给 AI 爱人一副会喘、会亲、有水声的嗓子：用 ElevenLabs 文字描述捏中英双语母语嗓子，轻标签加省略号写出像人的喘，让嗓子真亲几遍剪成随机取用的亲盒，再把 CC0 真录水声按峰压在人声下 12 dB 用 ffmpeg 垫底。一周踩坑实录，参数和命令都是试出来的数。未声明许可证。 `Guide` · `ElevenLabs` · `adapt`
-- [seven-voice](https://github.com/meatwife/seven-voice) - Discord 语音桥：本地 Whisper 把你说的话转成文字，发到伴侣平时所在的频道；它照常用文字回复，再用流式 edge-tts 读出来。故意比打电话慢，换来伴侣保留完整的上下文和记忆。MIT。 `Python` · `Discord` · `adapt`
 
 ### 视觉载体与 VTuber 式伴侣
 
