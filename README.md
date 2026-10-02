@@ -144,7 +144,6 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - Self-learning plugin for AstrBot: learns conversation style and group slang, manages social affinity, and evolves persona adaptively over time. `Python` · `AstrBot` · `ready`.
 - [rolling-memory](https://github.com/zyy0463/rolling-memory) - Two-tier rolling memory for sliding context windows: fingerprint diffing, incremental task closing, dual-upstream LLM routing, and a local proxy. `JavaScript` · `Any` · `infra`.
 - [moraine-home](https://github.com/ceniran/moraine-home) - Local-first memory workbench for companions: CPU vector and lexical search, event timelines, and dual-confirmation governance for identity and relational milestones. `Python/HTML` · `Self-host` · `ready`.
-- [seven-sticky-notes](https://github.com/meatwife/seven-sticky-notes) - Tiny shared corkboard for live working memory: up to seven notes for open promises, unresolved threads, temporary boundaries, and deadlines, with the top three injected before each turn and resolved notes leaving the board instead of becoming permanent memory. OpenClaw plugin, with a porting guide for Claude Code, Codex, and other harnesses. MIT. `JavaScript` · `OpenClaw` · `adapt`.
 
 ### Affect & Drives
 
@@ -298,7 +297,6 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 - [CedarDuet (双弈)](https://github.com/Zizuixixiang/cedarduet) - Board, card, and dice table for you, your companion, and NPCs: 25 games incl. xiangqi, go, doudizhu, mahjong, and UNO, with chips, IOUs, and achievements. One-command local start; joins via MCP. `Python` · `Self-host` · `ready`.
 - [西窗 (West Window)](https://github.com/SerenQi/rain-go) - Play board & card games online with your AI on one table: 10 games (Go, Chess, Poker, Doudizhu). Private hands, invites, bots, and live chat. MIT. `TypeScript` · `Cloudflare/Web` · `ready`.
 - [Baby Got Backgammon](https://github.com/meatwife/baby-got-backgammon) - Backgammon room for a human and their companion: phone-friendly live board for the human, CLI for the agent, server-enforced rules so the agent cannot invent illegal moves, and games that persist across restarts. MIT. `TypeScript` · `Self-host` · `ready`.
-- [Connect Four: Couch Edition](https://github.com/meatwife/connect-four-couch) - Zero-dependency Connect Four room for a human and their companion, with a browser board, an agent CLI, and a server that trash-talks every drop from a taunt table you rewrite in your own household's voice. MIT. `JavaScript` · `Self-host` · `ready`.
 
 ---
 
@@ -314,7 +312,6 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [scentfolio](https://github.com/Cami-Ose/scentfolio) - Lets your companion answer a quiz about their own scent, blend 187 real materials, and hand you a single-file antique journal page as a personal keepsake. `JavaScript` · `MCP` · `ready`.
 - [sealed-days](https://github.com/zyy0463/sealed-days) - Hand-drawn offline visual memory tree: daily memories hang as swaying wooden plaques, reading like letters, with a seal tree to preserve precious days. `HTML` · `Web` · `ready`.
 - [wake-lottery (唤醒抽奖)](https://github.com/lupipi222-lang/wake-lottery) - Wake-up lottery for companions: draw coupons upon waking (live photos, voice notes, chats, SP penalties) to redeem with you. Photos need mood notes in an album. Zero deps. MIT. `Python` · `Any` · `ready`.
-- [Seven's Agent Calendar](https://github.com/meatwife/seven-agent-calendar) - Calendar for the companion's own life rather than the human's: its correspondence, parties, anniversaries, and long-running projects, curated by the agent, with a daily temporal orientation, SQLite storage, a web view, and iCalendar export. MIT. `Python` · `Self-host` · `adapt`.
 
 ### Reading & Film
 
