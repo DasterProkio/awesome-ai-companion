@@ -228,6 +228,7 @@
 
 - [voice-familiarity](https://github.com/akinia0315/voice-familiarity) - 面向伴侣设备的本地小范围说话人识别：录入主人和少量同意的熟人，返回 matched、likely、unknown 或 ambiguous 作为关系上下文。不可当作身份认证。Apache-2.0。 `Python` · `Self-host` · `infra`
 - [ears](https://github.com/eveacla11/ears) - 面向 AI 伴侣的语气分析：将音高、能量、停顿、语速、颤动与用户自身基线比较，把「比平时更轻」等相对线索绑定到具体消息。MIT。 `Python` · `Self-host` · `adapt`
+- [ace-ears](https://github.com/menelly/AI_Ears) - 让 AI 伴侣真正「听」一段音频的 MCP 服务：一张卡片里给出文字、语速、停顿、调性、音色明暗、动态和立体声宽度；语气和情绪估计走 Inworld，也可以用 faster-whisper 完全离线。声学分析部分不需要任何 key。MIT。 `Python` · `MCP` · `ready`
 
 ### 音乐与音频结构
 
