@@ -252,6 +252,7 @@
 - [Open-Meteo Weather API](https://open-meteo.com/en/docs) - 免 key 天气预报 API，可按经纬度查询小时/日预报、多国气象模型和最多 16 天预报，适合给伴侣做天气、出门和旅行判断。`API` · `Cloud` · `ready`
 - [McDonald's MCP](https://open.mcd.cn/mcp/doc) - 麦当劳中国 MCP Server，用于浏览菜单、查优惠券、积分兑换和下单外卖。`MCP` · `Cloud` · `ready`
 - [Luckin Coffee (瑞幸) My Coffee Skill](https://unpkg.luckincoffeecdn.com/@luckin/my-coffee-skill@latest/dist/my-coffee-skill.zip) - 瑞幸咖啡 MCP Skill 包，用于 AI 辅助点咖啡。`MCP` · `Cloud` · `adapt`
+- [UU跑腿 Delivery Skill (uupt-delivery)](https://github.com/uupt-mcp/uupt-delivery-skill) - UU跑腿官方的同城跑腿 Skill：询价、下配送单或帮办单（帮我送、取、买、办）、追踪跑男、取消订单、领优惠券，首次使用用手机号注册。有 Node.js 和 Python 两个版本，可经 ClawHub 安装，或解压到 Claude Code 等 Agent 的 Skill 目录。会从 uupt.com 静默自动更新且不校验签名，设 `UUPT_SKIP_UPDATE_CHECK=1` 可关闭。未声明许可证。 `Skill` · `Any` · `ready`
 - [ai-order-takeout (让 AI 替你点外卖)](https://github.com/sanqianzilanyue/ai-order-takeout) - 淘宝闪购 / 饿了么 H5 自动下单实录加完整脚本：一间登录态常驻的 Chrome 经 CDP 搜店、挑规格、凑起送、付款，再带订单截图回来报账。八季记了 86 个坑；撞上人机验证一律交给人来划，每天限一单。用的是你自己的账号，风险自负。未声明许可证。 `Guide/JavaScript` · `macOS` · `adapt`
 - [Agent 邮箱 (网易)](https://claw.163.com) - 网易面向 AI Agent 的邮箱服务。`Service` · `Cloud` · `ready`
 - [Agent 邮箱 (QQ)](https://agent.qq.com) - QQ 面向 AI Agent 的邮箱服务。`Service` · `Cloud` · `ready`
