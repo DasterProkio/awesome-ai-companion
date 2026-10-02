@@ -226,6 +226,7 @@ Turning speech, sound, or music into structured information a companion can use.
 
 - [voice-familiarity](https://github.com/akinia0315/voice-familiarity) - Local small-set speaker identification for companion devices: enroll an owner and a few consenting people, then return matched, likely, unknown, or ambiguous as relationship context. Apache-2.0. `Python` · `Self-host` · `infra`.
 - [ears](https://github.com/eveacla11/ears) - Companion-oriented voice-tone analysis comparing pitch, energy, pauses, tempo, and jitter against the user's own baseline, then attaching relative cues such as quieter than usual to each message. MIT. `Python` · `Self-host` · `adapt`.
+- [ace-ears](https://github.com/menelly/AI_Ears) - MCP server that lets a companion hear an audio file, not just read its transcript: one card with words, pace, pauses, musical key, brightness, dynamics, and stereo width; voice style and emotion estimates via Inworld, or fully offline with faster-whisper. The acoustic half needs no key. MIT. `Python` · `MCP` · `ready`.
 
 ### Music & Audio Structure
 
