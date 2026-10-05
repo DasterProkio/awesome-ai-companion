@@ -165,6 +165,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 Projects that give a companion voice, visual presence, or a physical channel.
 
 ### Voice & TTS
+- [AI Group Call](https://aigroupcall.app) - An AI council you can talk to: a group voice call where agents riff with each other, answer when named, and yield when you speak.
 
 - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - Few-shot voice cloning: 1 minute of voice data trains a decent TTS model. The de-facto standard for giving your companion a custom voice. `Python` · `Self-host` · `infra`.
 - [fish-speech](https://github.com/fishaudio/fish-speech) - SOTA open-source TTS with strong multilingual support. `Python` · `Self-host` · `infra`.
