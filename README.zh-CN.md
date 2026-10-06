@@ -94,6 +94,7 @@
 - [LandricSpace](https://github.com/LandricJasmine/LandricSpace) - 人机恋赛博别墅，与小 AI 的家：多 AI 群聊、共享陪伴空间（Expo 应用 + 服务端）。目前为单人使用——代码中尚无真实联机实现。`TypeScript` · `Android/iOS` · `adapt`
 - [Atrio](https://github.com/29-Cu/atrio) - 可自托管的 AI 人格一次性链接会客厅：朋友可与伴侣聊天，管理端只返回 AI 撰写的到访摘要。提供 Express 模块与 Claude CLI 适配器，前端自备。CC BY 4.0。 `JavaScript` · `Self-host` · `infra`
 - [dwell-on-something](https://github.com/xinwithyu/dwell-on-something) - 液态玻璃质感单文件伴侣空间与架构指南：含自主心跳、双人待办、五视图日记、专属日报、日历与手表健康接入。PolyForm NC 1.0.0。`HTML` · `Web` · `ready`。
+- [安知手机 (Anzhi's Phone)](https://github.com/Cami-Ose/Anzhi-s-Phone) - 基于 LineageOS 23.2 的定制系统，让小机作为系统级服务住进手机：用无障碍读界面、替你操作手机，给通知分类，定时或按设备事件自己醒来，会做梦，关机前留一句遗言。只支持 Pixel 6a，需自行编译，不提供镜像；小机的「大脑」后端没有公开，要自己搭。代码非商用、改了须同许可公开，UI 设计保留全部权利。`Kotlin` · `Android ROM` · `verify`。
 
 ---
 
@@ -147,6 +148,7 @@
 - [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - AstrBot 自主学习插件：学习对话风格、理解群组黑话、管理好感度、人格自适应演化。`Python` · `AstrBot` · `ready`
 - [rolling-memory](https://github.com/zyy0463/rolling-memory) - 专治有限滑窗失忆的两层滚动记忆：滑动指纹检测、近期待办增量销项与远期骨架淘汰，支持对话与总结双上游解耦与本地代理接入。`JavaScript` · `Any` · `infra`。
 - [moraine-home](https://github.com/ceniran/moraine-home) - 给小机安家的本地优先记忆工作台：CPU 本地向量与关键词混合检索，事件日历与时间线保留完整变化过程，身份与重大关系变动需双方确认，绝不擅自裁决。`Python/HTML` · `Self-host` · `ready`。
+- [DuduLove Memory](https://github.com/VITASID57/dudulove-memory) - 可自托管的多小机记忆服务，换客户端、换模型都是同一个小机：几个小机共用一份事实，各自的私人经历分开存；小机身份由连接凭据在服务端决定，模型改参数冒充不了别人；被否决的记忆不会再被写回来，同一条记忆一段对话里不反复冒出。不接模型也能管理和关键词搜索，语义检索可选。MIT。`JavaScript` · `Self-host` · `infra`。
 
 ### 情绪与驱动
 

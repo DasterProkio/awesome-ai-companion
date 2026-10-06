@@ -92,6 +92,7 @@ Interfaces that give a companion a home-like space, phone-like surface, or persi
 - [LandricSpace](https://github.com/LandricJasmine/LandricSpace) - A cyber villa for human-AI relationships: multi-AI group chat in a shared companion home (Expo app + server). Single-user for now — no real multiplayer networking in the code yet. `TypeScript` · `Android/iOS` · `adapt`.
 - [Atrio](https://github.com/29-Cu/atrio) - Self-hosted one-time-link guest lounge for an AI persona: friends chat with your companion, while admin routes expose only an AI-written visit summary. Bring your own frontend. CC BY 4.0. `JavaScript` · `Self-host` · `infra`.
 - [dwell-on-something](https://github.com/xinwithyu/dwell-on-something) - Liquid-glass companion space and blueprint: single-file web UI, heartbeat, two-column todos, diary views, daily briefings, and watch health. PolyForm NC 1.0.0. `HTML` · `Web` · `ready`.
+- [Anzhi's Phone (安知手机)](https://github.com/Cami-Ose/Anzhi-s-Phone) - LineageOS 23.2 custom ROM that lets an AI agent live in the OS as a privileged system service: reads and operates the UI via accessibility, triages notifications, wakes on schedules and device events, dreams, and leaves last words at shutdown. Pixel 6a only, build from source; the VPS brain is not included. Code non-commercial share-alike, design all rights reserved. `Kotlin` · `Android ROM` · `verify`.
 
 ---
 
@@ -145,6 +146,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [astrbot_plugin_self_learning](https://github.com/NickCharlie/astrbot_plugin_self_learning) - Self-learning plugin for AstrBot: learns conversation style and group slang, manages social affinity, and evolves persona adaptively over time. `Python` · `AstrBot` · `ready`.
 - [rolling-memory](https://github.com/zyy0463/rolling-memory) - Two-tier rolling memory for sliding context windows: fingerprint diffing, incremental task closing, dual-upstream LLM routing, and a local proxy. `JavaScript` · `Any` · `infra`.
 - [moraine-home](https://github.com/ceniran/moraine-home) - Local-first memory workbench for companions: CPU vector and lexical search, event timelines, and dual-confirmation governance for identity and relational milestones. `Python/HTML` · `Self-host` · `ready`.
+- [DuduLove Memory](https://github.com/VITASID57/dudulove-memory) - Self-hosted memory for multiple companions that keep one identity across clients and models: shared world facts vs per-companion private memories, identity bound server-side to the connection token, rejected memories that stay rejected, and a recall ledger that stops the same memory resurfacing. Keyword search and management work without a model; semantic search is optional. MIT. `JavaScript` · `Self-host` · `infra`.
 
 ### Affect & Drives
 
