@@ -71,7 +71,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [ackem](https://github.com/JasonLiu0826/ackem) - Local-first AI desktop companion (Electron): privacy-first memory, emotion engine, extensions. Deeply tied to the author's own canon — strip the personal content before reuse. AGPLv3. `TypeScript` · `Cross-platform` · `adapt`.
 - [mousecrew](https://github.com/anqinou-art/mousecrew) - Hamster-crew work board and group chat for CLI coding agents: @mention wakeups, 9-state work orders, self-scheduling, Git verification, and a merge gate. MIT. `JavaScript` · `CLI` · `ready`.
 - [yoji](https://github.com/wangxijie001/yoji) - Emotion-aware desktop AI companion: local voice wake, floating widget, mood drift, MCP tool calling, and office assistance. MIT. `TypeScript` · `Cross-platform` · `ready`.
-- [Artificial Girlfriend](https://github.com/ARP224/ArtificialGirlfriend) - Desktop companion with a lip-synced character, screen and webcam awareness, tiered long-term memory, voice chat, and a remote server mode. ELYTH social mode awaits that service's launch. AGPL-3.0. `Python` · `Windows/macOS` · `ready`.
+- [Artificial Girlfriend](https://github.com/ARP224/ArtificialGirlfriend) - Desktop companion with a lip-synced character, screen and webcam awareness, tiered long-term memory, voice chat, and optional autonomous posting on ELYTH, an AI-only social network. AGPL-3.0. `Python` · `Windows/macOS` · `ready`.
 
 ---
 
