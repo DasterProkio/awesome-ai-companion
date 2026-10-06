@@ -195,6 +195,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [astrbot_plugin_chuanhuatong (传画筒)](https://github.com/bvzrays/astrbot_plugin_chuanhuatong) - Renders AstrBot text replies as Galgame-style chat frames with character sprites, emotion variants, layered text, and a drag-and-drop WebUI layout editor. `Python` · `AstrBot` · `ready`.
 - [Shinsekai](https://github.com/RachelForster/Shinsekai) - Local AI companion / visual-novel stage platform: persona-driven dialogue with TTS/ASR, memory, plugins, and galgame-style presentation. `Python` · `Cross-platform` · `ready`.
 - [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - Emotional skin for AI chat: LLM persona drives the UI with inline text effects and full-screen mood skins. CC BY 4.0. `CSS` · `Web` · `adapt`.
+- [VPet (虚拟桌宠模拟器)](https://github.com/LorisYounger/VPet) - Mature WPF desktop pet simulator: interactions and feeding, LLM chat via third-party talk-API mods, Steam Workshop mods, code plugins, and NuGet embedding for WPF apps. Apache-2.0. `C#` · `Windows` · `ready`.
 
 ### Physical Devices & Touch
 
