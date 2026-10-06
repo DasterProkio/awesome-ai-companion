@@ -73,7 +73,7 @@
 - [ackem](https://github.com/JasonLiu0826/ackem) - 本地优先 AI 桌面陪伴（Electron）：隐私优先的记忆、情绪引擎、扩展。深度绑定作者个人设定，复用前需先剥离个人内容。AGPLv3。`TypeScript` · `Cross-platform` · `adapt`
 - [mousecrew](https://github.com/anqinou-art/mousecrew) - 仓鼠团队形象的 CLI 编码 Agent 群聊与工单看板：支持 @唤醒、9 状态工单流、依赖自调度、Git 提交校验与单合并门禁。MIT。`JavaScript` · `CLI` · `ready`。
 - [yoji](https://github.com/wangxijie001/yoji) - 有情绪的开源桌面 AI 伴侣：支持本地语音唤醒、悬浮挂件、情绪漂移、MCP 无限扩展与日常办公协助。MIT。`TypeScript` · `Cross-platform` · `ready`。
-- [Artificial Girlfriend](https://github.com/ARP224/ArtificialGirlfriend) - 桌面 AI 伴侣：口型同步的角色形象、屏幕与摄像头感知、分层长期记忆、语音对话，还可以让她自己去 AI 专属社交网 ELYTH 发帖互动。AGPL-3.0。`Python` · `Windows/macOS` · `ready`
+- [Artificial Girlfriend](https://github.com/ARP224/ArtificialGirlfriend) - 桌面 AI 伴侣：口型同步的角色形象、屏幕与摄像头感知、分层长期记忆、语音对话，可通过服务器模式在外面连回来聊天。ELYTH 社交功能要等该平台正式上线才能用。AGPL-3.0。`Python` · `Windows/macOS` · `ready`
 
 ---
 
