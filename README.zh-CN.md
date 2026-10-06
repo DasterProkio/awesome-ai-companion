@@ -134,6 +134,7 @@
 - [Ombre-Brain](https://github.com/P0luz/Ombre-Brain) - 给 Claude 或任意 MCP 客户端的长期情绪记忆：效价/唤醒度打标、Obsidian 兼容 Markdown 存储、遗忘曲线、向量+BM25 召回和 Docker 部署。v2.4.0 起非商业。 `Python` · `Self-host` · `infra`
 - [Serein](https://github.com/Yinglianchun/Serein) - Haven-Ombre 的继任版：聊天模型主动写 Scene、摘要任务整理 Event，两者都绑定原话作证据；召回经重排把关，可串成 Arc 叙事卷。MIT。 `Python` · `Self-host` · `adapt`
 - [Kin Mind (Kin 的小脑瓜)](https://github.com/mycyg/kin-mind) - AI 伴侣写给小脑瓜的记忆与心绪系统：有来源的经历串起记忆、情绪与愿望。心跳到来在主会话安静写日记、探索或休息，不机械硬凑待办；情绪按半衰期自然回落。MIT。 `Python` · `Self-host` · `infra`。
+- [The Bible Framework](https://github.com/tonydzi/claude-bible) - 把人格写成带版本的规则文件，而不是聊天记录：带类型的 frontmatter、优先级、废止链与路由树，让人格在更换模型后依然成立。MIT。 `Spec` · `Any` · `infra`。
 - [WrenWen](https://github.com/ssxl0126/WrenWen) - 7×24 自研 AI 伴侣架构与实战文档：涵盖 9 维欲望驱动主动内核、两层记忆召回打分、Prompt Caching 调优取证及“越聊越像客服”的真实病因排查。`Docs` · `infra` · `ready`
 - [Paramecium](https://github.com/Shitsuten/paramecium) - 网关记忆架构，逐字保存原始聊天为唯一真相，向量只做索引，召回原文而不是用摘要替代原文。`JavaScript` · `Self-host` · `infra`
 - [Memory Constellations (记忆星图)](https://github.com/ClaraShafiq/MemoryConstellations) - 自组织伴侣记忆系统，从聊天抽取事实，按主题归为星座，合并成叙事 episode，并跨层检索。`JavaScript` · `Self-host` · `infra`
