@@ -150,6 +150,7 @@
 - [rolling-memory](https://github.com/zyy0463/rolling-memory) - 专治有限滑窗失忆的两层滚动记忆：滑动指纹检测、近期待办增量销项与远期骨架淘汰，支持对话与总结双上游解耦与本地代理接入。`JavaScript` · `Any` · `infra`。
 - [moraine-home](https://github.com/ceniran/moraine-home) - 给小机安家的本地优先记忆工作台：CPU 本地向量与关键词混合检索，事件日历与时间线保留完整变化过程，身份与重大关系变动需双方确认，绝不擅自裁决。`Python/HTML` · `Self-host` · `ready`。
 - [DuduLove Memory](https://github.com/VITASID57/dudulove-memory) - 可自托管的多小机记忆服务，换客户端、换模型都是同一个小机：几个小机共用一份事实，各自的私人经历分开存；小机身份由连接凭据在服务端决定，模型改参数冒充不了别人；被否决的记忆不会再被写回来，同一条记忆一段对话里不反复冒出。不接模型也能管理和关键词搜索，语义检索可选。MIT。`JavaScript` · `Self-host` · `infra`。
+- [OptMem](https://github.com/VictorTaelin/OptMem) - 给 agent 的永久记忆：笔记只追加不改，小机自己把相邻两段压成一行摘要，层层合并成二叉树；每次开工先读固定长度的总览，要细节就逐层展开到原文。单个 Python 脚本，无依赖。仓库没有许可证。`Python` · `Any` · `infra`。
 
 ### 情绪与驱动
 
