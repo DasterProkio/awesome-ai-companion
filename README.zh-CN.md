@@ -196,6 +196,7 @@
 - [Soul-of-Waifu](https://github.com/jofizcd/Soul-of-Waifu) - 开源桌面 AI 伴侣：集 Live2D/VRM 具身、TRPG 跑团引擎、神经荷尔蒙 OS 桌面 Agent（屏幕感知/键鼠控制/MCP）与四层认知记忆于一体。GPL-3.0。`Python` · `Windows` · `ready`。
 - [ChatdollKit](https://github.com/uezo/ChatdollKit) - Unity 3D 虚拟伴侣开发 SDK：动作语音同步、自主眨眼口型、语音打断（Barge-in）、VAD 与多端 LLM/TTS 路由。Apache-2.0。`C#` · `Cross-platform` · `infra`。
 - [Amica](https://github.com/semperai/amica) - 浏览器端 3D 角色交互界面，也是多个项目直接内嵌的角色层：VRM 模型导入、情绪标签驱动表情、Whisper 识别与 Silero VAD、可插拔 LLM 后端和多家 TTS。2025 年 7 月起无新提交。MIT。 `TypeScript` · `Web` · `ready`
+- [three.ws](https://github.com/nirholas/three.ws) - 开源 3D AI 智能体平台：通过 `<agent-3d>` Web 组件嵌入带骨骼的 GLB/VRM 角色，配有 LLM 大脑、记忆、语音和远程 MCP 服务。Apache-2.0。 `JavaScript` · `Web` · `ready`.
 - [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻：实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆。2025 年初起停更。 `Python` · `Windows` · `verify`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - 沉浸式 AI Galgame 聊天软件：情绪表情、桌宠、日程、交互式剧情模块。`TypeScript` · `Windows` · `ready`
 - [astrbot_plugin_chuanhuatong (传画筒)](https://github.com/bvzrays/astrbot_plugin_chuanhuatong) - 把 AstrBot 纯文本回复渲染成带立绘的 Galgame 风聊天框图片：情绪差分、多层文本、拖拽式 WebUI 布局。`Python` · `AstrBot` · `ready`
