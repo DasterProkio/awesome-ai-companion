@@ -72,6 +72,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [mousecrew](https://github.com/anqinou-art/mousecrew) - Hamster-crew work board and group chat for CLI coding agents: @mention wakeups, 9-state work orders, self-scheduling, Git verification, and a merge gate. MIT. `JavaScript` · `CLI` · `ready`.
 - [yoji](https://github.com/wangxijie001/yoji) - Emotion-aware desktop AI companion: local voice wake, floating widget, mood drift, MCP tool calling, and office assistance. MIT. `TypeScript` · `Cross-platform` · `ready`.
 - [Artificial Girlfriend](https://github.com/ARP224/ArtificialGirlfriend) - Desktop companion with a lip-synced character, screen and webcam awareness, tiered long-term memory, voice chat, and optional autonomous posting on ELYTH, an AI-only social network. AGPL-3.0. `Python` · `Windows/macOS` · `ready`.
+- [Persisto Mate](https://github.com/m-rui001/Persisto-Mate) - Terminal companion forked from pi: deterministic Plutchik/PAD emotion and drive kernel, an external judge model reading each exchange, learned body clock with sleep and dreams, ACT-R memory. MIT. `TypeScript` · `CLI` · `ready`.
 - [V1rtual-Desk-Pet](https://github.com/V1rtual-Klavte/Desk-Pet) - Rust-native desktop pet: persona cards with variables, layered parallax avatar, long-term memory, proactive messaging, screen-aware sensing, tools, Skills, and MCP. No WebView. MIT. `Rust/TypeScript` · `macOS/Windows` · `ready`.
 
 ---

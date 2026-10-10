@@ -74,7 +74,8 @@
 - [mousecrew](https://github.com/anqinou-art/mousecrew) - 仓鼠团队形象的 CLI 编码 Agent 群聊与工单看板：支持 @唤醒、9 状态工单流、依赖自调度、Git 提交校验与单合并门禁。MIT。`JavaScript` · `CLI` · `ready`。
 - [yoji](https://github.com/wangxijie001/yoji) - 有情绪的开源桌面 AI 伴侣：支持本地语音唤醒、悬浮挂件、情绪漂移、MCP 无限扩展与日常办公协助。MIT。`TypeScript` · `Cross-platform` · `ready`。
 - [Artificial Girlfriend](https://github.com/ARP224/ArtificialGirlfriend) - 桌面 AI 伴侣：口型同步的角色形象、屏幕与摄像头感知、分层长期记忆、语音对话，还可以让她自己去 AI 专属社交网 ELYTH 发帖互动。AGPL-3.0。`Python` · `Windows/macOS` · `ready`
-- [V1rtual-Desk-Pet](https://github.com/V1rtual-Klavte/Desk-Pet) - Rust 原生宿主桌面宠物：人格卡与变量、分层视差立绘、长期记忆、主动陪伴、前台窗口感知，内置工具、Skill 与 MCP。随包分发 Node 运行时，不用 WebView。MIT。 `Rust/TypeScript` · `macOS/Windows` · `ready`
+- [Persisto Mate](https://github.com/m-rui001/Persisto-Mate) - 把编码代理 pi 改造成终端 AI 伴侣的 fork：确定性情绪内核（Plutchik 情绪、PAD 心境、5 种驱力）由外部判定模型读你们的交换来更新，生物钟从你真实出现的时间学出来，约 90 分钟睡眠周期并做梦，记忆按 ACT-R 衰减、记什么由模型自己调工具决定。MIT。`TypeScript` · `CLI` · `ready`。
+- [V1rtual-Desk-Pet](https://github.com/V1rtual-Klavte/Desk-Pet) - Rust 原生宿主桌面宠物：人格卡与变量、分层视差立绘、长期记忆、主动陪伴、前台窗口感知，内置工具、Skill 与 MCP。随包分发 Node 运行时，不用 WebView。MIT。`Rust/TypeScript` · `macOS/Windows` · `ready`。
 
 ---
 
