@@ -74,6 +74,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [Artificial Girlfriend](https://github.com/ARP224/ArtificialGirlfriend) - Desktop companion with a lip-synced character, screen and webcam awareness, tiered long-term memory, voice chat, and optional autonomous posting on ELYTH, an AI-only social network. AGPL-3.0. `Python` · `Windows/macOS` · `ready`.
 - [Persisto Mate](https://github.com/m-rui001/Persisto-Mate) - Terminal companion forked from pi: deterministic Plutchik/PAD emotion and drive kernel, an external judge model reading each exchange, learned body clock with sleep and dreams, ACT-R memory. MIT. `TypeScript` · `CLI` · `ready`.
 - [V1rtual-Desk-Pet](https://github.com/V1rtual-Klavte/Desk-Pet) - Rust-native desktop pet: persona cards with variables, layered parallax avatar, long-term memory, proactive messaging, screen-aware sensing, tools, Skills, and MCP. No WebView. MIT. `Rust/TypeScript` · `macOS/Windows` · `ready`.
+- [SoloRoleplayer M](https://github.com/O-word/solo-roleplayer) - Offline Windows roleplay app for one player and one AI companion, with scene memory, relationship stages and reply repair, using your own local model server. Free for noncommercial use. `JavaScript` · `Windows` · `verify`.
 
 ---
 
