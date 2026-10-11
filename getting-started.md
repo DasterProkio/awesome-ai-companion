@@ -8,7 +8,7 @@ Start with a phone-simulator app such as [SullyOS](https://github.com/qegj567-cl
 
 ## Some Tinkering
 
-Start with [RikkaHub](https://github.com/rikkahub/rikkahub) on Android or [Kelivo](https://github.com/Chevey339/kelivo), then add a heartbeat component such as [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat). Add a memory layer such as [ai-memory-gateway](https://github.com/garan0613/ai-memory-gateway) when conversation history becomes too large.
+Start with [RikkaHub](https://github.com/rikkahub/rikkahub) on Android or [Kelivo](https://github.com/Chevey339/kelivo), then add a heartbeat component such as [dylan-heartbeat](https://github.com/callie0313/dylan-heartbeat). Add a memory layer such as [Pawwake](https://github.com/garan0613/pawwake) when conversation history becomes too large.
 
 ## Full Stack
 
