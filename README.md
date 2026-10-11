@@ -151,6 +151,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [moraine-home](https://github.com/ceniran/moraine-home) - Local-first memory workbench for companions: CPU vector and lexical search, event timelines, and dual-confirmation governance for identity and relational milestones. `Python/HTML` · `Self-host` · `ready`.
 - [DuduLove Memory](https://github.com/VITASID57/dudulove-memory) - Self-hosted memory for multiple companions that keep one identity across clients and models: shared world facts vs per-companion private memories, identity bound server-side to the connection token, rejected memories that stay rejected, and a recall ledger that stops the same memory resurfacing. Keyword search and management work without a model; semantic search is optional. MIT. `JavaScript` · `Self-host` · `infra`.
 - [OptMem](https://github.com/VictorTaelin/OptMem) - Memory for CLI agents: an append-only note log plus a binary tree of one-line summaries the agent writes itself; wake reads a fixed-size view, zoom opens a line down to raw notes. No license. `Python` · `Any` · `infra`.
+- [three.ws](https://github.com/nirholas/three.ws) - Scan test, do not merge. `JavaScript` · `Web` · `verify`.
 - [Hindsight](https://github.com/vectorize-io/hindsight) - General agent memory server: LLM fact extraction, four-way recall (vector, BM25, entity graph, time), evidence-backed observations refined over time, per-bank MCP. MIT; paid Cloud optional. `Python` · `Self-host` · `infra`.
 
 ### Affect & Drives
