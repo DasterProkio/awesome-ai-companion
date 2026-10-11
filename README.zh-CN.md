@@ -88,6 +88,7 @@
 - [InternalBeyond (边界之外)](https://github.com/Sui-IB/InternalBeyond) - 离线单文件个人空间：像素房间、多端口 AI 聊天、日志/日记、AI 书信、记忆星图、音乐播放器和 DIY 素材。默认内容绑定作者个人世界观。 `HTML` · `Web` · `adapt`
 - [柚月小手机 (Yuzuki's Little Phone)](https://github.com/gaigai315/yuzuki-phone) - 面向 SillyTavern 的虚拟手机系统，含微信式聊天、朋友圈、微博热搜、视频通话、剧情注入模式和不污染主线记录的独立 API 模式。`JavaScript` · `SillyTavern` · `adapt`
 - [AI Virtual Phone](https://github.com/xiaolongbao0709/ai-virtual-phone) - 本索引中功能覆盖最广的虚拟手机项目之一：私聊/群聊/朋友圈、语音消息、角色卡、剧情/VN/日记模式、应用市场 SDK、生图、语音和 3D 世界。需大量自行配置。AGPLv3。 `TypeScript` · `Web` · `adapt`
+- [float-Yyk](https://github.com/Yyk-Y2k/ai-virtual-phone-Y2Kversion) - AI Virtual Phone 的个人二改版（基于 9 月代码线）：iMessage 风格聊天、Tapback 反应与发送特效、共享相册、和角色一起画画、一起听音乐、多身份数据隔离。不跟进上游更新。AGPLv3。 `TypeScript` · `Web` · `adapt`
 - [汪汪机 (WangWangPhone)](https://github.com/Liunian06/FlutterCppWangWangPhone) - AI 原生虚拟手机（C++ 核心 + Flutter UI），规划中的功能包括微信式聊天、朋友圈、语音/视频通话及多 LLM 支持。早期 WIP——当前回复为内置模拟，尚未接入任何 LLM。`Flutter` · `Android/iOS` · `verify`
 - [XSJDeveloperGuide (小手机开发指南)](https://github.com/Liunian06/XSJDeveloperGuide) - 汪汪机作者的小手机开发入门笔记与提示词资料，面向伴侣界面搭建。`Guide` · `Any` · `infra`
 - [Rainholm 小屋制作手记](https://github.com/wuxuyun0606-collab/rainholm) - 20 页 PDF 教程，教你做一个「AI 有家可回」的网页小屋：等距水彩房间里，你和 AI 各有一个会走、会坐、会抱猫、会冒气泡说话的小人。从定机位、拆图层、绿幕到精灵表的人物流水线、校色、禁行区，一直讲到昼夜、手机版和接记忆后端。未声明许可证。 `Guide` · `Web` · `adapt`
