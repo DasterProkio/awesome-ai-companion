@@ -329,7 +329,7 @@
 - [wake-lottery (唤醒抽奖)](https://github.com/lupipi222-lang/wake-lottery) - 专给小机自动唤醒后玩的抽奖：醒来抽一张券，抽到的多半得找你兑（此刻照片、当场语音、深聊、惩罚SP），三天不用作废；换来的照片强制写下心境备注存进相册。单文件零依赖。MIT。 `Python` · `Any` · `ready`。
 
 ### 共读与观影
-
+- [同屏 TongPing](https://github.com/lizhima44-max/tongping-personal) - 自托管 MCP 共享浏览器，让 Claude/ChatGPT/Claude Code/Codex 操作真实 Chrome，并支持陪看、群聊和人工接管。`TypeScript` · `Windows/Linux` · `ready`。
 - [ss-reading-nest (共读小窝)](https://github.com/yueyue95/ss-reading-nest-open) - 移动端优先的 AI 小说/漫画共读小窝，基于 ChatGPT Apps SDK + MCP，含阅读位置、补课区间、书签、摘录、短评和 Cloudflare D1/R2 存储。`TypeScript` · `ChatGPT` · `adapt`
 - [reading-nook (共读小屋)](https://github.com/zzyyksl/reading-nook) - 自托管阅读网页，用户批注书籍文本，AI 直接读写服务器上的 JSON 批注文件，避免每条批注都走 API，同时保留整章上下文。`Python` · `Self-host` · `ready`
 - [co-reading-kit](https://github.com/Youxuuuuu/co-reading-kit) - 轻量本地共读 MCP，将 EPUB/TXT/Markdown 切成 chunks，让 AI 只读相关片段，并写入长期阅读笔记和进度文件。`JavaScript` · `Self-host` · `infra`
