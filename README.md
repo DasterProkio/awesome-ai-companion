@@ -327,7 +327,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [wake-lottery (唤醒抽奖)](https://github.com/lupipi222-lang/wake-lottery) - Wake-up lottery for companions: draw coupons upon waking (live photos, voice notes, chats, SP penalties) to redeem with you. Photos need mood notes in an album. Zero deps. MIT. `Python` · `Any` · `ready`.
 
 ### Reading & Film
-
+- [TongPing](https://github.com/lizhima44-max/tongping-personal) - Self-hosted MCP shared browser for Claude, ChatGPT, Claude Code, and Codex with real Chrome control, co-watching, group chat, and human takeover. `TypeScript` · `Windows/Linux/Self-host` · `ready`.
 - [ss-reading-nest (共读小窝)](https://github.com/yueyue95/ss-reading-nest-open) - Mobile-first AI co-reading nest for novels and manga, built on ChatGPT Apps SDK + MCP with reading positions, catch-up ranges, bookmarks, excerpts, comments, and Cloudflare D1/R2 storage. `TypeScript` · `ChatGPT` · `adapt`.
 - [reading-nook (共读小屋)](https://github.com/zzyyksl/reading-nook) - Self-hosted reading web app where humans annotate book text and an AI reads/writes JSON annotation files directly, avoiding per-note API calls while preserving chapter context. `Python` · `Self-host` · `ready`.
 - [co-reading-kit](https://github.com/Youxuuuuu/co-reading-kit) - Lightweight local MCP toolkit that imports EPUB/TXT/Markdown into chunks, lets AI read only relevant passages, and writes long-term reading notes and progress files. `JavaScript` · `Self-host` · `infra`.
