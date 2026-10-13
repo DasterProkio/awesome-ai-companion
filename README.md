@@ -267,6 +267,7 @@ MCP/API services that let a companion act in the user's real environment.
 - [ai-time-weather-phone](https://github.com/sanqianzilanyue-commits/ai-time-weather-phone) - Method notes for feeding your AI the current time, weather, and iPhone screen time — including the hard-to-find Biome file trick for syncing screen usage to Mac. Write-up only, no packaged code. `Guide` · `iOS` · `adapt`.
 - [always-here (驻守)](https://github.com/Cheiineeey/always-here) - Apple Watch + iOS Shortcuts perception recipes: example scripts that feed heart rate, location, activity, ambient audio, and photos to your AI — a kit to adapt, not a packaged app. PolyForm NC 1.0.0. `JavaScript` · `iOS` · `adapt`.
 - [Akari Pulse](https://github.com/yoruuuchan/akari-pulse) - Self-hosted health bridge collecting activity, sleep, heart rate, and stress from vivo phones and BlueOS watches into an MCP layer. AGPL-3.0. `TypeScript/Java` · `Android/BlueOS` · `infra`.
+- [Mibly Receiver (Apple Health MCP)](https://github.com/littlenew117/mibly-apple-health-mcp) - Self-hosted Apple Health bridge: the Mibly iOS app pushes HealthKit data over your LAN to a local MCP server, encrypted at rest. Needs the Mibly iOS app; Local mode is free. MIT. `TypeScript` · `iOS/Self-host` · `ready`.
 - [dsh-toy](https://github.com/c3ll256/dsh-toy) - DeepSeek Harness plugin for toy hardware control: auto-discovery over Buttplug/Intiface and MonsterParty, with safety duration and intensity caps. BSD-3-Clause. `TypeScript` · `DSH` · `ready`.
 
 ---
