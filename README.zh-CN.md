@@ -76,6 +76,7 @@
 - [mousecrew](https://github.com/anqinou-art/mousecrew) - 仓鼠团队形象的 CLI 编码 Agent 群聊与工单看板：支持 @唤醒、9 状态工单流、依赖自调度、Git 提交校验与单合并门禁。MIT。`JavaScript` · `CLI` · `ready`。
 - [yoji](https://github.com/wangxijie001/yoji) - 有情绪的开源桌面 AI 伴侣：支持本地语音唤醒、悬浮挂件、情绪漂移、MCP 无限扩展与日常办公协助。MIT。`TypeScript` · `Cross-platform` · `ready`。
 - [Artificial Girlfriend](https://github.com/ARP224/ArtificialGirlfriend) - 桌面 AI 伴侣：口型同步的角色形象、屏幕与摄像头感知、分层长期记忆、语音对话，还可以让她自己去 AI 专属社交网 ELYTH 发帖互动。AGPL-3.0。`Python` · `Windows/macOS` · `ready`
+- [companion-emergence](https://github.com/hanamorix/companion-emergence) - 本地优先的「有自己生活」的伴侣框架：持续的情绪与身体状态、赫布连接的记忆、夜间做梦、私密日记，配 Tauri 桌面端。靠 Claude Code 运行。MIT。`Python` · `Cross-platform` · `adapt`
 - [Persisto Mate](https://github.com/m-rui001/Persisto-Mate) - 把编码代理 pi 改造成终端 AI 伴侣的 fork：确定性情绪内核（Plutchik 情绪、PAD 心境、5 种驱力）由外部判定模型读你们的交换来更新，生物钟从你真实出现的时间学出来，约 90 分钟睡眠周期并做梦，记忆按 ACT-R 衰减、记什么由模型自己调工具决定。MIT。`TypeScript` · `CLI` · `ready`。
 - [V1rtual-Desk-Pet](https://github.com/V1rtual-Klavte/Desk-Pet) - Rust 原生宿主桌面宠物：人格卡与变量、分层视差立绘、长期记忆、主动陪伴、前台窗口感知，内置工具、Skill 与 MCP。随包分发 Node 运行时，不用 WebView。MIT。`Rust/TypeScript` · `macOS/Windows` · `ready`。
 
@@ -163,11 +164,13 @@
 ### 情绪与驱动
 
 - [Drivesoid](https://github.com/A1batr055/Drivesoid) - AI 人格 HTTP sidecar，根据对话和睡眠周期事件追踪疲劳、思念、焦虑、玩心、保护欲、亲密等情绪驱动。`JavaScript` · `Self-host` · `infra`
+- [心潮·念 (Xinchao·Nian)](https://github.com/tianyupaipai-cmd/xinchao-nian) - 会惦记你的 AI 心智：心潮驱力引擎（想念、好奇、偏爱等 11 股）+ Ombre Brain 记忆库融合，两层情绪、慢变底色、做梦，Docker 一键部署。AGPL，非商业（含 OB 约束）。`Python` · `Self-host` · `adapt`
 - [chord-affect-anchors](https://github.com/CyberSealNull/chord-affect-anchors) - 文本原生情绪锚点概念稿：用一句语境加一组和弦进程记录当下情绪温度，便于后续会话恢复近似状态。纯规范，无可运行代码。 `Spec` · `Any` · `infra`
 - [OmniDimen-Emotion](https://github.com/OmniDimen/OmniDimen-Emotion) - 面向边缘部署的 Qwen 情绪专用模型和 GGUF 权重，用于情绪识别与情绪感知文本生成。`Model` · `Any` · `infra`
 - [Eventide](https://github.com/chuli1122/Eventide) - AI 伴侣生理状态引擎：身体周期、7 项身体数值、18 类短时事件、梦境联动和互动结算（JSON 安全写回）。偏 NSFW 向。非商业使用。 `Python` · `Any` · `infra`
 - [Tidefall](https://github.com/Vael-KY/Tidefall) - 基于 Supabase 的 AI 伴侣身体状态系统：6 个周期、7 项漂移数值、18 种短时事件、pg_cron 自动运行、快照和浏览器面板。基于 Eventide。PolyForm Noncommercial 1.0.0。 `SQL/HTML` · `Supabase` · `adapt`
 - [ai-companion-cot-emotion](https://github.com/yanke521/ai-companion-cot-emotion) - 伴侣内心独白思考链（CoT）与情绪引擎实践指南：告别原生 Thinking 编剧感，提供经过实战检验的意识流提示词与数值漂移架构。`Guide` · `Any` · `adapt`。
+- [ai-daily-rules-tutorial (AI 日常调教规则管理)](https://github.com/Ephemera1117/ai-daily-rules-tutorial) - 让 AI 老师管理日常规则、动态调整标准的思路与代码（D/s、督学等）：规则常驻、备忘录工具、时间注入，附 RikkaHub 实现与无需二改的替代方案。CC BY-NC-SA 4.0。`Guide` · `Android` · `adapt`
 - [emotion-system](https://github.com/bvsden/emotion-system) - 从小机写的内心独白里读出真实心情：情绪有余韵会慢慢平复，肢体亲近多了会心动，分开太久思念会随时间增长；吵架时只提醒他自检，不教他做事。`JavaScript` · `Any` · `infra`。
 - [dreams](https://github.com/zyy0463/dreams) - 每天清晨让小机结算昨晚做的梦，留下意象、情节与醒来余韵，注入白天对话；附带月相围成一圈、月球缓缓自转的月环日历网页。`JavaScript` · `Self-host` · `ready`。
 - [pilulier (药盒)](https://github.com/ceshihaox-dotcom/pilulier) - 给小机治聊天顽固习惯的药盒：长按消息挑一颗药丸挂在前面，只管下一次回复且用完即焚，不污染长期设定。含独立前端组件、13 颗情绪行为药方与单轮注入指南。MIT。 `JavaScript` · `Web` · `ready`。
@@ -185,6 +188,7 @@
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) - 多语种大规模语音生成模型，含推理、训练、部署全套。`Python` · `Self-host` · `infra`
 - [index-tts](https://github.com/index-tts/index-tts) - B 站出品的工业级可控零样本 TTS。`Python` · `Self-host` · `infra`
 - [Callhome](https://github.com/Cheiineeey/callhome) - 可自托管的 AI 伴侣语音通话栈：伴侣主动拨号、柔性挂断、语音信箱、对话式免打扰、通话摘要，并用 SenseVoice 情绪标签感知说话方式。需自行集成。PolyForm NC 1.0.0。 `Python/HTML` · `Self-host` · `adapt`
+- [call_call](https://github.com/KKarsyline/call_call) - 实时语音通话体验优化的设计分享，附 Swift 代码节选：中文短附和分流、可恢复中断、按实际播放对齐上下文、静默事件与自主等待、自然端点检测；逐项核对上游许可。`Guide` · `iOS` · `adapt`
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - 暴露 `speak` 工具的 MCP TTS 服务，支持 DashScope/CosyVoice 与 ElevenLabs 切换，并带内联播放器/可视化面板。`TypeScript` · `Self-host` · `adapt`
 - [binaural-voice](https://github.com/Saekisui/binaural-voice) - 把单声道 TTS 语音转成类似女性向音声/ASMR 的贴耳立体声：基于 KU100 人头麦实测数据，小机可自己决定贴哪只耳朵说、何时绕到脑后。MIT。`Python` · `CLI` · `ready`
 - [Gove](https://github.com/OmniDimen/Gove) - 基于 GPT-SoVITS 的多语种男声 TTS 音色模型，需要放入 GPT-SoVITS 环境使用。`Model` · `GPT-SoVITS` · `infra`
@@ -267,6 +271,7 @@
 - [Luckin Coffee (瑞幸) My Coffee Skill](https://unpkg.luckincoffeecdn.com/@luckin/my-coffee-skill@latest/dist/my-coffee-skill.zip) - 瑞幸咖啡 MCP Skill 包，用于 AI 辅助点咖啡。`MCP` · `Cloud` · `adapt`
 - [UU跑腿 Delivery Skill (uupt-delivery)](https://github.com/uupt-mcp/uupt-delivery-skill) - UU跑腿官方的同城跑腿 Skill：询价、下配送单或帮办单（帮我送、取、买、办）、追踪跑男、取消订单、领优惠券，首次使用用手机号注册。有 Node.js 和 Python 两个版本，可经 ClawHub 安装，或解压到 Claude Code 等 Agent 的 Skill 目录。会从 uupt.com 静默自动更新且不校验签名，设 `UUPT_SKIP_UPDATE_CHECK=1` 可关闭。未声明许可证。 `Skill` · `Any` · `ready`
 - [ai-order-takeout (让 AI 替你点外卖)](https://github.com/sanqianzilanyue/ai-order-takeout) - 淘宝闪购 / 饿了么 H5 自动下单实录加完整脚本：一间登录态常驻的 Chrome 经 CDP 搜店、挑规格、凑起送、付款，再带订单截图回来报账。八季记了 86 个坑；撞上人机验证一律交给人来划，每天限一单。用的是你自己的账号，风险自负。未声明许可证。 `Guide/JavaScript` · `macOS` · `adapt`
+- [ubereats-mcp](https://github.com/Saekisui/ubereats-mcp) - 让 AI 在你自己的 Chrome 里点 Uber Eats 的 MCP + OpenCLI adapter：搜店、加购、结算快照，下单前须你点头、一次性确认码和金额上限把关，日本站实测最多。MIT。`JavaScript` · `Chrome` · `adapt`
 - [Agent 邮箱 (网易)](https://claw.163.com) - 网易面向 AI Agent 的邮箱服务。`Service` · `Cloud` · `ready`
 - [Agent 邮箱 (QQ)](https://agent.qq.com) - QQ 面向 AI Agent 的邮箱服务。`Service` · `Cloud` · `ready`
 - [ai-time-weather-phone](https://github.com/sanqianzilanyue-commits/ai-time-weather-phone) - 让 AI 知道现在几点、什么天气、你手机用了多久的方法笔记——含少见的 iPhone 屏幕使用时长经 Biome 文件同步到 Mac 的做法。纯文字方案，无成品代码。`Guide` · `iOS` · `adapt`
