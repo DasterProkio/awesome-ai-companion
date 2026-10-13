@@ -130,6 +130,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [ai-surf-when-bored](https://github.com/sanqianzilanyue/ai-surf-when-bored) - Implementation guide and core Python routines for companion autonomous web-browsing: desire framing, n-gram rumination gates, and natural dialogue recall. `Guide/Python` · `Any` · `adapt`.
 - [proactive-web-surf-agent](https://github.com/huihui191/proactive-web-surf-agent) - Lets an AI companion autonomously wander public web sources, pick interesting discoveries, and proactively share them over Telegram or terminal. MIT. `TypeScript` · `Self-host` · `ready`.
 - [android-claude-agent](https://github.com/xvxv-stack7/android-claude-agent) - Root-free adb hands for a Termux companion via Shizuku: reads screen, foreground app and battery, acts on the phone, and wakes Claude only on trigger events. MIT. `Shell` · `Android` · `adapt`.
+- [ai-island-tutorial (让你的小机有一个专属灵动岛)](https://github.com/ziyaxd23/ai-island-tutorial) - Chinese tutorial for packaging your AI chat web page as an Android app (Capacitor) with a Dynamic Island-style overlay; the advanced part adds SSE push, phone status, screenshots, remote lock. MIT. `Guide` · `Android` · `adapt`.
 
 ---
 

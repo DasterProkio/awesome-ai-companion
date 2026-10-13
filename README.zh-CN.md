@@ -132,6 +132,7 @@
 - [ai-surf-when-bored](https://github.com/sanqianzilanyue/ai-surf-when-bored) - 让 AI 伴侣自主冲浪的机制指南与核心 Python 逻辑：解决不愿出门与选题死循环，含反刍闸、换题引路及见闻自然回流。`Guide/Python` · `Any` · `adapt`。
 - [proactive-web-surf-agent](https://github.com/huihui191/proactive-web-surf-agent) - 伴侣自主漫游冲浪引擎：让 AI 自行浏览公开网页并挑选感兴趣的内容，在白天随机主动向 Telegram 或终端分享。MIT。`TypeScript` · `Self-host` · `ready`。
 - [android-claude-agent](https://github.com/xvxv-stack7/android-claude-agent) - 借 Shizuku 免 Root 给 Termux 里的伴侣装上 adb 手脚：读屏幕、前台应用、电量，能动手操作手机，只在触发事件时叫醒 Claude。MIT。`Shell` · `Android` · `adapt`
+- [ai-island-tutorial (让你的小机有一个专属灵动岛)](https://github.com/ziyaxd23/ai-island-tutorial) - 中文教程：用 Capacitor 把你的 AI 聊天网页打包成安卓 APP，加上灵动岛式悬浮通知；进阶篇接自建后端，做 SSE 主动推送、手机状态上报、无障碍截屏和远程锁屏。MIT。`Guide` · `Android` · `adapt`
 
 ---
 
