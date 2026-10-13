@@ -146,7 +146,7 @@
 - [omemo](https://github.com/OmniDimen/omemo) - OpenAI 兼容记忆代理，夹在应用和上游 LLM API 之间，支持内置/外部总结模式存储记忆，并以全量或 RAG 方式注入。`Python` · `Self-host` · `infra`
 - [Aelios](https://github.com/wusaki0723/Aelios) - 分层长期记忆内核，基于 Cloudflare Workers + D1 + Vectorize：分档写入、六层记忆和可视化 curation 面板。AGPLv3。 `TypeScript` · `Cloudflare` · `infra`
 - [kiwi-mem](https://github.com/LucieEveille/kiwi-mem) - AI 伴侣记忆系统：向量搜索、记忆热度排序、Dream 睡眠整合、日历层级摘要。为陪伴场景而生。`Python` · `Self-host` · `infra`
-- [Pawwake · 爪迹（原 ai-memory-gateway）](https://github.com/garan0613/pawwake) - 给任意 OpenAI 兼容 LLM 加长期记忆的网关：PostgreSQL/pgvector 存储、分区缓存、多级记忆整理。AGPLv3。`Python` · `Self-host` · `infra`
+- [Pawwake · 爪迹（原 ai-memory-gateway）](https://github.com/garan0613/pawwake) - 给任意 OpenAI 兼容 LLM 加长期记忆的网关：碎片/事件/核心三层记忆（AI 整理草稿需人工确认）、关键词+向量混合召回、原始对话召回、分区缓存省 token，带管理面板。AGPLv3。`Python` · `Self-host` · `infra`
 - [nocturne_memory](https://github.com/Dataojitori/nocturne_memory) - 可回滚、可视化的 MCP 长期记忆服务器：图状结构化记忆替代向量 RAG，跨模型跨会话通用，可直接替换 OpenClaw 记忆。MIT。`Python` · `Self-host` · `infra`
 - [imprint-memory](https://github.com/Qizhan7/imprint-memory) - 本地优先记忆层：通过 Claude Code hook、claude.ai 扩展和 Telegram 适配器自动捕获每轮对话，支持 BM25+语义混合召回。 `Python` · `Self-host` · `infra`
 - [astrbot_plugin_livingmemory](https://github.com/lxfight-s-Astrbot-Plugins/astrbot_plugin_livingmemory) - AstrBot 长期记忆插件，记忆有动态生命周期。`Python` · `AstrBot` · `ready`
