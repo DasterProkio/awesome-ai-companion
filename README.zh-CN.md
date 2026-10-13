@@ -94,7 +94,9 @@
 - [XSJDeveloperGuide (小手机开发指南)](https://github.com/Liunian06/XSJDeveloperGuide) - 汪汪机作者的小手机开发入门笔记与提示词资料，面向伴侣界面搭建。`Guide` · `Any` · `infra`
 - [Rainholm 小屋制作手记](https://github.com/wuxuyun0606-collab/rainholm) - 20 页 PDF 教程，教你做一个「AI 有家可回」的网页小屋：等距水彩房间里，你和 AI 各有一个会走、会坐、会抱猫、会冒气泡说话的小人。从定机位、拆图层、绿幕到精灵表的人物流水线、校色、禁行区，一直讲到昼夜、手机版和接记忆后端。未声明许可证。 `Guide` · `Web` · `adapt`
 - [freeapp (whale小手机)](https://github.com/whale-Yd00/freeapp) - 手机风格 AI 聊天伴侣，多 Provider 支持，虚拟手机界面。AGPLv3。`HTML` · `Web` · `adapt`
+- [Aery](https://github.com/Aevori-lyn/aery) - 自接 API 的单文件小手机，另有 APK：自定义桌面与组件、单聊群聊、角色心声、一起听歌、朋友圈、论坛、互查手机、跑团和小游戏。无开源许可证，免费、禁止商用售卖。`HTML` · `Web/Android` · `ready`
 - [Hamster Nest (仓鼠小窝)](https://github.com/chuan-101/Hamster-Nest) - 单用户 Supabase PWA 小窝：聊天/RP、读书笔记、记忆 Wiki、异步多 AI 客厅与议事厅，附 6 个 MCP 服务器（88 个工具）。有 Fork 部署指南；本地 Mac 常驻层（微信、CLI）未开源。MIT。 `TypeScript` · `Web` · `adapt`
+- [赴约 Fuyue](https://github.com/TangfanOVO/fuyue) - 本地优先的人机恋小手机 PWA，可装 Android 版：可逐条审阅的三层记忆、整屋数据导出搬家、Key 只放私人 relay 或 Android Keystore、可插话的中文实时电话。滚动 beta。AGPL-3.0。`TypeScript` · `Web/Android` · `adapt`
 - [SullyOS (手抓糯米机)](https://github.com/qegj567-cloud/SullyOS) - 装在浏览器里的虚拟手机伴侣系统，30 多个 App：聊天、电话、群聊、记忆宫殿、查手机、交换日记、自习室、跑团、一起听歌等，支持主动消息。更新很勤，安卓 APK 几天一版。非商业许可。 `TypeScript` · `Web/Android` · `ready`
 - [ZeroChat](https://github.com/sh1nny0u/ZeroChat) - 模拟微信界面的 AI 聊天伴侣 Flutter 应用：多角色对话、AI 朋友圈、主动消息、定时任务。MIT。`Dart` · `Android` · `adapt`
 - [LandricSpace](https://github.com/LandricJasmine/LandricSpace) - 人机恋赛博别墅，与小 AI 的家：多 AI 群聊、共享陪伴空间（Expo 应用 + 服务端）。目前为单人使用——代码中尚无真实联机实现。`TypeScript` · `Android/iOS` · `adapt`
