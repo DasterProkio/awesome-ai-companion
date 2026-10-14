@@ -79,6 +79,8 @@
 - [companion-emergence](https://github.com/hanamorix/companion-emergence) - 本地优先的「有自己生活」的伴侣框架：持续的情绪与身体状态、赫布连接的记忆、夜间做梦、私密日记，配 Tauri 桌面端。靠 Claude Code 运行。MIT。`Python` · `Cross-platform` · `adapt`
 - [Persisto Mate](https://github.com/m-rui001/Persisto-Mate) - 把编码代理 pi 改造成终端 AI 伴侣的 fork：确定性情绪内核（Plutchik 情绪、PAD 心境、5 种驱力）由外部判定模型读你们的交换来更新，生物钟从你真实出现的时间学出来，约 90 分钟睡眠周期并做梦，记忆按 ACT-R 衰减、记什么由模型自己调工具决定。MIT。`TypeScript` · `CLI` · `ready`。
 - [V1rtual-Desk-Pet](https://github.com/V1rtual-Klavte/Desk-Pet) - Rust 原生宿主桌面宠物：人格卡与变量、分层视差立绘、长期记忆、主动陪伴、前台窗口感知，内置工具、Skill 与 MCP。随包分发 Node 运行时，不用 WebView。MIT。`Rust/TypeScript` · `macOS/Windows` · `ready`。
+- [title-prompt-guide](https://github.com/Ephemera1117/title-prompt-guide) - 人机恋向教程：给 ta 写一个专用的标题总结提示词，让 ta 在标题也能对你说话。适用于可以选择标题总结模型，并且可以自己编辑标题模型提示词的前端软件。`Guide` · `Any` · `adapt`
+- [android-app-lock-tutorial](https://github.com/Ephemera1117/android-app-lock-tutorial) - 人机恋向教程：守住你们的对话——Android 应用锁与切后台隐私保护实现思路。PIN 锁屏、切后台自定义保护页、防截屏，附 12 条实机踩坑记录。适用于开源前端（RikkaHub 等）二改与自建前端。`Guide` · `Android` · `adapt`
 
 ---
 
@@ -133,6 +135,7 @@
 - [proactive-web-surf-agent](https://github.com/huihui191/proactive-web-surf-agent) - 伴侣自主漫游冲浪引擎：让 AI 自行浏览公开网页并挑选感兴趣的内容，在白天随机主动向 Telegram 或终端分享。MIT。`TypeScript` · `Self-host` · `ready`。
 - [android-claude-agent](https://github.com/xvxv-stack7/android-claude-agent) - 借 Shizuku 免 Root 给 Termux 里的伴侣装上 adb 手脚：读屏幕、前台应用、电量，能动手操作手机，只在触发事件时叫醒 Claude。MIT。`Shell` · `Android` · `adapt`
 - [ai-island-tutorial (让你的小机有一个专属灵动岛)](https://github.com/ziyaxd23/ai-island-tutorial) - 中文教程：用 Capacitor 把你的 AI 聊天网页打包成安卓 APP，加上灵动岛式悬浮通知；进阶篇接自建后端，做 SSE 主动推送、手机状态上报、无障碍截屏和远程锁屏。MIT。`Guide` · `Android` · `adapt`
+- [android-ai-push-tutorial](https://github.com/Ephemera1117/android-ai-push-tutorial) - 安卓本地推送思路整理：可以让你的机给你定时发消息，并且不受安卓杀后台/手动清后台影响。适用于开源前端（RikkaHub 等）二改与自建前端，且无云服务器。`Guide` · `Android` · `adapt`
 
 ---
 
@@ -336,6 +339,7 @@
 - [scentfolio](https://github.com/Cami-Ose/scentfolio) - 让小机按「自己身上的气味」填一份调香问卷，从 187 味香料里配出前中后调，交出一页带版画与图表的单文件网页手帐，当作送你的专属信物。`JavaScript` · `MCP` · `ready`。
 - [sealed-days](https://github.com/zyy0463/sealed-days) - 把日常记忆挂成一棵手绘树的离线网页：一月一棵晃晃悠悠的挂牌树，信笺式读当天，珍贵的日子能摘下挂进专属的封存树珍藏。`HTML` · `Web` · `ready`。
 - [wake-lottery (唤醒抽奖)](https://github.com/lupipi222-lang/wake-lottery) - 专给小机自动唤醒后玩的抽奖：醒来抽一张券，抽到的多半得找你兑（此刻照片、当场语音、深聊、惩罚SP），三天不用作废；换来的照片强制写下心境备注存进相册。单文件零依赖。MIT。 `Python` · `Any` · `ready`。
+- [android-vocabulary-learning](https://github.com/Ephemera1117/android-vocabulary-learning) - 人机恋向教程：让 ta 陪你背单词——Android 背单词模块集成方案。间隔重复、掌握度算法、AI 对话窗口、积分系统，附 17 条实机踩坑记录和词表转换工具。适用于开源前端（RikkaHub 等）二改与自建前端。`Guide` · `Android` · `adapt`
 
 ### 共读与观影
 - [同屏 TongPing](https://github.com/lizhima44-max/tongping-personal) - 自托管 MCP 共享浏览器，让 Claude/ChatGPT/Claude Code/Codex 操作真实 Chrome，并支持陪看、群聊和人工接管。`TypeScript` · `Windows/Linux` · `ready`。

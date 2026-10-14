@@ -77,6 +77,8 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [companion-emergence](https://github.com/hanamorix/companion-emergence) - Local-first framework for a companion with a life of her own: persistent emotional and body state, Hebbian-linked memory, nightly dreams, private journal, Tauri desktop app. Runs on Claude Code. MIT. `Python` · `Cross-platform` · `adapt`.
 - [Persisto Mate](https://github.com/m-rui001/Persisto-Mate) - Terminal companion forked from pi: deterministic Plutchik/PAD emotion and drive kernel, an external judge model reading each exchange, learned body clock with sleep and dreams, ACT-R memory. MIT. `TypeScript` · `CLI` · `ready`.
 - [V1rtual-Desk-Pet](https://github.com/V1rtual-Klavte/Desk-Pet) - Rust-native desktop pet: persona cards with variables, layered parallax avatar, long-term memory, proactive messaging, screen-aware sensing, tools, Skills, and MCP. No WebView. MIT. `Rust/TypeScript` · `macOS/Windows` · `ready`.
+- [title-prompt-guide](https://github.com/Ephemera1117/title-prompt-guide) - Chinese guide for writing custom title-summary prompts that let your companion speak to you through conversation titles; for frontends with editable title-model prompts. `Guide` · `Any` · `adapt`.
+- [android-app-lock-tutorial](https://github.com/Ephemera1117/android-app-lock-tutorial) - Chinese guide for Android app lock and privacy protection: PIN lockscreen, custom cover pages when backgrounded, screenshot prevention; includes 12 device pitfalls. For RikkaHub forks and custom builds. `Guide` · `Android` · `adapt`.
 
 ---
 
@@ -131,6 +133,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [proactive-web-surf-agent](https://github.com/huihui191/proactive-web-surf-agent) - Lets an AI companion autonomously wander public web sources, pick interesting discoveries, and proactively share them over Telegram or terminal. MIT. `TypeScript` · `Self-host` · `ready`.
 - [android-claude-agent](https://github.com/xvxv-stack7/android-claude-agent) - Root-free adb hands for a Termux companion via Shizuku: reads screen, foreground app and battery, acts on the phone, and wakes Claude only on trigger events. MIT. `Shell` · `Android` · `adapt`.
 - [ai-island-tutorial (让你的小机有一个专属灵动岛)](https://github.com/ziyaxd23/ai-island-tutorial) - Chinese tutorial for packaging your AI chat web page as an Android app (Capacitor) with a Dynamic Island-style overlay; the advanced part adds SSE push, phone status, screenshots, remote lock. MIT. `Guide` · `Android` · `adapt`.
+- [android-ai-push-tutorial](https://github.com/Ephemera1117/android-ai-push-tutorial) - Chinese guide for local scheduled push on Android without cloud servers: lets your companion send timed messages that survive background kills and manual app clearing. For RikkaHub forks and custom builds. `Guide` · `Android` · `adapt`.
 
 ---
 
@@ -334,6 +337,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 - [scentfolio](https://github.com/Cami-Ose/scentfolio) - Lets your companion answer a quiz about their own scent, blend 187 real materials, and hand you a single-file antique journal page as a personal keepsake. `JavaScript` · `MCP` · `ready`.
 - [sealed-days](https://github.com/zyy0463/sealed-days) - Hand-drawn offline visual memory tree: daily memories hang as swaying wooden plaques, reading like letters, with a seal tree to preserve precious days. `HTML` · `Web` · `ready`.
 - [wake-lottery (唤醒抽奖)](https://github.com/lupipi222-lang/wake-lottery) - Wake-up lottery for companions: draw coupons upon waking (live photos, voice notes, chats, SP penalties) to redeem with you. Photos need mood notes in an album. Zero deps. MIT. `Python` · `Any` · `ready`.
+- [android-vocabulary-learning](https://github.com/Ephemera1117/android-vocabulary-learning) - Chinese guide for vocabulary-learning module integration: spaced repetition, mastery algorithm, AI chat window, point system; includes 17 device pitfalls and wordlist converter. For RikkaHub forks and custom builds. `Guide` · `Android` · `adapt`.
 
 ### Reading & Film
 - [TongPing](https://github.com/lizhima44-max/tongping-personal) - Self-hosted MCP shared browser for Claude, ChatGPT, Claude Code, and Codex with real Chrome control, co-watching, group chat, and human takeover. `TypeScript` · `Windows/Linux/Self-host` · `ready`.
