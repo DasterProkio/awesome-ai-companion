@@ -77,6 +77,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [companion-emergence](https://github.com/hanamorix/companion-emergence) - Local-first framework for a companion with a life of her own: persistent emotional and body state, Hebbian-linked memory, nightly dreams, private journal, Tauri desktop app. Runs on Claude Code. MIT. `Python` · `Cross-platform` · `adapt`.
 - [Persisto Mate](https://github.com/m-rui001/Persisto-Mate) - Terminal companion forked from pi: deterministic Plutchik/PAD emotion and drive kernel, an external judge model reading each exchange, learned body clock with sleep and dreams, ACT-R memory. MIT. `TypeScript` · `CLI` · `ready`.
 - [V1rtual-Desk-Pet](https://github.com/V1rtual-Klavte/Desk-Pet) - Rust-native desktop pet: persona cards with variables, layered parallax avatar, long-term memory, proactive messaging, screen-aware sensing, tools, Skills, and MCP. No WebView. MIT. `Rust/TypeScript` · `macOS/Windows` · `ready`.
+- [GranCyan](https://github.com/KardKuro/GranCyan-open) - Local-first companion client: Electron desktop exe plus Android APK front end; BYOK or your logged-in Claude/Codex/Gemini CLIs; vector memory, diary, dreams, co-reading, TTS, screen peeking. AGPL-3.0. `JavaScript` · `Windows/Android` · `ready`.
 
 ---
 
