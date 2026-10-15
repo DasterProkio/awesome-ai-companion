@@ -77,13 +77,10 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [companion-emergence](https://github.com/hanamorix/companion-emergence) - Local-first framework for a companion with a life of her own: persistent emotional and body state, Hebbian-linked memory, nightly dreams, private journal, Tauri desktop app. Runs on Claude Code. MIT. `Python` · `Cross-platform` · `adapt`.
 - [Persisto Mate](https://github.com/m-rui001/Persisto-Mate) - Terminal companion forked from pi: deterministic Plutchik/PAD emotion and drive kernel, an external judge model reading each exchange, learned body clock with sleep and dreams, ACT-R memory. MIT. `TypeScript` · `CLI` · `ready`.
 - [V1rtual-Desk-Pet](https://github.com/V1rtual-Klavte/Desk-Pet) - Rust-native desktop pet: persona cards with variables, layered parallax avatar, long-term memory, proactive messaging, screen-aware sensing, tools, Skills, and MCP. No WebView. MIT. `Rust/TypeScript` · `macOS/Windows` · `ready`.
-<<<<<<< HEAD
-- [GranCyan](https://github.com/KardKuro/GranCyan-open) - Local-first companion client: Electron desktop exe plus Android APK front end; BYOK or your logged-in Claude/Codex/Gemini CLIs; vector memory, diary, dreams, co-reading, TTS, screen peeking. AGPL-3.0. `JavaScript` · `Windows/Android` · `ready`.
-=======
 - [title-prompt-guide](https://github.com/Ephemera1117/title-prompt-guide) - Chinese guide for writing custom title-summary prompts that let your companion speak to you through conversation titles; for frontends with editable title-model prompts. `Guide` · `Any` · `adapt`.
 - [android-app-lock-tutorial](https://github.com/Ephemera1117/android-app-lock-tutorial) - Chinese guide for Android app lock and privacy protection: PIN lockscreen, custom cover pages when backgrounded, screenshot prevention; includes 12 device pitfalls. For RikkaHub forks and custom builds. `Guide` · `Android` · `adapt`.
 - [sticker-mask](https://github.com/miya-tonya/sticker-mask) - Touch-first screenshot redaction for chat web frontends: drag, pinch, and rotate stickers over private messages, tap Done, then take a normal screenshot. Zero dependencies. MIT. `JavaScript` · `Web` · `adapt`.
->>>>>>> origin/main
+- [GranCyan](https://github.com/KardKuro/GranCyan-open) - Local-first companion client: Electron desktop exe plus Android APK front end; BYOK or your logged-in Claude/Codex/Gemini CLIs; vector memory, diary, dreams, co-reading, TTS, screen peeking. AGPL-3.0. `JavaScript` · `Windows/Android` · `ready`.
 
 ---
 

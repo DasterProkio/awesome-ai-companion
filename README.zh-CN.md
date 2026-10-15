@@ -79,13 +79,10 @@
 - [companion-emergence](https://github.com/hanamorix/companion-emergence) - 本地优先的「有自己生活」的伴侣框架：持续的情绪与身体状态、赫布连接的记忆、夜间做梦、私密日记，配 Tauri 桌面端。靠 Claude Code 运行。MIT。`Python` · `Cross-platform` · `adapt`
 - [Persisto Mate](https://github.com/m-rui001/Persisto-Mate) - 把编码代理 pi 改造成终端 AI 伴侣的 fork：确定性情绪内核（Plutchik 情绪、PAD 心境、5 种驱力）由外部判定模型读你们的交换来更新，生物钟从你真实出现的时间学出来，约 90 分钟睡眠周期并做梦，记忆按 ACT-R 衰减、记什么由模型自己调工具决定。MIT。`TypeScript` · `CLI` · `ready`。
 - [V1rtual-Desk-Pet](https://github.com/V1rtual-Klavte/Desk-Pet) - Rust 原生宿主桌面宠物：人格卡与变量、分层视差立绘、长期记忆、主动陪伴、前台窗口感知，内置工具、Skill 与 MCP。随包分发 Node 运行时，不用 WebView。MIT。`Rust/TypeScript` · `macOS/Windows` · `ready`。
-<<<<<<< HEAD
-- [GranCyan](https://github.com/KardKuro/GranCyan-open) - 本地优先的 AI 陪伴客户端：Electron 桌面 exe + 安卓 APK 前端；接自己的 API key 或本机已登录的 Claude/Codex/Gemini 官方 CLI，含向量记忆、日记、梦、共读、TTS、偷看屏幕。AGPL-3.0。`JavaScript` · `Windows/Android` · `ready`
-=======
 - [title-prompt-guide](https://github.com/Ephemera1117/title-prompt-guide) - 人机恋向教程：给 ta 写一个专用的标题总结提示词，让 ta 在标题也能对你说话。适用于可以选择标题总结模型，并且可以自己编辑标题模型提示词的前端软件。`Guide` · `Any` · `adapt`
 - [android-app-lock-tutorial](https://github.com/Ephemera1117/android-app-lock-tutorial) - 人机恋向教程：守住你们的对话——Android 应用锁与切后台隐私保护实现思路。PIN 锁屏、切后台自定义保护页、防截屏，附 12 条实机踩坑记录。适用于开源前端（RikkaHub 等）二改与自建前端。`Guide` · `Android` · `adapt`
 - [sticker-mask](https://github.com/miya-tonya/sticker-mask) - 给聊天网页前端加贴纸打码：截图前把贴纸拖、捏、转到要遮的消息上，点「完成」后编辑把手全部消失，直接用系统截图。贴纸只存在本机内存。零依赖，可选 Express 贴纸管理后端。MIT。`JavaScript` · `Web` · `adapt`
->>>>>>> origin/main
+- [GranCyan](https://github.com/KardKuro/GranCyan-open) - 本地优先的 AI 陪伴客户端：Electron 桌面 exe + 安卓 APK 前端；接自己的 API key 或本机已登录的 Claude/Codex/Gemini 官方 CLI，含向量记忆、日记、梦、共读、TTS、偷看屏幕。AGPL-3.0。`JavaScript` · `Windows/Android` · `ready`
 
 ---
 
