@@ -419,6 +419,7 @@ The deepest fear in a long-term AI relationship: platform shutdown, account ban,
 - [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - Broader AI waifu / companion resources, especially visual presence, voice, platforms, models, and communities.
 - [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) - General AI agent list, including open-source frameworks and closed-source products.
 - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - Local LLM stack index with model development, inference, agent frameworks, apps, infrastructure, and tutorials.
+- [ianwieds/awesome-ai-agents](https://github.com/ianwieds/awesome-ai-agents) - General AI agent list whose memory section covers the long-term memory layers companion setups are built on.
 
 ## Featured Badge
 
