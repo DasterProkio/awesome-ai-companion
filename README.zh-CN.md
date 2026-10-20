@@ -421,6 +421,7 @@
 - [Awesome-AI-Waifu](https://github.com/parallelarc/Awesome-AI-Waifu) - 更宽泛的 AI waifu / companion 资源，侧重视觉载体、语音、平台、模型和社区。
 - [awesome-ai-agents](https://github.com/alternbits/awesome-ai-agents) - 通用 AI Agent 列表，包含开源框架和闭源产品。
 - [awesome-local-llms](https://github.com/vince-lam/awesome-local-llms) - 本地 LLM 技术栈索引，覆盖模型开发、推理、Agent 框架、应用、基础设施和教程。
+- [ianwieds/awesome-ai-agents](https://github.com/ianwieds/awesome-ai-agents) - 通用 AI Agent 列表，其记忆一节覆盖陪伴项目所依赖的长期记忆层。
 
 ---
 
