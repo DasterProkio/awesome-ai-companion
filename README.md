@@ -165,6 +165,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [DuduLove Memory](https://github.com/VITASID57/dudulove-memory) - Self-hosted memory for multiple companions that keep one identity across clients and models: shared world facts vs per-companion private memories, identity bound server-side to the connection token, rejected memories that stay rejected, and a recall ledger that stops the same memory resurfacing. Keyword search and management work without a model; semantic search is optional. MIT. `JavaScript` · `Self-host` · `infra`.
 - [OptMem](https://github.com/VictorTaelin/OptMem) - Memory for CLI agents: an append-only note log plus a binary tree of one-line summaries the agent writes itself; wake reads a fixed-size view, zoom opens a line down to raw notes. No license. `Python` · `Any` · `infra`.
 - [Hindsight](https://github.com/vectorize-io/hindsight) - General agent memory server: LLM fact extraction, four-way recall (vector, BM25, entity graph, time), evidence-backed observations refined over time, per-bank MCP. MIT; paid Cloud optional. `Python` · `Self-host` · `infra`.
+- [LLMSlim](https://github.com/Thanatos9404/llmslim) - MCP memory server for Claude or any MCP client: stores messages word for word in local SQLite or PostgreSQL and recalls what answers a question within a token budget, with no LLM call. MIT. `Python` · `Self-host` · `infra`.
 
 ### Affect & Drives
 
