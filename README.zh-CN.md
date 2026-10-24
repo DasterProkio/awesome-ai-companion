@@ -105,6 +105,7 @@
 - [赴约 Fuyue](https://github.com/TangfanOVO/fuyue) - 本地优先的人机恋小手机 PWA，可装 Android 版：可逐条审阅的三层记忆、整屋数据导出搬家、Key 只放私人 relay 或 Android Keystore、可插话的中文实时电话。滚动 beta。AGPL-3.0。`TypeScript` · `Web/Android` · `adapt`
 - [SullyOS (手抓糯米机)](https://github.com/qegj567-cloud/SullyOS) - 装在浏览器里的虚拟手机伴侣系统，30 多个 App：聊天、电话、群聊、记忆宫殿、查手机、交换日记、自习室、跑团、一起听歌等，支持主动消息。更新很勤，安卓 APK 几天一版。非商业许可。 `TypeScript` · `Web/Android` · `ready`
 - [ZeroChat](https://github.com/sh1nny0u/ZeroChat) - 模拟微信界面的 AI 聊天伴侣 Flutter 应用：多角色对话、AI 朋友圈、主动消息、定时任务。MIT。`Dart` · `Android` · `adapt`
+- [AI Pocket Chat](https://github.com/Marlon0066/AI-Pocket-Chat) - 纯本地的原生安卓伴侣：离线向量记忆和语音识别模型随仓库附带，角色有自己的日程和情绪，会发朋友圈、写日记、打语音电话，还有互动故事。需自行编译，不提供安装包。GPL-3.0。 `Kotlin` · `Android` · `adapt`
 - [LandricSpace](https://github.com/LandricJasmine/LandricSpace) - 人机恋赛博别墅，与小 AI 的家：多 AI 群聊、共享陪伴空间（Expo 应用 + 服务端）。目前为单人使用——代码中尚无真实联机实现。`TypeScript` · `Android/iOS` · `adapt`
 - [Atrio](https://github.com/29-Cu/atrio) - 可自托管的 AI 人格一次性链接会客厅：朋友可与伴侣聊天，管理端只返回 AI 撰写的到访摘要。提供 Express 模块与 Claude CLI 适配器，前端自备。CC BY 4.0。 `JavaScript` · `Self-host` · `infra`
 - [dwell-on-something](https://github.com/xinwithyu/dwell-on-something) - 液态玻璃质感单文件伴侣空间与架构指南：含自主心跳、双人待办、五视图日记、专属日报、日历与手表健康接入。PolyForm NC 1.0.0。`HTML` · `Web` · `ready`。
@@ -213,6 +214,7 @@
 - [Soul-of-Waifu](https://github.com/jofizcd/Soul-of-Waifu) - 开源桌面 AI 伴侣：集 Live2D/VRM 具身、TRPG 跑团引擎、神经荷尔蒙 OS 桌面 Agent（屏幕感知/键鼠控制/MCP）与四层认知记忆于一体。GPL-3.0。`Python` · `Windows` · `ready`。
 - [ChatdollKit](https://github.com/uezo/ChatdollKit) - Unity 3D 虚拟伴侣开发 SDK：动作语音同步、自主眨眼口型、语音打断（Barge-in）、VAD 与多端 LLM/TTS 路由。Apache-2.0。`C#` · `Cross-platform` · `infra`。
 - [Amica](https://github.com/semperai/amica) - 浏览器端 3D 角色交互界面，也是多个项目直接内嵌的角色层：VRM 模型导入、情绪标签驱动表情、Whisper 识别与 Silero VAD、可插拔 LLM 后端和多家 TTS。2025 年 7 月起无新提交。MIT。 `TypeScript` · `Web` · `ready`
+- [Utsuwa](https://github.com/JuiceBoxxGames/utsuwa) - 本地优先的 3D VRM 伴侣：恋爱模拟式的关系阶段、跟着心情变的表情、本地语义记忆，支持 AR 和桌面悬浮窗，可以全程离线运行。AGPL-3.0。 `TypeScript` · `Web/Desktop` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻：实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆。2025 年初起停更。 `Python` · `Windows` · `verify`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - 沉浸式 AI Galgame 聊天软件：情绪表情、桌宠、日程、交互式剧情模块。`TypeScript` · `Windows` · `ready`
 - [astrbot_plugin_chuanhuatong (传画筒)](https://github.com/bvzrays/astrbot_plugin_chuanhuatong) - 把 AstrBot 纯文本回复渲染成带立绘的 Galgame 风聊天框图片：情绪差分、多层文本、拖拽式 WebUI 布局。`Python` · `AstrBot` · `ready`
