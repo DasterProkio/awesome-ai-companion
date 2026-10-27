@@ -81,6 +81,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [android-app-lock-tutorial](https://github.com/Ephemera1117/android-app-lock-tutorial) - Chinese guide for Android app lock and privacy protection: PIN lockscreen, custom cover pages when backgrounded, screenshot prevention; includes 12 device pitfalls. For RikkaHub forks and custom builds. `Guide` · `Android` · `adapt`.
 - [sticker-mask](https://github.com/miya-tonya/sticker-mask) - Touch-first screenshot redaction for chat web frontends: drag, pinch, and rotate stickers over private messages, tap Done, then take a normal screenshot. Zero dependencies. MIT. `JavaScript` · `Web` · `adapt`.
 - [GranCyan](https://github.com/KardKuro/GranCyan-open) - Local-first companion client: Electron desktop exe plus Android APK front end; BYOK or your logged-in Claude/Codex/Gemini CLIs; vector memory, diary, dreams, co-reading, TTS, screen peeking. AGPL-3.0. `JavaScript` · `Windows/Android` · `ready`.
+- [Yume Companion](https://github.com/Kreqzxoo/Yume-Companion) - Windows desktop companion (GPL-3.0 fork of Soul of Waifu): long-term memory, voice, Live2D/VRM avatars, proactive messages, organizer, Android client. `Python` · `Windows` · `Android` · `ready`.
 
 ---
 
