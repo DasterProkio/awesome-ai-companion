@@ -414,6 +414,7 @@ The deepest fear in a long-term AI relationship: platform shutdown, account ban,
 - [character-card-spec-v2](https://github.com/malfoyslastname/character-card-spec-v2) - The community specification for AI character cards. Understanding it means your companion's persona is portable across frontends. `Spec` · `Any` · `infra`.
 - [character-card-spec-v3](https://github.com/kwaroran/character-card-spec-v3) - Updated character card spec used by RisuAI and newer frontends. `Spec` · `Any` · `infra`.
 - [immortal-skill (永生.skill)](https://github.com/agenmod/immortal-skill) - Digital-persona distillation framework that collects material from 12+ chat, social, and mail sources, then separates knowledge, style, memories, and personality into a portable Agent Skill. MIT. `Python` · `Agent Skills` · `adapt`.
+- [AI Chat Memory Migrator (AI记忆搬家器)](https://github.com/douaru-chen2026/ai-chat-memory-migrator) - 100% local, offline export cleaner and migrator: cleans ChatGPT/Claude/Doubao exports, organizes by month, builds searchable HTML and a bundle for a new AI. Web tool + CLI. MIT. `Python` · `Web` · `ready`.
 
 ---
 
