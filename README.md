@@ -139,6 +139,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [android-claude-agent](https://github.com/xvxv-stack7/android-claude-agent) - Root-free adb hands for a Termux companion via Shizuku: reads screen, foreground app and battery, acts on the phone, and wakes Claude only on trigger events. MIT. `Shell` · `Android` · `adapt`.
 - [ai-island-tutorial (让你的小机有一个专属灵动岛)](https://github.com/ziyaxd23/ai-island-tutorial) - Chinese tutorial for packaging your AI chat web page as an Android app (Capacitor) with a Dynamic Island-style overlay; the advanced part adds SSE push, phone status, screenshots, remote lock. MIT. `Guide` · `Android` · `adapt`.
 - [android-ai-push-tutorial](https://github.com/Ephemera1117/android-ai-push-tutorial) - Chinese guide for local scheduled push on Android without cloud servers: lets your companion send timed messages that survive background kills and manual app clearing. For RikkaHub forks and custom builds. `Guide` · `Android` · `adapt`.
+- [AIYIchat](https://github.com/BugWhispererChen/AIYIchat) - Self-hosted FastAPI+MongoDB companion on QQ and WeChat: 5-tier memory with expiry and reflection, deterministic AI-tone gate, proactive sending that backs off when ignored. MIT. `Python` · `Self-host` · `adapt`.
 
 ---
 

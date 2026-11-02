@@ -141,6 +141,7 @@
 - [android-claude-agent](https://github.com/xvxv-stack7/android-claude-agent) - 借 Shizuku 免 Root 给 Termux 里的伴侣装上 adb 手脚：读屏幕、前台应用、电量，能动手操作手机，只在触发事件时叫醒 Claude。MIT。`Shell` · `Android` · `adapt`
 - [ai-island-tutorial (让你的小机有一个专属灵动岛)](https://github.com/ziyaxd23/ai-island-tutorial) - 中文教程：用 Capacitor 把你的 AI 聊天网页打包成安卓 APP，加上灵动岛式悬浮通知；进阶篇接自建后端，做 SSE 主动推送、手机状态上报、无障碍截屏和远程锁屏。MIT。`Guide` · `Android` · `adapt`
 - [android-ai-push-tutorial](https://github.com/Ephemera1117/android-ai-push-tutorial) - 安卓本地推送思路整理：可以让你的机给你定时发消息，并且不受安卓杀后台/手动清后台影响。适用于开源前端（RikkaHub 等）二改与自建前端，且无云服务器。`Guide` · `Android` · `adapt`
+- [AIYIchat](https://github.com/BugWhispererChen/AIYIchat) - 自托管的 FastAPI + MongoDB 陪伴系统，通过 QQ 和微信主动找到你：五级长期记忆（含点状时效剔除与反思归纳）、确定性 AI 腔门禁、主动消息被忽略就自己收着。MIT。`Python` · `Self-host` · `adapt`
 
 ---
 
