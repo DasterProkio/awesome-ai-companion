@@ -64,6 +64,7 @@
 - [MIRROW](https://github.com/EvelynnYu/MIRROW) - 本地单用户 AI 伴侣核心与应用：可追溯来源的记忆与可修订认知书、带打扰判断的「漫想」主动推送、设备感知、共域动态和一起听歌。MIT，共享耳蜗部分文件为 CC BY-NC-SA。 `Python` · `Self-host` · `adapt`
 - [Ocean](https://github.com/fishwithoctopus/Ocean) - 面向长期陪伴的 provider-neutral 自托管 PWA 网关：按场景隔离会话、保留连续性的会话换窗、共读、多模型会议和自由时间主动调度。PolyForm Noncommercial 1.0.0。 `TypeScript` · `Self-host` · `adapt`
 - [Miru](https://github.com/kiyotakali/Miru) - 面向 macOS 与 Android 的打包式伴侣：Live2D 桌宠、屏幕活动感知、可审计 Markdown 记忆、主动消息和多设备同步。Apache-2.0。 `Python` · `macOS/Android/Self-host` · `adapt`
+- [Kodrik](https://github.com/suinly/kodrik) - 自托管 AI 伴侣，具备持久记忆、可搜索的对话历史、可学习的技能和主动跟进，支持 Telegram、网页和终端交互。MIT。 `Rust` · `macOS/Self-host` · `ready`。
 - [LumiMuse](https://github.com/in30mn1a/LumiMuse) - 自托管角色聊天应用，用于创建角色、管理对话、抽取长期记忆、生成图片和导出自有数据。`TypeScript` · `Self-host` · `ready`
 - [My Raze](https://github.com/Do-fei/my-raze) - 全栈 AI 虚拟女友 PWA：多角色聊天、OpenRouter 流式输出、fal.ai 场景自拍、多家 TTS/STT、心情与亲密度系统和主动通知。MIT。 `TypeScript` · `Web` · `adapt`
 - [the-house](https://github.com/wuliu0012/the-house) - 单文件浏览器聊天前端，支持 Claude 或 OpenAI 兼容 API、本地浏览器存储、多窗口、记忆编辑、MCP 地址、图片输入和可选玩具桥接。`HTML` · `Web` · `adapt`
