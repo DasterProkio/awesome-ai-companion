@@ -265,6 +265,7 @@ Turning speech, sound, or music into structured information a companion can use.
 
 - [gaze](https://github.com/jiangxi1129/gaze) - Lightweight continuous screen perception for an existing companion: captures the foreground window, generates visual captions, extracts OCR text, and writes a rolling JSON context. MIT. `Python` · `Windows` · `adapt`.
 - [cove-sensory-mcp](https://github.com/moonlin1213/cove-sensory-mcp) - Local stdio MCP sensory layer giving text LLMs eyes and ears: routes images, videos, audio, and music to multimodal providers with strict privacy sandboxing. Apache-2.0. `Python` · `Cross-platform` · `infra`.
+- [JoyAI-VL-Interaction](https://github.com/jd-opensource/JoyAI-VL-Interaction) - Streams live video to an open 8B VLM that chooses silence, response or delegation; includes ASR/TTS adapters and a WebRTC UI. Apache-2.0. `Python` · `Self-host` · `adapt`.
 
 ---
 
