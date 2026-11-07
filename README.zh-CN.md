@@ -64,6 +64,7 @@
 - [MIRROW](https://github.com/EvelynnYu/MIRROW) - 本地单用户 AI 伴侣核心与应用：可追溯来源的记忆与可修订认知书、带打扰判断的「漫想」主动推送、设备感知、共域动态和一起听歌。MIT，共享耳蜗部分文件为 CC BY-NC-SA。 `Python` · `Self-host` · `adapt`
 - [Ocean](https://github.com/fishwithoctopus/Ocean) - 面向长期陪伴的 provider-neutral 自托管 PWA 网关：按场景隔离会话、保留连续性的会话换窗、共读、多模型会议和自由时间主动调度。PolyForm Noncommercial 1.0.0。 `TypeScript` · `Self-host` · `adapt`
 - [Miru](https://github.com/kiyotakali/Miru) - 面向 macOS 与 Android 的打包式伴侣：Live2D 桌宠、屏幕活动感知、可审计 Markdown 记忆、主动消息和多设备同步。Apache-2.0。 `Python` · `macOS/Android/Self-host` · `adapt`
+- [Kodrik](https://github.com/suinly/kodrik) - 自托管 AI 伴侣，具备持久记忆、可搜索的对话历史、可学习的技能和主动跟进，支持 Telegram、网页和终端交互。MIT。 `Rust` · `macOS/Self-host` · `adapt`。
 - [LumiMuse](https://github.com/in30mn1a/LumiMuse) - 自托管角色聊天应用，用于创建角色、管理对话、抽取长期记忆、生成图片和导出自有数据。`TypeScript` · `Self-host` · `ready`
 - [My Raze](https://github.com/Do-fei/my-raze) - 全栈 AI 虚拟女友 PWA：多角色聊天、OpenRouter 流式输出、fal.ai 场景自拍、多家 TTS/STT、心情与亲密度系统和主动通知。MIT。 `TypeScript` · `Web` · `adapt`
 - [the-house](https://github.com/wuliu0012/the-house) - 单文件浏览器聊天前端，支持 Claude 或 OpenAI 兼容 API、本地浏览器存储、多窗口、记忆编辑、MCP 地址、图片输入和可选玩具桥接。`HTML` · `Web` · `adapt`
@@ -141,6 +142,7 @@
 - [android-claude-agent](https://github.com/xvxv-stack7/android-claude-agent) - 借 Shizuku 免 Root 给 Termux 里的伴侣装上 adb 手脚：读屏幕、前台应用、电量，能动手操作手机，只在触发事件时叫醒 Claude。MIT。`Shell` · `Android` · `adapt`
 - [ai-island-tutorial (让你的小机有一个专属灵动岛)](https://github.com/ziyaxd23/ai-island-tutorial) - 中文教程：用 Capacitor 把你的 AI 聊天网页打包成安卓 APP，加上灵动岛式悬浮通知；进阶篇接自建后端，做 SSE 主动推送、手机状态上报、无障碍截屏和远程锁屏。MIT。`Guide` · `Android` · `adapt`
 - [android-ai-push-tutorial](https://github.com/Ephemera1117/android-ai-push-tutorial) - 安卓本地推送思路整理：可以让你的机给你定时发消息，并且不受安卓杀后台/手动清后台影响。适用于开源前端（RikkaHub 等）二改与自建前端，且无云服务器。`Guide` · `Android` · `adapt`
+- [AIYIchat](https://github.com/BugWhispererChen/AIYIchat) - 自托管的 FastAPI + MongoDB 陪伴系统，通过 QQ 和微信主动找到你：五级长期记忆（含点状时效剔除与反思归纳）、确定性 AI 腔门禁、主动消息被忽略就自己收着。MIT。`Python` · `Self-host` · `adapt`
 
 ---
 
@@ -416,7 +418,7 @@
 - [character-card-spec-v2](https://github.com/malfoyslastname/character-card-spec-v2) - 社区通用的 AI 角色卡规范。理解它意味着伴侣人格可以跨前端携带。`Spec` · `Any` · `infra`
 - [character-card-spec-v3](https://github.com/kwaroran/character-card-spec-v3) - RisuAI 及新前端使用的角色卡规范更新版。`Spec` · `Any` · `infra`
 - [永生.skill](https://github.com/agenmod/immortal-skill) - 数字人格蒸馏框架：从 12+ 聊天、社交、邮件来源采集材料，将程序性知识、互动风格、记忆与人格分别提取为可携带的 Agent Skill。MIT。 `Python` · `Agent Skills` · `adapt`
-- [AI陪伴记忆自救 (AI Companion Memory Rescue)](https://github.com/douaru-chen2026/ai-companion-rescue) - 把 AI 伴侣从会关停的平台救出来：各平台导出可行性总表、封闭 App 的模拟器+root 读库脚本，再清洗、还魂。开源免费；付费人工还魂。MIT。`Python` · `Self-host` · `ready`
+- [AI陪伴记忆自救 (AI Companion Memory Rescue)](https://github.com/douaru-chen2026/ai-companion-rescue) - 应对平台停运的伴侣记忆抢救工具箱：各平台导出途径总表、安卓模拟器 + root 读取私有数据库的指南，以及 EVE 导出与通用 SQLite 结构探查脚本。开源免费，另有可选人工服务。MIT。`Python` · `CLI` · `adapt`
 - [AI记忆搬家器 (AI Chat Memory Migrator)](https://github.com/douaru-chen2026/ai-chat-memory-migrator) - 100% 本地、离线的导出清洗与搬家工具：清洗 ChatGPT/Claude/豆包导出，按月整理，生成可搜索 HTML 和喂给新 AI 的记忆包。网页工具 + CLI。MIT。`Python` · `Web` · `ready`
 
 ---
