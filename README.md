@@ -330,6 +330,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 - [西窗 (West Window)](https://github.com/SerenQi/rain-go) - Play board & card games online with your AI on one table: 10 games (Go, Chess, Poker, Doudizhu). Private hands, invites, bots, and live chat. MIT. `TypeScript` · `Cloudflare/Web` · `ready`.
 - [Baby Got Backgammon](https://github.com/meatwife/baby-got-backgammon) - Backgammon room for a human and their companion: phone-friendly live board for the human, CLI for the agent, server-enforced rules so the agent cannot invent illegal moves, and games that persist across restarts. MIT. `TypeScript` · `Self-host` · `ready`.
 - [Rainholm Garden](https://github.com/wuxuyun0606-collab/rainholm-garden) - Hand-painted garden, greenhouse, and cat home shared by you (the white cat) and your AI (the black cat): plant, water, and harvest on one save, with a 123-crop collection. AI joins over MCP, ChatGPT Actions, or Claude remote connectors with OAuth; deploys on Cloudflare's free tier or Docker. Farming rules come from aifarm-oss. Own code MIT, bundled engine PolyForm NC 1.0.0. `JavaScript` · `Self-host` · `ready`.
+- [Backseat](https://github.com/DivxPlays/backseat) - Windows overlay where animated characters watch your PC games through screenshots and roast you aloud, with long-term memory, respect, grudges and Discord voice chat. GPL-3.0. `Python` · `Windows` · `ready`.
 
 ---
 
