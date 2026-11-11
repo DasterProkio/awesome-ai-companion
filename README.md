@@ -418,6 +418,7 @@ The deepest fear in a long-term AI relationship: platform shutdown, account ban,
 - [immortal-skill (永生.skill)](https://github.com/agenmod/immortal-skill) - Digital-persona distillation framework that collects material from 12+ chat, social, and mail sources, then separates knowledge, style, memories, and personality into a portable Agent Skill. MIT. `Python` · `Agent Skills` · `adapt`.
 - [AI Companion Memory Rescue (AI陪伴记忆自救)](https://github.com/douaru-chen2026/ai-companion-rescue) - Toolkit for rescuing companion chats from shutting-down platforms: export matrix, emulator+root database guide, EVE exporter and generic SQLite inspector. Free OSS; optional paid service. MIT. `Python` · `CLI` · `adapt`.
 - [AI Chat Memory Migrator (AI记忆搬家器)](https://github.com/douaru-chen2026/ai-chat-memory-migrator) - 100% local, offline export cleaner and migrator: cleans ChatGPT/Claude/Doubao exports, organizes by month, builds searchable HTML and a bundle for a new AI. Web tool + CLI. MIT. `Python` · `Web` · `ready`.
+- [character-ai-export-viewer](https://github.com/caelum0x/character-ai-export-viewer) - Opens a Character.AI data export (ZIP/JSON) in the browser or a Node CLI, lists characters and chats, saves each chat as .txt. No upload, no dependencies. MIT. `JavaScript` · `Web` · `ready`.
 
 ---
 

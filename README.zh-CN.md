@@ -420,6 +420,7 @@
 - [永生.skill](https://github.com/agenmod/immortal-skill) - 数字人格蒸馏框架：从 12+ 聊天、社交、邮件来源采集材料，将程序性知识、互动风格、记忆与人格分别提取为可携带的 Agent Skill。MIT。 `Python` · `Agent Skills` · `adapt`
 - [AI陪伴记忆自救 (AI Companion Memory Rescue)](https://github.com/douaru-chen2026/ai-companion-rescue) - 应对平台停运的伴侣记忆抢救工具箱：各平台导出途径总表、安卓模拟器 + root 读取私有数据库的指南，以及 EVE 导出与通用 SQLite 结构探查脚本。开源免费，另有可选人工服务。MIT。`Python` · `CLI` · `adapt`
 - [AI记忆搬家器 (AI Chat Memory Migrator)](https://github.com/douaru-chen2026/ai-chat-memory-migrator) - 100% 本地、离线的导出清洗与搬家工具：清洗 ChatGPT/Claude/豆包导出，按月整理，生成可搜索 HTML 和喂给新 AI 的记忆包。网页工具 + CLI。MIT。`Python` · `Web` · `ready`
+- [character-ai-export-viewer](https://github.com/caelum0x/character-ai-export-viewer) - 在浏览器或 Node CLI 中本地打开 Character.AI 数据导出（ZIP/JSON），列出角色与聊天，把每段聊天保存为 .txt。不上传、无依赖。MIT。`JavaScript` · `Web` · `ready`
 
 ---
 
