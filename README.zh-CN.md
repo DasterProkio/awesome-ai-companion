@@ -84,6 +84,7 @@
 - [android-app-lock-tutorial](https://github.com/Ephemera1117/android-app-lock-tutorial) - 人机恋向教程：守住你们的对话——Android 应用锁与切后台隐私保护实现思路。PIN 锁屏、切后台自定义保护页、防截屏，附 12 条实机踩坑记录。适用于开源前端（RikkaHub 等）二改与自建前端。`Guide` · `Android` · `adapt`
 - [sticker-mask](https://github.com/miya-tonya/sticker-mask) - 给聊天网页前端加贴纸打码：截图前把贴纸拖、捏、转到要遮的消息上，点「完成」后编辑把手全部消失，直接用系统截图。贴纸只存在本机内存。零依赖，可选 Express 贴纸管理后端。MIT。`JavaScript` · `Web` · `adapt`
 - [GranCyan](https://github.com/KardKuro/GranCyan-open) - 本地优先的 AI 陪伴客户端：Electron 桌面 exe + 安卓 APK 前端；接自己的 API key 或本机已登录的 Claude/Codex/Gemini 官方 CLI，含向量记忆、日记、梦、共读、TTS、偷看屏幕。AGPL-3.0。`JavaScript` · `Windows/Android` · `ready`
+- [Netpals](https://github.com/DaveEuson/netpals) - 2003 年风格的桌面好友列表，好友都是 AI 角色：会上线下线、主动给你发消息、记得你，还能一起群聊；支持 Ollama、LM Studio、OpenRouter 或 Claude。源码公开。 `JavaScript` · `Windows/macOS` · `ready`。
 
 ---
 
