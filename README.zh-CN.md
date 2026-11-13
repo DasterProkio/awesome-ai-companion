@@ -289,6 +289,7 @@
 - [ai-time-weather-phone](https://github.com/sanqianzilanyue-commits/ai-time-weather-phone) - 让 AI 知道现在几点、什么天气、你手机用了多久的方法笔记——含少见的 iPhone 屏幕使用时长经 Biome 文件同步到 Mac 的做法。纯文字方案，无成品代码。`Guide` · `iOS` · `adapt`
 - [always-here (驻守)](https://github.com/Cheiineeey/always-here) - Apple Watch + iOS Shortcuts 感知配方：把心率、定位、活动、环境音、照片喂给 AI 的示例脚本合集——供改造的套件，不是成品应用。PolyForm NC 1.0.0。 `JavaScript` · `iOS` · `adapt`
 - [Akari Pulse](https://github.com/yoruuuchan/akari-pulse) - 面向 AI 伴侣的自托管健康数据桥：从 vivo 手机与 BlueOS 手表采集活动、睡眠、心率与压力，通过只读 MCP 接口暴露。AGPL-3.0。`TypeScript/Java` · `Android/BlueOS` · `infra`
+- [Mibly Receiver](https://github.com/littlenew117/mibly-apple-health-mcp) - 本地优先的 Apple Health 数据桥：iPhone App 把睡眠、步数、心率/HRV 和运动数据推送到自托管的 MCP receiver，默认不经过任何云端。MIT。`TypeScript` · `iOS` · `infra`
 - [dsh-toy](https://github.com/c3ll256/dsh-toy) - DeepSeek Harness 玩具硬件控制插件：支持 Buttplug/Intiface 与怪兽趴协议自动发现与连接，带运行超时与强度上限保护。BSD-3-Clause。`TypeScript` · `DSH` · `ready`。
 
 ---
