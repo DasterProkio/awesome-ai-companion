@@ -82,6 +82,8 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [android-app-lock-tutorial](https://github.com/Ephemera1117/android-app-lock-tutorial) - Chinese guide for Android app lock and privacy protection: PIN lockscreen, custom cover pages when backgrounded, screenshot prevention; includes 12 device pitfalls. For RikkaHub forks and custom builds. `Guide` · `Android` · `adapt`.
 - [sticker-mask](https://github.com/miya-tonya/sticker-mask) - Touch-first screenshot redaction for chat web frontends: drag, pinch, and rotate stickers over private messages, tap Done, then take a normal screenshot. Zero dependencies. MIT. `JavaScript` · `Web` · `adapt`.
 - [GranCyan](https://github.com/KardKuro/GranCyan-open) - Local-first companion client: Electron desktop exe plus Android APK front end; BYOK or your logged-in Claude/Codex/Gemini CLIs; vector memory, diary, dreams, co-reading, TTS, screen peeking. AGPL-3.0. `JavaScript` · `Windows/Android` · `ready`.
+- [Synthetic Heart](https://github.com/XargonWan/Synthetic_Heart) - Self-hosted persona framework that keeps identity and memory in a database, so one companion follows you across Discord, Telegram and web; plugins, OpenAI-compatible API in and out. GPL-3.0 + addendum. `Python` · `Self-host` · `adapt`.
+- [Daemonkey (守护猴)](https://github.com/Vaan21th/daemonkey-agent) - Local companion daemon: profile, diary and searchable memory stay on disk across model swaps; a workbench that edits only the marked part of a document, scheduled jobs, and a room view. AGPL-3.0. `Python` · `Windows/macOS` · `verify`.
 
 ---
 
@@ -141,6 +143,7 @@ Tools that let a companion stay awake in the background, receive messages, remem
 - [ai-island-tutorial (让你的小机有一个专属灵动岛)](https://github.com/ziyaxd23/ai-island-tutorial) - Chinese tutorial for packaging your AI chat web page as an Android app (Capacitor) with a Dynamic Island-style overlay; the advanced part adds SSE push, phone status, screenshots, remote lock. MIT. `Guide` · `Android` · `adapt`.
 - [android-ai-push-tutorial](https://github.com/Ephemera1117/android-ai-push-tutorial) - Chinese guide for local scheduled push on Android without cloud servers: lets your companion send timed messages that survive background kills and manual app clearing. For RikkaHub forks and custom builds. `Guide` · `Android` · `adapt`.
 - [AIYIchat](https://github.com/BugWhispererChen/AIYIchat) - Self-hosted companion-service platform: multi-bot QQ/WeChat/web, metered quotas and plan orders, signup review; 5-tier memory with reflection, deterministic AI-tone gate, IM proactive back-off. MIT. `Python` · `Self-host` · `ready`.
+- [MochiBot](https://github.com/shikidmsh-rgb/mochibot) - Beginner-friendly 1:1 companion bot for Telegram or WeChat: setup script and admin panel, long-term memory, proactive check-ins, habit, todo and health tracking; bring your own API key. MIT. `Python` · `Self-host` · `ready`.
 
 ---
 
@@ -183,6 +186,7 @@ Systems that preserve what happened, who the companion is, and what emotional st
 - [emotion-system](https://github.com/bvsden/emotion-system) - Reads true feelings from your companion's inner monologue: emotions linger and fade naturally, touch builds intimacy, longing grows while away, with no back-seat driving. `JavaScript` · `Any` · `infra`.
 - [dreams](https://github.com/zyy0463/dreams) - Generates nightly dreams with scenes, motifs, and waking residue to inject into daytime chats; features an interactive revolving moon-phase calendar. `JavaScript` · `Self-host` · `ready`.
 - [pilulier (药盒)](https://github.com/ceshihaox-dotcom/pilulier) - Pill box for companion chats: attach a behavioral pill for the next reply only, burned after reading to keep history clean. UI component, 13 prompt pills & guide. MIT. `JavaScript` · `Web` · `ready`.
+- [OpenHer](https://github.com/kellyvv/OpenHer) - Persona engine where personality is computed rather than written: a seeded neural network plus drives that metabolize in real time, so loneliness and frustration build up between chats. Apache-2.0. `Python` · `Self-host` · `adapt`.
 
 ---
 
@@ -222,6 +226,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [Shinsekai](https://github.com/RachelForster/Shinsekai) - Local AI companion / visual-novel stage platform: persona-driven dialogue with TTS/ASR, memory, plugins, and galgame-style presentation. `Python` · `Cross-platform` · `ready`.
 - [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - Emotional skin for AI chat: LLM persona drives the UI with inline text effects and full-screen mood skins. CC BY 4.0. `CSS` · `Web` · `adapt`.
 - [VPet (虚拟桌宠模拟器)](https://github.com/LorisYounger/VPet) - Mature WPF desktop pet simulator: interactions and feeding, LLM chat via third-party talk-API mods, Steam Workshop mods, code plugins, and NuGet embedding for WPF apps. Apache-2.0. `C#` · `Windows` · `ready`.
+- [Yorishiro](https://github.com/sktkkoo/Yorishiro) - macOS terminal that hosts Claude Code or Codex as a resident character: its face and room lighting react to thinking, errors and approvals, and it can restyle scenes and UI via packs. MIT. `TypeScript` · `macOS` · `Claude Code` · `ready`.
 
 ### Physical Devices & Touch
 
