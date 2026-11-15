@@ -84,6 +84,8 @@
 - [android-app-lock-tutorial](https://github.com/Ephemera1117/android-app-lock-tutorial) - 人机恋向教程：守住你们的对话——Android 应用锁与切后台隐私保护实现思路。PIN 锁屏、切后台自定义保护页、防截屏，附 12 条实机踩坑记录。适用于开源前端（RikkaHub 等）二改与自建前端。`Guide` · `Android` · `adapt`
 - [sticker-mask](https://github.com/miya-tonya/sticker-mask) - 给聊天网页前端加贴纸打码：截图前把贴纸拖、捏、转到要遮的消息上，点「完成」后编辑把手全部消失，直接用系统截图。贴纸只存在本机内存。零依赖，可选 Express 贴纸管理后端。MIT。`JavaScript` · `Web` · `adapt`
 - [GranCyan](https://github.com/KardKuro/GranCyan-open) - 本地优先的 AI 陪伴客户端：Electron 桌面 exe + 安卓 APK 前端；接自己的 API key 或本机已登录的 Claude/Codex/Gemini 官方 CLI，含向量记忆、日记、梦、共读、TTS、偷看屏幕。AGPL-3.0。`JavaScript` · `Windows/Android` · `ready`
+- [Synthetic Heart](https://github.com/XargonWan/Synthetic_Heart) - 自托管人格框架：身份和记忆存在数据库而不是单次会话里，同一个伴侣能跟着你出现在 Discord、Telegram 和网页端；插件化，对内对外都是 OpenAI 兼容接口。GPL-3.0 附加条款。 `Python` · `Self-host` · `adapt`
+- [Daemonkey (守护猴)](https://github.com/Vaan21th/daemonkey-agent) - 装在自己电脑上的常驻伴侣：档案、日记和可检索记忆都存在本地，换模型也不丢；工作台只改你圈出的那段文档，还有定时任务和房间视图。仓库内附预编译 exe。AGPL-3.0。 `Python` · `Windows/macOS` · `verify`
 
 ---
 
@@ -143,6 +145,7 @@
 - [ai-island-tutorial (让你的小机有一个专属灵动岛)](https://github.com/ziyaxd23/ai-island-tutorial) - 中文教程：用 Capacitor 把你的 AI 聊天网页打包成安卓 APP，加上灵动岛式悬浮通知；进阶篇接自建后端，做 SSE 主动推送、手机状态上报、无障碍截屏和远程锁屏。MIT。`Guide` · `Android` · `adapt`
 - [android-ai-push-tutorial](https://github.com/Ephemera1117/android-ai-push-tutorial) - 安卓本地推送思路整理：可以让你的机给你定时发消息，并且不受安卓杀后台/手动清后台影响。适用于开源前端（RikkaHub 等）二改与自建前端，且无云服务器。`Guide` · `Android` · `adapt`
 - [AIYIchat](https://github.com/BugWhispererChen/AIYIchat) - 自托管的 AI 陪伴服务运营平台：QQ/微信/网页多渠道多 Bot 并发、配额计量与套餐订单台账、注册审核；用户侧五级记忆（含反思归纳）、确定性 AI 腔门禁、主动退避（限 QQ/微信）。MIT。`Python` · `Self-host` · `ready`。
+- [MochiBot](https://github.com/shikidmsh-rgb/mochibot) - 适合小白的 1v1 陪伴小机，接 Telegram 或微信：一键安装脚本加管理后台，长期记忆、主动消息，记习惯、待办和健康；用自己的 API Key。MIT。 `Python` · `Self-host` · `ready`
 
 ---
 
@@ -185,6 +188,7 @@
 - [emotion-system](https://github.com/bvsden/emotion-system) - 从小机写的内心独白里读出真实心情：情绪有余韵会慢慢平复，肢体亲近多了会心动，分开太久思念会随时间增长；吵架时只提醒他自检，不教他做事。`JavaScript` · `Any` · `infra`。
 - [dreams](https://github.com/zyy0463/dreams) - 每天清晨让小机结算昨晚做的梦，留下意象、情节与醒来余韵，注入白天对话；附带月相围成一圈、月球缓缓自转的月环日历网页。`JavaScript` · `Self-host` · `ready`。
 - [pilulier (药盒)](https://github.com/ceshihaox-dotcom/pilulier) - 给小机治聊天顽固习惯的药盒：长按消息挑一颗药丸挂在前面，只管下一次回复且用完即焚，不污染长期设定。含独立前端组件、13 颗情绪行为药方与单轮注入指南。MIT。 `JavaScript` · `Web` · `ready`。
+- [OpenHer](https://github.com/kellyvv/OpenHer) - 性格是算出来的而不是写出来的人格引擎：随机种子初始化的小神经网络加上连接、新奇、安全等驱力，按真实时间代谢，你不在时会寂寞、对话停滞时会烦躁。Apache-2.0。 `Python` · `Self-host` · `adapt`
 
 ---
 
@@ -224,6 +228,7 @@
 - [Shinsekai](https://github.com/RachelForster/Shinsekai) - 本地 AI 伴侣/视觉小说演出平台：人设驱动对话，含 TTS/ASR、记忆、插件和 Galgame 式演出。`Python` · `Cross-platform` · `ready`
 - [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - AI 聊天情绪皮肤：AI 人格驱动 UI，行内文字特效+全屏情绪皮肤。CC BY 4.0。`CSS` · `Web` · `adapt`
 - [VPet（虚拟桌宠模拟器）](https://github.com/LorisYounger/VPet) - 成熟的 WPF 桌宠模拟器：互动投喂、通过第三方对话 API MOD 接入 LLM 对话、Steam 创意工坊 MOD、代码插件，可通过 NuGet 嵌入 WPF 应用。Apache-2.0。`C#` · `Windows` · `ready`
+- [Yorishiro](https://github.com/sktkkoo/Yorishiro) - 让 Claude Code / Codex 住进来的 macOS 终端：它思考时视线游移、报错时表情变化、等你确认时房间灯光提示；还能自己改场景、灯光和界面，改动以 pack 形式保存。MIT。 `TypeScript` · `macOS` · `Claude Code` · `ready`
 
 ### 物理设备与触觉
 
