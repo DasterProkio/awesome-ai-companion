@@ -84,6 +84,7 @@ Chat clients, local workspaces, and web apps for day-to-day interaction with a c
 - [GranCyan](https://github.com/KardKuro/GranCyan-open) - Local-first companion client: Electron desktop exe plus Android APK front end; BYOK or your logged-in Claude/Codex/Gemini CLIs; vector memory, diary, dreams, co-reading, TTS, screen peeking. AGPL-3.0. `JavaScript` · `Windows/Android` · `ready`.
 - [Synthetic Heart](https://github.com/XargonWan/Synthetic_Heart) - Self-hosted persona framework that keeps identity and memory in a database, so one companion follows you across Discord, Telegram and web; plugins, OpenAI-compatible API in and out. GPL-3.0 + addendum. `Python` · `Self-host` · `adapt`.
 - [Daemonkey (守护猴)](https://github.com/Vaan21th/daemonkey-agent) - Local companion daemon: profile, diary and searchable memory stay on disk across model swaps; a workbench that edits only the marked part of a document, scheduled jobs, and a room view. AGPL-3.0. `Python` · `Windows/macOS` · `verify`.
+- [Athena](https://github.com/alaskanloosemoose-dotcom/athena-lattice-agent) - Local Streamlit companion for Apple Silicon: Ollama chat with saved history, and it paints replies itself with FLUX.2 klein via mflux; I Ching readings and a gallery. Default model uncensored. MIT. `Python` · `macOS` · `ready`.
 
 ---
 
