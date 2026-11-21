@@ -230,6 +230,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 
 ### Physical Devices & Touch
 
+- [touch-space (触感空间)](https://github.com/sibylsea-hub/touch-space) - Turns touch gestures into Chinese text for AI chats, with ripple effects and device-dependent haptics. Requires a chat frontend. PolyForm Noncommercial 1.0.0. `JavaScript/Swift` · `Web/iOS/macOS` · `adapt`.
 - [stackchan-mcp](https://github.com/migratorywhale/stackchan-mcp) - MCP bridge for Stack-chan on M5Stack CoreS3, exposing tools for speech, listening, camera capture, servo movement, display expressions, and presence gestures. `Python` · `M5Stack` · `adapt`.
 - [ROBOTO_ORIGIN](https://github.com/Roboparty/roboto_origin) - Fully open-source DIY humanoid robot aggregation covering mechanical structure, electronics, firmware, ROS2 deployment, Isaac Sim/RL training, and teleoperation. Very high hardware barrier. GPL-3.0. `Python` · `Linux` · `infra`.
 - [phantom-touch-bridge](https://github.com/mfsnlqy/phantom-touch-bridge) - Local Windows bridge that lets an AI companion control intimate hardware through HTTP, with an Intiface/Buttplug path and optional heart-rate input. `Python` · `Windows` · `adapt`.
