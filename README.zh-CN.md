@@ -232,6 +232,7 @@
 
 ### 物理设备与触觉
 
+- [touch-space (触感空间)](https://github.com/sibylsea-hub/touch-space) - 把触摸手势转成 AI 聊天用的中文文本，带水波纹效果，并在支持的设备上提供触觉反馈。需接入聊天前端。PolyForm Noncommercial 1.0.0。 `JavaScript/Swift` · `Web/iOS/macOS` · `adapt`
 - [stackchan-mcp](https://github.com/migratorywhale/stackchan-mcp) - Stack-chan / M5Stack CoreS3 的 MCP 桥，提供说话、听录音、拍照、舵机动作、表情显示和存在感动作工具。`Python` · `M5Stack` · `adapt`
 - [ROBOTO_ORIGIN](https://github.com/Roboparty/roboto_origin) - 全开源 DIY 人形机器人聚合仓库：结构/电子/固件、ROS2 部署、Isaac Sim/RL 训练、导航与遥操作。硬件门槛极高。GPL-3.0。 `Python` · `Linux` · `infra`
 - [phantom-touch-bridge](https://github.com/mfsnlqy/phantom-touch-bridge) - Windows 本地桥接服务，让 AI 伴侣通过 HTTP 控制亲密硬件，支持 Intiface/Buttplug 路线和可选心率输入。`Python` · `Windows` · `adapt`
