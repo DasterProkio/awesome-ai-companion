@@ -350,6 +350,7 @@
 
 - [Phosphene](https://github.com/3lmglow/Phosphene) - 面向人机关系的自托管任务与奖励系统：伴侣通过 MCP 创建任务，人类提交凭证，审核后更新不可变积分账本、连击和成就。MIT。 `TypeScript` · `Self-host` · `ready`
 - [shared-page](https://github.com/KKarsyline/shared-page) - 人与 AI 共用的手帐风日历与后端：三种笔迹、可渲染整页 PNG 的 MCP 服务、可互相点赞的便签、照片拼贴、桌面小组件和推送。
+- [Stopover (经停)](https://github.com/fishisfish0614/stopover) - 自托管旅行地球仪，用登机牌记录行程与照片。AI 伴侣可通过 MCP 或 CLI 读取行程、给城市点星、留言和分享地点。CC BY-NC-SA 4.0。 `Python/JavaScript/Swift` · `Self-host/Web/iOS` · `adapt`
 - [memex](https://github.com/memex-lab/memex) - 本地优先双端 AI 日记（iOS/Android）：捕捉碎片生活（文字/语音/照片），由多 Agent 整理为时间线卡片与伴侣共鸣洞察。GPL-3.0。`Dart` · `Android/iOS` · `ready`。
 - [scentfolio](https://github.com/Cami-Ose/scentfolio) - 让小机按「自己身上的气味」填一份调香问卷，从 187 味香料里配出前中后调，交出一页带版画与图表的单文件网页手帐，当作送你的专属信物。`JavaScript` · `MCP` · `ready`。
 - [sealed-days](https://github.com/zyy0463/sealed-days) - 把日常记忆挂成一棵手绘树的离线网页：一月一棵晃晃悠悠的挂牌树，信笺式读当天，珍贵的日子能摘下挂进专属的封存树珍藏。`HTML` · `Web` · `ready`。
