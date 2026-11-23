@@ -325,6 +325,7 @@
 
 ### 让 AI 和你一起玩游戏
 
+- [Sul Sul with TA](https://github.com/corcordata/sulsul-with-ta) - 《模拟人生 4》模组与 MCP 桥，让 AI 伴侣住进你的存档、读取小人的心情和需求、在游戏内聊天并操控自己的小人。事件推送需自托管。MIT。 `Python/C#` · `Windows/macOS` · `adapt`
 - [NagiBridge](https://github.com/anqinou-art/NagiBridge) - Stardew Valley SMAPI 模组，提供本地 HTTP API，供外部 AI 控制、游戏内聊天、移动和世界交互；通过 Releases 安装。`C#` · `Stardew Valley` · `adapt`
 - [OpenMMO](https://github.com/Julian-adv/OpenMMO) - 非商业许可的 3D MMORPG：人类玩家与 headless AI Agent 通过同一套服务端权威 WebSocket 协议进入同一世界。接入现有伴侣需自行连接人格与记忆层。PolyForm Noncommercial 1.0.0。 `Rust/TypeScript` · `Web/Linux/Windows` · `adapt`
 - [Mineflayer](https://github.com/PrismarineJS/mineflayer) - 成熟的 Minecraft Bot 高层 Node.js API：登录、聊天、实体与方块感知、背包、合成、战斗和移动，插件生态补充寻路与网页视图。Agent 决策循环需另行实现。MIT。 `JavaScript` · `Minecraft` · `infra`
