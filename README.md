@@ -323,6 +323,7 @@ Games and game bridges that let an AI companion observe, decide, move, or play.
 
 ### Playing Games Together
 
+- [Sul Sul with TA](https://github.com/corcordata/sulsul-with-ta) - The Sims 4 mod and MCP bridge let your AI companion live in your save, read Sim moods and needs, chat in-game, and control its Sim. Event push needs a self-hosted setup. MIT. `Python/C#` · `Windows/macOS` · `adapt`.
 - [NagiBridge](https://github.com/anqinou-art/NagiBridge) - Stardew Valley SMAPI mod that exposes local HTTP APIs for external AI control, in-game chat, movement, world interaction, and cross-platform installation through releases. `C#` · `Stardew Valley` · `adapt`.
 - [OpenMMO](https://github.com/Julian-adv/OpenMMO) - Noncommercial 3D MMORPG where human players and headless AI agents share one server-authoritative world over a single WebSocket protocol. Companions need a custom persona bridge. PolyForm NC 1.0.0. `Rust/TypeScript` · `Web/Linux/Windows` · `adapt`.
 - [Mineflayer](https://github.com/PrismarineJS/mineflayer) - Mature high-level Node.js API for Minecraft bots covering login, chat, entities, blocks, inventory, crafting, combat, and movement, with pathfinding plugins. Agent loop supplied separately. MIT. `JavaScript` · `Minecraft` · `infra`.
