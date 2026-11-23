@@ -203,6 +203,7 @@
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) - 多语种大规模语音生成模型，含推理、训练、部署全套。`Python` · `Self-host` · `infra`
 - [index-tts](https://github.com/index-tts/index-tts) - B 站出品的工业级可控零样本 TTS。`Python` · `Self-host` · `infra`
 - [Callhome](https://github.com/Cheiineeey/callhome) - 可自托管的 AI 伴侣语音通话栈：伴侣主动拨号、柔性挂断、语音信箱、对话式免打扰、通话摘要，并用 SenseVoice 情绪标签感知说话方式。需自行集成。PolyForm NC 1.0.0。 `Python/HTML` · `Self-host` · `adapt`
+- [Tincall](https://github.com/chuli1122/Tincall) - 原生 AI 语音通话，可接模型 API、MCP 或自有后端。自签版无需购买；后台来电需配置 APNs。源码限个人自用。 `Swift/JavaScript` · `iOS 26+` · `adapt`
 - [call_call](https://github.com/KKarsyline/call_call) - 实时语音通话体验优化的设计分享，附 Swift 代码节选：中文短附和分流、可恢复中断、按实际播放对齐上下文、静默事件与自主等待、自然端点检测；逐项核对上游许可。`Guide` · `iOS` · `adapt`
 - [voice-mcp](https://github.com/Yinglianchun/voice-mcp) - 暴露 `speak` 工具的 MCP TTS 服务，支持 DashScope/CosyVoice 与 ElevenLabs 切换，并带内联播放器/可视化面板。`TypeScript` · `Self-host` · `adapt`
 - [binaural-voice](https://github.com/Saekisui/binaural-voice) - 把单声道 TTS 语音转成类似女性向音声/ASMR 的贴耳立体声：基于 KU100 人头麦实测数据，小机可自己决定贴哪只耳朵说、何时绕到脑后。MIT。`Python` · `CLI` · `ready`
