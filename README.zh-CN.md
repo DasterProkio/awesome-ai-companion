@@ -225,6 +225,7 @@
 - [Utsuwa](https://github.com/JuiceBoxxGames/utsuwa) - 本地优先的 3D VRM 伴侣：恋爱模拟式的关系阶段、跟着心情变的表情、本地语义记忆，支持 AR 和桌面悬浮窗，可以全程离线运行。AGPL-3.0。 `TypeScript` · `Web/Desktop` · `ready`
 - [Neuro](https://github.com/kimjammer/Neuro) - 本地 Neuro-sama 复刻：实时 STT/TTS、text-generation-webui 或 OpenAI 兼容 LLM、VTube Studio 控制、moderation 前端和长期记忆。2025 年初起停更。 `Python` · `Windows` · `verify`
 - [LingChat](https://github.com/SlimeBoyOwO/LingChat) - 沉浸式 AI Galgame 聊天软件：情绪表情、桌宠、日程、交互式剧情模块。`TypeScript` · `Windows` · `ready`
+- [DIYPets](https://github.com/smresponsibilities/diypets) - 轻量级（约 7.8 MB 内存）纯 Rust 桌面宠物引擎与像素/SVG 作坊，集成 Claude Code 钩子与 MCP 服务以支持智能体情绪反应与宠物集群。`Rust` · `Cross-platform` · `ready`。
 - [astrbot_plugin_chuanhuatong (传画筒)](https://github.com/bvzrays/astrbot_plugin_chuanhuatong) - 把 AstrBot 纯文本回复渲染成带立绘的 Galgame 风聊天框图片：情绪差分、多层文本、拖拽式 WebUI 布局。`Python` · `AstrBot` · `ready`
 - [Shinsekai](https://github.com/RachelForster/Shinsekai) - 本地 AI 伴侣/视觉小说演出平台：人设驱动对话，含 TTS/ASR、记忆、插件和 Galgame 式演出。`Python` · `Cross-platform` · `ready`
 - [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - AI 聊天情绪皮肤：AI 人格驱动 UI，行内文字特效+全屏情绪皮肤。CC BY 4.0。`CSS` · `Web` · `adapt`
