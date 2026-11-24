@@ -40,6 +40,7 @@ Anything unfinished or unclear is tagged `verify` or `adapt`.
 - [Communities & Forums](#communities--forums)
 - [Continuity & Data Ownership](#continuity--data-ownership)
 - [Featured Badge](#featured-badge)
+- [Licensing](#licensing)
 
 ---
 
@@ -446,7 +447,7 @@ This is an **inclusion badge**, not an award, certification, security audit, or 
 - Not listed yet? Follow the [submission guidelines](#contributing) and wait until the entry is merged before presenting the badge as a current inclusion claim.
 - Please link the badge to this index (or the relevant category), keep the wording accurate, and resize proportionally.
 - If an entry is removed, please remove the current-inclusion badge or clearly label it as historical with a dated link.
-- The artwork is covered by this repository's [CC BY 4.0 license](LICENSE); a badge that links back to this index already gives the required credit. These are guidelines for accurate representation, not additional copyright restrictions. Reusing the image does not establish inclusion or endorsement.
+- The artwork is covered by this repository's CC BY 4.0 license; a badge that links back to this index already gives the required credit. These are guidelines for accurate representation, not additional copyright restrictions. Reusing the image does not establish inclusion or endorsement.
 
 ### English
 
@@ -476,7 +477,7 @@ Maintainers may send listed projects a short, optional invitation with their ent
 
 See [contributing.md](contributing.md) for inclusion criteria and submission guidelines.
 
-## License
+## Licensing
 
 This list is licensed under [CC BY 4.0](LICENSE). You may copy, adapt, and republish it, including commercially, as long as you give credit: name **Awesome AI Companion**, link to <https://github.com/DasterProkio/awesome-ai-companion>, and say if you changed anything. This applies when entries, descriptions, or tags from this list are reposted on other sites or lists. Each listed project keeps its own license.
 
