@@ -423,6 +423,7 @@
 - [chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) - 油猴脚本，把 ChatGPT 对话史导出为 Markdown、JSON、PNG 或 HTML。`TypeScript` · `Browser` · `ready`
 - [ChatGPT-Exporter (批量)](https://github.com/huhusmang/ChatGPT-Exporter) - 批量导出 ChatGPT 对话，支持个人和团队空间，导出 JSON 或 Markdown。`JavaScript` · `Browser` · `ready`
 - [Claude-Conversation-Exporter](https://github.com/socketteer/Claude-Conversation-Exporter) - Chrome 扩展，多格式导出 Claude.ai 对话。`JavaScript` · `Browser` · `ready`
+- [Chat Exporter for Character.AI](https://github.com/anima-universe/character-ai-chat-exporter) - 浏览器扩展，把你自己的 Character.AI 聊天、角色和人设保存为本地文件；只与 character.ai 通信，不上传任何内容。MIT。`JavaScript` · `Browser` · `ready`
 - [connectome-host](https://github.com/anima-research/connectome-host) - 基于 recipe 的 agent 宿主（TUI/Web/无头），自述式自传记忆、可分支历史，并提供把 claude.ai 导出记录导入、经 API 续聊的迁移流程。无 LICENSE 文件。`TypeScript` · `Self-host` · `adapt`
 - [ReSpark](https://github.com/Seltaa/ReSpark) - 用 ChatGPT/Claude/Gemini/Grok 导出记录一键微调本地伴侣模型：清洗数据、租用 RunPod GPU 做 LoRA 训练、转换 GGUF 并上传 Hugging Face。需自备 RunPod 额度。MIT。`Python` · `CLI` · `adapt`
 - [character-card-spec-v2](https://github.com/malfoyslastname/character-card-spec-v2) - 社区通用的 AI 角色卡规范。理解它意味着伴侣人格可以跨前端携带。`Spec` · `Any` · `infra`
