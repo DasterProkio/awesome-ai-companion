@@ -174,6 +174,7 @@
 - [DuduLove Memory](https://github.com/VITASID57/dudulove-memory) - 可自托管的多小机记忆服务，换客户端、换模型都是同一个小机：几个小机共用一份事实，各自的私人经历分开存；小机身份由连接凭据在服务端决定，模型改参数冒充不了别人；被否决的记忆不会再被写回来，同一条记忆一段对话里不反复冒出。不接模型也能管理和关键词搜索，语义检索可选。MIT。`JavaScript` · `Self-host` · `infra`。
 - [OptMem](https://github.com/VictorTaelin/OptMem) - 给 agent 的永久记忆：笔记只追加不改，小机自己把相邻两段压成一行摘要，层层合并成二叉树；每次开工先读固定长度的总览，要细节就逐层展开到原文。单个 Python 脚本，无依赖。仓库没有许可证。`Python` · `Any` · `infra`。
 - [Hindsight](https://github.com/vectorize-io/hindsight) - 通用 agent 记忆服务：LLM 从对话里抽事实，向量、关键词、实体关系、时间四路一起检索；后台把相关事实合成带出处的「观察」，有新证据就修订；每个记忆库自带 MCP 接口。自部署免费，官方托管版收费。MIT。`Python` · `Self-host` · `infra`。
+- [Dusha](https://github.com/Somme4096/dusha) - 与宿主无关的伴侣人格层与 LLM 代理，采用「一切皆插件」架构：可替换的身份、记忆、长期事实、备忘、情绪、主动消息队列，以及可扩展的 MCP 与 CLI。Apache-2.0。`Python` · `Self-host` · `infra`。
 
 ### 情绪与驱动
 
