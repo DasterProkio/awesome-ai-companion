@@ -374,6 +374,7 @@ Tools for reading, watching, listening, journaling, focusing, or generating prom
 
 ### Music & Listening Together
 
+- [phone-music](https://github.com/29-Cu/phone-music) - Lets an AI companion play music during a call via MCP or HTTP. Its Web and iOS players lower the music when either person speaks and support playlists, looping, and timers. MIT. `JavaScript/Swift` · `Web/iOS` · `adapt`.
 - [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - Local MCP server for NetEase Cloud Music using `neteasecli` and `mpv`, with search, playback control, lyrics, playlists, current-song context, and a local web player. `JavaScript` · `Self-host` · `adapt`.
 - [Listening Bridge](https://github.com/yoruuuchan/listening-bridge) - MCP bridge exposing active Android/Windows media sessions to companions: tracks, synced lyrics, and playback controls over WebSocket. MIT. `Python/Java` · `Android/Windows` · `ready`.
 - [woaini](https://github.com/woaini521-beta/woaini) - Personal focus-companion PWA: Pomodoro timer, background notifications, offline cache, chat, and character-card import, deployable straight to GitHub Pages. `HTML` · `Web` · `adapt`.

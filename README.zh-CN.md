@@ -376,6 +376,7 @@
 
 ### 音乐与共听
 
+- [phone-music](https://github.com/29-Cu/phone-music) - 让 AI 伴侣在通话中通过 MCP 或 HTTP 点歌。Web 和 iOS 播放端会在双方说话时自动压低音乐，支持歌单、循环和定时。MIT。 `JavaScript/Swift` · `Web/iOS` · `adapt`
 - [netease-music-mcp](https://github.com/luuu-h/netease-music-mcp) - 本地网易云音乐 MCP Server，基于 `neteasecli` 和 `mpv`，支持搜索、播放控制、歌词、歌单、当前歌曲上下文和本地 Web 播放器。`JavaScript` · `Self-host` · `adapt`
 - [Listening Bridge](https://github.com/yoruuuchan/listening-bridge) - 将 Android/Windows 当前播放媒体暴露给伴侣的 MCP 桥：实时抓取曲目、同步歌词并支持播放控制，无需麦克风录音。MIT。`Python/Java` · `Android/Windows` · `ready`
 - [woaini](https://github.com/woaini521-beta/woaini) - 个人向专注陪伴 PWA：番茄钟、后台通知、离线缓存、聊天与角色卡导入，可直接部署到 GitHub Pages。`HTML` · `Web` · `adapt`
