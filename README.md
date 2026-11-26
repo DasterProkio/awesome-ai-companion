@@ -228,6 +228,7 @@ Projects that give a companion voice, visual presence, or a physical channel.
 - [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - Emotional skin for AI chat: LLM persona drives the UI with inline text effects and full-screen mood skins. CC BY 4.0. `CSS` · `Web` · `adapt`.
 - [VPet (虚拟桌宠模拟器)](https://github.com/LorisYounger/VPet) - Mature WPF desktop pet simulator: interactions and feeding, LLM chat via third-party talk-API mods, Steam Workshop mods, code plugins, and NuGet embedding for WPF apps. Apache-2.0. `C#` · `Windows` · `ready`.
 - [Yorishiro](https://github.com/sktkkoo/Yorishiro) - macOS terminal that hosts Claude Code or Codex as a resident character: its face and room lighting react to thinking, errors and approvals, and it can restyle scenes and UI via packs. MIT. `TypeScript` · `macOS` · `Claude Code` · `ready`.
+- [Animama](https://github.com/raymond-van/animama) - Local-first desktop companion with a 3D VRM avatar: streamed replies drive 300+ gestures and 24 emotions, with voice chat, episodic memory, and cloud or local models. AGPL-3.0. `TypeScript` · `macOS/Windows` · `ready`.
 
 ### Physical Devices & Touch
 
