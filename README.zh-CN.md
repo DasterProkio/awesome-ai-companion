@@ -230,6 +230,7 @@
 - [pelle-d-umore](https://github.com/29-Cu/pelle-d-umore) - AI 聊天情绪皮肤：AI 人格驱动 UI，行内文字特效+全屏情绪皮肤。CC BY 4.0。`CSS` · `Web` · `adapt`
 - [VPet（虚拟桌宠模拟器）](https://github.com/LorisYounger/VPet) - 成熟的 WPF 桌宠模拟器：互动投喂、通过第三方对话 API MOD 接入 LLM 对话、Steam 创意工坊 MOD、代码插件，可通过 NuGet 嵌入 WPF 应用。Apache-2.0。`C#` · `Windows` · `ready`
 - [Yorishiro](https://github.com/sktkkoo/Yorishiro) - 让 Claude Code / Codex 住进来的 macOS 终端：它思考时视线游移、报错时表情变化、等你确认时房间灯光提示；还能自己改场景、灯光和界面，改动以 pack 形式保存。MIT。 `TypeScript` · `macOS` · `Claude Code` · `ready`
+- [Animama](https://github.com/raymond-van/animama) - 本地优先的桌面伴侣，带 3D VRM 形象：流式回复实时驱动 300 多种动作和 24 种情绪，支持语音聊天和情景记忆，可接入云端或本地模型。AGPL-3.0。 `TypeScript` · `macOS/Windows` · `ready`
 
 ### 物理设备与触觉
 
