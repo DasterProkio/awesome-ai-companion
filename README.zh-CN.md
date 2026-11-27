@@ -247,6 +247,7 @@
 
 - [astrbot_plugin_meme_manager](https://github.com/anka-afk/astrbot_plugin_meme_manager) - AstrBot 表情包管理插件：AI 按情绪标签智能发表情、WebUI 管理、云端同步。`Python` · `AstrBot` · `ready`
 - [cove-sticker-mcp](https://github.com/moonlin1213/cove-sticker-mcp) - 本地优先的伴侣自定义表情包 MCP：WebUI 管理、自选视觉标注、语境检索与频控策略，返回图片供聊天气泡渲染。MIT。`Python` · `Self-host` · `ready`
+- [kaomoji-picker-mcp](https://github.com/zyeonheenim/kaomoji-picker-mcp) - 面向 AI 伴侣的颜文字 MCP：按心情路由，22,364 条、38 个情绪分类，质量分档避免显示成方框；本地运行，无官方托管版。MIT。`JavaScript` · `Self-host` · `ready`
 
 ---
 
